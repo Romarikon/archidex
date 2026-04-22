@@ -1099,3 +1099,7 @@ body.mode-caza #hunt-cap-btn{display:inline-flex}
 #tut-prev-btn:hover{border-color:var(--txt2);color:var(--txt)}
 #tut-next-btn{background:var(--blue);border-color:var(--blue);color:#fff}
 #tut-next-btn:hover{background:#4d9cf7}
+#tut-lang-picker{display:none;flex-wrap:wrap;gap:8px;margin-bottom:16px;justify-content:center}
+.tut-lang-btn{display:flex;align-items:center;gap:6px;padding:8px 14px;border-radius:8px;border:1px solid var(--border);background:var(--card);color:var(--txt2);font-size:13px;font-weight:600;cursor:pointer;transition:all .15s;flex:1;min-width:110px;justify-content:center}
+.tut-lang-btn:hover{border-color:var(--blue);color:var(--txt)}
+.tut-lang-btn.on{background:var(--blue);border-color:var(--blue);color:#fff}

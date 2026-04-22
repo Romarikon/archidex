@@ -4039,6 +4039,7 @@ let _tutStep = 0;
 function _getTutSteps() {
   const mob = window.innerWidth <= 768;
   const steps = [
+    { el: null, type: 'lang', title: '🌍 Language · Idioma · Langue', body: '' },
     { el: null,            title: t('tut1Title'), body: t('tut1Body') },
     { el: '#map',          title: t('tut2Title'), body: t('tut2Body') },
     { el: '#mode-sw',      title: t('tut3Title'), body: t('tut3Body') },
@@ -4076,6 +4077,12 @@ function prevTutStep() {
 }
 function tutGoTo(i) { _tutStep = i; _renderTutStep(); }
 
+function tutSelectLang(code) {
+  const btn = document.querySelector(`.lbtn[data-lang="${code}"]`);
+  if (btn) btn.click();
+  nextTutStep();
+}
+
 function _renderTutStep() {
   const steps = _getTutSteps();
   const step = steps[_tutStep];
@@ -4087,6 +4094,16 @@ function _renderTutStep() {
     tf('tutStep', _tutStep + 1, n) +
     ' &nbsp;' +
     steps.map((_,i) => `<span class="tut-dot${i===_tutStep?' on':''}" onclick="tutGoTo(${i})"></span>`).join('');
+
+  const langPicker = document.getElementById('tut-lang-picker');
+  if (step.type === 'lang') {
+    langPicker.style.display = 'flex';
+    langPicker.innerHTML = LANGS.map(l =>
+      `<button class="tut-lang-btn${S.lang===l.code?' on':''}" onclick="tutSelectLang('${l.code}')">${l.flag} ${l.label}</button>`
+    ).join('');
+  } else {
+    langPicker.style.display = 'none';
+  }
 
   const nextBtn = document.getElementById('tut-next-btn');
   nextBtn.textContent = _tutStep === n - 1 ? t('tutFinish') : t('tutNext');
@@ -4228,6 +4245,7 @@ Object.assign(window, {
   nextTutStep: typeof nextTutStep!=="undefined" ? nextTutStep : undefined,
   prevTutStep: typeof prevTutStep!=="undefined" ? prevTutStep : undefined,
   tutGoTo: typeof tutGoTo!=="undefined" ? tutGoTo : undefined,
+  tutSelectLang: typeof tutSelectLang!=="undefined" ? tutSelectLang : undefined,
   setAllZoneFilters: typeof setAllZoneFilters!=="undefined" ? setAllZoneFilters : undefined,
   shiftGrid: typeof shiftGrid!=="undefined" ? shiftGrid : undefined,
   startCellDraw: typeof startCellDraw!=="undefined" ? startCellDraw : undefined,
