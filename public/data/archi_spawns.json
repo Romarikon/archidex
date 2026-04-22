@@ -1,0 +1,4162 @@
+[
+  {
+    "spawn_id": "be90173f-022e-4dfd-bb0c-41e3f74793ea",
+    "archi_id": "126",
+    "zone": "Amakna",
+    "subzone": "Criptas del cementerio",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "55a09668-7b3b-4182-a1c1-e17f9fa63769",
+    "archi_id": "111",
+    "zone": "Amakna",
+    "subzone": "Criptas del cementerio",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "ec5fb99a-730a-4df8-813d-823981ae58aa",
+    "archi_id": "127",
+    "zone": "Amakna",
+    "subzone": "Criptas del cementerio",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "d673a775-e116-4af8-b920-a70cc7ae663a",
+    "archi_id": "124",
+    "zone": "Amakna",
+    "subzone": "Criptas del cementerio",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 720.1,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "83334830-9265-4aa9-8022-a67f03a4cc4e",
+    "archi_id": "150",
+    "zone": "Amakna",
+    "subzone": "Criptas del cementerio",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "84f202d0-5473-44a4-ac30-e10ddf6ab5a9",
+    "archi_id": "61",
+    "zone": "Amakna",
+    "subzone": "Río Kawaii",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "f5276e49-c7e8-4a56-b780-85e118934395",
+    "archi_id": "52",
+    "zone": "Amakna",
+    "subzone": "Río Kawaii",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "06ff2650-245e-4f61-bb74-2e9aea3d29ea",
+    "archi_id": "59",
+    "zone": "Amakna",
+    "subzone": "Río Kawaii",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 678.7,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "84604233-8787-4385-88e1-3946e31dde83",
+    "archi_id": "61",
+    "zone": "Amakna",
+    "subzone": "Claro de Brus Bulguro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "a73c59a8-cade-40bf-974f-bcec39e85c54",
+    "archi_id": "104",
+    "zone": "Amakna",
+    "subzone": "Claro de Brus Bulguro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "b024ef45-0262-4849-b0b8-4e6ce231d187",
+    "archi_id": "61",
+    "zone": "Amakna",
+    "subzone": "Campo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 692.5,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "64975b69-2460-4742-a186-07f1a592599f",
+    "archi_id": "52",
+    "zone": "Amakna",
+    "subzone": "Campo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 692.5,
+    "y": -496.4
+  },
+  {
+    "spawn_id": "1dfa9ca8-61a5-43d1-8c1d-7e899d94884c",
+    "archi_id": "59",
+    "zone": "Amakna",
+    "subzone": "Campo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 692.5,
+    "y": -516.4
+  },
+  {
+    "spawn_id": "2e64a0d8-9289-4e33-8bb0-e27d31250963",
+    "archi_id": "52",
+    "zone": "Amakna",
+    "subzone": "Mililameda",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -526.4
+  },
+  {
+    "spawn_id": "d63be543-7078-4631-b4bb-c4d1f2020cec",
+    "archi_id": "103",
+    "zone": "Amakna",
+    "subzone": "Mililameda",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -526.4
+  },
+  {
+    "spawn_id": "41ae2833-d111-4aaf-a615-148264522369",
+    "archi_id": "159",
+    "zone": "Amakna",
+    "subzone": "Mililameda",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -526.4
+  },
+  {
+    "spawn_id": "371984b9-8609-4e18-a539-21d9d334ef1d",
+    "archi_id": "134",
+    "zone": "Amakna",
+    "subzone": "Rincón de los Jalatós",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "71b63406-3bba-495b-a7c2-b2649dcbb2eb",
+    "archi_id": "149",
+    "zone": "Amakna",
+    "subzone": "Rincón de los Jalatós",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "cabef842-e96e-453a-801f-3fe1a25182a0",
+    "archi_id": "101",
+    "zone": "Amakna",
+    "subzone": "Rincón de los Jalatós",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "97362105-9b5f-4e74-8236-aa3e9e851c6e",
+    "archi_id": "148",
+    "zone": "Amakna",
+    "subzone": "Rincón de los Jalatós",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "054a41ff-339f-45d1-b5e6-ad63d2571ed7",
+    "archi_id": "134",
+    "zone": "Astrub",
+    "subzone": "Tainela",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.8,
+    "y": -342.3
+  },
+  {
+    "spawn_id": "d926bd57-5e50-4295-b675-457d351a3fbd",
+    "archi_id": "149",
+    "zone": "Astrub",
+    "subzone": "Tainela",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -341.4
+  },
+  {
+    "spawn_id": "6555d096-b58d-46fc-a850-71a2ae2f1753",
+    "archi_id": "101",
+    "zone": "Astrub",
+    "subzone": "Tainela",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -331.4
+  },
+  {
+    "spawn_id": "c73b397b-60bf-4fa5-9bd3-60aa01246411",
+    "archi_id": "148",
+    "zone": "Astrub",
+    "subzone": "Tainela",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -331.4
+  },
+  {
+    "spawn_id": "5520519a-504f-4e57-8053-cb908dd049b1",
+    "archi_id": "111",
+    "zone": "Amakna",
+    "subzone": "Cementerio",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 720.1,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "c3c713c8-c948-4aab-99b3-a003ad4c6e0b",
+    "archi_id": "154",
+    "zone": "Amakna",
+    "subzone": "Cementerio",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "bf08c961-60b7-4b1f-a429-6f7802b8aee1",
+    "archi_id": "110",
+    "zone": "Amakna",
+    "subzone": "Cementerio",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 706.3,
+    "y": -576.4
+  },
+  {
+    "spawn_id": "d80d8ce2-815c-4d33-b821-762585809b0a",
+    "archi_id": "108",
+    "zone": "Amakna",
+    "subzone": "Cementerio",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "d942e697-8a64-4713-9c81-06f284da0c45",
+    "archi_id": "396",
+    "zone": "Amakna",
+    "subzone": "Cementerio",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 733.9,
+    "y": -576.4
+  },
+  {
+    "spawn_id": "5ecaa225-fc22-4512-9676-08612bc2861c",
+    "archi_id": "54",
+    "zone": "Amakna",
+    "subzone": "Cementerio",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "1e29338d-c73f-4bf3-8e5e-a60a07946676",
+    "archi_id": "3239",
+    "zone": "Amakna",
+    "subzone": "Cementerio",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "b42f42bb-7c6d-46fc-9d5b-ec69d453f2a7",
+    "archi_id": "474",
+    "zone": "Astrub",
+    "subzone": "Subterráneos de Astrub",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -411.4
+  },
+  {
+    "spawn_id": "499089da-64a6-41f7-9380-8800e7a8dc37",
+    "archi_id": "473",
+    "zone": "Astrub",
+    "subzone": "Subterráneos de Astrub",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -411.4
+  },
+  {
+    "spawn_id": "ad904bc5-238c-46ca-a317-216a205000b4",
+    "archi_id": "491",
+    "zone": "Amakna",
+    "subzone": "Pueblo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "71e853dc-6106-488e-8427-1a6c547c7cc1",
+    "archi_id": "493",
+    "zone": "Amakna",
+    "subzone": "Pueblo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -496.4
+  },
+  {
+    "spawn_id": "3de31746-b1cc-4312-879f-10d7d0a34f1c",
+    "archi_id": "490",
+    "zone": "Amakna",
+    "subzone": "Pueblo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "fe152bdc-7d63-4749-ab05-0bdd83529d23",
+    "archi_id": "236",
+    "zone": "Amakna",
+    "subzone": "Pueblo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -501.4
+  },
+  {
+    "spawn_id": "f107e695-1533-486c-a4f6-0fd93b7e08b7",
+    "archi_id": "492",
+    "zone": "Amakna",
+    "subzone": "Pueblo de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -496.4
+  },
+  {
+    "spawn_id": "9a0eac57-0726-4f0b-aafa-11916c7aaa15",
+    "archi_id": "491",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Sufokia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 740.8,
+    "y": -621.4
+  },
+  {
+    "spawn_id": "4c5e941c-155d-4f26-83d1-afb78009a6e1",
+    "archi_id": "493",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Sufokia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 740.8,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "e81e4d7f-af66-44d0-9d6d-f711ff8768c5",
+    "archi_id": "490",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Sufokia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 768.4,
+    "y": -621.4
+  },
+  {
+    "spawn_id": "ee3106c1-4f8e-48f8-b384-55fdf3a008fb",
+    "archi_id": "236",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Sufokia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 754.6,
+    "y": -631.4
+  },
+  {
+    "spawn_id": "2ecc3e49-3d65-46f1-b4d0-dbfbbaafb553",
+    "archi_id": "492",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Sufokia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 768.4,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "19399abd-f8c0-4a0c-8e6b-4f76b593e6bd",
+    "archi_id": "491",
+    "zone": "Astrub",
+    "subzone": "Ciudad de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -416.4
+  },
+  {
+    "spawn_id": "6700d82b-3836-4260-9379-0bd20edbfbc0",
+    "archi_id": "493",
+    "zone": "Astrub",
+    "subzone": "Ciudad de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -416.4
+  },
+  {
+    "spawn_id": "6436808b-83b2-4baf-bc15-195a1101630f",
+    "archi_id": "489",
+    "zone": "Astrub",
+    "subzone": "Ciudad de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 699.4,
+    "y": -416.4
+  },
+  {
+    "spawn_id": "a3b01921-1f4b-40e7-992f-5f4113b57d52",
+    "archi_id": "490",
+    "zone": "Astrub",
+    "subzone": "Ciudad de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "b79d8e5b-9449-45f2-a2a8-dbea9d4a3fe1",
+    "archi_id": "236",
+    "zone": "Astrub",
+    "subzone": "Ciudad de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "cfc917e5-2c4d-4bf0-bb74-dbb5d3a63c6a",
+    "archi_id": "492",
+    "zone": "Astrub",
+    "subzone": "Ciudad de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 699.4,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "4aea9057-2764-4a7e-b4ce-11318336ac13",
+    "archi_id": "491",
+    "zone": "Bonta",
+    "subzone": "Ciudad de Bonta",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 451,
+    "y": -226.4
+  },
+  {
+    "spawn_id": "d9b775dc-b6b5-4cfd-8bae-d29e2f059f78",
+    "archi_id": "493",
+    "zone": "Bonta",
+    "subzone": "Ciudad de Bonta",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 423.4,
+    "y": -231.4
+  },
+  {
+    "spawn_id": "4019a413-7070-4143-977b-e1683498f448",
+    "archi_id": "489",
+    "zone": "Bonta",
+    "subzone": "Ciudad de Bonta",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 437.2,
+    "y": -241.4
+  },
+  {
+    "spawn_id": "9c3ce567-7513-407b-9402-bc77df31ff22",
+    "archi_id": "490",
+    "zone": "Bonta",
+    "subzone": "Ciudad de Bonta",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 409.6,
+    "y": -221.4
+  },
+  {
+    "spawn_id": "3a5e5d12-bf8a-4ab2-9d9e-51ded6b63486",
+    "archi_id": "236",
+    "zone": "Bonta",
+    "subzone": "Ciudad de Bonta",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 437.2,
+    "y": -216.4
+  },
+  {
+    "spawn_id": "56ed8d7a-8041-44ba-9f5c-0fe3d213ce53",
+    "archi_id": "492",
+    "zone": "Bonta",
+    "subzone": "Ciudad de Bonta",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 423.4,
+    "y": -206.4
+  },
+  {
+    "spawn_id": "535169e7-b369-4b92-a4ed-b9df6ed8f2c7",
+    "archi_id": "491",
+    "zone": "Brakmar",
+    "subzone": "Ciudad de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 499.3,
+    "y": -681.4
+  },
+  {
+    "spawn_id": "b013e9cf-257f-4d5e-8b18-53ce3d4b3598",
+    "archi_id": "493",
+    "zone": "Brakmar",
+    "subzone": "Ciudad de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 478.6,
+    "y": -681.4
+  },
+  {
+    "spawn_id": "3a833e25-41c3-4e05-ae9f-793a29fcdc34",
+    "archi_id": "489",
+    "zone": "Brakmar",
+    "subzone": "Ciudad de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 457.9,
+    "y": -681.4
+  },
+  {
+    "spawn_id": "643b8208-787f-4e41-81f1-ae9f12125cf9",
+    "archi_id": "490",
+    "zone": "Brakmar",
+    "subzone": "Ciudad de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 499.3,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "62387ef7-f64e-4002-ba49-0789a15997a2",
+    "archi_id": "236",
+    "zone": "Brakmar",
+    "subzone": "Ciudad de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 478.6,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "7a03beaa-bb15-4a66-b287-6dc673ee8153",
+    "archi_id": "492",
+    "zone": "Brakmar",
+    "subzone": "Ciudad de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 457.9,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "fffa0454-9cb1-4bc7-9976-7dd2b384fb12",
+    "archi_id": "63",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Ribera del golfo sufokeño",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 740.8,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "37ce667a-ae55-4937-9f90-2a039976641a",
+    "archi_id": "927",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Ribera del golfo sufokeño",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 699.4,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "6a66163a-37c7-4c66-b42f-42d14968f5a2",
+    "archi_id": "954",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Ribera del golfo sufokeño",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "7bf23a3c-bbe7-4ede-9ff6-01cc060f40d6",
+    "archi_id": "926",
+    "zone": "Bahía de Sufokia",
+    "subzone": "Ribera del golfo sufokeño",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "82b2e009-00f5-4325-bfbc-59c0eb943730",
+    "archi_id": "31",
+    "zone": "Amakna",
+    "subzone": "Puerto de Madrestam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -476.4
+  },
+  {
+    "spawn_id": "95924e1e-a11e-45a1-b001-80f727cb3249",
+    "archi_id": "34",
+    "zone": "Amakna",
+    "subzone": "Puerto de Madrestam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 706.3,
+    "y": -471.4
+  },
+  {
+    "spawn_id": "87055aa0-2d4e-41c7-b530-cbef5d046365",
+    "archi_id": "46",
+    "zone": "Amakna",
+    "subzone": "Puerto de Madrestam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 720.1,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "cf394404-167a-4028-891e-d7234b556fcd",
+    "archi_id": "5225",
+    "zone": "Amakna",
+    "subzone": "Puerto de Madrestam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -486.4
+  },
+  {
+    "spawn_id": "51a28644-708a-464c-8b58-a9b308ffab62",
+    "archi_id": "31",
+    "zone": "Amakna",
+    "subzone": "Costa del Rano",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 733.9,
+    "y": -516.4
+  },
+  {
+    "spawn_id": "88ebb6db-74a0-40f6-bcd3-f1aa4ff60dc0",
+    "archi_id": "34",
+    "zone": "Amakna",
+    "subzone": "Costa del Rano",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 740.8,
+    "y": -516.4
+  },
+  {
+    "spawn_id": "5045717c-b3d2-4036-8e9f-c8d67cfefb8c",
+    "archi_id": "46",
+    "zone": "Amakna",
+    "subzone": "Costa del Rano",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -511.4
+  },
+  {
+    "spawn_id": "15278754-97a9-4177-8bea-3ec1477d3896",
+    "archi_id": "5225",
+    "zone": "Amakna",
+    "subzone": "Costa del Rano",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 733.9,
+    "y": -511.4
+  },
+  {
+    "spawn_id": "4c419832-d2b0-4d1b-9b75-54c5eba15115",
+    "archi_id": "31",
+    "zone": "Astrub",
+    "subzone": "Praderas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 699.4,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "ba378740-c6c8-43e8-88e9-8fdc69161233",
+    "archi_id": "34",
+    "zone": "Astrub",
+    "subzone": "Praderas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 699.4,
+    "y": -446.4
+  },
+  {
+    "spawn_id": "f1ebb882-c2f9-4532-8835-2db752977d26",
+    "archi_id": "46",
+    "zone": "Astrub",
+    "subzone": "Praderas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "eea8e5ce-a3c1-44d6-b197-1a958c173565",
+    "archi_id": "5225",
+    "zone": "Astrub",
+    "subzone": "Praderas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -446.4
+  },
+  {
+    "spawn_id": "0f53068d-1d73-40c1-9936-4ca29cb2e097",
+    "archi_id": "98",
+    "zone": "Amakna",
+    "subzone": "Campo de los Ingals",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 706.3,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "d2eead3b-65c1-4e46-9275-9df2737d8a6a",
+    "archi_id": "59",
+    "zone": "Amakna",
+    "subzone": "Bosque de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "77c88eed-1a2d-45e4-bcf7-42a453d0c24c",
+    "archi_id": "104",
+    "zone": "Amakna",
+    "subzone": "Bosque de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -596.4
+  },
+  {
+    "spawn_id": "5e8b25f6-d559-43e8-a23a-82f81d0a53cd",
+    "archi_id": "103",
+    "zone": "Amakna",
+    "subzone": "Bosque de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "1d1b2bc6-cb21-4420-9b24-5ab4c315599c",
+    "archi_id": "79",
+    "zone": "Bonta",
+    "subzone": "Riberas iridiscentes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 444.1,
+    "y": -181.4
+  },
+  {
+    "spawn_id": "31a00200-6596-40b8-8068-641600c6c83e",
+    "archi_id": "78",
+    "zone": "Bonta",
+    "subzone": "Riberas iridiscentes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 457.9,
+    "y": -181.4
+  },
+  {
+    "spawn_id": "3b3db3df-1e21-4b62-a904-5f424ef836ef",
+    "archi_id": "48",
+    "zone": "Bonta",
+    "subzone": "Riberas iridiscentes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 430.3,
+    "y": -181.4
+  },
+  {
+    "spawn_id": "24d2126d-a3e9-4816-a0c7-7a1d70e9a905",
+    "archi_id": "467",
+    "zone": "Bonta",
+    "subzone": "Riberas iridiscentes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 471.7,
+    "y": -181.4
+  },
+  {
+    "spawn_id": "4f87903c-5cc6-4db5-8ff1-d6254795b1ca",
+    "archi_id": "79",
+    "zone": "Astrub",
+    "subzone": "Campos de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 699.4,
+    "y": -371.4
+  },
+  {
+    "spawn_id": "31b4ac9e-cacc-4033-9134-f6719256e86f",
+    "archi_id": "78",
+    "zone": "Astrub",
+    "subzone": "Campos de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -371.4
+  },
+  {
+    "spawn_id": "c6831309-acbb-4469-8316-d66aec882c2c",
+    "archi_id": "48",
+    "zone": "Astrub",
+    "subzone": "Campos de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -371.4
+  },
+  {
+    "spawn_id": "771a28f1-e14c-4c92-98b6-cef7c2175fe0",
+    "archi_id": "255",
+    "zone": "Astrub",
+    "subzone": "Alcantarillas de Astrub",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 678.7,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "d8555467-3781-4cda-81f1-9013ce22747f",
+    "archi_id": "475",
+    "zone": "Astrub",
+    "subzone": "Alcantarillas de Astrub",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 685.6,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "2379ce99-3cdb-443c-bd8e-020eef0e40ec",
+    "archi_id": "465",
+    "zone": "Astrub",
+    "subzone": "Alcantarillas de Astrub",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 692.5,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "93f55b86-74b8-4175-b970-f8b5438bb2a1",
+    "archi_id": "466",
+    "zone": "Amakna",
+    "subzone": "Pasaje hacia Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 492.4,
+    "y": -556.4
+  },
+  {
+    "spawn_id": "2ce3faaf-8502-46bd-b470-3f9a189a7cdd",
+    "archi_id": "153",
+    "zone": "Amakna",
+    "subzone": "Pasaje hacia Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 485.5,
+    "y": -556.4
+  },
+  {
+    "spawn_id": "ca231f54-8904-4b7e-83d3-b866e25b688e",
+    "archi_id": "118",
+    "zone": "Amakna",
+    "subzone": "Pasaje hacia Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 492.4,
+    "y": -561.4
+  },
+  {
+    "spawn_id": "01fc5138-3db6-4526-bc67-7c679b467280",
+    "archi_id": "119",
+    "zone": "Amakna",
+    "subzone": "Pasaje hacia Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 499.3,
+    "y": -561.4
+  },
+  {
+    "spawn_id": "009d7137-0f9d-4bb2-80b4-1151d578eaf1",
+    "archi_id": "55",
+    "zone": "Amakna",
+    "subzone": "Península de las gelatinas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 692.5,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "27dfc8da-768b-4d68-bf04-4f5167f51ffe",
+    "archi_id": "56",
+    "zone": "Amakna",
+    "subzone": "Península de las gelatinas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 720.1,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "393d574e-e402-4dc9-83c5-67e7c6ed67db",
+    "archi_id": "57",
+    "zone": "Amakna",
+    "subzone": "Península de las gelatinas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 706.3,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "7a091845-4f6e-41df-b055-dbcd2f54e514",
+    "archi_id": "300",
+    "zone": "Landas de Sidimote",
+    "subzone": "Tierras desoladas de Sidimote",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "5a42a2ef-6206-48e1-8e86-32961ec2f6a3",
+    "archi_id": "299",
+    "zone": "Landas de Sidimote",
+    "subzone": "Tierras desoladas de Sidimote",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 485.5,
+    "y": -591.4
+  },
+  {
+    "spawn_id": "94a5d08c-94b9-4cf0-ab7d-80a022830812",
+    "archi_id": "3096",
+    "zone": "Landas de Sidimote",
+    "subzone": "Tierras desoladas de Sidimote",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 485.5,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "7e49aa1e-a3ef-44e5-9f6e-466f3840c330",
+    "archi_id": "298",
+    "zone": "Landas de Sidimote",
+    "subzone": "Tierras desoladas de Sidimote",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -591.4
+  },
+  {
+    "spawn_id": "b326b3d1-bcd7-4c03-b65d-bb1fac0a6885",
+    "archi_id": "288",
+    "zone": "Llanuras de Cania",
+    "subzone": "Campos de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 471.7,
+    "y": -291.4
+  },
+  {
+    "spawn_id": "e6a46ae9-6625-490f-a650-1bcfbb1506d9",
+    "archi_id": "4548",
+    "zone": "Llanuras de Cania",
+    "subzone": "Campos de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 444.1,
+    "y": -291.4
+  },
+  {
+    "spawn_id": "36eeae00-cbeb-4cf1-ab47-b95630309a6c",
+    "archi_id": "294",
+    "zone": "Llanuras de Cania",
+    "subzone": "Campos de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 471.7,
+    "y": -276.4
+  },
+  {
+    "spawn_id": "20d9c425-f518-49e4-9835-77ef1adf3bd8",
+    "archi_id": "4547",
+    "zone": "Llanuras de Cania",
+    "subzone": "Campos de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 444.1,
+    "y": -276.4
+  },
+  {
+    "spawn_id": "3c521ac5-cf51-41c5-9aaf-b38d318605b9",
+    "archi_id": "68",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Isla Zanahowia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 809.8,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "458d5df9-1e4c-4cb0-b9f2-96ff9068e7be",
+    "archi_id": "96",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Isla Zanahowia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 823.6,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "223a10e1-2c99-40aa-bc30-be046df29ac6",
+    "archi_id": "72",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Isla Zanahowia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 809.8,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "43ada9f9-b8a5-41bc-b93e-4946dbed4bc0",
+    "archi_id": "64",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Isla Zanahowia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 823.6,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "b51515c7-8e44-400d-87cc-0cd9735262b6",
+    "archi_id": "65",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Isla Zanahowia",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 816.7,
+    "y": -471.4
+  },
+  {
+    "spawn_id": "965bf7fb-92a8-446f-ab47-c367100b802d",
+    "archi_id": "153",
+    "zone": "Amakna",
+    "subzone": "Territorio de los bandidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 754.6,
+    "y": -576.4
+  },
+  {
+    "spawn_id": "b8838d5b-e63f-49ad-aeb3-d3e85d4f2b42",
+    "archi_id": "155",
+    "zone": "Amakna",
+    "subzone": "Territorio de los bandidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 754.6,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "4c3e0d4e-fd30-4157-8f41-520428dba5a0",
+    "archi_id": "118",
+    "zone": "Amakna",
+    "subzone": "Territorio de los bandidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 754.6,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "e468c3b7-4ac7-4451-90c9-d33f5df5285f",
+    "archi_id": "119",
+    "zone": "Amakna",
+    "subzone": "Territorio de los bandidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 754.6,
+    "y": -596.4
+  },
+  {
+    "spawn_id": "32ced593-77bc-4b8f-b1cc-c39a5f1a78d5",
+    "archi_id": "178",
+    "zone": "Amakna",
+    "subzone": "Campamento de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "1a956cbd-be7c-4994-8ebf-b188747ec198",
+    "archi_id": "62",
+    "zone": "Amakna",
+    "subzone": "Campamento de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "9dfaf306-8b89-4bd7-ac13-c972cb1bb5da",
+    "archi_id": "53",
+    "zone": "Amakna",
+    "subzone": "Campamento de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 602.8,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "aac17f2e-5993-4325-9682-48cdfefbd511",
+    "archi_id": "74",
+    "zone": "Amakna",
+    "subzone": "Campamento de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "1eb4f6ad-6884-4ada-9aaa-7aada57ff38b",
+    "archi_id": "876",
+    "zone": "Amakna",
+    "subzone": "Campamento de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "05b0e771-b12b-4cc1-bb72-93b2c5b1effa",
+    "archi_id": "178",
+    "zone": "Amakna",
+    "subzone": "Campamento de los goblins",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -511.4
+  },
+  {
+    "spawn_id": "8c489e14-07bb-4ae0-a222-d331257156af",
+    "archi_id": "62",
+    "zone": "Amakna",
+    "subzone": "Campamento de los goblins",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 623.5,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "2216f90c-a021-440f-8560-82a439a7c03a",
+    "archi_id": "178",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "92600353-8393-486a-9d38-ee0512973248",
+    "archi_id": "62",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "fc698aef-8885-4f46-9a6d-804691ac72ae",
+    "archi_id": "53",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "5e16980a-2289-494d-8a71-5e6bea84c874",
+    "archi_id": "74",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "6b37d8a0-3bd9-4c71-9f5b-831889a3ae43",
+    "archi_id": "483",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 644.2,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "e95bb02e-bf74-4a37-80d9-d2a52fd36367",
+    "archi_id": "106",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -556.4
+  },
+  {
+    "spawn_id": "98f280e8-e1e0-4398-82ef-1df10697e827",
+    "archi_id": "876",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 644.2,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "ecfc6c60-6e58-4a09-a847-58e2043c44b3",
+    "archi_id": "4571",
+    "zone": "Amakna",
+    "subzone": "Piedemonte de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "68e218e6-a537-402a-adba-61dbe07914c5",
+    "archi_id": "218",
+    "zone": "Isla de Moon",
+    "subzone": "Playa Tortuga",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 906.4,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "64f2ac6c-6bba-4693-8580-7ce4104d8ed9",
+    "archi_id": "208",
+    "zone": "Isla de Moon",
+    "subzone": "Playa Tortuga",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 899.5,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "ea4ab3ba-c980-47c4-a4f7-d3e40184972d",
+    "archi_id": "223",
+    "zone": "Isla de Moon",
+    "subzone": "Playa Tortuga",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 899.5,
+    "y": -516.4
+  },
+  {
+    "spawn_id": "a99f40af-e24f-481a-a59c-1595e0baf02c",
+    "archi_id": "221",
+    "zone": "Isla de Moon",
+    "subzone": "Playa Tortuga",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 885.7,
+    "y": -526.4
+  },
+  {
+    "spawn_id": "59359126-ad4e-4d84-b694-d9788f011952",
+    "archi_id": "220",
+    "zone": "Isla de Moon",
+    "subzone": "Playa Tortuga",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 878.8,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "c56c6244-6dac-401a-9280-9483c74f610c",
+    "archi_id": "222",
+    "zone": "Isla de Moon",
+    "subzone": "Playa Tortuga",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 892.6,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "8c50f2c4-7d03-4a2d-a6de-cbd030d3ea44",
+    "archi_id": "209",
+    "zone": "Isla de Moon",
+    "subzone": "Playa Tortuga",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 892.6,
+    "y": -556.4
+  },
+  {
+    "spawn_id": "f9129830-ac27-483b-9cfc-3751c95c7a6a",
+    "archi_id": "218",
+    "zone": "Isla de Otomai",
+    "subzone": "Isla de los Náufragos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 347.5,
+    "y": -496.4
+  },
+  {
+    "spawn_id": "63c3d5c5-7ce7-4fe8-bb19-52a195488ec1",
+    "archi_id": "208",
+    "zone": "Isla de Otomai",
+    "subzone": "Isla de los Náufragos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 347.5,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "58a47742-8177-4c3a-8646-22f272fa0803",
+    "archi_id": "209",
+    "zone": "Isla de Otomai",
+    "subzone": "Isla de los Náufragos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 347.5,
+    "y": -486.4
+  },
+  {
+    "spawn_id": "464150c9-7e80-427c-bc39-5ba0e7848457",
+    "archi_id": "215",
+    "zone": "Isla de Moon",
+    "subzone": "Jungla Prohibida",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 851.2,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "511405f6-cdca-4569-b482-3df97abe818d",
+    "archi_id": "217",
+    "zone": "Isla de Moon",
+    "subzone": "Jungla Prohibida",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 865,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "56142fe5-c73c-4da9-9f29-2e6451c92b2a",
+    "archi_id": "216",
+    "zone": "Isla de Moon",
+    "subzone": "Jungla Prohibida",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 858.1,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "2e344827-c253-4080-99f2-2a1367da20a3",
+    "archi_id": "104",
+    "zone": "Astrub",
+    "subzone": "Bosque de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -366.4
+  },
+  {
+    "spawn_id": "e487c119-4676-4693-a638-a2a55e68c896",
+    "archi_id": "103",
+    "zone": "Astrub",
+    "subzone": "Bosque de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -396.4
+  },
+  {
+    "spawn_id": "9d0f6a68-c7dd-42da-946d-557af76efbe1",
+    "archi_id": "159",
+    "zone": "Astrub",
+    "subzone": "Bosque de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -381.4
+  },
+  {
+    "spawn_id": "e1f25bc9-e8d0-44da-946a-ba3350f1fa55",
+    "archi_id": "652",
+    "zone": "Amakna",
+    "subzone": "Linde del Bosque Maléfico",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -596.4
+  },
+  {
+    "spawn_id": "f7eaade5-22bc-4573-a495-b7269e7b67d5",
+    "archi_id": "654",
+    "zone": "Amakna",
+    "subzone": "Linde del Bosque Maléfico",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "964e8cb3-0921-407d-9fa2-477b83d49502",
+    "archi_id": "655",
+    "zone": "Amakna",
+    "subzone": "Linde del Bosque Maléfico",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "a8b3b817-d49c-4744-84f6-b1bc5bbf7fa9",
+    "archi_id": "653",
+    "zone": "Amakna",
+    "subzone": "Linde del Bosque Maléfico",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -596.4
+  },
+  {
+    "spawn_id": "28706a98-e300-414b-b980-963314a5cbe1",
+    "archi_id": "278",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -296.4
+  },
+  {
+    "spawn_id": "67912f94-64ed-4588-83e9-554414ac26f4",
+    "archi_id": "279",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 644.2,
+    "y": -296.4
+  },
+  {
+    "spawn_id": "0243b1a1-3d54-4a4d-9e0f-5f3c7f1ae4d5",
+    "archi_id": "277",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 602.8,
+    "y": -296.4
+  },
+  {
+    "spawn_id": "2466ef17-c028-4b33-868e-b8aff9893855",
+    "archi_id": "280",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -296.4
+  },
+  {
+    "spawn_id": "69f1de9a-5de6-4ed0-95bc-f5b1485c8cb0",
+    "archi_id": "273",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -276.4
+  },
+  {
+    "spawn_id": "6684e7fb-c9b1-4736-8d41-5dfa186132ad",
+    "archi_id": "275",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -276.4
+  },
+  {
+    "spawn_id": "bd43abdd-570d-4529-8f46-889a7d40eaf1",
+    "archi_id": "274",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 644.2,
+    "y": -276.4
+  },
+  {
+    "spawn_id": "5df5e665-9e83-4397-ba9a-78511da7ab29",
+    "archi_id": "276",
+    "zone": "Llanuras de Cania",
+    "subzone": "Lago de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 602.8,
+    "y": -276.4
+  },
+  {
+    "spawn_id": "0f0b6841-8d8a-4e42-a8c6-cdacc4e5146b",
+    "archi_id": "112",
+    "zone": "Amakna",
+    "subzone": "Pantanos de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 595.9,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "82078a70-2b81-48a0-8e3f-ca8d85537dad",
+    "archi_id": "261",
+    "zone": "Amakna",
+    "subzone": "Pantanos de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 602.8,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "66828bbb-a689-4c50-88c1-f391372e35fd",
+    "archi_id": "263",
+    "zone": "Amakna",
+    "subzone": "Pantanos de Amakna",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -556.4
+  },
+  {
+    "spawn_id": "b097f2f2-0875-4dd9-b077-81991f1fe6eb",
+    "archi_id": "112",
+    "zone": "Amakna",
+    "subzone": "Rincón de los Boos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 740.8,
+    "y": -531.4
+  },
+  {
+    "spawn_id": "33f45599-985b-49a2-8ea2-dc3305e386e7",
+    "archi_id": "112",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Pantanos nauseabundos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 602.8,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "cc28e181-9ba0-4ded-9360-4b0a98199fbf",
+    "archi_id": "261",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Pantanos nauseabundos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 589,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "5de152ce-8013-4d44-81aa-4920917670f9",
+    "archi_id": "263",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Pantanos nauseabundos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "fdb319dd-9a31-4e02-aeae-911b835d7459",
+    "archi_id": "112",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Pantanos sin fondo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 589,
+    "y": -526.4
+  },
+  {
+    "spawn_id": "e93d6548-832d-44bc-9802-2efb52cd477a",
+    "archi_id": "261",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Pantanos sin fondo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 589,
+    "y": -516.4
+  },
+  {
+    "spawn_id": "b2031c08-8859-45e0-ba9d-82477ae04a65",
+    "archi_id": "263",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Pantanos sin fondo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 589,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "6437ab7e-359c-4285-be6d-3ecdb37334f2",
+    "archi_id": "123",
+    "zone": "Llanuras de Cania",
+    "subzone": "Llanura de los puerkazos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "7a1624aa-6e9f-4f18-8c39-e20856fdc9df",
+    "archi_id": "344",
+    "zone": "Llanuras de Cania",
+    "subzone": "Llanura de los puerkazos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -371.4
+  },
+  {
+    "spawn_id": "9af112d6-4c2c-42e1-90a1-53f4a8a2d38b",
+    "archi_id": "343",
+    "zone": "Llanuras de Cania",
+    "subzone": "Llanura de los puerkazos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -356.4
+  },
+  {
+    "spawn_id": "dfec43d8-70d6-46a4-9778-57dc8a160ef1",
+    "archi_id": "297",
+    "zone": "Llanuras de Cania",
+    "subzone": "Llanura de los puerkazos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -386.4
+  },
+  {
+    "spawn_id": "056ada7d-8c3d-4f9e-b506-ff87e2ca48d8",
+    "archi_id": "64",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Islote La Cowona",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 823.6,
+    "y": -426.4
+  },
+  {
+    "spawn_id": "af93d4f7-ad46-4405-aeb2-f6c50bcb1833",
+    "archi_id": "65",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Islote La Cowona",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 809.8,
+    "y": -426.4
+  },
+  {
+    "spawn_id": "b7c3f5e8-de5c-4fee-a926-b4d30fd485bd",
+    "archi_id": "99",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Islote La Cowona",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 823.6,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "5f2573d3-0016-45c9-9323-0170047b3cc2",
+    "archi_id": "97",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Islote La Cowona",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 809.8,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "5bc68ef9-6457-4789-82f6-0b83c218a354",
+    "archi_id": "4560",
+    "zone": "Llanuras de Cania",
+    "subzone": "Sierra de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 540.7,
+    "y": -386.4
+  },
+  {
+    "spawn_id": "19b28841-7d0b-4fd7-bb66-93b519a043e1",
+    "archi_id": "4558",
+    "zone": "Llanuras de Cania",
+    "subzone": "Sierra de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -386.4
+  },
+  {
+    "spawn_id": "f208c85c-5a05-402e-bf0e-f4f2e0a5f194",
+    "archi_id": "4559",
+    "zone": "Llanuras de Cania",
+    "subzone": "Sierra de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -386.4
+  },
+  {
+    "spawn_id": "482f0211-0a53-44f6-aa2c-8252939ea445",
+    "archi_id": "6318",
+    "zone": "Isla de Pandala",
+    "subzone": "Plantala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 816.7,
+    "y": -346.4
+  },
+  {
+    "spawn_id": "a8ab00bb-864c-481a-b2af-6d030726bfa5",
+    "archi_id": "6321",
+    "zone": "Isla de Pandala",
+    "subzone": "Plantala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 830.5,
+    "y": -346.4
+  },
+  {
+    "spawn_id": "c1391f3a-3f71-4c8c-978d-5cb73291beea",
+    "archi_id": "6320",
+    "zone": "Isla de Pandala",
+    "subzone": "Plantala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 816.7,
+    "y": -336.4
+  },
+  {
+    "spawn_id": "973d8c42-cea4-47bc-b37c-add44d8eb72c",
+    "archi_id": "6323",
+    "zone": "Isla de Pandala",
+    "subzone": "Plantala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 830.5,
+    "y": -336.4
+  },
+  {
+    "spawn_id": "18a47df7-208c-4999-89a8-994efa1fac36",
+    "archi_id": "281",
+    "zone": "Llanuras de Cania",
+    "subzone": "Morada de cuerbok",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 575.2,
+    "y": -196.4
+  },
+  {
+    "spawn_id": "b9d87dc2-38cf-4a75-af88-93c27ec1ab02",
+    "archi_id": "281",
+    "zone": "Llanuras de Cania",
+    "subzone": "Biblioteca del Maestro Cuerbok",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -191.4
+  },
+  {
+    "spawn_id": "7eb2725a-b3b2-4ea0-95a0-8e02a7d49dfc",
+    "archi_id": "922",
+    "zone": "Astrub",
+    "subzone": "Calas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 720.1,
+    "y": -371.4
+  },
+  {
+    "spawn_id": "e320d636-0143-4b66-ad3d-3412122ea300",
+    "archi_id": "921",
+    "zone": "Astrub",
+    "subzone": "Calas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 733.9,
+    "y": -371.4
+  },
+  {
+    "spawn_id": "ebb99b1b-a513-4db7-a615-012e9157d512",
+    "archi_id": "920",
+    "zone": "Astrub",
+    "subzone": "Calas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 727,
+    "y": -361.4
+  },
+  {
+    "spawn_id": "c97370e9-3ca8-429c-9d9f-d752b2baf68f",
+    "archi_id": "923",
+    "zone": "Astrub",
+    "subzone": "Calas de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 713.2,
+    "y": -361.4
+  },
+  {
+    "spawn_id": "ae25bc70-4f4b-4fc7-b03e-90255ae96386",
+    "archi_id": "834",
+    "zone": "Isla del Minotauroro",
+    "subzone": "Isla del Minotauroro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 375.1,
+    "y": -416.4
+  },
+  {
+    "spawn_id": "e114af5d-7647-47a5-ae8b-48ac8bd0505f",
+    "archi_id": "835",
+    "zone": "Isla del Minotauroro",
+    "subzone": "Isla del Minotauroro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 354.4,
+    "y": -416.4
+  },
+  {
+    "spawn_id": "203d2102-a13a-47db-9a02-60effdc3c1ba",
+    "archi_id": "836",
+    "zone": "Isla del Minotauroro",
+    "subzone": "Isla del Minotauroro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 354.4,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "7246f217-f271-43c2-8489-bbac7b9e3cb3",
+    "archi_id": "829",
+    "zone": "Isla del Minotauroro",
+    "subzone": "Isla del Minotauroro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 375.1,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "a9fadd0a-e783-43d9-be53-5287971f08d2",
+    "archi_id": "53",
+    "zone": "Amakna",
+    "subzone": "Pueblo de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "ccd15e95-7a43-4264-88c3-15900ac68764",
+    "archi_id": "74",
+    "zone": "Amakna",
+    "subzone": "Pueblo de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "de4ec36f-67f5-4d0a-942c-4d15398628f1",
+    "archi_id": "876",
+    "zone": "Amakna",
+    "subzone": "Pueblo de los bworks",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "cbdc326d-9352-4875-9aba-57601f128cf1",
+    "archi_id": "498",
+    "zone": "Astrub",
+    "subzone": "Cementerio de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -441.4
+  },
+  {
+    "spawn_id": "2148a2cc-5773-4dde-ac18-f23523d6cd91",
+    "archi_id": "495",
+    "zone": "Astrub",
+    "subzone": "Cementerio de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 644.2,
+    "y": -441.4
+  },
+  {
+    "spawn_id": "698ff66b-801c-4d40-bcb0-00e7d43fc5b7",
+    "archi_id": "496",
+    "zone": "Astrub",
+    "subzone": "Cementerio de Astrub",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -441.4
+  },
+  {
+    "spawn_id": "40a598a3-49c7-410e-a8b8-3831fa5e2aef",
+    "archi_id": "171",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Territorio de los dragopavos salvajes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "35c00965-56c8-4b78-93b6-f46316e325bb",
+    "archi_id": "200",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Territorio de los dragopavos salvajes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "e6646996-8f51-4609-97fa-bea9e454bca1",
+    "archi_id": "179",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Islote Sepultuwa",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 789.1,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "6a2d0f4d-6da8-4231-b491-b8852b87c3e4",
+    "archi_id": "110",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bosque de Litneg",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -261.4
+  },
+  {
+    "spawn_id": "8a81716c-3e4f-442b-a45b-e8608287e6cd",
+    "archi_id": "108",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bosque de Litneg",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -246.4
+  },
+  {
+    "spawn_id": "6ded4f8d-ec93-4d87-889e-3139ba6b1954",
+    "archi_id": "396",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bosque de Litneg",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -246.4
+  },
+  {
+    "spawn_id": "ea302a1c-3431-479b-a2c6-9903ad027f17",
+    "archi_id": "54",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bosque de Litneg",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -231.4
+  },
+  {
+    "spawn_id": "f131ba24-6c17-4d0d-8be5-6dfc9df76b46",
+    "archi_id": "291",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bosque de Litneg",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -231.4
+  },
+  {
+    "spawn_id": "213374cd-8994-45fb-980f-06d87f985da3",
+    "archi_id": "290",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bosque de Litneg",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -216.4
+  },
+  {
+    "spawn_id": "cd80b92c-3e06-43ce-9fd9-f927ad6deb76",
+    "archi_id": "233",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bosque de Litneg",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -216.4
+  },
+  {
+    "spawn_id": "8e8c72f4-6baa-408f-89f0-cc5298796233",
+    "archi_id": "47",
+    "zone": "Bosque de los abráknidos",
+    "subzone": "Linde del bosque de los abráknidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 533.8,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "e922642d-b7ed-41ef-8933-520b42061c01",
+    "archi_id": "256",
+    "zone": "Bosque de los abráknidos",
+    "subzone": "Linde del bosque de los abráknidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 533.8,
+    "y": -426.4
+  },
+  {
+    "spawn_id": "bbddf459-3c32-49ab-b51e-53526833c85c",
+    "archi_id": "650",
+    "zone": "Bosque de los abráknidos",
+    "subzone": "Linde del bosque de los abráknidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 533.8,
+    "y": -406.4
+  },
+  {
+    "spawn_id": "c77ae002-89f3-4ca7-b8b5-a8b548c6bffe",
+    "archi_id": "259",
+    "zone": "Bosque de los abráknidos",
+    "subzone": "Linde del bosque de los abráknidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 533.8,
+    "y": -416.4
+  },
+  {
+    "spawn_id": "f4797b2a-0600-4d03-bc41-65b49bbf9428",
+    "archi_id": "241",
+    "zone": "Amakna",
+    "subzone": "Llanura de los escarahojas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "7c7f6030-fee4-41cd-9c0f-f324dc79b419",
+    "archi_id": "198",
+    "zone": "Amakna",
+    "subzone": "Llanura de los escarahojas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "523f83c5-ab42-4689-bc30-82b7529fb5d8",
+    "archi_id": "194",
+    "zone": "Amakna",
+    "subzone": "Llanura de los escarahojas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 671.8,
+    "y": -631.4
+  },
+  {
+    "spawn_id": "ba091e26-facc-4003-9f2c-8d97c1821451",
+    "archi_id": "240",
+    "zone": "Amakna",
+    "subzone": "Llanura de los escarahojas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -631.4
+  },
+  {
+    "spawn_id": "77d6d973-cbe3-4c73-9410-b8cccb8c9682",
+    "archi_id": "228",
+    "zone": "Isla de Moon",
+    "subzone": "Camino de los cráneos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 858.1,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "9c6b362e-5abf-4152-9fdb-4c1318e664ff",
+    "archi_id": "231",
+    "zone": "Isla de Moon",
+    "subzone": "Camino de los cráneos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 865,
+    "y": -516.4
+  },
+  {
+    "spawn_id": "29b83db4-8a90-4836-84b3-676d0ba4ee9b",
+    "archi_id": "229",
+    "zone": "Isla de Moon",
+    "subzone": "Camino de los cráneos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 871.9,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "518d2473-f4d3-4da8-94e2-eab3b848cd63",
+    "archi_id": "603",
+    "zone": "Amakna",
+    "subzone": "Territorio de los porcos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "38c286bd-a6f4-4615-84e5-c881d4a5e552",
+    "archi_id": "3304",
+    "zone": "Amakna",
+    "subzone": "Territorio de los porcos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "17e37fe1-eab5-412c-a8dc-163db8756876",
+    "archi_id": "603",
+    "zone": "Laberinto del Dragocerdo",
+    "subzone": "El laberinto del Dragocerdo",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "21d9abd9-e44e-4454-a32c-ca37a5a69a90",
+    "archi_id": "3304",
+    "zone": "Laberinto del Dragocerdo",
+    "subzone": "El laberinto del Dragocerdo",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 658,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "7b6bd4b4-6a02-4b7a-ac19-3d22edee5ff7",
+    "archi_id": "830",
+    "zone": "Isla del Minotauroro",
+    "subzone": "Laberinto del Minotauroro",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 375.1,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "bff4a6de-c9b9-4f48-97dd-dcc3aaca1cbd",
+    "archi_id": "668",
+    "zone": "Isla del Minotauroro",
+    "subzone": "Laberinto del Minotauroro",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 354.4,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "a51a168f-c0c8-47b1-acd8-89f8698a7584",
+    "archi_id": "829",
+    "zone": "Isla del Minotauroro",
+    "subzone": "Laberinto del Minotauroro",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 375.1,
+    "y": -416.4
+  },
+  {
+    "spawn_id": "489d3eb7-836a-4f9d-8470-0c232d66f2ed",
+    "archi_id": "1060",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 292.3,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "468e7db6-e419-483b-b8b0-3395352f582a",
+    "archi_id": "1061",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 306.1,
+    "y": -521.4
+  },
+  {
+    "spawn_id": "19ea92a5-4c19-48fa-85d3-1f1f252d20c7",
+    "archi_id": "1063",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 292.3,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "818fc085-ec02-4a50-9894-88d15871dba6",
+    "archi_id": "1062",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 333.7,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "10001138-d3c5-4a8f-812f-911110d04123",
+    "archi_id": "1065",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 299.2,
+    "y": -536.4
+  },
+  {
+    "spawn_id": "0d4969d7-842d-42e6-9144-3c5ba5d8a405",
+    "archi_id": "1067",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 319.9,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "e614c9b9-aace-40c8-a5b4-b2ac1f745a30",
+    "archi_id": "1066",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 326.8,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "a4ee97bc-e362-4e22-8ee9-2bd174a81a50",
+    "archi_id": "1064",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 313,
+    "y": -536.4
+  },
+  {
+    "spawn_id": "4ec447b6-168e-4c4f-b262-3dc92127b95c",
+    "archi_id": "1022",
+    "zone": "Isla de Otomai",
+    "subzone": "Playa de coral",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 313,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "099ca7ef-8c89-48bb-9d14-756c621ca6e7",
+    "archi_id": "99",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Islote Waldo Nald",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 837.4,
+    "y": -431.4
+  },
+  {
+    "spawn_id": "1347624e-ed8d-482b-8bf5-cbb447a74eb5",
+    "archi_id": "97",
+    "zone": "Archipiélago wabbit",
+    "subzone": "Islote Waldo Nald",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 844.3,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "66e61750-4bf4-453e-b57a-e1a3751efae8",
+    "archi_id": "384",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 409.6,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "0d9b3b58-95bc-48d2-be5a-fc05764f61ed",
+    "archi_id": "385",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 423.4,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "9d424ad0-3cd1-46fd-a357-6056df67a4e6",
+    "archi_id": "386",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 416.5,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "c96e9dfb-a2c8-4ee9-8e32-29cf1ed16ea8",
+    "archi_id": "387",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 416.5,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "60f4918b-459c-41e5-9ba4-d4565f5681d8",
+    "archi_id": "388",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 437.2,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "8b61c4ae-b125-4e00-abb1-d38fb2c8e1d0",
+    "archi_id": "389",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 437.2,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "44fc5c69-d9c5-4d4e-a279-af3162016c5a",
+    "archi_id": "390",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 409.6,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "589212d6-808b-4daf-a668-2d1b1226ea8a",
+    "archi_id": "391",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 423.4,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "24affd98-04cb-4dc0-8992-b740608afe31",
+    "archi_id": "392",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 444.1,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "cbd96395-89d0-463b-8cba-a0daf7a13aec",
+    "archi_id": "393",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los dopeuls",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 444.1,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "b5c599b1-f01a-4b51-91f2-eda125144fd7",
+    "archi_id": "384",
+    "zone": "Llanuras de Cania",
+    "subzone": "Mina de los dopeuls",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 409.6,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "3dae67d7-d0a6-44fe-bace-3abe379f5818",
+    "archi_id": "387",
+    "zone": "Llanuras de Cania",
+    "subzone": "Mina de los dopeuls",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 437.2,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "b9dba46d-ec19-48c5-a876-d0218ffd6ca5",
+    "archi_id": "390",
+    "zone": "Llanuras de Cania",
+    "subzone": "Mina de los dopeuls",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 437.2,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "cb4e5501-c704-43e1-aeff-113297dc802d",
+    "archi_id": "391",
+    "zone": "Llanuras de Cania",
+    "subzone": "Mina de los dopeuls",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 409.6,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "04d45367-d7f5-4230-b0b9-ed60d15c020f",
+    "archi_id": "392",
+    "zone": "Llanuras de Cania",
+    "subzone": "Mina de los dopeuls",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 423.4,
+    "y": -451.4
+  },
+  {
+    "spawn_id": "3d5db999-09d8-463f-a63c-dace43470a05",
+    "archi_id": "385",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bahía de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 430.3,
+    "y": -411.4
+  },
+  {
+    "spawn_id": "844df02b-4823-4fd1-841b-d07ea8d6e549",
+    "archi_id": "386",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bahía de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 430.3,
+    "y": -421.4
+  },
+  {
+    "spawn_id": "cde815e2-e025-4ef1-9c07-0be4b446031a",
+    "archi_id": "388",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bahía de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 430.3,
+    "y": -441.4
+  },
+  {
+    "spawn_id": "36745eb4-1333-4284-8c74-cd9cf7f802d8",
+    "archi_id": "389",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bahía de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 430.3,
+    "y": -431.4
+  },
+  {
+    "spawn_id": "81e90845-b83a-4908-a253-0a51e98037e5",
+    "archi_id": "393",
+    "zone": "Llanuras de Cania",
+    "subzone": "Bahía de Cania",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 430.3,
+    "y": -401.4
+  },
+  {
+    "spawn_id": "47960396-a8c6-45b2-b645-3d96bab8e1b6",
+    "archi_id": "291",
+    "zone": "Bonta",
+    "subzone": "Cementerio de los héroes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -211.4
+  },
+  {
+    "spawn_id": "bf4504f4-ac5b-4c9f-a2c2-b09e69f1d639",
+    "archi_id": "290",
+    "zone": "Bonta",
+    "subzone": "Cementerio de los héroes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -196.4
+  },
+  {
+    "spawn_id": "25c6bbeb-4f7f-421a-bf59-71c2f38967a1",
+    "archi_id": "292",
+    "zone": "Bonta",
+    "subzone": "Cementerio de los héroes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -211.4
+  },
+  {
+    "spawn_id": "3687cc15-ffe4-4a1f-a5c1-410b7dede7ae",
+    "archi_id": "3239",
+    "zone": "Bonta",
+    "subzone": "Cementerio de los héroes",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -196.4
+  },
+  {
+    "spawn_id": "14376a91-cae9-4d47-904c-ffbdafc0b05c",
+    "archi_id": "291",
+    "zone": "Brakmar",
+    "subzone": "Cementerio de los Torturados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 533.8,
+    "y": -691.4
+  },
+  {
+    "spawn_id": "6ae4f22a-e011-464a-ba98-cab70b1d8063",
+    "archi_id": "290",
+    "zone": "Brakmar",
+    "subzone": "Cementerio de los Torturados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 575.2,
+    "y": -691.4
+  },
+  {
+    "spawn_id": "70db1dba-2cb1-4e46-bb77-0c82b1690f42",
+    "archi_id": "292",
+    "zone": "Brakmar",
+    "subzone": "Cementerio de los Torturados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 547.6,
+    "y": -691.4
+  },
+  {
+    "spawn_id": "2556db31-b84b-4a33-acdc-22700363c0af",
+    "archi_id": "3239",
+    "zone": "Brakmar",
+    "subzone": "Cementerio de los Torturados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 561.4,
+    "y": -691.4
+  },
+  {
+    "spawn_id": "9cb4af86-2d36-4bcf-8bc3-7b03dfeeac87",
+    "archi_id": "447",
+    "zone": "Amakna",
+    "subzone": "Cloaca de Amakna",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "ef86fcab-67c6-4574-a55c-517c433abaf1",
+    "archi_id": "442",
+    "zone": "Amakna",
+    "subzone": "Cloaca de Amakna",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -466.4
+  },
+  {
+    "spawn_id": "21218562-35eb-43f9-b7bb-ef9d3063c4fb",
+    "archi_id": "449",
+    "zone": "Amakna",
+    "subzone": "Cloaca de Amakna",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 699.4,
+    "y": -466.4
+  },
+  {
+    "spawn_id": "3e9486c0-05f8-4391-84fa-9876ed98ad82",
+    "archi_id": "747",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Lagos encantados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -476.4
+  },
+  {
+    "spawn_id": "7d2565c0-9871-4974-a8ce-7856b770ef29",
+    "archi_id": "748",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Lagos encantados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "54e24d4e-6565-4553-a79b-d59ad773ea17",
+    "archi_id": "786",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Lagos encantados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 540.7,
+    "y": -476.4
+  },
+  {
+    "spawn_id": "990c4b01-4460-44b1-9868-e91948b6963c",
+    "archi_id": "784",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Lagos encantados",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 540.7,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "749345fd-d90d-433d-b810-851f30aa7d68",
+    "archi_id": "747",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Bosque de kaliptos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 575.2,
+    "y": -536.4
+  },
+  {
+    "spawn_id": "895df719-95df-4cc7-99c9-ca909456ce36",
+    "archi_id": "748",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Bosque de kaliptos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 575.2,
+    "y": -516.4
+  },
+  {
+    "spawn_id": "c4eacd08-676f-40e5-93fe-4a46bf1453b3",
+    "archi_id": "746",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Bosque de kaliptos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 575.2,
+    "y": -526.4
+  },
+  {
+    "spawn_id": "6e602c3f-acd2-46e2-89ad-42283621b9cd",
+    "archi_id": "785",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Bosque de kaliptos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 575.2,
+    "y": -506.4
+  },
+  {
+    "spawn_id": "c99cb8ca-af79-4529-8246-8db23f310b86",
+    "archi_id": "747",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "69441d2a-017e-4bac-8ba0-c701c05c82ab",
+    "archi_id": "752",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 547.6,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "4d580071-d642-4b85-86db-fbddaedd6e8b",
+    "archi_id": "753",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 540.7,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "64be6623-f74e-42fe-b1fc-1a61aaaf34ae",
+    "archi_id": "751",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 561.4,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "254ca02c-5b9a-4343-9ad4-a9fa1bd946e9",
+    "archi_id": "754",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "c41b091d-6477-4e31-b8d2-9927b5aceb83",
+    "archi_id": "746",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 520,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "2744a91a-48ce-4de6-9185-8b79fde5a609",
+    "archi_id": "755",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "b0048c2a-cac8-4be6-81e1-c92b78381f59",
+    "archi_id": "763",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cañón Salvaje",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 533.8,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "84b3a948-a4d6-4d98-970c-d25480e26c73",
+    "archi_id": "747",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Antro del Trankitronko",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 540.7,
+    "y": -536.4
+  },
+  {
+    "spawn_id": "4fae605d-78aa-4f7b-bea8-fe1f3e3d399c",
+    "archi_id": "1096",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera sin fondo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 237.1,
+    "y": -491.4
+  },
+  {
+    "spawn_id": "bbc32e03-9987-4ab8-9f42-eed79e976e67",
+    "archi_id": "1059",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera sin fondo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 250.9,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "1b1ce932-d013-4b2b-b9a8-8dd32d0d8d67",
+    "archi_id": "1058",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera sin fondo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 237.1,
+    "y": -481.4
+  },
+  {
+    "spawn_id": "203e7462-c189-455a-abef-82304e1cdb59",
+    "archi_id": "1057",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera sin fondo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 250.9,
+    "y": -491.4
+  },
+  {
+    "spawn_id": "4b6fa7b9-4450-4d2a-a171-ccbcef74fe31",
+    "archi_id": "1096",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera nauseabunda",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 223.3,
+    "y": -456.4
+  },
+  {
+    "spawn_id": "6b6d4acc-bf68-407b-aa15-73573490f58b",
+    "archi_id": "1059",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera nauseabunda",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 223.3,
+    "y": -446.4
+  },
+  {
+    "spawn_id": "f5b5ac6d-24cb-4f79-a361-f6feb2589d70",
+    "archi_id": "1058",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera nauseabunda",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 244,
+    "y": -456.4
+  },
+  {
+    "spawn_id": "92cfcab9-c446-496d-a98c-8a72b265aef8",
+    "archi_id": "1057",
+    "zone": "Isla de Otomai",
+    "subzone": "Turbera nauseabunda",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 244,
+    "y": -446.4
+  },
+  {
+    "spawn_id": "6c28944f-8c73-4f17-9e06-7ab09552903e",
+    "archi_id": "254",
+    "zone": "Bosque de los abráknidos",
+    "subzone": "Bosque Oscuro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 575.2,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "1214719d-b1eb-4eae-bf23-2a0c66c654d9",
+    "archi_id": "253",
+    "zone": "Bosque de los abráknidos",
+    "subzone": "Bosque Oscuro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 561.4,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "cb21a293-0b84-44e8-9863-c890941f7c7f",
+    "archi_id": "651",
+    "zone": "Bosque de los abráknidos",
+    "subzone": "Bosque Oscuro",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 589,
+    "y": -436.4
+  },
+  {
+    "spawn_id": "875fd0c5-b7a9-4b9e-b379-b77065f5997b",
+    "archi_id": "293",
+    "zone": "Llanuras de Cania",
+    "subzone": "Llanuras Rocosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -246.4
+  },
+  {
+    "spawn_id": "b4f70817-c9bb-40be-adc3-40fde0e3041e",
+    "archi_id": "4571",
+    "zone": "Llanuras de Cania",
+    "subzone": "Llanuras Rocosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -246.4
+  },
+  {
+    "spawn_id": "4302ec60-eff5-4fa4-8bf5-04cdc5e0c6fc",
+    "archi_id": "6229",
+    "zone": "Isla de Pandala",
+    "subzone": "Akwadala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 782.2,
+    "y": -386.4
+  },
+  {
+    "spawn_id": "d7db51e7-6c5e-4bea-b467-ee1400bbca19",
+    "archi_id": "6203",
+    "zone": "Isla de Pandala",
+    "subzone": "Akwadala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 796,
+    "y": -386.4
+  },
+  {
+    "spawn_id": "3a551f7b-38b5-4a81-9ca4-1db20bb1b7bc",
+    "archi_id": "6231",
+    "zone": "Isla de Pandala",
+    "subzone": "Akwadala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 782.2,
+    "y": -376.4
+  },
+  {
+    "spawn_id": "b523f11e-4349-462b-89ef-609e76a233d7",
+    "archi_id": "6230",
+    "zone": "Isla de Pandala",
+    "subzone": "Akwadala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 796,
+    "y": -376.4
+  },
+  {
+    "spawn_id": "8433d9c6-be43-490e-a7d0-aeefe65be253",
+    "archi_id": "1026",
+    "zone": "Isla de Otomai",
+    "subzone": "Llanuras Herbosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 271.6,
+    "y": -611.4
+  },
+  {
+    "spawn_id": "618d6e21-f501-4504-b734-a4e0730016f3",
+    "archi_id": "1019",
+    "zone": "Isla de Otomai",
+    "subzone": "Llanuras Herbosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 264.7,
+    "y": -611.4
+  },
+  {
+    "spawn_id": "24505dd0-4585-4309-8b94-2035b7638916",
+    "archi_id": "1025",
+    "zone": "Isla de Otomai",
+    "subzone": "Llanuras Herbosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 292.3,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "cfe998e6-e52d-44c8-949c-58d7ec709ba6",
+    "archi_id": "1068",
+    "zone": "Isla de Otomai",
+    "subzone": "Llanuras Herbosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 285.4,
+    "y": -611.4
+  },
+  {
+    "spawn_id": "08ab34a3-fb60-48c6-9eff-128d69f0e03f",
+    "archi_id": "1069",
+    "zone": "Isla de Otomai",
+    "subzone": "Llanuras Herbosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 278.5,
+    "y": -611.4
+  },
+  {
+    "spawn_id": "d2a9ee17-579b-4c3b-8db3-0e9766a8c850",
+    "archi_id": "1070",
+    "zone": "Isla de Otomai",
+    "subzone": "Llanuras Herbosas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 257.8,
+    "y": -606.4
+  },
+  {
+    "spawn_id": "68de79c5-549b-4adf-a9dc-e58a12e10dfd",
+    "archi_id": "371",
+    "zone": "Llanuras de Cania",
+    "subzone": "Caminos rocosos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 464.8,
+    "y": -431.4
+  },
+  {
+    "spawn_id": "f0348de2-b755-44be-b34b-955cccb4f8c7",
+    "archi_id": "4575",
+    "zone": "Llanuras de Cania",
+    "subzone": "Caminos rocosos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 506.2,
+    "y": -431.4
+  },
+  {
+    "spawn_id": "4b1b827d-050e-490b-b84a-be3c103d2623",
+    "archi_id": "287",
+    "zone": "Llanuras de Cania",
+    "subzone": "Caminos rocosos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 492.4,
+    "y": -431.4
+  },
+  {
+    "spawn_id": "c775c0ae-b2fb-4fe7-8f98-f8aacb2182fe",
+    "archi_id": "4574",
+    "zone": "Llanuras de Cania",
+    "subzone": "Caminos rocosos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 478.6,
+    "y": -431.4
+  },
+  {
+    "spawn_id": "294e5633-6c7f-42b0-8a14-cca1156f18f3",
+    "archi_id": "211",
+    "zone": "Isla de Moon",
+    "subzone": "Bosque de las máscaras",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 865,
+    "y": -556.4
+  },
+  {
+    "spawn_id": "81757765-5173-441e-811d-05e56fbda56c",
+    "archi_id": "213",
+    "zone": "Isla de Moon",
+    "subzone": "Bosque de las máscaras",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 865,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "eb2d29a1-ff52-4196-a5d2-21a9e2211879",
+    "archi_id": "214",
+    "zone": "Isla de Moon",
+    "subzone": "Bosque de las máscaras",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 871.9,
+    "y": -556.4
+  },
+  {
+    "spawn_id": "b699f453-9b9e-4d4e-89fc-3add0f337764",
+    "archi_id": "212",
+    "zone": "Isla de Moon",
+    "subzone": "Bosque de las máscaras",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 858.1,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "879c991e-f41f-448b-9baf-df2fb79a4c03",
+    "archi_id": "81",
+    "zone": "Amakna",
+    "subzone": "La montaña de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -471.4
+  },
+  {
+    "spawn_id": "8ca86ba7-0d0d-483f-b579-f101480ed36a",
+    "archi_id": "84",
+    "zone": "Amakna",
+    "subzone": "La montaña de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "c785a82a-d029-4b46-a398-03d7317c8e6d",
+    "archi_id": "235",
+    "zone": "Amakna",
+    "subzone": "La montaña de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -461.4
+  },
+  {
+    "spawn_id": "551d1978-bab9-4261-81cf-12878d3ffc5e",
+    "archi_id": "83",
+    "zone": "Amakna",
+    "subzone": "La montaña de los crujidores",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -471.4
+  },
+  {
+    "spawn_id": "07342a96-03ee-473d-b049-c1e61cb241c9",
+    "archi_id": "5804",
+    "zone": "Amakna",
+    "subzone": "Santuario de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -626.4
+  },
+  {
+    "spawn_id": "6db75ec1-e48c-4990-83ca-de00f876a6a5",
+    "archi_id": "855",
+    "zone": "Amakna",
+    "subzone": "Santuario de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -616.4
+  },
+  {
+    "spawn_id": "70a7b507-de19-4772-a6f9-c329c5c5b2a7",
+    "archi_id": "853",
+    "zone": "Amakna",
+    "subzone": "Santuario de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 623.5,
+    "y": -616.4
+  },
+  {
+    "spawn_id": "a955cb4d-55b8-492c-aba5-6dba95da5ce0",
+    "archi_id": "862",
+    "zone": "Amakna",
+    "subzone": "Santuario de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -616.4
+  },
+  {
+    "spawn_id": "0841785b-6cb2-4771-8618-cc90868874ba",
+    "archi_id": "6222",
+    "zone": "Isla de Pandala",
+    "subzone": "Tierradala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 830.5,
+    "y": -376.4
+  },
+  {
+    "spawn_id": "d0575171-2213-499a-991e-5facad527b05",
+    "archi_id": "6223",
+    "zone": "Isla de Pandala",
+    "subzone": "Tierradala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 830.5,
+    "y": -366.4
+  },
+  {
+    "spawn_id": "edc3c3cf-eafa-4ddb-8b18-04b40161b61d",
+    "archi_id": "6220",
+    "zone": "Isla de Pandala",
+    "subzone": "Tierradala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 816.7,
+    "y": -366.4
+  },
+  {
+    "spawn_id": "535e1579-c166-43ee-be27-2f8c771974ae",
+    "archi_id": "6221",
+    "zone": "Isla de Pandala",
+    "subzone": "Tierradala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 816.7,
+    "y": -376.4
+  },
+  {
+    "spawn_id": "0622cd8a-6614-4f29-bdb9-1f7c04218968",
+    "archi_id": "1076",
+    "zone": "Isla de Otomai",
+    "subzone": "Oscura Jungla",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 299.2,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "4a500295-948d-4936-8848-2614f84f9758",
+    "archi_id": "1074",
+    "zone": "Isla de Otomai",
+    "subzone": "Oscura Jungla",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 271.6,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "a3bdc924-4ab2-4ce0-add6-ee90ee0b4a24",
+    "archi_id": "1073",
+    "zone": "Isla de Otomai",
+    "subzone": "Oscura Jungla",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 299.2,
+    "y": -581.4
+  },
+  {
+    "spawn_id": "b6476b81-20af-46fe-bb5c-2ca2e8422d12",
+    "archi_id": "1041",
+    "zone": "Isla de Otomai",
+    "subzone": "Oscura Jungla",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 285.4,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "9a921de5-6bd6-4f2c-b665-c482fc8af561",
+    "archi_id": "1075",
+    "zone": "Isla de Otomai",
+    "subzone": "Oscura Jungla",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 292.3,
+    "y": -591.4
+  },
+  {
+    "spawn_id": "23f05821-5cb4-4cee-a183-065ac6a5e3a3",
+    "archi_id": "1029",
+    "zone": "Isla de Otomai",
+    "subzone": "Oscura Jungla",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 271.6,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "10f409e8-8628-4465-abbb-1590fc4616c2",
+    "archi_id": "1077",
+    "zone": "Isla de Otomai",
+    "subzone": "Oscura Jungla",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 278.5,
+    "y": -591.4
+  },
+  {
+    "spawn_id": "e01e3e13-0793-42b7-982a-6531f5f83716",
+    "archi_id": "76",
+    "zone": "Amakna",
+    "subzone": "Península de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 602.8,
+    "y": -656.4
+  },
+  {
+    "spawn_id": "39fedc1c-072f-4488-8b0b-e4aff7dd3eae",
+    "archi_id": "88",
+    "zone": "Amakna",
+    "subzone": "Península de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -656.4
+  },
+  {
+    "spawn_id": "37449b63-c192-496a-bfbe-6fe3cca6054f",
+    "archi_id": "87",
+    "zone": "Amakna",
+    "subzone": "Península de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "228370d6-2a86-4a2c-ba2f-3dc13bd2686a",
+    "archi_id": "89",
+    "zone": "Amakna",
+    "subzone": "Península de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 602.8,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "7ffed702-4ec3-4e28-9cfd-a02bb5648af5",
+    "archi_id": "1048",
+    "zone": "Isla de Otomai",
+    "subzone": "Arca de Otomai",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 264.7,
+    "y": -471.4
+  },
+  {
+    "spawn_id": "4e837735-033d-4138-a2ca-5a5c63203940",
+    "archi_id": "1049",
+    "zone": "Isla de Otomai",
+    "subzone": "Arca de Otomai",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 278.5,
+    "y": -471.4
+  },
+  {
+    "spawn_id": "eeb3f31f-ea7b-40a5-a955-8172bd9db2d1",
+    "archi_id": "932",
+    "zone": "Brakmar",
+    "subzone": "Afueras de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 499.3,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "219a6e4b-a453-4e60-a00e-2afee867363a",
+    "archi_id": "378",
+    "zone": "Brakmar",
+    "subzone": "Afueras de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 478.6,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "7cc972d7-7b0b-4694-9572-4f969c3ed094",
+    "archi_id": "380",
+    "zone": "Brakmar",
+    "subzone": "Afueras de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 437.2,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "3f5982a7-ba8a-4772-8e39-cc4f2fa62309",
+    "archi_id": "379",
+    "zone": "Brakmar",
+    "subzone": "Afueras de Brakmar",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 457.9,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "05b8d4bd-a735-42c9-a475-ae5dd508dd29",
+    "archi_id": "3558",
+    "zone": "Llanuras de Cania",
+    "subzone": "Dientes de Piedra",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 595.9,
+    "y": -226.4
+  },
+  {
+    "spawn_id": "629ae3d7-90f6-4628-a4e5-a269a281a19f",
+    "archi_id": "3560",
+    "zone": "Llanuras de Cania",
+    "subzone": "Dientes de Piedra",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -246.4
+  },
+  {
+    "spawn_id": "22324e9a-3581-4d47-8e83-a6a95e285370",
+    "archi_id": "3562",
+    "zone": "Llanuras de Cania",
+    "subzone": "Dientes de Piedra",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 595.9,
+    "y": -246.4
+  },
+  {
+    "spawn_id": "b2cdddf1-d66c-4d00-b148-328eab545218",
+    "archi_id": "3559",
+    "zone": "Llanuras de Cania",
+    "subzone": "Dientes de Piedra",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 623.5,
+    "y": -246.4
+  },
+  {
+    "spawn_id": "ca574aec-00e0-413c-a264-4fec767a9110",
+    "archi_id": "3561",
+    "zone": "Llanuras de Cania",
+    "subzone": "Dientes de Piedra",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 609.7,
+    "y": -226.4
+  },
+  {
+    "spawn_id": "9967c4f4-ddc9-44c1-b189-577bb8faf4e6",
+    "archi_id": "3558",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los kanigs",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 637.3,
+    "y": -231.4
+  },
+  {
+    "spawn_id": "e11cf79b-0fa6-4707-8860-2375b2ef8690",
+    "archi_id": "3560",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los kanigs",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -231.4
+  },
+  {
+    "spawn_id": "a1228b80-c077-4828-a5eb-4c9ac1ecb4d7",
+    "archi_id": "3562",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los kanigs",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -231.4
+  },
+  {
+    "spawn_id": "55014485-235c-4c87-a12d-f1c3c83aa574",
+    "archi_id": "3559",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los kanigs",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 664.9,
+    "y": -221.4
+  },
+  {
+    "spawn_id": "c1e71ffc-6671-48dd-af8e-7e2db03a2694",
+    "archi_id": "3561",
+    "zone": "Llanuras de Cania",
+    "subzone": "Pueblo de los kanigs",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 651.1,
+    "y": -221.4
+  },
+  {
+    "spawn_id": "bf60b21e-9854-4f20-a9b8-07e5b904f76d",
+    "archi_id": "102",
+    "zone": "Landas de Sidimote",
+    "subzone": "Altos de los Aullidos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 478.6,
+    "y": -471.4
+  },
+  {
+    "spawn_id": "8ca08271-74b4-4b90-bd09-c0d3c4d68108",
+    "archi_id": "749",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Valle de la Muertekemata",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 540.7,
+    "y": -561.4
+  },
+  {
+    "spawn_id": "a3372ae4-5a29-4b84-adb9-1ebf51a06efa",
+    "archi_id": "744",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Valle de la Muertekemata",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "ecf78e71-be6d-4269-9ed0-f8361819e696",
+    "archi_id": "756",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Valle de la Muertekemata",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -561.4
+  },
+  {
+    "spawn_id": "de1bfeb3-4544-442a-8853-1219d881190d",
+    "archi_id": "745",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Valle de la Muertekemata",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 526.9,
+    "y": -571.4
+  },
+  {
+    "spawn_id": "8fa73791-06b1-4e4b-a0f5-87097dd94ec3",
+    "archi_id": "783",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Valle de la Muertekemata",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -561.4
+  },
+  {
+    "spawn_id": "081dea68-cafe-44f4-aa16-82f867b70feb",
+    "archi_id": "6217",
+    "zone": "Isla de Pandala",
+    "subzone": "Airedala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 802.9,
+    "y": -321.4
+  },
+  {
+    "spawn_id": "4dc97c66-e0c6-4d88-be78-980abfc0fa85",
+    "archi_id": "6214",
+    "zone": "Isla de Pandala",
+    "subzone": "Airedala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 789.1,
+    "y": -321.4
+  },
+  {
+    "spawn_id": "600ea982-a0cc-4f69-8a61-890e8e6e47d8",
+    "archi_id": "6215",
+    "zone": "Isla de Pandala",
+    "subzone": "Airedala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 802.9,
+    "y": -311.4
+  },
+  {
+    "spawn_id": "e168363a-f606-4271-bdc8-c2f2f92cc725",
+    "archi_id": "6216",
+    "zone": "Isla de Pandala",
+    "subzone": "Airedala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 789.1,
+    "y": -311.4
+  },
+  {
+    "spawn_id": "5980b7cb-d4ac-4d13-a623-d99a2aa35d5d",
+    "archi_id": "761",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cementerio primitivo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -596.4
+  },
+  {
+    "spawn_id": "708c4257-3560-4629-a821-9b2e0d0026f4",
+    "archi_id": "759",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cementerio primitivo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 582.1,
+    "y": -596.4
+  },
+  {
+    "spawn_id": "7dc2d227-c3be-40e1-b205-fdecd15cf30e",
+    "archi_id": "760",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cementerio primitivo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "a24e2a8e-b860-4003-8042-90f73ffea010",
+    "archi_id": "758",
+    "zone": "Montaña de los koalaks",
+    "subzone": "Cementerio primitivo",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 582.1,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "9e48fdc8-3e5a-45b6-8273-04772493b52d",
+    "archi_id": "1046",
+    "zone": "Isla de Otomai",
+    "subzone": "Tronco del árbol Hakam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 271.6,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "3e9b3176-54c9-42dc-8c84-c1678fc6c1b2",
+    "archi_id": "1043",
+    "zone": "Isla de Otomai",
+    "subzone": "Tronco del árbol Hakam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 285.4,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "99635b91-d830-4170-88bc-4c7f526647b3",
+    "archi_id": "1044",
+    "zone": "Isla de Otomai",
+    "subzone": "Tronco del árbol Hakam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 278.5,
+    "y": -546.4
+  },
+  {
+    "spawn_id": "35c46b36-d44f-471b-be2f-e6c3701bc8d5",
+    "archi_id": "1020",
+    "zone": "Isla de Otomai",
+    "subzone": "Tronco del árbol Hakam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 285.4,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "91693737-6bb7-4d6c-882b-9c564b5c474b",
+    "archi_id": "1047",
+    "zone": "Isla de Otomai",
+    "subzone": "Tronco del árbol Hakam",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 271.6,
+    "y": -551.4
+  },
+  {
+    "spawn_id": "e8f73267-28b4-4ba0-9458-a16ea5989de5",
+    "archi_id": "1055",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de los zoths",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 306.1,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "1d6621d1-2719-4a24-bb4f-a5566fa51ac1",
+    "archi_id": "1053",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de los zoths",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 278.5,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "1a6ad946-ed92-4c1a-a8a9-20a49a44cc12",
+    "archi_id": "1054",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de los zoths",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 285.4,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "9cb80501-0e8e-4f14-87e6-00f7f97640bb",
+    "archi_id": "1056",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de los zoths",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 299.2,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "6fedace9-806e-49e9-a956-dcd17f1cf855",
+    "archi_id": "1052",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de los zoths",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 292.3,
+    "y": -586.4
+  },
+  {
+    "spawn_id": "6ab14db8-31fb-4619-86e3-a2324b9c2f81",
+    "archi_id": "1055",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de la canopea",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 271.6,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "466c35b7-167b-413d-937f-d86ffe442b37",
+    "archi_id": "1053",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de la canopea",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 285.4,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "d04fd9e8-0f33-4ad0-90a7-59ffd5418f39",
+    "archi_id": "1054",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de la canopea",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 278.5,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "d98dc623-6ee1-4c04-87e7-1fa36e972df0",
+    "archi_id": "1056",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de la canopea",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 264.7,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "2ed9db56-f84d-45e8-a98c-685c302c6846",
+    "archi_id": "1052",
+    "zone": "Isla de Otomai",
+    "subzone": "Pueblo de la canopea",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 292.3,
+    "y": -566.4
+  },
+  {
+    "spawn_id": "05c51337-bd86-40ba-b14f-1ea9cedb0640",
+    "archi_id": "878",
+    "zone": "Amakna",
+    "subzone": "Pueblo de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -626.4
+  },
+  {
+    "spawn_id": "80cf3a0d-1b73-4a76-af9f-b5a918a7f495",
+    "archi_id": "905",
+    "zone": "Amakna",
+    "subzone": "Pueblo de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -621.4
+  },
+  {
+    "spawn_id": "87b3501f-29ab-4f56-bddb-1bdc9a3a0753",
+    "archi_id": "879",
+    "zone": "Amakna",
+    "subzone": "Pueblo de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -626.4
+  },
+  {
+    "spawn_id": "a739b98e-e4b3-4d7e-90cc-2b7257d80a1a",
+    "archi_id": "858",
+    "zone": "Amakna",
+    "subzone": "Pueblo de los dragohuevos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -621.4
+  },
+  {
+    "spawn_id": "0e3239a3-b80f-4eab-a6e6-47ab4997a0d0",
+    "archi_id": "878",
+    "zone": "Amakna",
+    "subzone": "Subterráneos de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 616.6,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "71990e0d-663f-4d5b-8d1d-e6b86accec24",
+    "archi_id": "905",
+    "zone": "Amakna",
+    "subzone": "Subterráneos de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -636.4
+  },
+  {
+    "spawn_id": "fd9be4ab-429f-4a8f-b497-4f0aec2cfda9",
+    "archi_id": "879",
+    "zone": "Amakna",
+    "subzone": "Subterráneos de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 623.5,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "979a6934-4064-4012-8b58-9ff3888037bd",
+    "archi_id": "858",
+    "zone": "Amakna",
+    "subzone": "Subterráneos de los dragohuevos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 630.4,
+    "y": -641.4
+  },
+  {
+    "spawn_id": "f1124c79-abba-4590-b499-1ff1f32894fc",
+    "archi_id": "6254",
+    "zone": "Isla de Pandala",
+    "subzone": "Fuegodala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 761.5,
+    "y": -336.4
+  },
+  {
+    "spawn_id": "64f77ee7-fa77-4b63-91b1-aede5274c8b2",
+    "archi_id": "6253",
+    "zone": "Isla de Pandala",
+    "subzone": "Fuegodala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 747.7,
+    "y": -336.4
+  },
+  {
+    "spawn_id": "5b22f40d-0cb4-4213-af7a-ccff6e297f9a",
+    "archi_id": "6251",
+    "zone": "Isla de Pandala",
+    "subzone": "Fuegodala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 761.5,
+    "y": -326.4
+  },
+  {
+    "spawn_id": "6c8a4911-bbc9-4349-9251-107e13a4bbf4",
+    "archi_id": "6252",
+    "zone": "Isla de Pandala",
+    "subzone": "Fuegodala",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 747.7,
+    "y": -326.4
+  },
+  {
+    "spawn_id": "1832ff30-7ee1-4d6c-b744-6c7aebc6ceb5",
+    "archi_id": "1043",
+    "zone": "Isla de Otomai",
+    "subzone": "Las ramas del árbol Hakam",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 271.6,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "07f21eca-c5b4-4fb6-9c65-d41df454bf9f",
+    "archi_id": "1044",
+    "zone": "Isla de Otomai",
+    "subzone": "Las ramas del árbol Hakam",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 278.5,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "7a89b06b-b228-41d8-a5d2-22ede0ef8acd",
+    "archi_id": "1020",
+    "zone": "Isla de Otomai",
+    "subzone": "Las ramas del árbol Hakam",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 285.4,
+    "y": -541.4
+  },
+  {
+    "spawn_id": "bf8b07a0-c8ba-47ab-9d47-cb7a2ab0f72c",
+    "archi_id": "1154",
+    "zone": "Landas de Sidimote",
+    "subzone": "Territorio de los fongos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "9e102777-b43a-4884-a484-163822c9b07b",
+    "archi_id": "1153",
+    "zone": "Landas de Sidimote",
+    "subzone": "Territorio de los fongos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "507bcf75-ad13-47eb-86f4-55f46ec585e1",
+    "archi_id": "1158",
+    "zone": "Landas de Sidimote",
+    "subzone": "Territorio de los fongos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -651.4
+  },
+  {
+    "spawn_id": "02ec7699-12da-43c5-8cdd-8919bdb1b9fe",
+    "archi_id": "1156",
+    "zone": "Landas de Sidimote",
+    "subzone": "Territorio de los fongos",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 568.3,
+    "y": -651.4
+  },
+  {
+    "spawn_id": "ac79badf-b51a-4986-aee8-f2223b002a3a",
+    "archi_id": "1155",
+    "zone": "Landas de Sidimote",
+    "subzone": "Caverna de los fongos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "0c486f87-1cc4-4f45-ab32-0eed15ef9d12",
+    "archi_id": "1157",
+    "zone": "Landas de Sidimote",
+    "subzone": "Caverna de los fongos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 589,
+    "y": -666.4
+  },
+  {
+    "spawn_id": "3914ddca-cc6b-4194-961b-f900ac1ce22d",
+    "archi_id": "1158",
+    "zone": "Landas de Sidimote",
+    "subzone": "Caverna de los fongos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 554.5,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "6f0b99dd-aae5-4f96-876c-e16a58a2d43c",
+    "archi_id": "1156",
+    "zone": "Landas de Sidimote",
+    "subzone": "Caverna de los fongos",
+    "underground": true,
+    "cooldown_minutes": 60,
+    "x": 589,
+    "y": -646.4
+  },
+  {
+    "spawn_id": "5ea4bf78-b04b-40c4-89dc-66d78e9c227d",
+    "archi_id": "6383",
+    "zone": "Isla de Grobe",
+    "subzone": "Cementerio de Grobe",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 878.8,
+    "y": -291.4
+  },
+  {
+    "spawn_id": "7f6977a1-c6b2-4f75-ba3d-20d3e2fd2682",
+    "archi_id": "6384",
+    "zone": "Isla de Grobe",
+    "subzone": "Cementerio de Grobe",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 892.6,
+    "y": -281.4
+  },
+  {
+    "spawn_id": "4fbdabae-fba4-4df0-a48b-9e3e18e57392",
+    "archi_id": "6385",
+    "zone": "Isla de Grobe",
+    "subzone": "Cementerio de Grobe",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 878.8,
+    "y": -281.4
+  },
+  {
+    "spawn_id": "1c007fc1-1cee-4407-bd1f-b9788cec6da3",
+    "archi_id": "6386",
+    "zone": "Isla de Grobe",
+    "subzone": "Cementerio de Grobe",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 892.6,
+    "y": -291.4
+  },
+  {
+    "spawn_id": "85184c5e-cb4e-4224-a2c2-59e560250dd9",
+    "archi_id": "6389",
+    "zone": "Isla de Grobe",
+    "subzone": "Monte de las Tumbas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 920.2,
+    "y": -286.4
+  },
+  {
+    "spawn_id": "6c6460d1-6a13-4432-84d4-3f135366c64c",
+    "archi_id": "6390",
+    "zone": "Isla de Grobe",
+    "subzone": "Monte de las Tumbas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 920.2,
+    "y": -266.4
+  },
+  {
+    "spawn_id": "6682f9a7-aae7-42af-b5ee-c48b6c880cb5",
+    "archi_id": "6391",
+    "zone": "Isla de Grobe",
+    "subzone": "Monte de las Tumbas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 920.2,
+    "y": -296.4
+  },
+  {
+    "spawn_id": "4efa7628-a7d3-4d22-b2f2-bfb90718a9ac",
+    "archi_id": "6392",
+    "zone": "Isla de Grobe",
+    "subzone": "Monte de las Tumbas",
+    "underground": false,
+    "cooldown_minutes": 60,
+    "x": 920.2,
+    "y": -276.4
+  }
+]

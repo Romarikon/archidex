@@ -1,0 +1,8582 @@
+[
+  {
+    "id": "126",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Grey Moumouse",
+        "archi": "Famoumouse the Little-Known"
+      },
+      "de": {
+        "mob": "Graue Hausmaus",
+        "archi": "Hausmausus Atlantis die Grausame"
+      },
+      "fr": {
+        "mob": "Sousouris Grise",
+        "archi": "Sousourizoto le Collant"
+      },
+      "it": {
+        "mob": "Topo Grigio",
+        "archi": "Toporisotto l'Appiccicoso"
+      },
+      "es": {
+        "mob": "Raratón gris",
+        "archi": "Raratom Raider la Curvas"
+      },
+      "pt": {
+        "mob": "Cacamundongo Cinza",
+        "archi": "Cacamufoso, o Desconhecido"
+      }
+    }
+  },
+  {
+    "id": "61",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Moskito",
+        "archi": "Moskoitus the Interruptor"
+      },
+      "de": {
+        "mob": "Moskito",
+        "archi": "Mosgridoo der Hilfsbereite"
+      },
+      "fr": {
+        "mob": "Moskito",
+        "archi": "Mosketère le Dévoué"
+      },
+      "it": {
+        "mob": "Moskito",
+        "archi": "Moskittiere il Devoto"
+      },
+      "es": {
+        "mob": "Moskito",
+        "archi": "Mashkira la Rubia de Bote"
+      },
+      "pt": {
+        "mob": "Moskito",
+        "archi": "Moskoitos, o Interruptor"
+      }
+    }
+  },
+  {
+    "id": "52",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Arachnee",
+        "archi": "Arakula the Carpature"
+      },
+      "de": {
+        "mob": "Arachnee",
+        "archi": "Arachneeh die Gative"
+      },
+      "fr": {
+        "mob": "Arakne",
+        "archi": "Arakule la Revancharde"
+      },
+      "it": {
+        "mob": "Arakne",
+        "archi": "Arakcina la Ripiena"
+      },
+      "es": {
+        "mob": "Arakna",
+        "archi": "Arakniry la Destripada"
+      },
+      "pt": {
+        "mob": "Arakne",
+        "archi": "Arakula, o Capturador"
+      }
+    }
+  },
+  {
+    "id": "134",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "White Gobbly",
+        "archi": "Gobbach the Contrapuntaler"
+      },
+      "de": {
+        "mob": "Weisses Fresssäckchen",
+        "archi": "Fresssälchowchen der Kweißel"
+      },
+      "fr": {
+        "mob": "Boufton Blanc",
+        "archi": "Boudalf le Blanc"
+      },
+      "it": {
+        "mob": "Pappaton Bianco",
+        "archi": "Pappadalf il Bianco"
+      },
+      "es": {
+        "mob": "Jalatín blanco",
+        "archi": "Jalatintin el Reportero"
+      },
+      "pt": {
+        "mob": "Paparneiro Branco",
+        "archi": "Gobbach, ContraTrocadilho"
+      }
+    }
+  },
+  {
+    "id": "149",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Black Gobbly",
+        "archi": "Gobballyhoo the Noisy"
+      },
+      "de": {
+        "mob": "Schwarzes Fresssäckchen",
+        "archi": "Schwaigerzes Fresstilläckchen das Einsame"
+      },
+      "fr": {
+        "mob": "Boufton Noir",
+        "archi": "Boulgourvil le Lointain"
+      },
+      "it": {
+        "mob": "Pappaton Nero",
+        "archi": "Pappapollo il Nero"
+      },
+      "es": {
+        "mob": "Jalatín negro",
+        "archi": "Jalatintanic el Hundido"
+      },
+      "pt": {
+        "mob": "Paparneiro Negro",
+        "archi": "Gobbalirro, o Barulhento"
+      }
+    }
+  },
+  {
+    "id": "111",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Evil Tofu",
+        "archi": "Tofulsom the Jailer"
+      },
+      "de": {
+        "mob": "Schattentofu",
+        "archi": "Satofu der Dunkle"
+      },
+      "fr": {
+        "mob": "Tofu Maléfique",
+        "archi": "Tofumanchou l'Empereur"
+      },
+      "it": {
+        "mob": "Tofu Malefico",
+        "archi": "Tofumanchu l'Imperatore"
+      },
+      "es": {
+        "mob": "Tofu maléfico",
+        "archi": "Tofumantxú el Mítico"
+      },
+      "pt": {
+        "mob": "Tofu Maléfico",
+        "archi": "Tofulsom, o Carcereiro"
+      }
+    }
+  },
+  {
+    "id": "474",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Sick Arachnee",
+        "archi": "Arachnangel the Hopeful"
+      },
+      "de": {
+        "mob": "Kranke Arachnee",
+        "archi": "Arachniesanfall die Kranke"
+      },
+      "fr": {
+        "mob": "Arakne Malade",
+        "archi": "Arachitik la Souffreteuse"
+      },
+      "it": {
+        "mob": "Arakne Malata",
+        "archi": "Arachitik la Sofferente"
+      },
+      "es": {
+        "mob": "Arakna enferma",
+        "archi": "Arkandinska la Lírica"
+      },
+      "pt": {
+        "mob": "Arakne Doente",
+        "archi": "Arakítica, a Delgada"
+      }
+    }
+  },
+  {
+    "id": "491",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Blue Piwi",
+        "archi": "Piwiki the Witty"
+      },
+      "de": {
+        "mob": "Blauer Piepmatz",
+        "archi": "Blaudürren Mattpieper der Friedliche"
+      },
+      "fr": {
+        "mob": "Piou Bleu",
+        "archi": "Pioustone le Problème"
+      },
+      "it": {
+        "mob": "Pìu Blu",
+        "archi": "Piuston il Problema"
+      },
+      "es": {
+        "mob": "Pío azul",
+        "archi": "Pioch el Arenil"
+      },
+      "pt": {
+        "mob": "Piu Azul",
+        "archi": "Piwiki, o Genial"
+      }
+    }
+  },
+  {
+    "id": "493",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Yellow Piwi",
+        "archi": "Piwicker the Manly"
+      },
+      "de": {
+        "mob": "Gelber Piepmatz",
+        "archi": "Piepmatzundmoritz der Buschige"
+      },
+      "fr": {
+        "mob": "Piou Jaune",
+        "archi": "Pioulbrineur le Mercenaire"
+      },
+      "it": {
+        "mob": "Pìu Giallo",
+        "archi": "Piulbrinner il Mercenario"
+      },
+      "es": {
+        "mob": "Pío amarillo",
+        "archi": "Piokacho el Eléctrico"
+      },
+      "pt": {
+        "mob": "Piu Amarelo",
+        "archi": "Piwicker, o Macho"
+      }
+    }
+  },
+  {
+    "id": "489",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Red Piwi",
+        "archi": "Piwilde the Bossie"
+      },
+      "de": {
+        "mob": "Roter Piepmatz",
+        "archi": "Rotwolf Piepersen der Ruhige"
+      },
+      "fr": {
+        "mob": "Piou Rouge",
+        "archi": "Pioulette la Coquine"
+      },
+      "it": {
+        "mob": "Pìu Rosso",
+        "archi": "Piollastrella la Monella"
+      },
+      "es": {
+        "mob": "Pío rojo",
+        "archi": "Capioricito Rojo el Forestal"
+      },
+      "pt": {
+        "mob": "Piu Vermelho",
+        "archi": "Piwigem, o Chefe"
+      }
+    }
+  },
+  {
+    "id": "490",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Green Piwi",
+        "archi": "Piwiliam the Brave"
+      },
+      "de": {
+        "mob": "Grüner Piepmatz",
+        "archi": "Gröner Piepmeyermatz der Energische"
+      },
+      "fr": {
+        "mob": "Piou Vert",
+        "archi": "Pioukas la Plante"
+      },
+      "it": {
+        "mob": "Pìu Verde",
+        "archi": "Piugile lo Sportivo"
+      },
+      "es": {
+        "mob": "Pío verde",
+        "archi": "Spionter Vellde el Peligroso"
+      },
+      "pt": {
+        "mob": "Piu Verde",
+        "archi": "Piwiliam, o Valente"
+      }
+    }
+  },
+  {
+    "id": "236",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Purple Piwi",
+        "archi": "Piwinston the Churlish"
+      },
+      "de": {
+        "mob": "Violetter Piepmatz",
+        "archi": "Violetter Pietzematsch der Trostlose"
+      },
+      "fr": {
+        "mob": "Piou Violet",
+        "archi": "Pioussokrim le Délétère"
+      },
+      "it": {
+        "mob": "Pìu Viola",
+        "archi": "Piustifero il Deleterio"
+      },
+      "es": {
+        "mob": "Pío violeta",
+        "archi": "Spío el Dragón"
+      },
+      "pt": {
+        "mob": "Piu Violeta",
+        "archi": "Piwinston, o Rude"
+      }
+    }
+  },
+  {
+    "id": "63",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Crab",
+        "archi": "Krabaoly the Patient"
+      },
+      "de": {
+        "mob": "Krebs",
+        "archi": "Kaolyrebs der Bewehrte"
+      },
+      "fr": {
+        "mob": "Crabe",
+        "archi": "Craraboss le Féérique"
+      },
+      "it": {
+        "mob": "Granchio",
+        "archi": "Granchiotto il Tradito"
+      },
+      "es": {
+        "mob": "Cangrejo",
+        "archi": "Cangri-doo la Hadada"
+      },
+      "pt": {
+        "mob": "Caranguejo",
+        "archi": "Krabaoli, o Paciente"
+      }
+    }
+  },
+  {
+    "id": "31",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Blue Larva",
+        "archi": "Larvalaska the Cold"
+      },
+      "de": {
+        "mob": "Blaue Larve",
+        "archi": "Larvendel der Duftende"
+      },
+      "fr": {
+        "mob": "Larve Bleue",
+        "archi": "Larvonika l'Instrument"
+      },
+      "it": {
+        "mob": "Larva Blu",
+        "archi": "Larvonika lo Strumento"
+      },
+      "es": {
+        "mob": "Larva azul",
+        "archi": "Larvichuela Jack la Mágica"
+      },
+      "pt": {
+        "mob": "Larva Azul",
+        "archi": "Larvalaska, a Fria"
+      }
+    }
+  },
+  {
+    "id": "492",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Pink Piwi",
+        "archi": "Piwi the Ermine"
+      },
+      "de": {
+        "mob": "Rosa Piepmatz",
+        "archi": "Piepmatz Allee die Rosafarbene"
+      },
+      "fr": {
+        "mob": "Piou Rose",
+        "archi": "Pioufe la Maquillée"
+      },
+      "it": {
+        "mob": "Pìu Rosa",
+        "archi": "Piochetta la Truccata"
+      },
+      "es": {
+        "mob": "Pío rosa",
+        "archi": "Pido el Greñas"
+      },
+      "pt": {
+        "mob": "Piu Rosa",
+        "archi": "Piwi, o Emplumado"
+      }
+    }
+  },
+  {
+    "id": "98",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Tofu",
+        "archi": "Tofudd the Hunter"
+      },
+      "de": {
+        "mob": "Tofu",
+        "archi": "Toju Mifu der Knuddelige"
+      },
+      "fr": {
+        "mob": "Tofu",
+        "archi": "Tofuldebeu l'Explosif"
+      },
+      "it": {
+        "mob": "Tofu",
+        "archi": "Tofalladifuoco l'Esplosivo"
+      },
+      "es": {
+        "mob": "Tofu",
+        "archi": "Satofu el PlasticPaddy"
+      },
+      "pt": {
+        "mob": "Tofu",
+        "archi": "Tofulo, o Raivoso"
+      }
+    }
+  },
+  {
+    "id": "473",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Sick Tofu",
+        "archi": "Tofull the Optimist"
+      },
+      "de": {
+        "mob": "Kranker Tofu",
+        "archi": "Tofumanchu der Kränkelnde"
+      },
+      "fr": {
+        "mob": "Tofu Malade",
+        "archi": "Tofurapin le Pétri"
+      },
+      "it": {
+        "mob": "Tofu Malato",
+        "archi": "Tofudipane l'Impastato"
+      },
+      "es": {
+        "mob": "Tofu enfermo",
+        "archi": "Tofumado el Alucinado"
+      },
+      "pt": {
+        "mob": "Tofu Doente",
+        "archi": "Tofumado, o Viciado"
+      }
+    }
+  },
+  {
+    "id": "59",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Mush Mush",
+        "archi": "Matmushmush the Flasher"
+      },
+      "de": {
+        "mob": "Pilzling",
+        "archi": "Pilzling Lang der Ergänzende"
+      },
+      "fr": {
+        "mob": "Champ Champ",
+        "archi": "Chamchie le Difficile"
+      },
+      "it": {
+        "mob": "Fun Fung",
+        "archi": "Fungrease il Brillantinato"
+      },
+      "es": {
+        "mob": "Champi champ",
+        "archi": "Champi Casso el Cúbico"
+      },
+      "pt": {
+        "mob": "Cogu Cogu",
+        "archi": "Matcogucogu, o Faiscante"
+      }
+    }
+  },
+  {
+    "id": "79",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Evil Dandelion",
+        "archi": "Dandel the Boy"
+      },
+      "de": {
+        "mob": "Teuflischer Löwenzahn",
+        "archi": "Teuflischer Löwenpeter der Lustige"
+      },
+      "fr": {
+        "mob": "Pissenlit Diabolique",
+        "archi": "Pissdane l'Insipide"
+      },
+      "it": {
+        "mob": "Dente di Leone Diabolico",
+        "archi": "Dentina la Smaltata"
+      },
+      "es": {
+        "mob": "Diente de león diabólico",
+        "archi": "Diente de Lennon el Universal"
+      },
+      "pt": {
+        "mob": "Dente-de-Leão Diabólico",
+        "archi": "Dandel, o Garoto"
+      }
+    }
+  },
+  {
+    "id": "255",
+    "quest_step": 4,
+    "names": {
+      "en": {
+        "mob": "Sewer Arachnee",
+        "archi": "Arachnekros the Aggressive"
+      },
+      "de": {
+        "mob": "Aggressive Arachnee",
+        "archi": "Arachnekros der Aggressive"
+      },
+      "fr": {
+        "mob": "Arakne des Égouts",
+        "archi": "Araknay la Galopante"
+      },
+      "it": {
+        "mob": "Arakne delle Fogne",
+        "archi": "Arakula la Vendicatrice"
+      },
+      "es": {
+        "mob": "Arakna de alcantarilla",
+        "archi": "Araknekros el Salvaje"
+      },
+      "pt": {
+        "mob": "Arakne do Esgoto",
+        "archi": "Araknoz, a Cascuda"
+      }
+    }
+  },
+  {
+    "id": "466",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "One-Armed Bandit",
+        "archi": "Bandirty the Messy"
+      },
+      "de": {
+        "mob": "Einarmiger Bandit",
+        "archi": "Timbandit der Phantastische"
+      },
+      "fr": {
+        "mob": "Bandit Manchot",
+        "archi": "Bandapar l'Exclu"
+      },
+      "it": {
+        "mob": "Bandito Monco",
+        "archi": "Bandimenticato l'Escluso"
+      },
+      "es": {
+        "mob": "Bandido manco",
+        "archi": "Banrí Mantís el Pigmentado"
+      },
+      "pt": {
+        "mob": "Bandido Caça-Níquel",
+        "archi": "Ladinosujo, o Desarrumado"
+      }
+    }
+  },
+  {
+    "id": "78",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Demonic Rose",
+        "archi": "Roseanne the Yanker"
+      },
+      "de": {
+        "mob": "Dämonenrose",
+        "archi": "Dämorenoirose die Wohlgeformte"
+      },
+      "fr": {
+        "mob": "Rose Démoniaque",
+        "archi": "Roz la Magicienne"
+      },
+      "it": {
+        "mob": "Rosa Demoniaca",
+        "archi": "Roz la Maga"
+      },
+      "es": {
+        "mob": "Rosa demoníaca",
+        "archi": "Rochavo Democho el Chispotiado"
+      },
+      "pt": {
+        "mob": "Rosa Demoníaca",
+        "archi": "Rosana, a Nórdica"
+      }
+    }
+  },
+  {
+    "id": "55",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Blue Jelly",
+        "archi": "Jellvis the King"
+      },
+      "de": {
+        "mob": "Blaubeergelee",
+        "archi": "Blaubeer Engelee der Berühmte"
+      },
+      "fr": {
+        "mob": "Gelée Bleue",
+        "archi": "Gelanal le Huileux"
+      },
+      "it": {
+        "mob": "Gelatina Blu",
+        "archi": "Gelanice il Ghiacciolo"
+      },
+      "es": {
+        "mob": "Gelatina azul",
+        "archi": "Gelatiris el Arenero"
+      },
+      "pt": {
+        "mob": "Gelatina Azul",
+        "archi": "Gelaktose, a Açucarada"
+      }
+    }
+  },
+  {
+    "id": "154",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Kwoan",
+        "archi": "Kwoanium the Smart"
+      },
+      "de": {
+        "mob": "Kwoan",
+        "archi": "Kwoane der Cititzen"
+      },
+      "fr": {
+        "mob": "Kwoan",
+        "archi": "Kwoanneur le Frimeur"
+      },
+      "it": {
+        "mob": "Kwan",
+        "archi": "Kwainstein il Geniale"
+      },
+      "es": {
+        "mob": "Kwoan",
+        "archi": "Kwane el Ciudadano"
+      },
+      "pt": {
+        "mob": "Kwânio",
+        "archi": "Kwanium, o Inteligente"
+      }
+    }
+  },
+  {
+    "id": "34",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Green Larva",
+        "archi": "Larvadelaide the Ozie"
+      },
+      "de": {
+        "mob": "Grüne Larve",
+        "archi": "Larveber der Innovative"
+      },
+      "fr": {
+        "mob": "Larve Verte",
+        "archi": "Larchimaide la Poussée"
+      },
+      "it": {
+        "mob": "Larva Verde",
+        "archi": "Larchimede la Spinta"
+      },
+      "es": {
+        "mob": "Larva verde",
+        "archi": "Larvémming el Descerebrado"
+      },
+      "pt": {
+        "mob": "Larva Verde",
+        "archi": "Larvadelaide, o Infantil"
+      }
+    }
+  },
+  {
+    "id": "101",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Gobball",
+        "archi": "Gobballad the Romantic"
+      },
+      "de": {
+        "mob": "Fresssack",
+        "archi": "Fresssack Rament der Schimpfende"
+      },
+      "fr": {
+        "mob": "Bouftou",
+        "archi": "Boufdégou le Refoulant"
+      },
+      "it": {
+        "mob": "Pappatutto",
+        "archi": "Palladifieno il Rotolante"
+      },
+      "es": {
+        "mob": "Jalató",
+        "archi": "Jaleté el Extraterrestre"
+      },
+      "pt": {
+        "mob": "Papatudo",
+        "archi": "Gobbalada, o Romântico"
+      }
+    }
+  },
+  {
+    "id": "300",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Kolerat",
+        "archi": "Koleraspootin the Anesthesialogist"
+      },
+      "de": {
+        "mob": "Kolerat",
+        "archi": "Kolerägiceit die Melodieliebende"
+      },
+      "fr": {
+        "mob": "Kolérat",
+        "archi": "Kolforthe l'Indécollable"
+      },
+      "it": {
+        "mob": "Koleratto",
+        "archi": "Saratogha l'Instaccabile"
+      },
+      "es": {
+        "mob": "Kólerat",
+        "archi": "Kolafuerte el Pegatodo"
+      },
+      "pt": {
+        "mob": "Kolerrato",
+        "archi": "Koleraspotin, o Insensível"
+      }
+    }
+  },
+  {
+    "id": "56",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Mint Jelly",
+        "archi": "Jelleno the Chinny"
+      },
+      "de": {
+        "mob": "Minzgelee",
+        "archi": "Minzgeteleemann der Fleißige"
+      },
+      "fr": {
+        "mob": "Gelée Menthe",
+        "archi": "Geloliaine l'Aérien"
+      },
+      "it": {
+        "mob": "Gelatina Menta",
+        "archi": "Gelsomino il Profumato"
+      },
+      "es": {
+        "mob": "Gelatina de menta",
+        "archi": "Gelazquina el Men"
+      },
+      "pt": {
+        "mob": "Gelatina de Menta",
+        "archi": "Gelanolina, o Gorduroso"
+      }
+    }
+  },
+  {
+    "id": "46",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Orange Larva",
+        "archi": "Larvalencia the Orange"
+      },
+      "de": {
+        "mob": "Orangefarbene Larve",
+        "archi": "Larvenus die Besondere"
+      },
+      "fr": {
+        "mob": "Larve Orange",
+        "archi": "Larvapstrè le Subjectif"
+      },
+      "it": {
+        "mob": "Larva Arancione",
+        "archi": "Larvastratto il Soggettivo"
+      },
+      "es": {
+        "mob": "Larva naranja",
+        "archi": "Larvangoj el Desorejado"
+      },
+      "pt": {
+        "mob": "Larva Laranja",
+        "archi": "Larvalente, a Corajosa"
+      }
+    }
+  },
+  {
+    "id": "288",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Plissken",
+        "archi": "Serpico the Honest"
+      },
+      "de": {
+        "mob": "Schlängelchen",
+        "archi": "Sylfaengelchen die Schuppige"
+      },
+      "fr": {
+        "mob": "Serpentin",
+        "archi": "Serpistol l'Illustre"
+      },
+      "it": {
+        "mob": "Serpentino",
+        "archi": "Serpistol l'Illustre"
+      },
+      "es": {
+        "mob": "Culebrón",
+        "archi": "Culebretty la Fea"
+      },
+      "pt": {
+        "mob": "Serpentino",
+        "archi": "Serpico, o Honesto"
+      }
+    }
+  },
+  {
+    "id": "68",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Black Tiwabbit",
+        "archi": "Tiwana the Tokin'"
+      },
+      "de": {
+        "mob": "Black Tiwabbit",
+        "archi": "Black Tiwabbomritz der Treubleibende"
+      },
+      "fr": {
+        "mob": "Black Tiwabbit",
+        "archi": "Tiwa'Missou le Gateux"
+      },
+      "it": {
+        "mob": "Piccolo Wabbit Newo",
+        "archi": "Tiwa'Misù il Tortolone"
+      },
+      "es": {
+        "mob": "Black pekewabbit",
+        "archi": "Black Tegerwoddit el Swinguero"
+      },
+      "pt": {
+        "mob": "Black Pekewabbit",
+        "archi": "Tiwana, o Sinal"
+      }
+    }
+  },
+  {
+    "id": "153",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Dark Baker",
+        "archi": "Bakeraider the Tomb"
+      },
+      "de": {
+        "mob": "Schattenbäcker",
+        "archi": "Dojo Schattensbäckernglish der Kosmopolit"
+      },
+      "fr": {
+        "mob": "Boulanger Sombre",
+        "archi": "Boudur le Raide"
+      },
+      "it": {
+        "mob": "Panettiere Oscuro",
+        "archi": "Buduro il Rigido"
+      },
+      "es": {
+        "mob": "Panadero oscuro",
+        "archi": "Paelladero Oscuro el Arrozoso"
+      },
+      "pt": {
+        "mob": "Padeiro Sombrio",
+        "archi": "Padeiro das Tumbas"
+      }
+    }
+  },
+  {
+    "id": "96",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Tiwabbit",
+        "archi": "Tiwaldo the Hidden"
+      },
+      "de": {
+        "mob": "Tiwabbit",
+        "archi": "Tiwasquit der Weise"
+      },
+      "fr": {
+        "mob": "Tiwabbit",
+        "archi": "Tiwalpé le Dévêtu"
+      },
+      "it": {
+        "mob": "Piccolo Wabbit",
+        "archi": "Tiwa'gnudo lo Svestito"
+      },
+      "es": {
+        "mob": "Pekewabbit",
+        "archi": "Pekewasqhabit el Juguetón"
+      },
+      "pt": {
+        "mob": "Pekewabbit",
+        "archi": "Tiwaldo, o Escondido"
+      }
+    }
+  },
+  {
+    "id": "72",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Tiwabbit Wosungwee",
+        "archi": "Tiwascal the Wapper"
+      },
+      "de": {
+        "mob": "Tiwabbit Ischungrig",
+        "archi": "Tiwabbitiger Edf Ischungrig"
+      },
+      "fr": {
+        "mob": "Tiwabbit Kiafin",
+        "archi": "Tiwoflan le Lâche"
+      },
+      "it": {
+        "mob": "Piccolo Wabbit Keafam",
+        "archi": "Tiwannullone il Molliccione"
+      },
+      "es": {
+        "mob": "Pekewabbit Hambriento",
+        "archi": "Pekiwbyt Hambriento el Glotón"
+      },
+      "pt": {
+        "mob": "Pekewabbit Kofome",
+        "archi": "Tiwascal, o Coberto"
+      }
+    }
+  },
+  {
+    "id": "48",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Wild Sunflower",
+        "archi": "Hunflower the Sinful"
+      },
+      "de": {
+        "mob": "Wilde Sonnenblume",
+        "archi": "Strauß der Sonnenblumige"
+      },
+      "fr": {
+        "mob": "Tournesol Sauvage",
+        "archi": "Tour le Vice"
+      },
+      "it": {
+        "mob": "Girasole Selvatico",
+        "archi": "Giroditalia il Ciclista"
+      },
+      "es": {
+        "mob": "Girasol salvaje",
+        "archi": "Gearsol Metalvaje el Espía"
+      },
+      "pt": {
+        "mob": "Girassol Selvagem",
+        "archi": "Barbaflor, o Corrompido"
+      }
+    }
+  },
+  {
+    "id": "155",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Rogue Clan Bandit",
+        "archi": "Bandinamit the Explosive"
+      },
+      "de": {
+        "mob": "Bandit vom Clan der Halsabschneider",
+        "archi": "Banditeras der Herbe"
+      },
+      "fr": {
+        "mob": "Bandit du clan des Roublards",
+        "archi": "Bandson le Tonitruant"
+      },
+      "it": {
+        "mob": "Bandito del Clan dei Ladrurbi",
+        "archi": "Bandinamite l'Esplosivo"
+      },
+      "es": {
+        "mob": "Bandido del clan de los tymadores",
+        "archi": "Bandiras el zorro del clan Los Malagueños"
+      },
+      "pt": {
+        "mob": "Bandido do clã dos Ladinos",
+        "archi": "Ladinamite, o Explosivo"
+      }
+    }
+  },
+  {
+    "id": "178",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Gobnoramus",
+        "archi": "Goblimp the Bis Kit"
+      },
+      "de": {
+        "mob": "Goblin",
+        "archi": "Goyablin der Taube"
+      },
+      "fr": {
+        "mob": "Gobet",
+        "archi": "Gobstiniais le Têtu"
+      },
+      "it": {
+        "mob": "Gobestia",
+        "archi": "Gobstinat il Testardo"
+      },
+      "es": {
+        "mob": "Gobobo",
+        "archi": "Goyablín el Afrancesado"
+      },
+      "pt": {
+        "mob": "Engobelar",
+        "archi": "Gobstinado, o Teimoso"
+      }
+    }
+  },
+  {
+    "id": "218",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Kokonut",
+        "archi": "Kokonan the Talker"
+      },
+      "de": {
+        "mob": "Kokosnoss",
+        "archi": "Kokosnoss Fee Ratu"
+      },
+      "fr": {
+        "mob": "Nodkoko",
+        "archi": "Nodkoku le Trahi"
+      },
+      "it": {
+        "mob": "Nochkoko",
+        "archi": "Nochesita la Notturna"
+      },
+      "es": {
+        "mob": "Nozdekoko",
+        "archi": "Nozdoku el Numérico"
+      },
+      "pt": {
+        "mob": "Kokonkaska",
+        "archi": "Kokonkaskão, o Sujo"
+      }
+    }
+  },
+  {
+    "id": "208",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Tikokoko",
+        "archi": "Eskoko the Baron"
+      },
+      "de": {
+        "mob": "Mikoko",
+        "archi": "Tivikokotoru der Flinke"
+      },
+      "fr": {
+        "mob": "Tikoko",
+        "archi": "Tikosto le Mousse"
+      },
+      "it": {
+        "mob": "Piccolo Kokoko",
+        "archi": "Tikostotanto l'Assicuratore"
+      },
+      "es": {
+        "mob": "Pekekoko",
+        "archi": "Pekekokoitu el Interruptus"
+      },
+      "pt": {
+        "mob": "Pekekoko",
+        "archi": "Eskoko, o Nobre"
+      }
+    }
+  },
+  {
+    "id": "215",
+    "quest_step": 5,
+    "names": {
+      "en": {
+        "mob": "Glukoko",
+        "archi": "Glukoko the Slow"
+      },
+      "de": {
+        "mob": "Klebabb",
+        "archi": "Kleebabbaul der Klebrige"
+      },
+      "fr": {
+        "mob": "Trukikol",
+        "archi": "Trukul le Lent"
+      },
+      "it": {
+        "mob": "Trukikol",
+        "archi": "Trunkuillo il Pacato"
+      },
+      "es": {
+        "mob": "Kosakepega",
+        "archi": "Kosakhiin el Lunítico"
+      },
+      "pt": {
+        "mob": "Kokolante",
+        "archi": "Glukoko, o Lento"
+      }
+    }
+  },
+  {
+    "id": "104",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Boar",
+        "archi": "Boarnigen the Damasker"
+      },
+      "de": {
+        "mob": "Keiler",
+        "archi": "Keiler Biumm der Seltene"
+      },
+      "fr": {
+        "mob": "Sanglier",
+        "archi": "Sangria le Fruité"
+      },
+      "it": {
+        "mob": "Cinghiale",
+        "archi": "Ciangria il Fruttato"
+      },
+      "es": {
+        "mob": "Jabalí",
+        "archi": "Jabachlí el Casto"
+      },
+      "pt": {
+        "mob": "Javali",
+        "archi": "Javalisso, o Avermelhado"
+      }
+    }
+  },
+  {
+    "id": "652",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Green Spimush",
+        "archi": "Spimushtache the Hairy"
+      },
+      "de": {
+        "mob": "Grüner Spipilz",
+        "archi": "Grüner Knoblähspipilz der Giftige"
+      },
+      "fr": {
+        "mob": "Champa Vert",
+        "archi": "Champayr le Disjoncté"
+      },
+      "it": {
+        "mob": "Fung Verde",
+        "archi": "Fungiago il Traditore"
+      },
+      "es": {
+        "mob": "Champo verde",
+        "archi": "Champolís el Astronauta"
+      },
+      "pt": {
+        "mob": "Cogum Verde",
+        "archi": "Spicogugodon, o Cabeludo"
+      }
+    }
+  },
+  {
+    "id": "927",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Starfish Trooper",
+        "archi": "Stary the Strooper"
+      },
+      "de": {
+        "mob": "Assel-Seestern",
+        "archi": "Sternchenhäppchen"
+      },
+      "fr": {
+        "mob": "Étoile de la Mer d'Asse",
+        "archi": "Étoilette la Bouchée"
+      },
+      "it": {
+        "mob": "Stella del Mare di Asse",
+        "archi": "Stellatrina l'Otturata"
+      },
+      "es": {
+        "mob": "Estrella del mar Rano",
+        "archi": "Estroilette la Atascada"
+      },
+      "pt": {
+        "mob": "Estrela do Mar Mota",
+        "archi": "Privatta, a Entupida"
+      }
+    }
+  },
+  {
+    "id": "127",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Vampire",
+        "archi": "Vamp the Impalest"
+      },
+      "de": {
+        "mob": "Vampir",
+        "archi": "Vampgoch der Entohrte"
+      },
+      "fr": {
+        "mob": "Vampire",
+        "archi": "Vampunor le Glacial"
+      },
+      "it": {
+        "mob": "Vampiro",
+        "archi": "Vampato il Febbricitante"
+      },
+      "es": {
+        "mob": "Vampiro",
+        "archi": "Vamorespirros el Múltiple"
+      },
+      "pt": {
+        "mob": "Vampiro",
+        "archi": "Vamp, o Empalador"
+      }
+    }
+  },
+  {
+    "id": "278",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Coco Biblop",
+        "archi": "Biblopopo the Organiser"
+      },
+      "de": {
+        "mob": "Kokos Biblob",
+        "archi": "Bitoebloob der Kokomplexe"
+      },
+      "fr": {
+        "mob": "Biblop Coco",
+        "archi": "Bilvoezé le Bonimenteur"
+      },
+      "it": {
+        "mob": "Biblop Cocco",
+        "archi": "Bimbonitore il Ciarlatano"
+      },
+      "es": {
+        "mob": "Biblop coco",
+        "archi": "Bibolsón el Anilloso"
+      },
+      "pt": {
+        "mob": "Biblop Coco",
+        "archi": "Biblopopo, o Organizado"
+      }
+    }
+  },
+  {
+    "id": "279",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Morello Cherry Biblop",
+        "archi": "Biblokajin the Bald"
+      },
+      "de": {
+        "mob": "Kirsch Biblob",
+        "archi": "Bioblobby der Kirschschützer"
+      },
+      "fr": {
+        "mob": "Biblop Griotte",
+        "archi": "Bi le Partageur"
+      },
+      "it": {
+        "mob": "Biblop Griotta",
+        "archi": "Bi il Condivisore"
+      },
+      "es": {
+        "mob": "Biblop guinda",
+        "archi": "Biblidiana la Controvertida"
+      },
+      "pt": {
+        "mob": "Biblop Cereja",
+        "archi": "Biblocadinho, o Careca"
+      }
+    }
+  },
+  {
+    "id": "277",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Indigo Biblop",
+        "archi": "Billbiblop the Great"
+      },
+      "de": {
+        "mob": "Indigo Biblob",
+        "archi": "Jebiblobiah der Blaue"
+      },
+      "fr": {
+        "mob": "Biblop Indigo",
+        "archi": "Bistou le Quêteur"
+      },
+      "it": {
+        "mob": "Biblop Indaco",
+        "archi": "Bistu il Burlone"
+      },
+      "es": {
+        "mob": "Biblop índigo",
+        "archi": "Biblues el Ritmo"
+      },
+      "pt": {
+        "mob": "Biblop Índigo",
+        "archi": "Bilbpblop, o Grande"
+      }
+    }
+  },
+  {
+    "id": "280",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Pippin Biblop",
+        "archi": "Bibloponey the Entertainer"
+      },
+      "de": {
+        "mob": "Apfel Biblob",
+        "archi": "Billbiblob der Grüne"
+      },
+      "fr": {
+        "mob": "Biblop Reinette",
+        "archi": "Bistou le Rieur"
+      },
+      "it": {
+        "mob": "Biblop Reginetta",
+        "archi": "Biblape la Ronzante"
+      },
+      "es": {
+        "mob": "Biblop reineta",
+        "archi": "Biblópera el Fantasma"
+      },
+      "pt": {
+        "mob": "Biblop Maçã",
+        "archi": "Bibloponey, o Anfitrião"
+      }
+    }
+  },
+  {
+    "id": "62",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Gob-Trotter",
+        "archi": "Karnyona the Rider"
+      },
+      "de": {
+        "mob": "Gobtrotter",
+        "archi": "Raubrilk Raimar von Kleppripp"
+      },
+      "fr": {
+        "mob": "Gob-trotteur",
+        "archi": "Chevaustine le Reconstruit"
+      },
+      "it": {
+        "mob": "Cavaliere Goblin",
+        "archi": "Karnefice il Boia"
+      },
+      "es": {
+        "mob": "Gobletrotter",
+        "archi": "Cabalista el Conspirador"
+      },
+      "pt": {
+        "mob": "Gobtrote",
+        "archi": "Camiona, o Viajante"
+      }
+    }
+  },
+  {
+    "id": "475",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Strubian Milirat",
+        "archi": "Miliopold the Bloomer"
+      },
+      "de": {
+        "mob": "Kranke Kanalkweratte",
+        "archi": "Kanalkwalleyrat der Schwankende"
+      },
+      "fr": {
+        "mob": "Milirat Strubien",
+        "archi": "Milipussien le Géant"
+      },
+      "it": {
+        "mob": "Miliratto Strubiano",
+        "archi": "Milipuziano il Gigante"
+      },
+      "es": {
+        "mob": "Milirrata strubiense",
+        "archi": "Milirratatúi el Gastrónomo"
+      },
+      "pt": {
+        "mob": "Milirrato Strubiano",
+        "archi": "Miliopoldo, o Fracassado"
+      }
+    }
+  },
+  {
+    "id": "112",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Mushd",
+        "archi": "Mushdrill the Piercer"
+      },
+      "de": {
+        "mob": "Boo",
+        "archi": "Boo Tee der Tieftauchende"
+      },
+      "fr": {
+        "mob": "Boo",
+        "archi": "Boostif l'Affamé"
+      },
+      "it": {
+        "mob": "Boo",
+        "archi": "Booccale il Birraio"
+      },
+      "es": {
+        "mob": "Boo",
+        "archi": "Bo'Callaghan el Trebol"
+      },
+      "pt": {
+        "mob": "Bawo",
+        "archi": "Bawoso, o Faminto"
+      }
+    }
+  },
+  {
+    "id": "103",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Prespic",
+        "archi": "Prestreet the Fighter"
+      },
+      "de": {
+        "mob": "Prespik",
+        "archi": "Prespiknicko der Wandlungsfähige"
+      },
+      "fr": {
+        "mob": "Prespic",
+        "archi": "Preskapwal le Tendancieux"
+      },
+      "it": {
+        "mob": "Prespic",
+        "archi": "Prespite il Malvedente"
+      },
+      "es": {
+        "mob": "Prespic",
+        "archi": "Prestrit el Luchador"
+      },
+      "pt": {
+        "mob": "Prespic",
+        "archi": "Presruela, o Lutador"
+      }
+    }
+  },
+  {
+    "id": "123",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Piglet",
+        "archi": "Pigoblet the Useful"
+      },
+      "de": {
+        "mob": "Ferkelchen",
+        "archi": "Ferkelischillerling der Rebell"
+      },
+      "fr": {
+        "mob": "Cochon de Lait",
+        "archi": "Chonstip la Passagère"
+      },
+      "it": {
+        "mob": "Maiale da Latte",
+        "archi": "Maiananna la Vivace"
+      },
+      "es": {
+        "mob": "Cochinillo",
+        "archi": "Cochumájer el Rápido"
+      },
+      "pt": {
+        "mob": "Leitão",
+        "archi": "Porcotaça, Útil"
+      }
+    }
+  },
+  {
+    "id": "223",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Yellow Turtle",
+        "archi": "Turture the Hooded"
+      },
+      "de": {
+        "mob": "Gelbe Schildkröte",
+        "archi": "Schildekröt von Gelbingen"
+      },
+      "fr": {
+        "mob": "Tortue Jaune",
+        "archi": "Torthur la Lutte"
+      },
+      "it": {
+        "mob": "Tartaruga Gialla",
+        "archi": "Tortur il Medievale"
+      },
+      "es": {
+        "mob": "Tortuga amarilla",
+        "archi": "Tortugríssom el Doctor"
+      },
+      "pt": {
+        "mob": "Tartaruga amarela",
+        "archi": "Tartatapa, o Fechado"
+      }
+    }
+  },
+  {
+    "id": "64",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Wabbit",
+        "archi": "McWhabbit the Diehard"
+      },
+      "de": {
+        "mob": "Wabbit",
+        "archi": "Vorwahn der Wabbitinner"
+      },
+      "fr": {
+        "mob": "Wabbit",
+        "archi": "Wabbitud le Constant"
+      },
+      "it": {
+        "mob": "Wabbit",
+        "archi": "Wabitudd il Costante"
+      },
+      "es": {
+        "mob": "Wabbit",
+        "archi": "Wogew Wabbit el Engañado"
+      },
+      "pt": {
+        "mob": "Wabbit",
+        "archi": "Wabbito, o Constante"
+      }
+    }
+  },
+  {
+    "id": "344",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Lousy Pig Shepherd",
+        "archi": "Pigstol the Sexy"
+      },
+      "de": {
+        "mob": "Lausiger Schweinehüter",
+        "archi": "Melausiga der Schweinewüter"
+      },
+      "fr": {
+        "mob": "Berger Porkass",
+        "archi": "Porfavor le Quémandeur"
+      },
+      "it": {
+        "mob": "Pastore Porkass",
+        "archi": "Pastrokkio il Pasticcione"
+      },
+      "es": {
+        "mob": "Pastor puerkazo",
+        "archi": "Pastortilla el Huevo"
+      },
+      "pt": {
+        "mob": "Pastor Porkasso",
+        "archi": "Porfavor, o Pedinte"
+      }
+    }
+  },
+  {
+    "id": "4560",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Robionicle",
+        "archi": "Robiolego the Assembled"
+      },
+      "de": {
+        "mob": "Robionikel",
+        "archi": "Robiolego der Konstruierte"
+      },
+      "fr": {
+        "mob": "Robionicle",
+        "archi": "Robiolego l'Assemblé"
+      },
+      "it": {
+        "mob": "Robionico",
+        "archi": "Robiolino il Gustoso"
+      },
+      "es": {
+        "mob": "Robionicle",
+        "archi": "Robiolego el Ensamblado"
+      },
+      "pt": {
+        "mob": "Robionicle",
+        "archi": "Robiolego, o Montado"
+      }
+    }
+  },
+  {
+    "id": "148",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Gobball War Chief",
+        "archi": "Gobbalky the Stubborn"
+      },
+      "de": {
+        "mob": "Fresssack-Anführer",
+        "archi": "Fresssack Zement der Anführer"
+      },
+      "fr": {
+        "mob": "Chef de Guerre Bouftou",
+        "archi": "Bouflet le Puéril"
+      },
+      "it": {
+        "mob": "Capo Guerriero Pappatutto",
+        "archi": "Pappalatte il Puerile"
+      },
+      "es": {
+        "mob": "Jefe de guerra jalató",
+        "archi": "Jalatillo el Infantil"
+      },
+      "pt": {
+        "mob": "Chefe de Guerra Papatudo",
+        "archi": "Gobbalki, o Teimoso"
+      }
+    }
+  },
+  {
+    "id": "299",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Whitish Fang",
+        "archi": "Snowhitisha the Pure"
+      },
+      "de": {
+        "mob": "Blutwolf",
+        "archi": "Blustinolf der Equilibrist"
+      },
+      "fr": {
+        "mob": "Croc Gland",
+        "archi": "Cromikay le Néophyte"
+      },
+      "it": {
+        "mob": "Canin Blando",
+        "archi": "Caneofita il Pivello"
+      },
+      "es": {
+        "mob": "Colmillo blando",
+        "archi": "Colmillamoto el Omnipotente"
+      },
+      "pt": {
+        "mob": "Komenoz",
+        "archi": "Komenor, o Mínimo"
+      }
+    }
+  },
+  {
+    "id": "221",
+    "quest_step": 6,
+    "names": {
+      "en": {
+        "mob": "Blue Turtle",
+        "archi": "Turtan'ernie the Streetwise"
+      },
+      "de": {
+        "mob": "Blaue Schildkröte",
+        "archi": "Schildgroethe zu Blaulichingen"
+      },
+      "fr": {
+        "mob": "Tortue Bleue",
+        "archi": "Tortenssia la Fleurie"
+      },
+      "it": {
+        "mob": "Tartaruga Blu",
+        "archi": "Tortensia la Fiorita"
+      },
+      "es": {
+        "mob": "Tortuga azul",
+        "archi": "Tortugadget el Inspector"
+      },
+      "pt": {
+        "mob": "Tartaruga azul",
+        "archi": "Tartanime, o Experiente"
+      }
+    }
+  },
+  {
+    "id": "6318",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Bambooto",
+        "archi": "Bambottinit the Quiet"
+      },
+      "de": {
+        "mob": "Bimbambus",
+        "archi": "Michelbambulo der Heroische"
+      },
+      "fr": {
+        "mob": "Bambouto",
+        "archi": "Bambouské le Camouflé"
+      },
+      "it": {
+        "mob": "Bambuto",
+        "archi": "Bamborotto il Massacrato"
+      },
+      "es": {
+        "mob": "Bambuto",
+        "archi": "Bambudín el Azteca"
+      },
+      "pt": {
+        "mob": "Bambuto",
+        "archi": "Bambuste, o Emboscador"
+      }
+    }
+  },
+  {
+    "id": "281",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Crobak",
+        "archi": "Crowmanion the Primitive"
+      },
+      "de": {
+        "mob": "Rabling",
+        "archi": "Grabliring der Mörderische"
+      },
+      "fr": {
+        "mob": "Corbac",
+        "archi": "Corpat le Vampire"
+      },
+      "it": {
+        "mob": "Cuervoc",
+        "archi": "Corvedgar lo Scrittore"
+      },
+      "es": {
+        "mob": "Cuerbok",
+        "archi": "Cuergotismo el Febril"
+      },
+      "pt": {
+        "mob": "Corvoc",
+        "archi": "Corvomanion, o Primitivo"
+      }
+    }
+  },
+  {
+    "id": "922",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "White Snapper",
+        "archi": "Snapple the Wise"
+      },
+      "de": {
+        "mob": "Weiß-Dichs-Fischlein",
+        "archi": "Weißdimachs Frischlein der Faberikant"
+      },
+      "fr": {
+        "mob": "Pichon Blanc",
+        "archi": "Pichduitre le Totem"
+      },
+      "it": {
+        "mob": "Pescis Bianco",
+        "archi": "Pescatto il Fotografo"
+      },
+      "es": {
+        "mob": "Pischis blanco",
+        "archi": "Pischili Conkarne el Fuerte"
+      },
+      "pt": {
+        "mob": "Pesk Branco",
+        "archi": "Caranhado, o Sábio"
+      }
+    }
+  },
+  {
+    "id": "921",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Blue Snapper",
+        "archi": "Snappu the Shopkeep"
+      },
+      "de": {
+        "mob": "Bläu-Dichs-Fischlein",
+        "archi": "Bläu-Dix der Entschminkende"
+      },
+      "fr": {
+        "mob": "Pichon Bleu",
+        "archi": "Pichdourse le Puissant"
+      },
+      "it": {
+        "mob": "Pescis Blu",
+        "archi": "Pescorso il Totem"
+      },
+      "es": {
+        "mob": "Pischis azul",
+        "archi": "Pischurrasco el Braseado"
+      },
+      "pt": {
+        "mob": "Pesk Azul",
+        "archi": "Caranhâ, o Comerciante"
+      }
+    }
+  },
+  {
+    "id": "920",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Brown Snapper",
+        "archi": "Snapp the Dragon"
+      },
+      "de": {
+        "mob": "Orangefärb-Dichs-Fischlein",
+        "archi": "Orangefärzt-Diech der Fischige"
+      },
+      "fr": {
+        "mob": "Pichon Orange",
+        "archi": "Pichtoire l'Erudit"
+      },
+      "it": {
+        "mob": "Pescis Arancione",
+        "archi": "Pescamelba la Morbida"
+      },
+      "es": {
+        "mob": "Pischis naranja",
+        "archi": "Pischistorra la Cárnica"
+      },
+      "pt": {
+        "mob": "Pesk Laranja",
+        "archi": "Caranha, o Dragão"
+      }
+    }
+  },
+  {
+    "id": "923",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Green Snapper",
+        "archi": "Snappy the Fishfrier"
+      },
+      "de": {
+        "mob": "Grün-Dichs-Fischlein",
+        "archi": "Grünspan-Dich die Wassage"
+      },
+      "fr": {
+        "mob": "Pichon Vert",
+        "archi": "Pichakoté le Dégoutant"
+      },
+      "it": {
+        "mob": "Pescis Verde",
+        "archi": "Pescappo il Pauroso"
+      },
+      "es": {
+        "mob": "Pischis verde",
+        "archi": "Gazpischos el Refrescante"
+      },
+      "pt": {
+        "mob": "Pesk Verde",
+        "archi": "Peskada, o Íngreme"
+      }
+    }
+  },
+  {
+    "id": "220",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Red Turtle",
+        "archi": "Turticorn the Horned"
+      },
+      "de": {
+        "mob": "Rote Schildkröte",
+        "archi": "Schildubertrök die Verkannte"
+      },
+      "fr": {
+        "mob": "Tortue Rouge",
+        "archi": "Tortorak le Cornu"
+      },
+      "it": {
+        "mob": "Tartaruga Rossa",
+        "archi": "Tortodak il Negativo"
+      },
+      "es": {
+        "mob": "Tortuga roja",
+        "archi": "Tortugo Projatt el Corto"
+      },
+      "pt": {
+        "mob": "Tartaruga vermelha",
+        "archi": "Tartacalo, o Chifrudo"
+      }
+    }
+  },
+  {
+    "id": "124",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Vampire Master",
+        "archi": "Lord Lacedhat the Vampiric"
+      },
+      "de": {
+        "mob": "Herr der Vampire",
+        "archi": "Meister N'Berg von Vampisefjo"
+      },
+      "fr": {
+        "mob": "Maître Vampire",
+        "archi": "Maître Amboat le Moqueur"
+      },
+      "it": {
+        "mob": "Maestro Vampiro",
+        "archi": "Maestat il Leoncorto"
+      },
+      "es": {
+        "mob": "Vampiro jefe",
+        "archi": "Maéstrick Vaggerpiro el Canto Rodado"
+      },
+      "pt": {
+        "mob": "Mestre Vampiro",
+        "archi": "Lorde  the Vampiric"
+      }
+    }
+  },
+  {
+    "id": "4558",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Robo Mace",
+        "archi": "Robocoop the Switched"
+      },
+      "de": {
+        "mob": "Robo-Morgenstern",
+        "archi": "Robocoop der Veränderte"
+      },
+      "fr": {
+        "mob": "Robot Fléau",
+        "archi": "Robocoop l'Échangé"
+      },
+      "it": {
+        "mob": "Robot Flagello",
+        "archi": "Robofla il Punito"
+      },
+      "es": {
+        "mob": "Robot mangual",
+        "archi": "Robocoop el Intercambiado"
+      },
+      "pt": {
+        "mob": "Robô Flagelador",
+        "archi": "Robocoop, o Trocado"
+      }
+    }
+  },
+  {
+    "id": "217",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Ambusher",
+        "archi": "Ambushapens the Unlucky"
+      },
+      "de": {
+        "mob": "Heckenschützer",
+        "archi": "Heckenfreischützer"
+      },
+      "fr": {
+        "mob": "Fourbasse",
+        "archi": "Fourapin le Chaud"
+      },
+      "it": {
+        "mob": "Furbazza",
+        "archi": "Furbanatra la Starnazzante"
+      },
+      "es": {
+        "mob": "Mazorral",
+        "archi": "Mazomorra el Rolista"
+      },
+      "pt": {
+        "mob": "Arbustor",
+        "archi": "Emboscador Azarado"
+      }
+    }
+  },
+  {
+    "id": "159",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Miliboowolf",
+        "archi": "Milivanilli the Mime"
+      },
+      "de": {
+        "mob": "WullyWuWulf",
+        "archi": "WullyWuWulfosko der Wanderer"
+      },
+      "fr": {
+        "mob": "Milimulou",
+        "archi": "Milipatte la Griffe"
+      },
+      "it": {
+        "mob": "Milibuulupo",
+        "archi": "Milizampe la Grinfia"
+      },
+      "es": {
+        "mob": "Minilubo",
+        "archi": "Mililupin el Tercero"
+      },
+      "pt": {
+        "mob": "Mililobo",
+        "archi": "Milivanilli, o Mímico"
+      }
+    }
+  },
+  {
+    "id": "834",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Minoskito",
+        "archi": "Milikkybum the Informer"
+      },
+      "de": {
+        "mob": "Minoskito",
+        "archi": "Misoskito der Wohlriechende"
+      },
+      "fr": {
+        "mob": "Minoskito",
+        "archi": "Minoskour le Sauveur"
+      },
+      "it": {
+        "mob": "Minoskito",
+        "archi": "Minoschiel l'Artista"
+      },
+      "es": {
+        "mob": "Minoskito",
+        "archi": "Mitoskorleone el Buen Padre"
+      },
+      "pt": {
+        "mob": "Minoskito",
+        "archi": "Mililibum, o Delator"
+      }
+    }
+  },
+  {
+    "id": "150",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Neye",
+        "archi": "Eyemi the Narcissist"
+      },
+      "de": {
+        "mob": "Eynaug",
+        "archi": "Eynaurag der Sehende"
+      },
+      "fr": {
+        "mob": "Noeul",
+        "archi": "Neufedur le Flottant"
+      },
+      "it": {
+        "mob": "Noyo",
+        "archi": "Novosodo il Fluttuante"
+      },
+      "es": {
+        "mob": "Nujo",
+        "archi": "Nujosawa el Emperador"
+      },
+      "pt": {
+        "mob": "Nolho",
+        "archi": "Iniolho, o Narcisista"
+      }
+    }
+  },
+  {
+    "id": "222",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Green Turtle",
+        "archi": "Turtrenalds the Tragic"
+      },
+      "de": {
+        "mob": "Grüne Schildkröte",
+        "archi": "Schigünkröt die Grassgrüne"
+      },
+      "fr": {
+        "mob": "Tortue Verte",
+        "archi": "Tortilleur le Coulé"
+      },
+      "it": {
+        "mob": "Tartaruga Verde",
+        "archi": "Tor Tellino il Ripieno"
+      },
+      "es": {
+        "mob": "Tortuga verde",
+        "archi": "Tortruquini el Inspector"
+      },
+      "pt": {
+        "mob": "Tartaruga verde",
+        "archi": "Tartenaldo, o Dramático"
+      }
+    }
+  },
+  {
+    "id": "53",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Bwork Magus",
+        "archi": "Bworkoder the Mazter"
+      },
+      "de": {
+        "mob": "Bwork Magus",
+        "archi": "Blorko der Magier"
+      },
+      "fr": {
+        "mob": "Bwork Mage",
+        "archi": "Bwormage le Respectueux"
+      },
+      "it": {
+        "mob": "Bwork Mago",
+        "archi": "Bworkmago il Rispettoso"
+      },
+      "es": {
+        "mob": "Bwork mago",
+        "archi": "Bwhork Mageneration el Precursor"
+      },
+      "pt": {
+        "mob": "Bwork Mago",
+        "archi": "Bwordem, o Organizado"
+      }
+    }
+  },
+  {
+    "id": "65",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Black Wabbit",
+        "archi": "Wabbin the Wich"
+      },
+      "de": {
+        "mob": "Black Wabbit",
+        "archi": "Black Wabbiuti der Schnelle"
+      },
+      "fr": {
+        "mob": "Black Wabbit",
+        "archi": "Wagnagnah le Sanglant"
+      },
+      "it": {
+        "mob": "Wabbit Newo",
+        "archi": "Wartagnan il Guascone"
+      },
+      "es": {
+        "mob": "Black wabbit",
+        "archi": "Blackowibbit el Imaginativo"
+      },
+      "pt": {
+        "mob": "Black Wabbit",
+        "archi": "Wabbinhud, o Justiceiro"
+      }
+    }
+  },
+  {
+    "id": "3096",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Crovus",
+        "archi": "Lupisnockio the Woodwolf"
+      },
+      "de": {
+        "mob": "Krahling",
+        "archi": "Blutwolfst Käs der Tollwütende"
+      },
+      "fr": {
+        "mob": "Crowneille",
+        "archi": "Crognan le Barbare"
+      },
+      "it": {
+        "mob": "Coronacchia",
+        "archi": "Canonan il Barbaro"
+      },
+      "es": {
+        "mob": "Crowrajo",
+        "archi": "Colmillazaqui el Inagotable"
+      },
+      "pt": {
+        "mob": "Crowvo",
+        "archi": "Lupisnóquio, o Lobo Amadeirado"
+      }
+    }
+  },
+  {
+    "id": "467",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Dark Rose",
+        "archi": "Zorrose the Messican"
+      },
+      "de": {
+        "mob": "Schattenrose",
+        "archi": "Schattrosen die Stolze"
+      },
+      "fr": {
+        "mob": "Rose Obscure",
+        "archi": "Rostensyl la Cuisinière"
+      },
+      "it": {
+        "mob": "Rosa Oscura",
+        "archi": "Rosbif la Cuoca"
+      },
+      "es": {
+        "mob": "Rosa oscura",
+        "archi": "Rostetricia la Reproductiva"
+      },
+      "pt": {
+        "mob": "Rosa Obscura",
+        "archi": "Zorrose, o Messicano"
+      }
+    }
+  },
+  {
+    "id": "118",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Dark Miner",
+        "archi": "Minoskittle the Coloured"
+      },
+      "de": {
+        "mob": "Schattenbergmann",
+        "archi": "Bergmann O'Meter der Entdrückte"
+      },
+      "fr": {
+        "mob": "Mineur Sombre",
+        "archi": "Minsinistre l'Elu"
+      },
+      "it": {
+        "mob": "Minatore Oscuro",
+        "archi": "Mignolino il Mangione"
+      },
+      "es": {
+        "mob": "Minero oscuro",
+        "archi": "Minerón el Incendiario"
+      },
+      "pt": {
+        "mob": "Mineiro Sombrio",
+        "archi": "Minoskitou, o Colorido"
+      }
+    }
+  },
+  {
+    "id": "74",
+    "quest_step": 7,
+    "names": {
+      "en": {
+        "mob": "Bwork Archer",
+        "archi": "Blorko the Colourful"
+      },
+      "de": {
+        "mob": "Bwork-Bogenschütze",
+        "archi": "Ludbworg van Boghofen der Zielsichere"
+      },
+      "fr": {
+        "mob": "Bwork Archer",
+        "archi": "Barchwork le Multicolore"
+      },
+      "it": {
+        "mob": "Bwork Arciere",
+        "archi": "Barchwork il Multicolore"
+      },
+      "es": {
+        "mob": "Bwork arquero",
+        "archi": "Barchwork el Multicolor"
+      },
+      "pt": {
+        "mob": "Bwork Arqueiro",
+        "archi": "Blorko, o Colorido"
+      }
+    }
+  },
+  {
+    "id": "654",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Blue Spimush",
+        "archi": "Spimushty the Smelly"
+      },
+      "de": {
+        "mob": "Blauer Spipilz",
+        "archi": "Spipilzinus der Blauperiodische"
+      },
+      "fr": {
+        "mob": "Champa Bleu",
+        "archi": "Champayt l'Odorant"
+      },
+      "it": {
+        "mob": "Fung Blu",
+        "archi": "Fungotalco il Mentolato"
+      },
+      "es": {
+        "mob": "Champo azul",
+        "archi": "Champlomo el Soldadito"
+      },
+      "pt": {
+        "mob": "Cogum Azul",
+        "archi": "Spicoguti, o Fedorento"
+      }
+    }
+  },
+  {
+    "id": "655",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Brown Spimush",
+        "archi": "Speedmush the Racer"
+      },
+      "de": {
+        "mob": "Brauner Spipilz",
+        "archi": "Spipiltiz der Abräumer"
+      },
+      "fr": {
+        "mob": "Champa Marron",
+        "archi": "Chamflay le Ballonné"
+      },
+      "it": {
+        "mob": "Fung Marrone",
+        "archi": "Fungotello il Moro"
+      },
+      "es": {
+        "mob": "Champo marrón",
+        "archi": "Champlin el Cómico"
+      },
+      "pt": {
+        "mob": "Cogum Marrom",
+        "archi": "Coguveloz, o Coredor"
+      }
+    }
+  },
+  {
+    "id": "653",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Red Spimush",
+        "archi": "Spimushuaia the Traveller"
+      },
+      "de": {
+        "mob": "Roter Spipilz",
+        "archi": "Poblar Spikassoilz der Würfelige"
+      },
+      "fr": {
+        "mob": "Champa Rouge",
+        "archi": "Chamdblé le Cultivé"
+      },
+      "it": {
+        "mob": "Fung Rosso",
+        "archi": "Fungesdemona la Sfortunata"
+      },
+      "es": {
+        "mob": "Champo rojo",
+        "archi": "Champán el Espumoso"
+      },
+      "pt": {
+        "mob": "Cogum Vermelho",
+        "archi": "Spicoguia, o Viajante"
+      }
+    }
+  },
+  {
+    "id": "483",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Crackrock",
+        "archi": "Crackrockisree the Tiger"
+      },
+      "de": {
+        "mob": "Krachlklotz",
+        "archi": "Kraxoklotlz der Tank"
+      },
+      "fr": {
+        "mob": "Craqueboule",
+        "archi": "Craquetuss le Piquant"
+      },
+      "it": {
+        "mob": "Croccabul",
+        "archi": "Cractus il Pungente"
+      },
+      "es": {
+        "mob": "Crujibola",
+        "archi": "Crojmeo el Veronés"
+      },
+      "pt": {
+        "mob": "Smagabola",
+        "archi": "Crackrockiscri, o Tigre"
+      }
+    }
+  },
+  {
+    "id": "835",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Manderisha",
+        "archi": "Salamaa the Henpeck"
+      },
+      "de": {
+        "mob": "Mandrinchen",
+        "archi": "Mandrillichen der Kreative"
+      },
+      "fr": {
+        "mob": "Mandrine",
+        "archi": "Mandalo l'Aqueuse"
+      },
+      "it": {
+        "mob": "Mandrina",
+        "archi": "Mandrillo il Riproduttore"
+      },
+      "es": {
+        "mob": "Mandrina",
+        "archi": "Mandreinas las Nueve"
+      },
+      "pt": {
+        "mob": "Mandrina",
+        "archi": "Salamaa, a Dominadora de Maridos"
+      }
+    }
+  },
+  {
+    "id": "4559",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Equipped Chest",
+        "archi": "Quippy the Equippy Chest"
+      },
+      "de": {
+        "mob": "Werkzeugkoffer",
+        "archi": "Werkzeugkoffaua die Stachlige"
+      },
+      "fr": {
+        "mob": "Malle Outillée",
+        "archi": "Mallopiée l'Épineuse"
+      },
+      "it": {
+        "mob": "Baule degli Attrezzi",
+        "archi": "Baulosa la Svaligiata"
+      },
+      "es": {
+        "mob": "Cofre equipado",
+        "archi": "Cofresno el Espinoso"
+      },
+      "pt": {
+        "mob": "Mala Equipada",
+        "archi": "Male Stropé-Ada, a Espinhosa"
+      }
+    }
+  },
+  {
+    "id": "498",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Gargoyl",
+        "archi": "Gargoyla the Paranoiac"
+      },
+      "de": {
+        "mob": "Gargoyle",
+        "archi": "Guargoildian der Blinde"
+      },
+      "fr": {
+        "mob": "Gargrouille",
+        "archi": "Garsim le Mort"
+      },
+      "it": {
+        "mob": "Gargruglia",
+        "archi": "Gargogh l'Espressionista"
+      },
+      "es": {
+        "mob": "Gárgrola",
+        "archi": "Pulgargrolito el Astuto"
+      },
+      "pt": {
+        "mob": "Gárgrula",
+        "archi": "Gargoyla,"
+      }
+    }
+  },
+  {
+    "id": "171",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Wild Almond Dragoturkey",
+        "archi": "Dragotitis the Painful"
+      },
+      "de": {
+        "mob": "Wilder Mandel-Dracotruter",
+        "archi": "Wildraco Mandelutz der Mehrfache"
+      },
+      "fr": {
+        "mob": "Dragodinde Amande Sauvage",
+        "archi": "Draglida la Disparue"
+      },
+      "it": {
+        "mob": "Dragacchino Mandorla Selvaggio",
+        "archi": "Dragonfusa la Smarrita"
+      },
+      "es": {
+        "mob": "Dragopavo almendrado salvaje",
+        "archi": "Dragozart Almandreus el Prodigio"
+      },
+      "pt": {
+        "mob": "Dragoperu amêndoa selvagem",
+        "archi": "Dragotitis, o Penoso"
+      }
+    }
+  },
+  {
+    "id": "57",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Strawberry Jelly",
+        "archi": "Jellyposukshion the Slim"
+      },
+      "de": {
+        "mob": "Erdbeergelee",
+        "archi": "Eldfriedeer von Geleejemineh"
+      },
+      "fr": {
+        "mob": "Gelée Fraise",
+        "archi": "Gelaviv le Glaçon"
+      },
+      "it": {
+        "mob": "Gelatina Fragola",
+        "archi": "Gelanal l'Oleoso"
+      },
+      "es": {
+        "mob": "Gelatina de fresa",
+        "archi": "Gelatina Turner la Best"
+      },
+      "pt": {
+        "mob": "Gelatina de Morango",
+        "archi": "Jeleposucato, o Magro"
+      }
+    }
+  },
+  {
+    "id": "179",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Skeleton Wabbit",
+        "archi": "Wabbitor the Apt"
+      },
+      "de": {
+        "mob": "Wabbitskelett",
+        "archi": "Wabbevelaz Skezlett der Höfling"
+      },
+      "fr": {
+        "mob": "Wabbit Squelette",
+        "archi": "Watdogue le Bien Nommé"
+      },
+      "it": {
+        "mob": "Wabbit Scheletro",
+        "archi": "Watsapdoc l'Orecchiuto"
+      },
+      "es": {
+        "mob": "Wabbit esqueleto",
+        "archi": "Waybbit Esquelite el Rebelde"
+      },
+      "pt": {
+        "mob": "Wabbit Skeleto",
+        "archi": "Wabbitor, o Capaz"
+      }
+    }
+  },
+  {
+    "id": "110",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Invisible Chafer",
+        "archi": "Chafaldrag the Charming"
+      },
+      "de": {
+        "mob": "Unsichtbarer Chafer",
+        "archi": "Chagafährlis der Unsissichtbare"
+      },
+      "fr": {
+        "mob": "Chafer Invisible",
+        "archi": "Chafalfer l'Optimiste"
+      },
+      "it": {
+        "mob": "Chafer Invisibile",
+        "archi": "Chasonno lo Stanco"
+      },
+      "es": {
+        "mob": "Chafer invisible",
+        "archi": "Chafo el del Ocho"
+      },
+      "pt": {
+        "mob": "Chafer invisível",
+        "archi": "Chaferro, o Forte"
+      }
+    }
+  },
+  {
+    "id": "106",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Crackler",
+        "archi": "Jiminicrackler the Conscious"
+      },
+      "de": {
+        "mob": "Krachler",
+        "archi": "Krammrachstein der Harte"
+      },
+      "fr": {
+        "mob": "Craqueleur",
+        "archi": "Crakmitaine le Faucheur"
+      },
+      "it": {
+        "mob": "Croccaroc",
+        "archi": "Croccatarma l'Infestante"
+      },
+      "es": {
+        "mob": "Crujidor",
+        "archi": "Crujaitor el Eurovisivo"
+      },
+      "pt": {
+        "mob": "Smagador",
+        "archi": "Jiminicrackler, o Consciente"
+      }
+    }
+  },
+  {
+    "id": "876",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Bwork",
+        "archi": "Bworak the Bohemian"
+      },
+      "de": {
+        "mob": "Bwork",
+        "archi": "Bworkalaschny der Kofferträger"
+      },
+      "fr": {
+        "mob": "Bwork",
+        "archi": "Bworkasse le Dégoutant"
+      },
+      "it": {
+        "mob": "Bwork",
+        "archi": "Bwork il Disgustoso"
+      },
+      "es": {
+        "mob": "Bwork",
+        "archi": "Bwarkgner el Magnificentista"
+      },
+      "pt": {
+        "mob": "Bwork",
+        "archi": "Bworak, o Boêmio"
+      }
+    }
+  },
+  {
+    "id": "47",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Treechnid",
+        "archi": "Treekniddioo the Needy"
+      },
+      "de": {
+        "mob": "Astaknyde",
+        "archi": "Astaknykeel der Schmerzhafte"
+      },
+      "fr": {
+        "mob": "Abraknyde",
+        "archi": "Abrakroc l'édenté"
+      },
+      "it": {
+        "mob": "Alberagno",
+        "archi": "Alberakrac lo Sdentato"
+      },
+      "es": {
+        "mob": "Abráknido",
+        "archi": "Abrakíledo el Patas Ligeras"
+      },
+      "pt": {
+        "mob": "Arvraknídeo",
+        "archi": "Arvracroc, o Dentado"
+      }
+    }
+  },
+  {
+    "id": "836",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Khamelerost",
+        "archi": "Khameleltux the Tolerant"
+      },
+      "de": {
+        "mob": "Kramelehon",
+        "archi": "Krembrandlehon das Schöpferische"
+      },
+      "fr": {
+        "mob": "Kraméléhon",
+        "archi": "Krapahut le Randonneur"
+      },
+      "it": {
+        "mob": "Kramaleonte",
+        "archi": "Krau-Ty il Paninaro"
+      },
+      "es": {
+        "mob": "Krameleón",
+        "archi": "Kramelanoma el Ennegrecedor"
+      },
+      "pt": {
+        "mob": "Kramaleão",
+        "archi": "Cameletux, o Tolerante"
+      }
+    }
+  },
+  {
+    "id": "241",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "White Scaraleaf",
+        "archi": "Scaratheef the Pincher"
+      },
+      "de": {
+        "mob": "Weißes Scarablatt",
+        "archi": "Scaratego der Zornige"
+      },
+      "fr": {
+        "mob": "Scarafeuille Blanc",
+        "archi": "Scapé l'Epée"
+      },
+      "it": {
+        "mob": "Scarafoglie Bianco",
+        "archi": "Scarantares lo Stellato"
+      },
+      "es": {
+        "mob": "Escarahoja blanco",
+        "archi": "Escarumais los Siete"
+      },
+      "pt": {
+        "mob": "Scarafolha Branco",
+        "archi": "Scapado, o Fugitivo"
+      }
+    }
+  },
+  {
+    "id": "198",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Blue Scaraleaf",
+        "archi": "Scarahazad the Storyteller"
+      },
+      "de": {
+        "mob": "Blaues Scarablatt",
+        "archi": "Skrarablatt das Preußlerischblaue"
+      },
+      "fr": {
+        "mob": "Scarafeuille Bleu",
+        "archi": "Scarfayss le Balafré"
+      },
+      "it": {
+        "mob": "Scarafoglie Blu",
+        "archi": "Scarfeis lo Sfregiato"
+      },
+      "es": {
+        "mob": "Escarahoja azul",
+        "archi": "Estarausija Azul el del Danubio"
+      },
+      "pt": {
+        "mob": "Scarafolha Azul",
+        "archi": "Scarfeice, o Cicatrizado"
+      }
+    }
+  },
+  {
+    "id": "194",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Red Scaraleaf",
+        "archi": "Scarabreef the Short"
+      },
+      "de": {
+        "mob": "Rotes Scarablatt",
+        "archi": "Scarablats Espanioll das Sprachwunder"
+      },
+      "fr": {
+        "mob": "Scarafeuille Rouge",
+        "archi": "Scarouarze l'Epopée"
+      },
+      "it": {
+        "mob": "Scarafoglie Rosso",
+        "archi": "Scaruars l'Epopea"
+      },
+      "es": {
+        "mob": "Escarahoja rojo",
+        "archi": "Escorobeitor el Malvado"
+      },
+      "pt": {
+        "mob": "Scarafolha Vermelho",
+        "archi": "Scarabroso, o Pequeno"
+      }
+    }
+  },
+  {
+    "id": "240",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Green Scaraleaf",
+        "archi": "Scaramel the Melty"
+      },
+      "de": {
+        "mob": "Grünes Scarablatt",
+        "archi": "Scarablatt Lantik der Grünblaue"
+      },
+      "fr": {
+        "mob": "Scarafeuille Vert",
+        "archi": "Scaramel le Fondant"
+      },
+      "it": {
+        "mob": "Scarafoglie Verde",
+        "archi": "Scaramel il Fondente"
+      },
+      "es": {
+        "mob": "Escarahoja verde",
+        "archi": "Escaramelo el Derretido"
+      },
+      "pt": {
+        "mob": "Scarafolha Verde",
+        "archi": "Scarafolhoso, o Destruidor"
+      }
+    }
+  },
+  {
+    "id": "108",
+    "quest_step": 8,
+    "names": {
+      "en": {
+        "mob": "Rib",
+        "archi": "Rib the Torn"
+      },
+      "de": {
+        "mob": "Ripp",
+        "archi": "Nasquaripp der Scheue"
+      },
+      "fr": {
+        "mob": "Rib",
+        "archi": "Ribibi le Cher"
+      },
+      "it": {
+        "mob": "Rib",
+        "archi": "Ridandy il Carino"
+      },
+      "es": {
+        "mob": "Rib",
+        "archi": "Arib Abá el de los 40"
+      },
+      "pt": {
+        "mob": "Rib",
+        "archi": "Rib, o Despedaçado"
+      }
+    }
+  },
+  {
+    "id": "273",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Coco Blop",
+        "archi": "Blopulent the Pretentious"
+      },
+      "de": {
+        "mob": "Kokos Blob",
+        "archi": "Blobboro Koko der Prunkvolle"
+      },
+      "fr": {
+        "mob": "Blop Coco",
+        "archi": "Blorie L'assourdissante"
+      },
+      "it": {
+        "mob": "Blop Cocco",
+        "archi": "Blablabla il Logorroico"
+      },
+      "es": {
+        "mob": "Blop coco",
+        "archi": "Blómperman el Explosivo"
+      },
+      "pt": {
+        "mob": "Blop Coco",
+        "archi": "Blopulento, o Abundante"
+      }
+    }
+  },
+  {
+    "id": "275",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Morello Cherry Blop",
+        "archi": "Blorchid the Gorgeous"
+      },
+      "de": {
+        "mob": "Kirsch Blob",
+        "archi": "Kalwirnschun Blobbes der Spaßmacher"
+      },
+      "fr": {
+        "mob": "Blop Griotte",
+        "archi": "Blordur l'Infect"
+      },
+      "it": {
+        "mob": "Blop Griotta",
+        "archi": "Blordura il Macchiato"
+      },
+      "es": {
+        "mob": "Blop guinda",
+        "archi": "Blop Dylan el Ventoso"
+      },
+      "pt": {
+        "mob": "Blop Cereja",
+        "archi": "Blorquídea, o Floreado"
+      }
+    }
+  },
+  {
+    "id": "274",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Indigo Blop",
+        "archi": "Blopium the Delirious"
+      },
+      "de": {
+        "mob": "Indigo Blob",
+        "archi": "Blob Dillan der Rebellische"
+      },
+      "fr": {
+        "mob": "Blop Indigo",
+        "archi": "Bloporte le Veule"
+      },
+      "it": {
+        "mob": "Blop Indaco",
+        "archi": "Blopinerte il Fiacco"
+      },
+      "es": {
+        "mob": "Blop índigo",
+        "archi": "Blop Inocho el Narizotas"
+      },
+      "pt": {
+        "mob": "Blop Índigo",
+        "archi": "Blópio, o Delirante"
+      }
+    }
+  },
+  {
+    "id": "276",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Pippin Blop",
+        "archi": "Blopal the Precious"
+      },
+      "de": {
+        "mob": "Apfel Blob",
+        "archi": "Biehblobby der Fruchtbare"
+      },
+      "fr": {
+        "mob": "Blop Reinette",
+        "archi": "Blof l'Apathique"
+      },
+      "it": {
+        "mob": "Blop Reginetta",
+        "archi": "Blof l'Apatico"
+      },
+      "es": {
+        "mob": "Blop reineta",
+        "archi": "Bloppy Reinarker la Primera Mitad"
+      },
+      "pt": {
+        "mob": "Blop Maçã",
+        "archi": "Bloldo, o Amargo"
+      }
+    }
+  },
+  {
+    "id": "228",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Boomba",
+        "archi": "Boombora the Dangerous"
+      },
+      "de": {
+        "mob": "Boomba",
+        "archi": "Smettboomb der Leuchtende"
+      },
+      "fr": {
+        "mob": "Boomba",
+        "archi": "Boombata le Garde"
+      },
+      "it": {
+        "mob": "Boomba",
+        "archi": "Boombastik il Rapper"
+      },
+      "es": {
+        "mob": "Boomba",
+        "archi": "Doomba el Inimitable"
+      },
+      "pt": {
+        "mob": "Boomba",
+        "archi": "Boombasta, o Suficiente"
+      }
+    }
+  },
+  {
+    "id": "603",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Farle's Pig",
+        "archi": "Pighatchoo the Electrical"
+      },
+      "de": {
+        "mob": "Farles Schwein",
+        "archi": "Farlessing der Freie"
+      },
+      "fr": {
+        "mob": "Cochon de Farle",
+        "archi": "Farlon l'Enfant"
+      },
+      "it": {
+        "mob": "Maiale di Farle",
+        "archi": "Maianese l'Impazzita"
+      },
+      "es": {
+        "mob": "Cerdo de Farle",
+        "archi": "Cerduodenitis el Abdominal"
+      },
+      "pt": {
+        "mob": "Porco de Farle",
+        "archi": "Pighatchoo, o Elétrico"
+      }
+    }
+  },
+  {
+    "id": "830",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Scaratos",
+        "archi": "Scaraheath the Hanger"
+      },
+      "de": {
+        "mob": "Scaratos",
+        "archi": "Herzog Werner von Scaratos"
+      },
+      "fr": {
+        "mob": "Scaratos",
+        "archi": "Scaratyn l'Huître"
+      },
+      "it": {
+        "mob": "Scaratos",
+        "archi": "Scartoffia l'Avvocato"
+      },
+      "es": {
+        "mob": "Escarato",
+        "archi": "Escarálibur la Legendaria"
+      },
+      "pt": {
+        "mob": "Scaratos",
+        "archi": "Scaratê, o Marcial"
+      }
+    }
+  },
+  {
+    "id": "396",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Chafer Foot Soldier",
+        "archi": "Chafred the Fish"
+      },
+      "de": {
+        "mob": "Chafer-Infanterist",
+        "archi": "Infantyneris der Chafer"
+      },
+      "fr": {
+        "mob": "Chafer Fantassin",
+        "archi": "Chaffoin le Sournois"
+      },
+      "it": {
+        "mob": "Chafer Fante",
+        "archi": "Chaifretta il Ritardatario"
+      },
+      "es": {
+        "mob": "Chafer infante",
+        "archi": "Chafíner Divarrio el Casposo"
+      },
+      "pt": {
+        "mob": "Chafer de infantaria",
+        "archi": "Chafred, o Peixe"
+      }
+    }
+  },
+  {
+    "id": "5225",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Yellow Larva",
+        "archi": "Larvamatic the Pragmatic"
+      },
+      "de": {
+        "mob": "Gelbe Larve",
+        "archi": "Klaunderich Strohfischlein der Militaristische"
+      },
+      "fr": {
+        "mob": "Larve Jaune",
+        "archi": "Larvomatik le Propre"
+      },
+      "it": {
+        "mob": "Larva Gialla",
+        "archi": "Larvomatika la Pulita"
+      },
+      "es": {
+        "mob": "Larva amarilla",
+        "archi": "Larvado el Limpio"
+      },
+      "pt": {
+        "mob": "Larva Amarela",
+        "archi": "Larvomatik, o Limpo"
+      }
+    }
+  },
+  {
+    "id": "256",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Trunknid",
+        "archi": "Trunkbeard the Gentle"
+      },
+      "de": {
+        "mob": "Trunknyde",
+        "archi": "Truncholsknyd der Kurze"
+      },
+      "fr": {
+        "mob": "Tronknyde",
+        "archi": "Tronkoneuz la Tranchante"
+      },
+      "it": {
+        "mob": "Tronknyde",
+        "archi": "Tronckyterzo il Campione"
+      },
+      "es": {
+        "mob": "Tronkónido",
+        "archi": "Trroncky III el Tigre"
+      },
+      "pt": {
+        "mob": "Tronknídeo",
+        "archi": "Trunkbardo, o Gentil"
+      }
+    }
+  },
+  {
+    "id": "650",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Treechnee",
+        "archi": "Treeknidylus"
+      },
+      "de": {
+        "mob": "Astachnee",
+        "archi": "Astachlavista Baby"
+      },
+      "fr": {
+        "mob": "Abrakne",
+        "archi": "Abrakadnuzar"
+      },
+      "it": {
+        "mob": "Ragnalbero",
+        "archi": "Ragnabete il Decorato"
+      },
+      "es": {
+        "mob": "Abrakno",
+        "archi": "Abrákneo el Elegido"
+      },
+      "pt": {
+        "mob": "Arvrakne",
+        "archi": "Arvrakilino, o Curvo"
+      }
+    }
+  },
+  {
+    "id": "54",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Chafer",
+        "archi": "Chaferanho the Essential"
+      },
+      "de": {
+        "mob": "Chafer",
+        "archi": "Chaferlier der Schlechte"
+      },
+      "fr": {
+        "mob": "Chafer",
+        "archi": "Chafemal le Bagarreur"
+      },
+      "it": {
+        "mob": "Chafer",
+        "archi": "Chaiunasiga il Fumatore"
+      },
+      "es": {
+        "mob": "Chafer",
+        "archi": "Cháferlie el Ángeles"
+      },
+      "pt": {
+        "mob": "Chafer",
+        "archi": "Chadacinco, o Pontual"
+      }
+    }
+  },
+  {
+    "id": "261",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Crocodyl",
+        "archi": "Croccyx the Bummer"
+      },
+      "de": {
+        "mob": "Crocodyll",
+        "archi": "Crocadjill der Schnapper"
+      },
+      "fr": {
+        "mob": "Crocodaille",
+        "archi": "Crolnareff l'Exilé"
+      },
+      "it": {
+        "mob": "Coccodrail",
+        "archi": "Coccaribaldi l'Esiliato"
+      },
+      "es": {
+        "mob": "Cocodrail",
+        "archi": "Cocodranel la perfumada"
+      },
+      "pt": {
+        "mob": "Crocodyl",
+        "archi": "Croccyx, o Ocioso"
+      }
+    }
+  },
+  {
+    "id": "465",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Strubian Sickrat",
+        "archi": "Ratatouille the Stirrer"
+      },
+      "de": {
+        "mob": "Kranke Kanalkratte",
+        "archi": "Kanalkrattio Kranktif der Todbringende"
+      },
+      "fr": {
+        "mob": "Scélérat Strubien",
+        "archi": "Radoutable le Craint"
+      },
+      "it": {
+        "mob": "Sceleratto Strubiano",
+        "archi": "Ratterribile il Timore"
+      },
+      "es": {
+        "mob": "Miserata strubiense",
+        "archi": "Ratokio de Alcontel la Despeinada"
+      },
+      "pt": {
+        "mob": "Celerrato Strubiano",
+        "archi": "Ratatuli, o Intrigante"
+      }
+    }
+  },
+  {
+    "id": "298",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Scurvion",
+        "archi": "Scorbison the Lonely"
+      },
+      "de": {
+        "mob": "Skorpiut",
+        "archi": "Skormpiuter der Problematische"
+      },
+      "fr": {
+        "mob": "Scorbute",
+        "archi": "Scorpitène l'Enflammé"
+      },
+      "it": {
+        "mob": "Scorbuto",
+        "archi": "Scortato il Testimone"
+      },
+      "es": {
+        "mob": "Scorbuto",
+        "archi": "Scorbuthoveen el Sordo"
+      },
+      "pt": {
+        "mob": "Scorbuto",
+        "archi": "Escorbisão, o Solitário"
+      }
+    }
+  },
+  {
+    "id": "200",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Wild Ginger Dragoturkey",
+        "archi": "Drakokidoki the Volunteer"
+      },
+      "de": {
+        "mob": "Wilder roter Dracotruter",
+        "archi": "Darwnild Dracowarts die Tödliche"
+      },
+      "fr": {
+        "mob": "Dragodinde Rousse Sauvage",
+        "archi": "Dragnoute l'Irascible"
+      },
+      "it": {
+        "mob": "Dragacchino Rosso Selvaggio",
+        "archi": "Dragombroso l'Irascibile"
+      },
+      "es": {
+        "mob": "Dragopavo pelirrojo salvaje",
+        "archi": "Dragamenón el Destructroyer"
+      },
+      "pt": {
+        "mob": "Dragoperu ruivo selvagem",
+        "archi": "Dragombroso, o Irascível"
+      }
+    }
+  },
+  {
+    "id": "6321",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Bulbush",
+        "archi": "Bulbushisu the Makisan"
+      },
+      "de": {
+        "mob": "Bulbusch",
+        "archi": "Blubuschi der Glasklare"
+      },
+      "fr": {
+        "mob": "Bulbuisson",
+        "archi": "Bulsavon le Gonflé"
+      },
+      "it": {
+        "mob": "Bulcespuglio",
+        "archi": "Bulsoap il Galleggiante"
+      },
+      "es": {
+        "mob": "Bulbomatorral",
+        "archi": "Bulbubunet la Única"
+      },
+      "pt": {
+        "mob": "Bulbusto",
+        "archi": "Bulbushisu, o Coberto"
+      }
+    }
+  },
+  {
+    "id": "1060",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Kurasso Craboral",
+        "archi": "Crabartanian the Allforone"
+      },
+      "de": {
+        "mob": "Blaukrustoralle",
+        "archi": "Blaukrustorallenstein der Visionär"
+      },
+      "fr": {
+        "mob": "Crustorail Kouraçao",
+        "archi": "Crustterus l'Organique"
+      },
+      "it": {
+        "mob": "Crustorallo Kuraçao",
+        "archi": "Crustarfire l'Aliena"
+      },
+      "es": {
+        "mob": "Crustoral kuraçao",
+        "archi": "Crustoriyama el Boludo"
+      },
+      "pt": {
+        "mob": "Crustocana Kuraçal",
+        "archi": "Crabartanio, o Singular"
+      }
+    }
+  },
+  {
+    "id": "1061",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Mahlibuh Craboral",
+        "archi": "Craborthos the All"
+      },
+      "de": {
+        "mob": "Grünkrustoralle",
+        "archi": "Grünerisch Kästnorall der Unverkrustete"
+      },
+      "fr": {
+        "mob": "Crustorail Malibout",
+        "archi": "Crustensyl le Pragmatique"
+      },
+      "it": {
+        "mob": "Crustorallo Malibù",
+        "archi": "Crushulk l'Iracondo"
+      },
+      "es": {
+        "mob": "Crustoral malibut",
+        "archi": "Crustodralí el Bigotudo"
+      },
+      "pt": {
+        "mob": "Crustocana Maliboo",
+        "archi": "Craborthos, o Todas"
+      }
+    }
+  },
+  {
+    "id": "1063",
+    "quest_step": 9,
+    "names": {
+      "en": {
+        "mob": "Mojeeto Craboral",
+        "archi": "Crabaramis the One"
+      },
+      "de": {
+        "mob": "Fahlkrustoralle",
+        "archi": "Krustorallerlei der Pfähler"
+      },
+      "fr": {
+        "mob": "Crustorail Morito",
+        "archi": "Cruskof le Rustre"
+      },
+      "it": {
+        "mob": "Crustorallo Morito",
+        "archi": "Crusterix il Potente"
+      },
+      "es": {
+        "mob": "Crustoral mohito",
+        "archi": "Crustérix el Viajante"
+      },
+      "pt": {
+        "mob": "Crustocana Morrito",
+        "archi": "Crabaramis, o Único"
+      }
+    }
+  },
+  {
+    "id": "1062",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Passaoh Craboral",
+        "archi": "Crabathos the For"
+      },
+      "de": {
+        "mob": "Braunkrustoralle",
+        "archi": "Krustokiohotalle die Braungefärbte"
+      },
+      "fr": {
+        "mob": "Crustorail Passaoh",
+        "archi": "Crusmeyer le Pervers"
+      },
+      "it": {
+        "mob": "Crustorallo Passaoh",
+        "archi": "Crustorcia il Fiammeggiante"
+      },
+      "es": {
+        "mob": "Crustoral passaoh",
+        "archi": "Crusthórpal Passian el Submarino"
+      },
+      "pt": {
+        "mob": "Crustocana Passaoh",
+        "archi": "Crabathos, o Para"
+      }
+    }
+  },
+  {
+    "id": "119",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Dark Smith",
+        "archi": "Smitherz the Licker"
+      },
+      "de": {
+        "mob": "Schattenschmied",
+        "archi": "Schattenschmikel der Starke"
+      },
+      "fr": {
+        "mob": "Forgeron Sombre",
+        "archi": "Forboyar l'Enigmatique"
+      },
+      "it": {
+        "mob": "Forgiatore Oscuro",
+        "archi": "Forknox il Ricco"
+      },
+      "es": {
+        "mob": "Herrero oscuro",
+        "archi": "Herranor el Pizzaiolo"
+      },
+      "pt": {
+        "mob": "Ferreiro Sombrio",
+        "archi": "Ferrético, o Golpeador"
+      }
+    }
+  },
+  {
+    "id": "6320",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Flowistil",
+        "archi": "Floristil the Pistil"
+      },
+      "de": {
+        "mob": "Stempelblume",
+        "archi": "Fleischfressende Stempelblume"
+      },
+      "fr": {
+        "mob": "Floristile",
+        "archi": "Floriste la Cannibale"
+      },
+      "it": {
+        "mob": "Fioristillo",
+        "archi": "Fioristilla la Profumata"
+      },
+      "es": {
+        "mob": "Floristilo",
+        "archi": "Florista la Caníbal"
+      },
+      "pt": {
+        "mob": "Floristilo",
+        "archi": "Florista, a Canibal"
+      }
+    }
+  },
+  {
+    "id": "259",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Major Arachnee",
+        "archi": "Arachma the Greek"
+      },
+      "de": {
+        "mob": "Arachnea Majora",
+        "archi": "Arachneand R.Taler die Majorin"
+      },
+      "fr": {
+        "mob": "Arakne Majeure",
+        "archi": "Arabord la Cruche"
+      },
+      "it": {
+        "mob": "Arakne Maggiore",
+        "archi": "Araldestra la Distratta"
+      },
+      "es": {
+        "mob": "Arakna mayor",
+        "archi": "Araklas Mausus el Encofiado"
+      },
+      "pt": {
+        "mob": "Arakne Maior",
+        "archi": "Arachma, o Grego"
+      }
+    }
+  },
+  {
+    "id": "99",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Gwandpa Wabbit",
+        "archi": "Gwabbit the Wunner"
+      },
+      "de": {
+        "mob": "Grand Pa Wabbit",
+        "archi": "Grand Pa Ladium der Wabbit"
+      },
+      "fr": {
+        "mob": "Grand Pa Wabbit",
+        "archi": "Grandilok le Clameur"
+      },
+      "it": {
+        "mob": "Nonno Wabbit",
+        "archi": "Nonnonulla il Povero"
+      },
+      "es": {
+        "mob": "Awelito wabbit",
+        "archi": "Abustin Pawits el Bocasucia"
+      },
+      "pt": {
+        "mob": "Vovô Wabbit",
+        "archi": "Grabbito, o Corredor"
+      }
+    }
+  },
+  {
+    "id": "97",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Wo Wabbit",
+        "archi": "Wowalker the Egyptian"
+      },
+      "de": {
+        "mob": "Wo Wabbit",
+        "archi": "Kowwynot Wabbit der Famose"
+      },
+      "fr": {
+        "mob": "Wo Wabbit",
+        "archi": "Wokènrôl le Danseur"
+      },
+      "it": {
+        "mob": "Gwosso Wabbit",
+        "archi": "Wok'en'rol il Ballerino"
+      },
+      "es": {
+        "mob": "Wabbit wodo",
+        "archi": "Wabibip Woyote el Persistente"
+      },
+      "pt": {
+        "mob": "Wabbit Gowdo",
+        "archi": "Wowalker, o Egípcio"
+      }
+    }
+  },
+  {
+    "id": "343",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Lousy Pig Knight",
+        "archi": "Pygknightlion the Lousy"
+      },
+      "de": {
+        "mob": "Lausiger Schweineritter",
+        "archi": "Schweinerittberger der Lausige"
+      },
+      "fr": {
+        "mob": "Cavalier Porkass",
+        "archi": "Cavordemal le Sorcier"
+      },
+      "it": {
+        "mob": "Cavaliere Porkass",
+        "archi": "Caruman lo Stregone"
+      },
+      "es": {
+        "mob": "Caballero puerkazo",
+        "archi": "Caballagami Pueryukazo el Aburrido"
+      },
+      "pt": {
+        "mob": "Cavaleiro Porkasso",
+        "archi": "Porcaladino, o Imundo"
+      }
+    }
+  },
+  {
+    "id": "384",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Aboub",
+        "archi": "Abounteous the Generous"
+      },
+      "de": {
+        "mob": "Aboub",
+        "archi": "Aboubytrap der Explosive"
+      },
+      "fr": {
+        "mob": "Aboub",
+        "archi": "Aboudbra le Porteur"
+      },
+      "it": {
+        "mob": "Aboub",
+        "archi": "Dipeso il Facchino"
+      },
+      "es": {
+        "mob": "Abub",
+        "archi": "Abubanero el Naranja"
+      },
+      "pt": {
+        "mob": "Abub",
+        "archi": "Abubado, o Fértil"
+      }
+    }
+  },
+  {
+    "id": "385",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Amlub",
+        "archi": "Amlullabeye the Dreamer"
+      },
+      "de": {
+        "mob": "Amlub",
+        "archi": "Amlooping der Überflieger"
+      },
+      "fr": {
+        "mob": "Amlub",
+        "archi": "Ameur la Laide"
+      },
+      "it": {
+        "mob": "Amlub",
+        "archi": "Anenia la Sognatrice"
+      },
+      "es": {
+        "mob": "Amlub",
+        "archi": "Amlobdovar el Movidista"
+      },
+      "pt": {
+        "mob": "Amlub",
+        "archi": "Amlullabeye, o Sonhador"
+      }
+    }
+  },
+  {
+    "id": "386",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Codem",
+        "archi": "Codemonic the Mean"
+      },
+      "de": {
+        "mob": "Codem",
+        "archi": "Codem Merich der Rolländer"
+      },
+      "fr": {
+        "mob": "Codem",
+        "archi": "Codenlgaz le Problème"
+      },
+      "it": {
+        "mob": "Codem",
+        "archi": "Puzzadibruciato il Guaio"
+      },
+      "es": {
+        "mob": "Codem",
+        "archi": "Codembolia el Obstructor"
+      },
+      "pt": {
+        "mob": "Codem",
+        "archi": "Codemonic, o Abastado"
+      }
+    }
+  },
+  {
+    "id": "387",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Gink",
+        "archi": "Ginsync the Hyperactive"
+      },
+      "de": {
+        "mob": "Gink",
+        "archi": "Ginsenk der Wohltuende"
+      },
+      "fr": {
+        "mob": "Gink",
+        "archi": "Ginsenk le Stimulant"
+      },
+      "it": {
+        "mob": "Gink",
+        "archi": "Ginsenk lo Stimolante"
+      },
+      "es": {
+        "mob": "Gink",
+        "archi": "Gínsenk el Estimulante"
+      },
+      "pt": {
+        "mob": "Gink",
+        "archi": "Ginsync, o Hiperativo"
+      }
+    }
+  },
+  {
+    "id": "388",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Kirevam",
+        "archi": "Kirevampiro the Wrestler"
+      },
+      "de": {
+        "mob": "Kirevam",
+        "archi": "Kirevanadium der Schöne"
+      },
+      "fr": {
+        "mob": "Kirevam",
+        "archi": "Kiroyal le Sirupeux"
+      },
+      "it": {
+        "mob": "Kirevam",
+        "archi": "Kirsch il Liquoroso"
+      },
+      "es": {
+        "mob": "Kirevam",
+        "archi": "Kiravel el Artesano"
+      },
+      "pt": {
+        "mob": "Kirevam",
+        "archi": "Kirevampiro, o Rival"
+      }
+    }
+  },
+  {
+    "id": "389",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Let Emoliug",
+        "archi": "Lert Macraken the Used Emo"
+      },
+      "de": {
+        "mob": "Let Melliw",
+        "archi": "Karlet Meilliw der Reisende"
+      },
+      "fr": {
+        "mob": "Let Emoliug",
+        "archi": "Let le Rond"
+      },
+      "it": {
+        "mob": "Let Emoliug",
+        "archi": "Alettino il Tondo"
+      },
+      "es": {
+        "mob": "Let emoliug",
+        "archi": "Led Empling el Ascensorista"
+      },
+      "pt": {
+        "mob": "Let Emrehliug",
+        "archi": "Lert Macraken, o Chorão Acomodado"
+      }
+    }
+  },
+  {
+    "id": "390",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Nebgib",
+        "archi": "Nebuchadnezzar the Conqueror"
+      },
+      "de": {
+        "mob": "Nebgib",
+        "archi": "Nebgib Raltar der Eingeengte"
+      },
+      "fr": {
+        "mob": "Nebgib",
+        "archi": "Nelvin le Boulet"
+      },
+      "it": {
+        "mob": "Nebgib",
+        "archi": "Nelvin la Palla al Piede"
+      },
+      "es": {
+        "mob": "Nebgib",
+        "archi": "Nelgibson el Letal"
+      },
+      "pt": {
+        "mob": "Nebgib",
+        "archi": "Nabucodonozor, o Conquistador"
+      }
+    }
+  },
+  {
+    "id": "391",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Nipul",
+        "archi": "Niptuk the Plasticynic"
+      },
+      "de": {
+        "mob": "Nipul",
+        "archi": "Nipulsar der Gleichmäßige"
+      },
+      "fr": {
+        "mob": "Nipul",
+        "archi": "Nipulnislip l'Exhibitionniste"
+      },
+      "it": {
+        "mob": "Nipul",
+        "archi": "Novestiti l'Esibizionista"
+      },
+      "es": {
+        "mob": "Nipul",
+        "archi": "Nipultay Dea el Poco Inspirado"
+      },
+      "pt": {
+        "mob": "Onipul",
+        "archi": "Niptuk the Plasticínico"
+      }
+    }
+  },
+  {
+    "id": "392",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Osurc",
+        "archi": "Osurcus the Tamer"
+      },
+      "de": {
+        "mob": "Osurc",
+        "archi": "Osurc Zekod der Buggyfahrer"
+      },
+      "fr": {
+        "mob": "Osurc",
+        "archi": "Osuxion le Vampirique"
+      },
+      "it": {
+        "mob": "Osurc",
+        "archi": "Osucchio il Vampirico"
+      },
+      "es": {
+        "mob": "Osurc",
+        "archi": "Osurce Kodes el Problemático"
+      },
+      "pt": {
+        "mob": "Osurc",
+        "archi": "Osurcus, o Domador"
+      }
+    }
+  },
+  {
+    "id": "393",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Susej",
+        "archi": "Suzessman the Enthusiastic"
+      },
+      "de": {
+        "mob": "Susej",
+        "archi": "Susej Mab der Doktor"
+      },
+      "fr": {
+        "mob": "Susej",
+        "archi": "Susbewl l'Hypocrite"
+      },
+      "it": {
+        "mob": "Susej",
+        "archi": "Susette il Dolce"
+      },
+      "es": {
+        "mob": "Susej",
+        "archi": "Sushij el Makisan"
+      },
+      "pt": {
+        "mob": "Susej",
+        "archi": "Suzessmano, o Entusiasmado"
+      }
+    }
+  },
+  {
+    "id": "209",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Kokoko",
+        "archi": "Misskokoko the Channel"
+      },
+      "de": {
+        "mob": "Kokoko",
+        "archi": "Kokogogol der Lehmige"
+      },
+      "fr": {
+        "mob": "Kokoko",
+        "archi": "Koktèle le Secoué"
+      },
+      "it": {
+        "mob": "Kokoko",
+        "archi": "Koktel lo Scosso"
+      },
+      "es": {
+        "mob": "Kokoko",
+        "archi": "Kokotel el Agitado"
+      },
+      "pt": {
+        "mob": "Kokoko",
+        "archi": "Misskokoko, o Chanel"
+      }
+    }
+  },
+  {
+    "id": "291",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Chafer Archer",
+        "archi": "Chaferotix the Sixtininth"
+      },
+      "de": {
+        "mob": "Chafer-Bogenschütze",
+        "archi": "Chafrichter Böllenhein der Schütze"
+      },
+      "fr": {
+        "mob": "Chafer Archer",
+        "archi": "Chafmarcel le Fêtard"
+      },
+      "it": {
+        "mob": "Chafer Arciere",
+        "archi": "Chalamusica il Festaiolo"
+      },
+      "es": {
+        "mob": "Chafer arquero",
+        "archi": "Chaferditos los Tres"
+      },
+      "pt": {
+        "mob": "Chafer arqueiro",
+        "archi": "Chafadado, o Predestinado"
+      }
+    }
+  },
+  {
+    "id": "290",
+    "quest_step": 10,
+    "names": {
+      "en": {
+        "mob": "Chafer Lancer",
+        "archi": "Chafermented the Drinker"
+      },
+      "de": {
+        "mob": "Chafer-Lanzenträger",
+        "archi": "Chafah Lanx der Informative"
+      },
+      "fr": {
+        "mob": "Chafer Lancier",
+        "archi": "Chalan le Commerçant"
+      },
+      "it": {
+        "mob": "Chafer Lanciere",
+        "archi": "Chafermentato il Bevitore"
+      },
+      "es": {
+        "mob": "Chafer lancero",
+        "archi": "Chagüer Langers los Coloridos"
+      },
+      "pt": {
+        "mob": "Chafer lanceiro",
+        "archi": "Chafermento, o Grande"
+      }
+    }
+  },
+  {
+    "id": "447",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Grossewer Raeman",
+        "archi": "Ralftime the Dilettante"
+      },
+      "de": {
+        "mob": "Rattmanen-Kanalkratte",
+        "archi": "Kanaellkrat der Tschamane"
+      },
+      "fr": {
+        "mob": "Ramane d'Égoutant",
+        "archi": "Ramitant le Dilettante"
+      },
+      "it": {
+        "mob": "Sciamano d'Isgustoso",
+        "archi": "Rattintervallo il Dimezzato"
+      },
+      "es": {
+        "mob": "Ramán de alcantarilla",
+        "archi": "Charratos el Diletante"
+      },
+      "pt": {
+        "mob": "Ramã do Esgoto",
+        "archi": "Xamãsselo, o Absorto"
+      }
+    }
+  },
+  {
+    "id": "747",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Dok Alako",
+        "archi": "Dokterwho the Tardisporter"
+      },
+      "de": {
+        "mob": "DoK Alako",
+        "archi": "Poch Alako der Medikus"
+      },
+      "fr": {
+        "mob": "Dok Alako",
+        "archi": "Doktopuss le Maléfique"
+      },
+      "it": {
+        "mob": "Dok Alako",
+        "archi": "Doktorhaus lo Zoppicante"
+      },
+      "es": {
+        "mob": "Dok alako",
+        "archi": "DoK Ok el Gasterópodo"
+      },
+      "pt": {
+        "mob": "Dok Alako",
+        "archi": "Dokterquem, o Transportador"
+      }
+    }
+  },
+  {
+    "id": "668",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Minokid",
+        "archi": "Minoknok the Visitor"
+      },
+      "de": {
+        "mob": "Bumino",
+        "archi": "Belungnumino der Niemand"
+      },
+      "fr": {
+        "mob": "Gamino",
+        "archi": "Germinol l'Indigent"
+      },
+      "it": {
+        "mob": "Gammino",
+        "archi": "Gamboi l'Avanzato"
+      },
+      "es": {
+        "mob": "Minovillo",
+        "archi": "Minocontavan Konm'astuzia el Colorado"
+      },
+      "pt": {
+        "mob": "Menimino",
+        "archi": "Minocnoc, o Visitante"
+      }
+    }
+  },
+  {
+    "id": "748",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Immature Koalak",
+        "archi": "Koaldmen the Grumpy"
+      },
+      "de": {
+        "mob": "Unreifer Koalak",
+        "archi": "Koalak Tioner der Zappelige"
+      },
+      "fr": {
+        "mob": "Koalak Immature",
+        "archi": "Koalastrof la Naturelle"
+      },
+      "it": {
+        "mob": "Koalak Immaturo",
+        "archi": "Koalastrofe la Naturale"
+      },
+      "es": {
+        "mob": "Koalak inmaduro",
+        "archi": "Kokajín el Calvo"
+      },
+      "pt": {
+        "mob": "Koalak Imaturo",
+        "archi": "Koald, o Irritado"
+      }
+    }
+  },
+  {
+    "id": "495",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Ouassingal",
+        "archi": "Ougineemo the Lost"
+      },
+      "de": {
+        "mob": "Großmorph",
+        "archi": "Morph Heuß der Stimmgewaltige"
+      },
+      "fr": {
+        "mob": "La Ouassingue",
+        "archi": "Ouature la Mobile"
+      },
+      "it": {
+        "mob": "Cencia",
+        "archi": "Censura la Critica"
+      },
+      "es": {
+        "mob": "La stropajo",
+        "archi": "El Strat el Vampiro"
+      },
+      "pt": {
+        "mob": "A Nojosa",
+        "archi": "Nojumento, o Empacado"
+      }
+    }
+  },
+  {
+    "id": "496",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Ouassingue",
+        "archi": "Ouassup the Irritating"
+      },
+      "de": {
+        "mob": "Kleinmorph",
+        "archi": "Kleinmorph Meta der Unbeständige"
+      },
+      "fr": {
+        "mob": "Le Ouassingue",
+        "archi": "Ouassébo l'Esthète"
+      },
+      "it": {
+        "mob": "Cencio",
+        "archi": "Centorba il Greco"
+      },
+      "es": {
+        "mob": "El stropajo",
+        "archi": "El Stronyjok el Pajarillo"
+      },
+      "pt": {
+        "mob": "O Nojoso",
+        "archi": "Nojanela, o Fofoqueiro"
+      }
+    }
+  },
+  {
+    "id": "1096",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Boggedown Ouassingue",
+        "archi": "Ouassingiam the Tyrant"
+      },
+      "de": {
+        "mob": "A Morph",
+        "archi": "A Morphyslah der Schiefgehende"
+      },
+      "fr": {
+        "mob": "Le Ouassingue Entourbé",
+        "archi": "Ouashouash l'Exubérant"
+      },
+      "it": {
+        "mob": "Cencio Intorbato",
+        "archi": "Centometri l'Atleta"
+      },
+      "es": {
+        "mob": "Stropajo turbado",
+        "archi": "El Strópala Otravez el Sam"
+      },
+      "pt": {
+        "mob": "O Nojoso Turbado",
+        "archi": "Nojeriza, o Antipático"
+      }
+    }
+  },
+  {
+    "id": "1065",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Mahlibuh Palmflower",
+        "archi": "Palmpilot the Yuppie"
+      },
+      "de": {
+        "mob": "Grünpalmiflor",
+        "archi": "Palmiphosflor der Grünliche"
+      },
+      "fr": {
+        "mob": "Palmifleur Malibout",
+        "archi": "Palmito le Menteur"
+      },
+      "it": {
+        "mob": "Palmiflore Malibù",
+        "archi": "Palmorte la Verde"
+      },
+      "es": {
+        "mob": "Palmiflor malibut",
+        "archi": "Palmiscor Pions los Amantes"
+      },
+      "pt": {
+        "mob": "Palmiflor Maliboo",
+        "archi": "Palmitômano, o Mentiroso"
+      }
+    }
+  },
+  {
+    "id": "1067",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Mojeeto Palmflower",
+        "archi": "Palmoleaf the Greasy"
+      },
+      "de": {
+        "mob": "Fahlpalmiflor",
+        "archi": "Fahlmidor Daliflor der Schnurrbärtige"
+      },
+      "fr": {
+        "mob": "Palmifleur Morito",
+        "archi": "Palmiche le Serein"
+      },
+      "it": {
+        "mob": "Palmiflore Morito",
+        "archi": "Palmiguerra la Bianca"
+      },
+      "es": {
+        "mob": "Palmiflor mohito",
+        "archi": "Palmila la Vigilante"
+      },
+      "pt": {
+        "mob": "Palmiflor Morrito",
+        "archi": "Palmofolha, o Gorduroso"
+      }
+    }
+  },
+  {
+    "id": "1066",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Passaoh Palmflower",
+        "archi": "Naypalm the Herbivorous"
+      },
+      "de": {
+        "mob": "Braunpalmiflor",
+        "archi": "Braunpalmi der Florist"
+      },
+      "fr": {
+        "mob": "Palmifleur Passaoh",
+        "archi": "Palmiflette le Convivial"
+      },
+      "it": {
+        "mob": "Palmiflore Passaoh",
+        "archi": "Palmistilenza la Rossa"
+      },
+      "es": {
+        "mob": "Palmiflor passaoh",
+        "archi": "Palmifred Passteroh el Bailarín"
+      },
+      "pt": {
+        "mob": "Palmiflor Passaoh",
+        "archi": "Palmitola, o Delicado"
+      }
+    }
+  },
+  {
+    "id": "297",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Plain Boar",
+        "archi": "Boarealis the Bright"
+      },
+      "de": {
+        "mob": "Keiler der Ebenen",
+        "archi": "Keilerniun Ebertenen der Langjährige"
+      },
+      "fr": {
+        "mob": "Sanglier des Plaines",
+        "archi": "Sampi l'Eternel"
+      },
+      "it": {
+        "mob": "Cinghiale delle Pianure",
+        "archi": "San Topyo l'Eterno"
+      },
+      "es": {
+        "mob": "Jabalí de las llanuras",
+        "archi": "Jabulio de la Llanesias el Portero"
+      },
+      "pt": {
+        "mob": "Javali das Planícies",
+        "archi": "Javalino, o Brilhante"
+      }
+    }
+  },
+  {
+    "id": "254",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Venerable Treechnid",
+        "archi": "Treektamak the Loud"
+      },
+      "de": {
+        "mob": "Ehrwürdiger Astaknyde",
+        "archi": "Astaknydinida der Ehrwürdige"
+      },
+      "fr": {
+        "mob": "Abraknyde Vénérable",
+        "archi": "Abrakildas le Vénérable"
+      },
+      "it": {
+        "mob": "Alberagno Venerabile",
+        "archi": "Alberatusalemme il Venerabile"
+      },
+      "es": {
+        "mob": "Abráknido venerable",
+        "archi": "Abrakadabra el Pata de Kabra"
+      },
+      "pt": {
+        "mob": "Arvraknídeo Venerável",
+        "archi": "Arvrakolá, o Distante"
+      }
+    }
+  },
+  {
+    "id": "293",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Plain Crackler",
+        "archi": "Cracklerod the Old"
+      },
+      "de": {
+        "mob": "Krachler der Ebenen",
+        "archi": "Krachlerm Ebenäusch der Tosende"
+      },
+      "fr": {
+        "mob": "Craqueleur des Plaines",
+        "archi": "Cramikaz le Suicidaire"
+      },
+      "it": {
+        "mob": "Croccaroc delle Pianure",
+        "archi": "Crockamikaze il Suicida"
+      },
+      "es": {
+        "mob": "Crujidor de las llanuras",
+        "archi": "Crujidilo Dundee el Australiano"
+      },
+      "pt": {
+        "mob": "Smagador das planícies",
+        "archi": "Cracklerod, o Ancião"
+      }
+    }
+  },
+  {
+    "id": "6229",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Kwakumber",
+        "archi": "Komko the Vexatious"
+      },
+      "de": {
+        "mob": "Kwurke",
+        "archi": "Koko die Grausame"
+      },
+      "fr": {
+        "mob": "Kokom",
+        "archi": "Koko la Violente"
+      },
+      "it": {
+        "mob": "Kwappetriolo",
+        "archi": "Kwappy la Marinata"
+      },
+      "es": {
+        "mob": "Kukumi",
+        "archi": "Kukumina la Violenta"
+      },
+      "pt": {
+        "mob": "Kwapepino",
+        "archi": "Raiwapoko, a Violenta"
+      }
+    }
+  },
+  {
+    "id": "292",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Elite Chafer",
+        "archi": "Chaferuption the Volcanic"
+      },
+      "de": {
+        "mob": "Elite-Chafer",
+        "archi": "Elitar Chagallafer der Markgraf"
+      },
+      "fr": {
+        "mob": "Chafer d'Élite",
+        "archi": "Chafrit le Barbare"
+      },
+      "it": {
+        "mob": "Chafer Scelto",
+        "archi": "Chaferuzione il Vulcanico"
+      },
+      "es": {
+        "mob": "Chafer de élite",
+        "archi": "Chafernan D'alonzo el Nano"
+      },
+      "pt": {
+        "mob": "Chafer de elite",
+        "archi": "Chaferupção, o Vulcânico"
+      }
+    }
+  },
+  {
+    "id": "1026",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Polished Crackrock",
+        "archi": "Crackrodilrock the Helltune"
+      },
+      "de": {
+        "mob": "Geschliffener Krachlklotz",
+        "archi": "Krachotznklotz der Ungeschliffene"
+      },
+      "fr": {
+        "mob": "Craqueboule Poli",
+        "archi": "Craquetou le Fissuré"
+      },
+      "it": {
+        "mob": "Croccabul Educato",
+        "archi": "Croccatutto l'Indifferente"
+      },
+      "es": {
+        "mob": "Crujibola pulío",
+        "archi": "Crujlieta la Veronesa"
+      },
+      "pt": {
+        "mob": "Smagabola Polido",
+        "archi": "Smagomoso, o Viscoso"
+      }
+    }
+  },
+  {
+    "id": "371",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Fungi Master",
+        "archi": "Blackmush Master the Swordsman"
+      },
+      "de": {
+        "mob": "Meister Röhrling",
+        "archi": "Meister Feldröhrling der Dicksäbler"
+      },
+      "fr": {
+        "mob": "Maître Bolet",
+        "archi": "Maître Champeur le Sabreur"
+      },
+      "it": {
+        "mob": "Maestro Boleto",
+        "archi": "Maestr' Onomo il Ritmato"
+      },
+      "es": {
+        "mob": "Maestro boletus",
+        "archi": "Maestro Champavor el Espadachín"
+      },
+      "pt": {
+        "mob": "Mestre Boleto",
+        "archi": "Mestre Espadachampéu"
+      }
+    }
+  },
+  {
+    "id": "6323",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Nenufrog",
+        "archi": "Ninnyfrog the Nice"
+      },
+      "de": {
+        "mob": "Grenufar",
+        "archi": "Grenuschi die Sanftmütige"
+      },
+      "fr": {
+        "mob": "Grenufar",
+        "archi": "Grenuche la Gentille"
+      },
+      "it": {
+        "mob": "Raninfea",
+        "archi": "Raninfea la Delicata"
+      },
+      "es": {
+        "mob": "Ranúfar",
+        "archi": "Raninia la Buena"
+      },
+      "pt": {
+        "mob": "Rãnúfar",
+        "archi": "Rãnufofa, a Boazinha"
+      }
+    }
+  },
+  {
+    "id": "211",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Kanniballbo",
+        "archi": "Kannimantha the Maneater"
+      },
+      "de": {
+        "mob": "Kanniball Archibald",
+        "archi": "Karnewallis Archibald der Ausgelassene"
+      },
+      "fr": {
+        "mob": "Kanniboul Ark",
+        "archi": "Kannibal le Lecteur"
+      },
+      "it": {
+        "mob": "Kannibul Arc",
+        "archi": "Kannijohn il Cantante"
+      },
+      "es": {
+        "mob": "Kaníbola arquero",
+        "archi": "Kanníbal el Lector"
+      },
+      "pt": {
+        "mob": "Kanibola Arko",
+        "archi": "Kannibal, o Leitor"
+      }
+    }
+  },
+  {
+    "id": "213",
+    "quest_step": 11,
+    "names": {
+      "en": {
+        "mob": "Kanniball Jav",
+        "archi": "Kanniranda the Maniac"
+      },
+      "de": {
+        "mob": "Kanniball Jav",
+        "archi": "Jaffe Kanniball der Listige"
+      },
+      "fr": {
+        "mob": "Kanniboul Jav",
+        "archi": "Kapota la Fraise"
+      },
+      "it": {
+        "mob": "Kannibul Giav",
+        "archi": "Kanniringo il Batterista"
+      },
+      "es": {
+        "mob": "Kaníbola jav",
+        "archi": "Kanábolo el Rubio"
+      },
+      "pt": {
+        "mob": "Kanibola Jav",
+        "archi": "Kapota, o Descuidado"
+      }
+    }
+  },
+  {
+    "id": "214",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Kanniball Sarbak",
+        "archi": "Kannemik the Skinny"
+      },
+      "de": {
+        "mob": "Kanniball Sarbak",
+        "archi": "Mafaldrasarbak der Kannibale"
+      },
+      "fr": {
+        "mob": "Kanniboul Sarbak",
+        "archi": "Kannémik le Maigre"
+      },
+      "it": {
+        "mob": "Kannibul Cerb",
+        "archi": "Kannigeorge il Chitarrista"
+      },
+      "es": {
+        "mob": "Kaníbola cerbat",
+        "archi": "Klaidíbola Cerbarrow la Otra Mitad"
+      },
+      "pt": {
+        "mob": "Kanibola Sarbak",
+        "archi": "Kanêmico, o Desnutrido"
+      }
+    }
+  },
+  {
+    "id": "212",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Kanniball Thierry",
+        "archi": "Kannarrie the Reckless"
+      },
+      "de": {
+        "mob": "Kanniball Thomas",
+        "archi": "Khanniball Ektor der Thomatische"
+      },
+      "fr": {
+        "mob": "Kanniboul Eth",
+        "archi": "Kannisterik le Forcené"
+      },
+      "it": {
+        "mob": "Kannibul As",
+        "archi": "Kannipaul il Bassista"
+      },
+      "es": {
+        "mob": "Kaníbola Fipi",
+        "archi": "Kanibúlrich Lars el Metálico"
+      },
+      "pt": {
+        "mob": "Kanibola Eth",
+        "archi": "Kanistérico, o Descontrolado"
+      }
+    }
+  },
+  {
+    "id": "6203",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Blokapwane",
+        "archi": "Snarkapwane the Snarky"
+      },
+      "de": {
+        "mob": "Blaskwaprohne",
+        "archi": "Sarkastik der Unverstandene"
+      },
+      "fr": {
+        "mob": "Sarkapwane",
+        "archi": "Sarkastik l'Incompris"
+      },
+      "it": {
+        "mob": "Cerkwappana",
+        "archi": "Cerkwotutto il Perduto"
+      },
+      "es": {
+        "mob": "Kuanuto",
+        "archi": "Kuantista el Incomprendido"
+      },
+      "pt": {
+        "mob": "Zakwapatana",
+        "archi": "Zarkwástiko, o Incompreendido"
+      }
+    }
+  },
+  {
+    "id": "1064",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Kurasso Palmflower",
+        "archi": "Palmella the Hefty"
+      },
+      "de": {
+        "mob": "Blaupalmiflor",
+        "archi": "Blaupalfümiflor der Naseweise"
+      },
+      "fr": {
+        "mob": "Palmifleur Kouraçao",
+        "archi": "Palmbytch la Bronzée"
+      },
+      "it": {
+        "mob": "Palmiflore Kuraçao",
+        "archi": "Palmifame la Nera"
+      },
+      "es": {
+        "mob": "Palmiflor kuraçao",
+        "archi": "Palmiró el Tetradimensional"
+      },
+      "pt": {
+        "mob": "Palmiflor Kuraçal",
+        "archi": "Palmela, o Robusto"
+      }
+    }
+  },
+  {
+    "id": "442",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Grossewer Rat",
+        "archi": "Rattle the Hummer"
+      },
+      "de": {
+        "mob": "Kanalkratte",
+        "archi": "Kanalikratti Fizier die Schnörkelige"
+      },
+      "fr": {
+        "mob": "Rat d'Égoutant",
+        "archi": "Ratlbol l'Aigri"
+      },
+      "it": {
+        "mob": "Ratto d'Isgustoso",
+        "archi": "Rattatui lo Stufato"
+      },
+      "es": {
+        "mob": "Rata de alcantarilla",
+        "archi": "Rafa de Alnadalillas el Canibal"
+      },
+      "pt": {
+        "mob": "Rato de esgoto",
+        "archi": "Ratosco, o Grosseiro"
+      }
+    }
+  },
+  {
+    "id": "3239",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Draugur Chafer",
+        "archi": "Ougathard the Fortunate"
+      },
+      "de": {
+        "mob": "Draugr-Chafer",
+        "archi": "Ouginak Taktiv der Energiegeladene"
+      },
+      "fr": {
+        "mob": "Chafer Draugr",
+        "archi": "Ougaould le Parasite"
+      },
+      "it": {
+        "mob": "Chafer Draugr",
+        "archi": "Uginante il Nano"
+      },
+      "es": {
+        "mob": "Chafer draugr",
+        "archi": "Uginukem el Duque"
+      },
+      "pt": {
+        "mob": "Chafer Draugur",
+        "archi": "Ougatarda, o Bem-aventurado"
+      }
+    }
+  },
+  {
+    "id": "1022",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Coralator",
+        "archi": "Kojaklator the Lollipoper"
+      },
+      "de": {
+        "mob": "Korallator",
+        "archi": "Knorallkator der Einstimmende"
+      },
+      "fr": {
+        "mob": "Corailleur",
+        "archi": "Corboyard l'Enigmatique"
+      },
+      "it": {
+        "mob": "Corallaro",
+        "archi": "Coralloro il Luccicante"
+      },
+      "es": {
+        "mob": "Coralador",
+        "archi": "Cortazador el Inconformista"
+      },
+      "pt": {
+        "mob": "Coralador",
+        "archi": "Kojaclator, o Desmancha Prazer"
+      }
+    }
+  },
+  {
+    "id": "81",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Wind Kwak",
+        "archi": "Kwaked the Pirated"
+      },
+      "de": {
+        "mob": "Wind-Kwack",
+        "archi": "Kwantivirus, der Gehackte"
+      },
+      "fr": {
+        "mob": "Kwak de Vent",
+        "archi": "Kwaké le Piraté"
+      },
+      "it": {
+        "mob": "Kwak di Vento",
+        "archi": "Kwakwato il Piratato"
+      },
+      "es": {
+        "mob": "Kwak de viento",
+        "archi": "Kwakeado el Pirateado"
+      },
+      "pt": {
+        "mob": "Kwak de Vento",
+        "archi": "Kwakeado, o Pirateado"
+      }
+    }
+  },
+  {
+    "id": "84",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Ice Kwak",
+        "archi": "Kwakwatic the Soaked"
+      },
+      "de": {
+        "mob": "Eis-Kwack",
+        "archi": "Kwakwatik, der Durchnässte"
+      },
+      "fr": {
+        "mob": "Kwak de Glace",
+        "archi": "Kwakwatique le Trempé"
+      },
+      "it": {
+        "mob": "Kwak di Ghiaccio",
+        "archi": "Kwakwatico il Fradicio"
+      },
+      "es": {
+        "mob": "Kwak de hielo",
+        "archi": "Kwakwático el Mojado"
+      },
+      "pt": {
+        "mob": "Kwak de Gelo",
+        "archi": "Kwakwático, o Encharcado"
+      }
+    }
+  },
+  {
+    "id": "235",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Earth Kwak",
+        "archi": "Kwakamole the Appetising"
+      },
+      "de": {
+        "mob": "Stein-Kwack",
+        "archi": "Kwakamole, der Appetitliche"
+      },
+      "fr": {
+        "mob": "Kwak de Terre",
+        "archi": "Kwakamole l'Appétissant"
+      },
+      "it": {
+        "mob": "Kwak di Terra",
+        "archi": "Kwakamole l'Appetitoso"
+      },
+      "es": {
+        "mob": "Kwak de tierra",
+        "archi": "Kwakamole el Apetitoso"
+      },
+      "pt": {
+        "mob": "Kwak de Terra",
+        "archi": "Kwakamole, o Apetitoso"
+      }
+    }
+  },
+  {
+    "id": "83",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Fire Kwak",
+        "archi": "Kwadbury the Chocolaty"
+      },
+      "de": {
+        "mob": "Flammen-Kwack",
+        "archi": "Kwakolak, der Schokoladige"
+      },
+      "fr": {
+        "mob": "Kwak de Flamme",
+        "archi": "Kwakolak le Chocolaté"
+      },
+      "it": {
+        "mob": "Kwak di Fiamma",
+        "archi": "Kwakwoskqwik il Cioccolatoso"
+      },
+      "es": {
+        "mob": "Kwak de llamas",
+        "archi": "Kwakaolatt el Chocolateado"
+      },
+      "pt": {
+        "mob": "Kwak de Fogo",
+        "archi": "Kwakolak, o Chocolatado"
+      }
+    }
+  },
+  {
+    "id": "3304",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Pignolia",
+        "archi": "Baconolia the Salty"
+      },
+      "de": {
+        "mob": "Grunzicher",
+        "archi": "Pikanto, der Fluchende"
+      },
+      "fr": {
+        "mob": "Porsalu",
+        "archi": "Porsalé le Râleur"
+      },
+      "it": {
+        "mob": "Porcaluto",
+        "archi": "Maialpikkato il Brontolone"
+      },
+      "es": {
+        "mob": "Cerdo serrano",
+        "archi": "Serranito el Montadito"
+      },
+      "pt": {
+        "mob": "Diparma",
+        "archi": "Porsal, o Ranzinza"
+      }
+    }
+  },
+  {
+    "id": "5804",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Dragnnoyed",
+        "archi": "Dragoskovit the Barefoot"
+      },
+      "de": {
+        "mob": "Drachzorn",
+        "archi": "Dracossmiumis der Schwere"
+      },
+      "fr": {
+        "mob": "Dragacé",
+        "archi": "Dragioli le Succulent"
+      },
+      "it": {
+        "mob": "Draguirritato",
+        "archi": "Dragù il Succulento"
+      },
+      "es": {
+        "mob": "Draguirritado",
+        "archi": "Dragrogui el Ebrio"
+      },
+      "pt": {
+        "mob": "Draguirritado",
+        "archi": "Dragoskovit, o descalço"
+      }
+    }
+  },
+  {
+    "id": "4575",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Vetauran",
+        "archi": "Vetaurine the Energised"
+      },
+      "de": {
+        "mob": "Vetauran",
+        "archi": "Vetaurin, der Energetisierte"
+      },
+      "fr": {
+        "mob": "Vétauran",
+        "archi": "Vétaurine l'Énergisé"
+      },
+      "it": {
+        "mob": "Vetorano",
+        "archi": "Vetaurino l'Energico"
+      },
+      "es": {
+        "mob": "Vetorano",
+        "archi": "Vetaurino el Energizado"
+      },
+      "pt": {
+        "mob": "Vetaurano",
+        "archi": "Vetaurino, o Energizado"
+      }
+    }
+  },
+  {
+    "id": "954",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Mumussel",
+        "archi": "Mastostroke the Strokable"
+      },
+      "de": {
+        "mob": "Miese Muschel",
+        "archi": "Wuschel, die Sanftmütige"
+      },
+      "fr": {
+        "mob": "Moumoule",
+        "archi": "Moumoute la Douce"
+      },
+      "it": {
+        "mob": "Cocozza",
+        "archi": "Coco l'Appiccicosa"
+      },
+      "es": {
+        "mob": "Almejillón",
+        "archi": "Peluca la Suavita"
+      },
+      "pt": {
+        "mob": "Memexilhão",
+        "archi": "Juba, a Doce"
+      }
+    }
+  },
+  {
+    "id": "6222",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Parashutackle",
+        "archi": "Paranotackle the Emasculated"
+      },
+      "de": {
+        "mob": "Parashukui",
+        "archi": "Parachuck der Entmannte"
+      },
+      "fr": {
+        "mob": "Parashukouï",
+        "archi": "Parapadkouï l'Émasculé"
+      },
+      "it": {
+        "mob": "Parashuki",
+        "archi": "Parashu il Caduto"
+      },
+      "es": {
+        "mob": "Kojonuki",
+        "archi": "Akujune el Capado"
+      },
+      "pt": {
+        "mob": "Paracolhão",
+        "archi": "Semcolhão, o Capado"
+      }
+    }
+  },
+  {
+    "id": "829",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Quetsnakiatl",
+        "archi": "Quetnin the Fictional"
+      },
+      "de": {
+        "mob": "Federboah",
+        "archi": "Federerboah die Siegreiche"
+      },
+      "fr": {
+        "mob": "Serpiplume",
+        "archi": "Serpistule le Purulent"
+      },
+      "it": {
+        "mob": "Serpipiuma",
+        "archi": "Serpico l'Onesto"
+      },
+      "es": {
+        "mob": "Serpipluma",
+        "archi": "Serpistol el Afónico"
+      },
+      "pt": {
+        "mob": "Serpluma",
+        "archi": "Quetnin, o Fictício"
+      }
+    }
+  },
+  {
+    "id": "6231",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Baka",
+        "archi": "Bakaka the Intellectual"
+      },
+      "de": {
+        "mob": "Betto",
+        "archi": "Bebetto der Intellektuelle"
+      },
+      "fr": {
+        "mob": "Betto",
+        "archi": "Bebetto l'Intellectuel"
+      },
+      "it": {
+        "mob": "Kwappeota",
+        "archi": "Kwappeota l'Intellettuale"
+      },
+      "es": {
+        "mob": "Kuapatán",
+        "archi": "Kuapánfilo el Intelectual"
+      },
+      "pt": {
+        "mob": "Idiotô",
+        "archi": "Benhidiotô, o Intelectual"
+      }
+    }
+  },
+  {
+    "id": "6230",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Akakwa",
+        "archi": "Akakaka the Dirty"
+      },
+      "de": {
+        "mob": "Akakwa",
+        "archi": "Akaka der Besudelte"
+      },
+      "fr": {
+        "mob": "Akakwa",
+        "archi": "Akaka le Souillé"
+      },
+      "it": {
+        "mob": "Kwaprosso",
+        "archi": "Kwapross il Daltonico"
+      },
+      "es": {
+        "mob": "Kuakai",
+        "archi": "Kakai el Ensuciado"
+      },
+      "pt": {
+        "mob": "Akakwa",
+        "archi": "Akaka, o Sujismundo"
+      }
+    }
+  },
+  {
+    "id": "926",
+    "quest_step": 12,
+    "names": {
+      "en": {
+        "mob": "Raul Mops",
+        "archi": "Raul Modrid the Chulo"
+      },
+      "de": {
+        "mob": "Rolf Mops",
+        "archi": "Rorff Mops der Carlimaburaner"
+      },
+      "fr": {
+        "mob": "Raul Mops",
+        "archi": "Rauligo le Sale"
+      },
+      "it": {
+        "mob": "Raul Mops",
+        "archi": "Raucedine lo Stridulo"
+      },
+      "es": {
+        "mob": "Raúl mops",
+        "archi": "Raúl Cera la Péptica"
+      },
+      "pt": {
+        "mob": "Raul Mops",
+        "archi": "Raul Modrid, o Chulo"
+      }
+    }
+  },
+  {
+    "id": "231",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Cannon Dorf",
+        "archi": "Ganon the Dwarf"
+      },
+      "de": {
+        "mob": "Canondorf",
+        "archi": "Canon-Dorfille der Kanonier"
+      },
+      "fr": {
+        "mob": "Canondorf",
+        "archi": "Caboume l'Artilleur"
+      },
+      "it": {
+        "mob": "Canon Dorf",
+        "archi": "Caboom l'Artigliere"
+      },
+      "es": {
+        "mob": "Cañón dorf",
+        "archi": "Cañón Dorzuelo el Doloroso"
+      },
+      "pt": {
+        "mob": "Canhão Dorf",
+        "archi": "Ganon, o Pigmeu"
+      }
+    }
+  },
+  {
+    "id": "6223",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Tatatojiki",
+        "archi": "Tatatojiki the Squeaky"
+      },
+      "de": {
+        "mob": "Lolojiki",
+        "archi": "Tilolo die Topfitte"
+      },
+      "fr": {
+        "mob": "Lolojiki",
+        "archi": "Tilolo la Bien Moulée"
+      },
+      "it": {
+        "mob": "Tanutojiki",
+        "archi": "Tanuto la Fragile"
+      },
+      "es": {
+        "mob": "Senojiki",
+        "archi": "Jikitita la Moldeada"
+      },
+      "pt": {
+        "mob": "Seiojiki",
+        "archi": "Seiomini, a Empinada"
+      }
+    }
+  },
+  {
+    "id": "229",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Hazwonarm",
+        "archi": "Hazwonball the Hickler"
+      },
+      "de": {
+        "mob": "Hanur Armein",
+        "archi": "Haggnur Ardmein der Vielseitige"
+      },
+      "fr": {
+        "mob": "Nakunbra",
+        "archi": "Nakuneuye le Borgne"
+      },
+      "it": {
+        "mob": "Nakunbra",
+        "archi": "Nakanokkio lo Sguercio"
+      },
+      "es": {
+        "mob": "Notyebra",
+        "archi": "Nakúmbat el Mortal"
+      },
+      "pt": {
+        "mob": "Omanetta",
+        "archi": "Hazwoabola, o Enfadonho"
+      }
+    }
+  },
+  {
+    "id": "1076",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Warguerite",
+        "archi": "Warazpacho the Cherrilla"
+      },
+      "de": {
+        "mob": "Rindenhund",
+        "archi": "Rindiumhund der Weiche"
+      },
+      "fr": {
+        "mob": "Chiendent",
+        "archi": "Chiendanlémin l'Illusionniste"
+      },
+      "it": {
+        "mob": "Gramigna",
+        "archi": "Gramfield il Felino"
+      },
+      "es": {
+        "mob": "Marguerrita",
+        "archi": "Merkxguerrita el Ogro"
+      },
+      "pt": {
+        "mob": "Maerva",
+        "archi": "Warazpacho the Cherrilla"
+      }
+    }
+  },
+  {
+    "id": "76",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Limestone Dreggon",
+        "archi": "Dragamemnon the Deadtroyer"
+      },
+      "de": {
+        "mob": "Kalk-Drachei",
+        "archi": "Weiß Drachgeis der Akapellaner"
+      },
+      "fr": {
+        "mob": "Dragoeuf Calcaire",
+        "archi": "Dragstayr le Fonceur"
+      },
+      "it": {
+        "mob": "Draguovo Calcare",
+        "archi": "Dragsoluto il Determinato"
+      },
+      "es": {
+        "mob": "Dragohuevo calizo",
+        "archi": "Dreggeatón el Latino"
+      },
+      "pt": {
+        "mob": "Dragovo Calcário",
+        "archi": "Dragamemnon, o Destroçador"
+      }
+    }
+  },
+  {
+    "id": "88",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Slate Dreggon",
+        "archi": "Dreggatón the Latino"
+      },
+      "de": {
+        "mob": "Schiefer-Drachei",
+        "archi": "Drachei Mär der Inhaltsreiche"
+      },
+      "fr": {
+        "mob": "Dragoeuf Ardoise",
+        "archi": "Dragmoclaiss le Fataliste"
+      },
+      "it": {
+        "mob": "Draguovo Ardesia",
+        "archi": "Dragmocle il Fatalista"
+      },
+      "es": {
+        "mob": "Dragohuevo pizarroso",
+        "archi": "Dragmocles el Fatalista"
+      },
+      "pt": {
+        "mob": "Dragovo Ardósia",
+        "archi": "Dragatão, o Latino"
+      }
+    }
+  },
+  {
+    "id": "87",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Clay Dreggon",
+        "archi": "Dreggump the Shrimp"
+      },
+      "de": {
+        "mob": "Lehm-Drachei",
+        "archi": "Goldungensun Drachensei der Garyganxtuistische"
+      },
+      "fr": {
+        "mob": "Dragoeuf Argile",
+        "archi": "Dragkouine la Déguisée"
+      },
+      "it": {
+        "mob": "Draguovo Argilla",
+        "archi": "Dragkuin la Travestita"
+      },
+      "es": {
+        "mob": "Dragohuevo arcilloso",
+        "archi": "Dragkuín el Disfrazado"
+      },
+      "pt": {
+        "mob": "Dragovo Argila",
+        "archi": "Dregumpi, o Anão"
+      }
+    }
+  },
+  {
+    "id": "89",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Coal Dreggon",
+        "archi": "Dreggommomm the Chewer"
+      },
+      "de": {
+        "mob": "Kohle-Drachei",
+        "archi": "Dracheino der Schwarz-Weiße"
+      },
+      "fr": {
+        "mob": "Dragoeuf Charbon",
+        "archi": "Dragnostik le Sceptique"
+      },
+      "it": {
+        "mob": "Draguovo Carbone",
+        "archi": "Dragnostik lo Scettico"
+      },
+      "es": {
+        "mob": "Dragohuevo carbonoso",
+        "archi": "Drajoanito el Rojo"
+      },
+      "pt": {
+        "mob": "Dragovo Carvão",
+        "archi": "Dragnóstico, o Cético"
+      }
+    }
+  },
+  {
+    "id": "752",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Coco Koalak",
+        "archi": "Jackoalak the Ripper"
+      },
+      "de": {
+        "mob": "Kokos-Koalak",
+        "archi": "Koalak Zell der Akrokospatische"
+      },
+      "fr": {
+        "mob": "Koalak Coco",
+        "archi": "Koamaembair le Coulant"
+      },
+      "it": {
+        "mob": "Koalak Cocco",
+        "archi": "Koamambo il Danzatore"
+      },
+      "es": {
+        "mob": "Koalak coco",
+        "archi": "Koalalia el Mudo"
+      },
+      "pt": {
+        "mob": "Koalak Coco",
+        "archi": "Jackoalak, o Espetacular"
+      }
+    }
+  },
+  {
+    "id": "753",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Morello Cherry Koalak",
+        "archi": "Koaly the Fiddler"
+      },
+      "de": {
+        "mob": "Kirsch-Koalak",
+        "archi": "Koalak Toseng der Unverträgliche"
+      },
+      "fr": {
+        "mob": "Koalak Griotte",
+        "archi": "Koakofrui le Confit"
+      },
+      "it": {
+        "mob": "Koalak Griotta",
+        "archi": "Koakkanth lo Sgranocchiatore"
+      },
+      "es": {
+        "mob": "Koalak guinda",
+        "archi": "Koalugok el Pato"
+      },
+      "pt": {
+        "mob": "Koalak Cereja",
+        "archi": "Koali, o Ocioso"
+      }
+    }
+  },
+  {
+    "id": "751",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Indigo Koalak",
+        "archi": "Crackoalak the Blonde"
+      },
+      "de": {
+        "mob": "Indigo-Koalak",
+        "archi": "Koalak Kai der Indigogefärbte"
+      },
+      "fr": {
+        "mob": "Koalak Indigo",
+        "archi": "Koaskette la Chapelière"
+      },
+      "it": {
+        "mob": "Koalak Indaco",
+        "archi": "Koasko il Cascatore"
+      },
+      "es": {
+        "mob": "Koalak índigo",
+        "archi": "Koalako el Pato"
+      },
+      "pt": {
+        "mob": "Koalak Índigo",
+        "archi": "Koabê, o Jurídico"
+      }
+    }
+  },
+  {
+    "id": "754",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Pippin Koalak",
+        "archi": "Snapoalak the Redhead"
+      },
+      "de": {
+        "mob": "Apfel-Koalak",
+        "archi": "Koalakoka der Wohlgemute"
+      },
+      "fr": {
+        "mob": "Koalak Reinette",
+        "archi": "Koarmit la Batracienne"
+      },
+      "it": {
+        "mob": "Koalak Reginetta",
+        "archi": "Koarmit la Rana"
+      },
+      "es": {
+        "mob": "Koalak reineta",
+        "archi": "Koaluik el Pato"
+      },
+      "pt": {
+        "mob": "Koalak Maçã",
+        "archi": "Snapoalak, o Ruivo"
+      }
+    }
+  },
+  {
+    "id": "449",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Hyoactive Rat",
+        "archi": "Ratilla the Hun"
+      },
+      "de": {
+        "mob": "Hyoaktive Ratte",
+        "archi": "Hyoaktiflip der Pirattige"
+      },
+      "fr": {
+        "mob": "Rat d'Hyoactif",
+        "archi": "Ratéhaifaim le Professeur"
+      },
+      "it": {
+        "mob": "Ratto d'Hyoactiv",
+        "archi": "Rattìgnoloe il Prof"
+      },
+      "es": {
+        "mob": "Rata hyoactiva",
+        "archi": "Ratila el Huno"
+      },
+      "pt": {
+        "mob": "Rato Hioativo",
+        "archi": "Ratilla, o Huno"
+      }
+    }
+  },
+  {
+    "id": "1048",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Sparo",
+        "archi": "Sparodi the Python"
+      },
+      "de": {
+        "mob": "Sparo",
+        "archi": "Sparostroomph der Umstrittene"
+      },
+      "fr": {
+        "mob": "Sparo",
+        "archi": "Sparoket le Lanceur"
+      },
+      "it": {
+        "mob": "Sparo",
+        "archi": "Sparop'pop il Pirata"
+      },
+      "es": {
+        "mob": "Sparo",
+        "archi": "Sparito el Feo"
+      },
+      "pt": {
+        "mob": "Sparo",
+        "archi": "Sparodi, o Peçonhento"
+      }
+    }
+  },
+  {
+    "id": "932",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Apero Ghost",
+        "archi": "Aperobics the Dynamic"
+      },
+      "de": {
+        "mob": "Apero Geist",
+        "archi": "Aperot der Ischiasleidende"
+      },
+      "fr": {
+        "mob": "Fantôme Apero",
+        "archi": "Fanlabiz le Véloce"
+      },
+      "it": {
+        "mob": "Fantasma Aperot",
+        "archi": "Fanmartin il Campanaro"
+      },
+      "es": {
+        "mob": "Fantasma de aperitubo",
+        "archi": "Fantasmarley el Rastafari"
+      },
+      "pt": {
+        "mob": "Fantasma Apero",
+        "archi": "Aperóbico, o Dinâmico"
+      }
+    }
+  },
+  {
+    "id": "378",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Plated Ghost",
+        "archi": "Polterghaisk the Stray Soul"
+      },
+      "de": {
+        "mob": "Ritterlicher Geist",
+        "archi": "Brechtender Geistbert der Holde"
+      },
+      "fr": {
+        "mob": "Fantôme Aux Plates",
+        "archi": "Fandanleuil le Précis"
+      },
+      "it": {
+        "mob": "Fantasma Scherata",
+        "archi": "Fandango il Danzatore"
+      },
+      "es": {
+        "mob": "Fantasma corazado",
+        "archi": "Fanthraks el Acomplejado"
+      },
+      "pt": {
+        "mob": "Fantasma Lhado",
+        "archi": "Polterghaisk, a Alma Perdida"
+      }
+    }
+  },
+  {
+    "id": "380",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Ghost Hicidal",
+        "archi": "Arepotair the Bespectacled"
+      },
+      "de": {
+        "mob": "Mordgeist",
+        "archi": "Areproch der Nowationsgeist"
+      },
+      "fr": {
+        "mob": "Fantôme Hicide",
+        "archi": "Fantoch le Pantin"
+      },
+      "it": {
+        "mob": "Fantasma Sacro",
+        "archi": "Fancleb l'Adoratore"
+      },
+      "es": {
+        "mob": "Fantasma sesino",
+        "archi": "Fantasma Arepopins la Niñera"
+      },
+      "pt": {
+        "mob": "Fantasma Górico",
+        "archi": "Fantoch, o Títere"
+      }
+    }
+  },
+  {
+    "id": "379",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Ghost Ominjry",
+        "archi": "Ghostabrava the Tourist"
+      },
+      "de": {
+        "mob": "Unschöngeist",
+        "archi": "Braverage die Mortilinguistin"
+      },
+      "fr": {
+        "mob": "Fantôme Égérie",
+        "archi": "Fantrask la Rêveuse"
+      },
+      "it": {
+        "mob": "Fantasma Tatoio",
+        "archi": "Fan-Tastik la Meravigliosa"
+      },
+      "es": {
+        "mob": "Fantasma nimado",
+        "archi": "Fantastle Vániante la Matavampiros"
+      },
+      "pt": {
+        "mob": "Fantasma Reco",
+        "archi": "Ghostabrava, a Sonhadora"
+      }
+    }
+  },
+  {
+    "id": "1049",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Barbrossa",
+        "archi": "Barbrosskam the Chief"
+      },
+      "de": {
+        "mob": "Bartarossa",
+        "archi": "Bachtarossa der Tüchtige"
+      },
+      "fr": {
+        "mob": "Barbroussa",
+        "archi": "Barebourd le Comte"
+      },
+      "it": {
+        "mob": "Barbrussa",
+        "archi": "Barcula il Conte"
+      },
+      "es": {
+        "mob": "Barbrusa",
+        "archi": "Barbrétzel el Salado"
+      },
+      "pt": {
+        "mob": "Barbrossa",
+        "archi": "Barbrossim, o Chefe"
+      }
+    }
+  },
+  {
+    "id": "1074",
+    "quest_step": 13,
+    "names": {
+      "en": {
+        "mob": "Gwass",
+        "archi": "Supergwass the Free"
+      },
+      "de": {
+        "mob": "Nerbig",
+        "archi": "Nerbigil Lohm der Brummige"
+      },
+      "fr": {
+        "mob": "Nerbe",
+        "archi": "Nerdeubeu le Flagellant"
+      },
+      "it": {
+        "mob": "Nerba",
+        "archi": "Nerbatura la Gotica"
+      },
+      "es": {
+        "mob": "Nierba",
+        "archi": "Nieruba el Poeta"
+      },
+      "pt": {
+        "mob": "Nerva",
+        "archi": "Supergwass, o Livre"
+      }
+    }
+  },
+  {
+    "id": "263",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Crocodyl Chief",
+        "archi": "Crokdylann the Rebel"
+      },
+      "de": {
+        "mob": "Chef-Crocodyll",
+        "archi": "Chef MacCrocophylls"
+      },
+      "fr": {
+        "mob": "Chef Crocodaille",
+        "archi": "Crok le Beau"
+      },
+      "it": {
+        "mob": "Capo Coccodrail",
+        "archi": "Crockodile il Rockettaro"
+      },
+      "es": {
+        "mob": "Jefe cocodrail",
+        "archi": "Jefe Cocolumbo el Detective"
+      },
+      "pt": {
+        "mob": "Chefe Crocodyl",
+        "archi": "Crokdylann, o Rebelde"
+      }
+    }
+  },
+  {
+    "id": "1019",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Plain Pikoko",
+        "archi": "Prikoko the Witless"
+      },
+      "de": {
+        "mob": "Bitouf der Ebenen",
+        "archi": "Bithomasouf der Ebernharden"
+      },
+      "fr": {
+        "mob": "Bitouf des Plaines",
+        "archi": "Toufou le Benêt"
+      },
+      "it": {
+        "mob": "Bituf delle Pianure",
+        "archi": "Bitufobico il Pauroso"
+      },
+      "es": {
+        "mob": "Tufo de las llanuras",
+        "archi": "Tufóbico el Miedoso"
+      },
+      "pt": {
+        "mob": "Bitufo das Planícies",
+        "archi": "Prikoko, o Estúpido"
+      }
+    }
+  },
+  {
+    "id": "1025",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Polished Crackler",
+        "archi": "Crackedral the Majestic"
+      },
+      "de": {
+        "mob": "Geschliffener Krachler",
+        "archi": "Krachlerus Geschlichtufus der Unendliche"
+      },
+      "fr": {
+        "mob": "Craqueleur Poli",
+        "archi": "Crathdogue le Cruel"
+      },
+      "it": {
+        "mob": "Croccaroc Educato",
+        "archi": "Croccante il Mandorlato"
+      },
+      "es": {
+        "mob": "Crujidor pulío",
+        "archi": "Crujíbaro el Tzantza"
+      },
+      "pt": {
+        "mob": "Smagador Polido",
+        "archi": "Crackedral, a Majestade"
+      }
+    }
+  },
+  {
+    "id": "3558",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Alyeena",
+        "archi": "Aftathabeep the Answerphone"
+      },
+      "de": {
+        "mob": "Alhyäne",
+        "archi": "Alhui der Aufmüpfige"
+      },
+      "fr": {
+        "mob": "Alhyène",
+        "archi": "Alhoui le Répondeur"
+      },
+      "it": {
+        "mob": "Alhyena",
+        "archi": "Alhy il Pugile"
+      },
+      "es": {
+        "mob": "Alhiena",
+        "archi": "Alhienado el Enajenado"
+      },
+      "pt": {
+        "mob": "Aliena",
+        "archi": "Alôiena, o Telefonista"
+      }
+    }
+  },
+  {
+    "id": "3560",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Bigheera",
+        "archi": "Heera Bighero"
+      },
+      "de": {
+        "mob": "Panthenorm",
+        "archi": "Pantakur der Lange"
+      },
+      "fr": {
+        "mob": "Panthègros",
+        "archi": "Pantacour le Long"
+      },
+      "it": {
+        "mob": "Pantegrossa",
+        "archi": "Pantegrò lo Snello"
+      },
+      "es": {
+        "mob": "Tigredón",
+        "archi": "Tigredo el Rápido"
+      },
+      "pt": {
+        "mob": "Pantenorme",
+        "archi": "Pantegging, o Enorme"
+      }
+    }
+  },
+  {
+    "id": "3562",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Orfan",
+        "archi": "Orfaniel the Charmer"
+      },
+      "de": {
+        "mob": "Goldeopard",
+        "archi": "Orfelyre der Beschwörer"
+      },
+      "fr": {
+        "mob": "Orfélin",
+        "archi": "Orfélyre le Charmeur"
+      },
+      "it": {
+        "mob": "Infelino",
+        "archi": "Inferno il Beato"
+      },
+      "es": {
+        "mob": "Huerfelino",
+        "archi": "Huerfeliz el Encantador"
+      },
+      "pt": {
+        "mob": "Orfelino",
+        "archi": "Orfelira, o Encantador"
+      }
+    }
+  },
+  {
+    "id": "3559",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Felygiene",
+        "archi": "Felicity the Gormandiser"
+      },
+      "de": {
+        "mob": "Felluchs",
+        "archi": "Felyssion die Naschkatze"
+      },
+      "fr": {
+        "mob": "Félygiène",
+        "archi": "Félyssion la Gourmande"
+      },
+      "it": {
+        "mob": "Feligiene",
+        "archi": "Feligia la Ribelle"
+      },
+      "es": {
+        "mob": "Highiena",
+        "archi": "Highia la Golosa"
+      },
+      "pt": {
+        "mob": "Feligiena",
+        "archi": "Feliginham, a Gulosa"
+      }
+    }
+  },
+  {
+    "id": "3561",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Kanazure",
+        "archi": "Kanabeer the Shaken"
+      },
+      "de": {
+        "mob": "Kaniguar",
+        "archi": "Kanibiera die Angeseilte"
+      },
+      "fr": {
+        "mob": "Kaniblou",
+        "archi": "Kanibière l'Encordée"
+      },
+      "it": {
+        "mob": "Kaniblù",
+        "archi": "Kaniflu il Gelato"
+      },
+      "es": {
+        "mob": "Kanublú",
+        "archi": "Kanubirra la Fuerte"
+      },
+      "pt": {
+        "mob": "Kaniblu",
+        "archi": "Kanibirita, a Acordoada"
+      }
+    }
+  },
+  {
+    "id": "287",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Kaniger",
+        "archi": "Kaniedoss the Giggling"
+      },
+      "de": {
+        "mob": "Kanigrou",
+        "archi": "Kandinskgrou der Theoretiker"
+      },
+      "fr": {
+        "mob": "Kanigrou",
+        "archi": "Kanasukr le Mielleux"
+      },
+      "it": {
+        "mob": "Kanigrù",
+        "archi": "Kanasugar il Mieloso"
+      },
+      "es": {
+        "mob": "Kanugro",
+        "archi": "Kánudalf el Kanoso"
+      },
+      "pt": {
+        "mob": "Kanigre",
+        "archi": "Kanassukar, o Meloso"
+      }
+    }
+  },
+  {
+    "id": "1068",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Mufafah",
+        "archi": "Mufavabeenz the Cannibal"
+      },
+      "de": {
+        "mob": "Mufafah",
+        "archi": "Mufafass der Binder"
+      },
+      "fr": {
+        "mob": "Mufafah",
+        "archi": "Mufguedin le Suprême"
+      },
+      "it": {
+        "mob": "Mufafah",
+        "archi": "Muffadin il Marcio"
+      },
+      "es": {
+        "mob": "Mufafah",
+        "archi": "Munchfavard el Gritador"
+      },
+      "pt": {
+        "mob": "Mufafah",
+        "archi": "Mufavabemz, o Canibal"
+      }
+    }
+  },
+  {
+    "id": "102",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Boowolf",
+        "archi": "Booty the Beast"
+      },
+      "de": {
+        "mob": "WuWulf",
+        "archi": "Wuma Wubulfse der Bösartige"
+      },
+      "fr": {
+        "mob": "Mulou",
+        "archi": "Muloufok l'Hilarant"
+      },
+      "it": {
+        "mob": "Buulupo",
+        "archi": "Buulupicchiatello l'Ilare"
+      },
+      "es": {
+        "mob": "Mediulubo",
+        "archi": "Miluigi el Fontanero"
+      },
+      "pt": {
+        "mob": "Milobo",
+        "archi": "Milobesta, o Tolo"
+      }
+    }
+  },
+  {
+    "id": "6220",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Ishibig Pak",
+        "archi": "Ishigood Pak the Mover"
+      },
+      "de": {
+        "mob": "Ishigro Pake",
+        "archi": "Klötakong der Aufgewühlte"
+      },
+      "fr": {
+        "mob": "Ishigro Pake",
+        "archi": "Bonpake le Chavireur"
+      },
+      "it": {
+        "mob": "Ishigro Sopako",
+        "archi": "Ishy l'Impacchettato"
+      },
+      "es": {
+        "mob": "Mazaishi",
+        "archi": "Paketeru el Impresionante"
+      },
+      "pt": {
+        "mob": "Ishibem Dotadu",
+        "archi": "Bendotadaum, o Atraente"
+      }
+    }
+  },
+  {
+    "id": "1069",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Kido",
+        "archi": "Kidodo the Extinct"
+      },
+      "de": {
+        "mob": "Kido",
+        "archi": "Kidomiro der Vierdimensionale"
+      },
+      "fr": {
+        "mob": "Kido",
+        "archi": "Kido l'Âtre"
+      },
+      "it": {
+        "mob": "Kido",
+        "archi": "Kidner il Cioccolataio"
+      },
+      "es": {
+        "mob": "Kido",
+        "archi": "Kidoloroso del Calmante"
+      },
+      "pt": {
+        "mob": "Kido",
+        "archi": "Kidolatra, o Adorador"
+      }
+    }
+  },
+  {
+    "id": "1070",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Kilibriss",
+        "archi": "Killua the Assassin"
+      },
+      "de": {
+        "mob": "Killibri",
+        "archi": "Killibrillant der Geschliffene"
+      },
+      "fr": {
+        "mob": "Kilibriss",
+        "archi": "Kilimanj'haro le Grimpeur"
+      },
+      "it": {
+        "mob": "Kilibriss",
+        "archi": "Kilimanj'haro lo Scalatore"
+      },
+      "es": {
+        "mob": "Kilibris",
+        "archi": "Kílibrill vol.2 el Vengativo"
+      },
+      "pt": {
+        "mob": "Kilibriss",
+        "archi": "Kilimanj'haro, o Escalador"
+      }
+    }
+  },
+  {
+    "id": "4548",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Plains Larva",
+        "archi": "Grubby the Tubby"
+      },
+      "de": {
+        "mob": "Landpomeranzenlarve",
+        "archi": "Drama, die Bewegte"
+      },
+      "fr": {
+        "mob": "Larve Champêtre",
+        "archi": "Larvaloeil l'Émue"
+      },
+      "it": {
+        "mob": "Larva Campestre",
+        "archi": "Larvasulviso la Commossa"
+      },
+      "es": {
+        "mob": "Larva campestre",
+        "archi": "Larvidriosa la Emocionada"
+      },
+      "pt": {
+        "mob": "Larva Campestre",
+        "archi": "Lacrimejosa, a Emotiva"
+      }
+    }
+  },
+  {
+    "id": "294",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Green Mouse",
+        "archi": "Cheesy the Immortalised"
+      },
+      "de": {
+        "mob": "Ki-Maus",
+        "archi": "Tschisi, die Unsterbliche"
+      },
+      "fr": {
+        "mob": "Souris Verte",
+        "archi": "Souristiti l'Immortalisée"
+      },
+      "it": {
+        "mob": "Topo Verde",
+        "archi": "Topodak l'Immortalato"
+      },
+      "es": {
+        "mob": "Ratón verde",
+        "archi": "Patata la Inmortalizada"
+      },
+      "pt": {
+        "mob": "Cacamundongo Verde",
+        "archi": "Olhupassarim, a Imortalizada"
+      }
+    }
+  },
+  {
+    "id": "4547",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Beaztinga",
+        "archi": "Blunder the Clumsy"
+      },
+      "de": {
+        "mob": "Schnakal",
+        "archi": "Schnitzer, der Ungeschickte"
+      },
+      "fr": {
+        "mob": "Bourdard",
+        "archi": "Bourde le Maladroit"
+      },
+      "it": {
+        "mob": "Bombardo",
+        "archi": "Bombosgoffo il Maldestro"
+      },
+      "es": {
+        "mob": "Zumbobo",
+        "archi": "Patón el Metido"
+      },
+      "pt": {
+        "mob": "Ferrangão",
+        "archi": "Gafe, o Desajeitado"
+      }
+    }
+  },
+  {
+    "id": "4574",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Foxfyter",
+        "archi": "Fouflay the Fallen"
+      },
+      "de": {
+        "mob": "Kirrger",
+        "archi": "Sufflee, der Gefallene"
+      },
+      "fr": {
+        "mob": "Foufayteur",
+        "archi": "Fouflay le Retombé"
+      },
+      "it": {
+        "mob": "Compaztente",
+        "archi": "Compazufflé l'Afflosciato"
+      },
+      "es": {
+        "mob": "Fuxfaigter",
+        "archi": "Fuflé el Definflado"
+      },
+      "pt": {
+        "mob": "Foxfaiter",
+        "archi": "Fouflay, o Caído"
+      }
+    }
+  },
+  {
+    "id": "855",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Dragostess",
+        "archi": "Dragangora the Softy"
+      },
+      "de": {
+        "mob": "Draconixa",
+        "archi": "Draconinyx die Verführerische"
+      },
+      "fr": {
+        "mob": "Dragueuse",
+        "archi": "Dragonienne l'Econome"
+      },
+      "it": {
+        "mob": "Dragosa",
+        "archi": "Drangora la Soffice"
+      },
+      "es": {
+        "mob": "Dragosa",
+        "archi": "Mafaldragosa la Hermana Pequeña"
+      },
+      "pt": {
+        "mob": "Dragosa",
+        "archi": "Dragangora, a Sutil"
+      }
+    }
+  },
+  {
+    "id": "749",
+    "quest_step": 14,
+    "names": {
+      "en": {
+        "mob": "Koalak Warrior",
+        "archi": "Chukoalak the Norris"
+      },
+      "de": {
+        "mob": "Koalak-Krieger",
+        "archi": "Koalaktin der Kriegerische"
+      },
+      "fr": {
+        "mob": "Guerrier Koalak",
+        "archi": "Guerrite le Veilleur"
+      },
+      "it": {
+        "mob": "Guerriero Koalak",
+        "archi": "Guer-Cyo l'Attento"
+      },
+      "es": {
+        "mob": "Guerrero koalak",
+        "archi": "Guerred-Fish el Cortés"
+      },
+      "pt": {
+        "mob": "Guerreiro Koalak",
+        "archi": "Chukoalak, o Norris"
+      }
+    }
+  },
+  {
+    "id": "6217",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Lichangoro",
+        "archi": "Lichangora the Immaculate"
+      },
+      "de": {
+        "mob": "Lichangoro",
+        "archi": "Lichangora die Makellose"
+      },
+      "fr": {
+        "mob": "Lichangoro",
+        "archi": "Lichangora l'Immaculée"
+      },
+      "it": {
+        "mob": "Lichangoro",
+        "archi": "Lichangora l'Immacolata"
+      },
+      "es": {
+        "mob": "Gorolichang",
+        "archi": "Lichangora la Inmaculada"
+      },
+      "pt": {
+        "mob": "Lichangoro",
+        "archi": "Lichangora, a Imaculada"
+      }
+    }
+  },
+  {
+    "id": "4571",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Cracklerge",
+        "archi": "Crickcrack the Crossfit"
+      },
+      "de": {
+        "mob": "Heftiger Krachler",
+        "archi": "Krackekrack der Ausdauernde"
+      },
+      "fr": {
+        "mob": "Craquelourd",
+        "archi": "Craquecrac l'Endurant"
+      },
+      "it": {
+        "mob": "Croccapesante",
+        "archi": "Croccacrac il Resistente"
+      },
+      "es": {
+        "mob": "Crujidolmen",
+        "archi": "Cracrac el Resistente"
+      },
+      "pt": {
+        "mob": "Smagalalau",
+        "archi": "Craquecrac, o Resistente"
+      }
+    }
+  },
+  {
+    "id": "746",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Brown Warko",
+        "archi": "Warko the Inky"
+      },
+      "de": {
+        "mob": "Brauner Warko",
+        "archi": "Warknor der Braungemalte"
+      },
+      "fr": {
+        "mob": "Warko Marron",
+        "archi": "Warkolad l'Etreinte"
+      },
+      "it": {
+        "mob": "Warko Marrone",
+        "archi": "Warkoboa il Costrittore"
+      },
+      "es": {
+        "mob": "Warko marrón",
+        "archi": "Warkamole el Apetitoso"
+      },
+      "pt": {
+        "mob": "Warko Marrom",
+        "archi": "Warko, o Escurecido"
+      }
+    }
+  },
+  {
+    "id": "6214",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Ino-Naru",
+        "archi": "Ino-Nope the Negative"
+      },
+      "de": {
+        "mob": "Ino-Naru",
+        "archi": "Inopenope der Negative"
+      },
+      "fr": {
+        "mob": "Ino-Naru",
+        "archi": "Inopenope le Négatif"
+      },
+      "it": {
+        "mob": "Ino-Naru",
+        "archi": "Ino-no il Negativo"
+      },
+      "es": {
+        "mob": "Ino-naru",
+        "archi": "Kenoikenó el Negativo"
+      },
+      "pt": {
+        "mob": "Ino-Naru",
+        "archi": "Ino-Naum, o Negativo"
+      }
+    }
+  },
+  {
+    "id": "253",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Dark Treechnid",
+        "archi": "Treekonk the Stunned"
+      },
+      "de": {
+        "mob": "Schatten-Astaknyde",
+        "archi": "Astaknyglenkop der Schattendoktor"
+      },
+      "fr": {
+        "mob": "Abraknyde Sombre",
+        "archi": "Abrakanette l'Encapsulé"
+      },
+      "it": {
+        "mob": "Alberagno Oscuro",
+        "archi": "Alberagnelattina l'Incapsulato"
+      },
+      "es": {
+        "mob": "Abráknido oscuro",
+        "archi": "Abrakeponerse el Optimista"
+      },
+      "pt": {
+        "mob": "Arvraknídeo Sombrio",
+        "archi": "Arvrakaneta, o Escritor"
+      }
+    }
+  },
+  {
+    "id": "6221",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Titinuki",
+        "archi": "Titinaynay the Swayer"
+      },
+      "de": {
+        "mob": "Tittanuki",
+        "archi": "Tittani die Ausladende"
+      },
+      "fr": {
+        "mob": "Tétonuki",
+        "archi": "Tétonée la Plantureuse"
+      },
+      "it": {
+        "mob": "Taikonuki",
+        "archi": "Taikony la Rumorosa"
+      },
+      "es": {
+        "mob": "Mamanuki",
+        "archi": "Mamachichu la Exuberante"
+      },
+      "pt": {
+        "mob": "Tetanuki",
+        "archi": "Tetanussa, a Roliça"
+      }
+    }
+  },
+  {
+    "id": "761",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Koalak Gravedigger",
+        "archi": "Koalarchitect the Balancing Force"
+      },
+      "de": {
+        "mob": "Koalak-Totengräber",
+        "archi": "Koalnäk Ropolis der Totengräber"
+      },
+      "fr": {
+        "mob": "Fossoyeur Koalak",
+        "archi": "Fossamoel le Juteux"
+      },
+      "it": {
+        "mob": "Koalak Becchino",
+        "archi": "Koaledison il Telegrafista"
+      },
+      "es": {
+        "mob": "Koalak sepulturero",
+        "archi": "Sepaulturero Kleealak el Arquitecto"
+      },
+      "pt": {
+        "mob": "Coveiro Koalak",
+        "archi": "Koalakarquiteto, o Equilibrado"
+      }
+    }
+  },
+  {
+    "id": "216",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Greedovore",
+        "archi": "Greetdoff the Gentleman"
+      },
+      "de": {
+        "mob": "Omnischlund",
+        "archi": "Omunschlund der Schreiende"
+      },
+      "fr": {
+        "mob": "Gloutovore",
+        "archi": "Gloubibou le Gars"
+      },
+      "it": {
+        "mob": "Glutovora",
+        "archi": "Glugluglu il Subacqueo"
+      },
+      "es": {
+        "mob": "Zampávoro",
+        "archi": "Zampatávoro el Miliano"
+      },
+      "pt": {
+        "mob": "Glutonívoro",
+        "archi": "Greedodoff, o Cavalheiro"
+      }
+    }
+  },
+  {
+    "id": "785",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Koalak Forester",
+        "archi": "Popoalak the Mousibrown"
+      },
+      "de": {
+        "mob": "Koalak-Förster",
+        "archi": "Koalak Kurat der Forstmeister"
+      },
+      "fr": {
+        "mob": "Koalak Forestier",
+        "archi": "Koasossyal le Psychopathe"
+      },
+      "it": {
+        "mob": "Koalak Forestiero",
+        "archi": "Koalonnasonora il Risonante"
+      },
+      "es": {
+        "mob": "Koalak forestal",
+        "archi": "Koalúkyluk el Solitario"
+      },
+      "pt": {
+        "mob": "Koalak Florestal",
+        "archi": "Popoalak, o Castanho"
+      }
+    }
+  },
+  {
+    "id": "786",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Fisheralak",
+        "archi": "Fisheralf the Stewart"
+      },
+      "de": {
+        "mob": "Fischeralak",
+        "archi": "Fischeralakaschnitz der Luistische"
+      },
+      "fr": {
+        "mob": "Pékeualak",
+        "archi": "Pékeutar le Tireur"
+      },
+      "it": {
+        "mob": "Pekuelak",
+        "archi": "Pek'n'brie il Caldo"
+      },
+      "es": {
+        "mob": "Pekewalak",
+        "archi": "Peketchup el Hamburguesero"
+      },
+      "pt": {
+        "mob": "Peskadolak",
+        "archi": "Stewart, o Animal Pescador"
+      }
+    }
+  },
+  {
+    "id": "784",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Piralak",
+        "archi": "Piralhaka the Intimidator"
+      },
+      "de": {
+        "mob": "Piralak",
+        "archi": "Piralakerlapabst der Gewilhelmte"
+      },
+      "fr": {
+        "mob": "Piralak",
+        "archi": "Piradain le Pingre"
+      },
+      "it": {
+        "mob": "Piralak",
+        "archi": "Pirarpagone l'Avaro"
+      },
+      "es": {
+        "mob": "Piralak",
+        "archi": "Piralhaka el Maorí"
+      },
+      "pt": {
+        "mob": "Piralak",
+        "archi": "Piralhaka, o Intimidador"
+      }
+    }
+  },
+  {
+    "id": "651",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Dark Treechnee",
+        "archi": "Treekalack the Sad"
+      },
+      "de": {
+        "mob": "Schatten-Astachnee",
+        "archi": "Astachneedadnid der Schattenhafte"
+      },
+      "fr": {
+        "mob": "Abrakne Sombre",
+        "archi": "Abraklette le Fondant"
+      },
+      "it": {
+        "mob": "Ragnalbero Oscuro",
+        "archi": "Ragnoccolato il Fondente"
+      },
+      "es": {
+        "mob": "Abrakno oscuro",
+        "archi": "Ábrakin el Oscuro"
+      },
+      "pt": {
+        "mob": "Arvrakne Sombrio",
+        "archi": "Arvramado, o Benquisto"
+      }
+    }
+  },
+  {
+    "id": "759",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Koalak Rider",
+        "archi": "Koelloggs the Creator"
+      },
+      "de": {
+        "mob": "Koalak-Reiter",
+        "archi": "Koaleak Tajest der Krieger"
+      },
+      "fr": {
+        "mob": "Chevaucheur Koalak",
+        "archi": "Koamag'oel le Défiguré"
+      },
+      "it": {
+        "mob": "Cavaliere Koalak",
+        "archi": "Koala il Morbido"
+      },
+      "es": {
+        "mob": "Koalak cabalgador",
+        "archi": "Botalak Cabalgator el Ingenioso"
+      },
+      "pt": {
+        "mob": "Cavaleiro Koalak",
+        "archi": "Koelogue, o Criador"
+      }
+    }
+  },
+  {
+    "id": "1046",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Moopet",
+        "archi": "Moops the Bubbleboy"
+      },
+      "de": {
+        "mob": "Muhpett",
+        "archi": "Muhnirpett der Ruhige"
+      },
+      "fr": {
+        "mob": "Meupette",
+        "archi": "Meuroup le Prêtre"
+      },
+      "it": {
+        "mob": "Mopet",
+        "archi": "Mipent il Prete"
+      },
+      "es": {
+        "mob": "Mopet",
+        "archi": "Mospetero el Triple"
+      },
+      "pt": {
+        "mob": "Mopete",
+        "archi": "Moops, o Garoto Bolha"
+      }
+    }
+  },
+  {
+    "id": "6215",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Kurookin",
+        "archi": "Rookin the Caped Kinster"
+      },
+      "de": {
+        "mob": "Kurookin",
+        "archi": "Rookinku der Imposante"
+      },
+      "fr": {
+        "mob": "Kurookin",
+        "archi": "Rooroku l'Imposant"
+      },
+      "it": {
+        "mob": "Kurookin",
+        "archi": "Kurokuro il Coperto"
+      },
+      "es": {
+        "mob": "Kurookin",
+        "archi": "Kurogordu el Imponente"
+      },
+      "pt": {
+        "mob": "Kurookin",
+        "archi": "Traseirook, o Imponente"
+      }
+    }
+  },
+  {
+    "id": "853",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Dragnarok",
+        "archi": "Dregguantico the Trainer"
+      },
+      "de": {
+        "mob": "Dragnarok",
+        "archi": "Dr. A. Cheikriegari der nette Kabi"
+      },
+      "fr": {
+        "mob": "Dragnarok",
+        "archi": "Dragdikal le Décisif"
+      },
+      "it": {
+        "mob": "Dragnarok",
+        "archi": "Dragastaire il Ballerino"
+      },
+      "es": {
+        "mob": "Dragnarok",
+        "archi": "Drakójak el Piruletas"
+      },
+      "pt": {
+        "mob": "Dragnarok",
+        "archi": "Dregquântico, o Treinador"
+      }
+    }
+  },
+  {
+    "id": "862",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Dragandrop",
+        "archi": "Dragory the Violent"
+      },
+      "de": {
+        "mob": "Dragendropp",
+        "archi": "Drachei Ligtum das Fliegende"
+      },
+      "fr": {
+        "mob": "Draguaindrop",
+        "archi": "Dragobert le Monarque"
+      },
+      "it": {
+        "mob": "Draguandrop",
+        "archi": "Dragolear il Monarca"
+      },
+      "es": {
+        "mob": "Dragandrop",
+        "archi": "Dreghouse el Cínico"
+      },
+      "pt": {
+        "mob": "Draguendrop",
+        "archi": "Dragorio, o Robusto"
+      }
+    }
+  },
+  {
+    "id": "1055",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Zoth Disciple",
+        "archi": "Ezothbeitor the Neighbour"
+      },
+      "de": {
+        "mob": "Zoth-Schüler",
+        "archi": "Zoth-Tel der Igelige"
+      },
+      "fr": {
+        "mob": "Disciple Zoth",
+        "archi": "Diskord le Belliqueux"
+      },
+      "it": {
+        "mob": "Discepolo Zoth",
+        "archi": "Diskordia la Belligerante"
+      },
+      "es": {
+        "mob": "Discípulo zoth",
+        "archi": "Diszápulo Delzoih el Profeta"
+      },
+      "pt": {
+        "mob": "Discípulo Zoth",
+        "archi": "Ezothbeitor, o Vizinho"
+      }
+    }
+  },
+  {
+    "id": "1073",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Rotaflor",
+        "archi": "Floratio the Investigator"
+      },
+      "de": {
+        "mob": "Rindefix",
+        "archi": "Ridefix Rindenfreund"
+      },
+      "fr": {
+        "mob": "Brouture",
+        "archi": "Brouste l'Humiliant"
+      },
+      "it": {
+        "mob": "Brutbrut",
+        "archi": "Brut Damorir il Narcisista"
+      },
+      "es": {
+        "mob": "Esquejika",
+        "archi": "Esquenosé el Indeciso"
+      },
+      "pt": {
+        "mob": "Rotaflor",
+        "archi": "Floratio, o Investigador"
+      }
+    }
+  },
+  {
+    "id": "1041",
+    "quest_step": 15,
+    "names": {
+      "en": {
+        "mob": "Dark Pikoko",
+        "archi": "Pikhoven the Deaf"
+      },
+      "de": {
+        "mob": "Schatten-Bitouf",
+        "archi": "Bitouf Teler der Finstere"
+      },
+      "fr": {
+        "mob": "Bitouf Sombre",
+        "archi": "Bitoven le Musicien"
+      },
+      "it": {
+        "mob": "Bituf Oscuro",
+        "archi": "Bitoven il Musicista"
+      },
+      "es": {
+        "mob": "Tufo oscuro",
+        "archi": "Tofofo el Blandito"
+      },
+      "pt": {
+        "mob": "Bitufo Sombrio",
+        "archi": "Piktoven, o Surdo"
+      }
+    }
+  },
+  {
+    "id": "1075",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Barkritter",
+        "archi": "Barkricrac the Unsteady"
+      },
+      "de": {
+        "mob": "Rindent",
+        "archi": "Raydent der Standfeste"
+      },
+      "fr": {
+        "mob": "Fécorce",
+        "archi": "Ecorfé la Vive"
+      },
+      "it": {
+        "mob": "Fecorza",
+        "archi": "Fescorza la Ruvida"
+      },
+      "es": {
+        "mob": "Diente pe-león",
+        "archi": "Dientetris el Inolvidable"
+      },
+      "pt": {
+        "mob": "Tronks",
+        "archi": "Barkricrack, o Instável"
+      }
+    }
+  },
+  {
+    "id": "1029",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Floramor",
+        "archi": "Floramodovar the Stoned"
+      },
+      "de": {
+        "mob": "Floribond",
+        "archi": "Floribondöblin der Allfriedliche"
+      },
+      "fr": {
+        "mob": "Floribonde",
+        "archi": "Floanna la Blonde"
+      },
+      "it": {
+        "mob": "Floribond",
+        "archi": "Florames il Bond"
+      },
+      "es": {
+        "mob": "Floribundo",
+        "archi": "Florivera el Muralista"
+      },
+      "pt": {
+        "mob": "Floramor",
+        "archi": "Floramodovar, o encaroçado"
+      }
+    }
+  },
+  {
+    "id": "744",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Bloody Koalak",
+        "archi": "Koaldman the Garish"
+      },
+      "de": {
+        "mob": "Blutrünstiger Koalak",
+        "archi": "Koalak Luge der Bluatlächszander"
+      },
+      "fr": {
+        "mob": "Koalak Sanguin",
+        "archi": "Koalvissie le Chauve"
+      },
+      "it": {
+        "mob": "Koalak Sanguigno",
+        "archi": "Koalvizia il Calvo"
+      },
+      "es": {
+        "mob": "Koalak sanguíneo",
+        "archi": "Koelloks el Cerealista"
+      },
+      "pt": {
+        "mob": "Koalak Sanguíneo",
+        "archi": "Koalvície, o Careca"
+      }
+    }
+  },
+  {
+    "id": "756",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Wild Koalak",
+        "archi": "Koalsen the Similar"
+      },
+      "de": {
+        "mob": "Wilder Koalak",
+        "archi": "Wolzam Moazark der Wilde"
+      },
+      "fr": {
+        "mob": "Koalak Farouche",
+        "archi": "Koalaboi le Calorifère"
+      },
+      "it": {
+        "mob": "Koalak Selvaggio",
+        "archi": "Koa-Ach l'Allenatore"
+      },
+      "es": {
+        "mob": "Koalak salvaje",
+        "archi": "Koayak el Destripador"
+      },
+      "pt": {
+        "mob": "Koalak Selvagem",
+        "archi": "Koalsen, o Parecido"
+      }
+    }
+  },
+  {
+    "id": "755",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Mama Koalak",
+        "archi": "Mamankalak the Bibliomaniac"
+      },
+      "de": {
+        "mob": "Koalak-Mama",
+        "archi": "Koalalla Mannama der Thomaturg"
+      },
+      "fr": {
+        "mob": "Mama Koalak",
+        "archi": "Mamakomou l'Âge"
+      },
+      "it": {
+        "mob": "Mamy Koalak",
+        "archi": "Mammelluk la Lattaia"
+      },
+      "es": {
+        "mob": "Mamá koalak",
+        "archi": "Mamoon el Grande"
+      },
+      "pt": {
+        "mob": "Mamãe Koalak",
+        "archi": "MamãeKalak, a Bibliomaníaca"
+      }
+    }
+  },
+  {
+    "id": "760",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Koalak Mummy",
+        "archi": "Jackoalak the Moonwalker"
+      },
+      "de": {
+        "mob": "Koalak-Mumie",
+        "archi": "Koalak Mumief die Stinkende"
+      },
+      "fr": {
+        "mob": "Momie Koalak",
+        "archi": "Momikonos la Bandelette"
+      },
+      "it": {
+        "mob": "Mummia Koalak",
+        "archi": "Mumikonos l'Ellenica"
+      },
+      "es": {
+        "mob": "Momia koalak",
+        "archi": "Momíller Frának el Umbrío"
+      },
+      "pt": {
+        "mob": "Múmia Koalak",
+        "archi": "Jackoalak, o Lunático"
+      }
+    }
+  },
+  {
+    "id": "1059",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Miremop",
+        "archi": "Mopidyk the Mire"
+      },
+      "de": {
+        "mob": "Schlammmorph",
+        "archi": "Schlammasselus Morphiturus"
+      },
+      "fr": {
+        "mob": "Bourbassingue",
+        "archi": "Bouliver le Géant"
+      },
+      "it": {
+        "mob": "Myench",
+        "archi": "Fieno l'Allergico"
+      },
+      "es": {
+        "mob": "Lodostropajo",
+        "archi": "Lodontólogo el Sonriente"
+      },
+      "pt": {
+        "mob": "Pantanoso",
+        "archi": "Mopidik the Mire"
+      }
+    }
+  },
+  {
+    "id": "745",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Purple Warko",
+        "archi": "Worka the Willful"
+      },
+      "de": {
+        "mob": "Violetter Warko",
+        "archi": "Warkish der Liladrachige"
+      },
+      "fr": {
+        "mob": "Warko Violet",
+        "archi": "Wara l'Amer"
+      },
+      "it": {
+        "mob": "Warko Viola",
+        "archi": "War il Combattivo"
+      },
+      "es": {
+        "mob": "Warko violeta",
+        "archi": "Warjamer el Miniaturista"
+      },
+      "pt": {
+        "mob": "Warko Violeta",
+        "archi": "Worka, o Determinado"
+      }
+    }
+  },
+  {
+    "id": "1053",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Zoth Girl",
+        "archi": "Calipzoth the Icy"
+      },
+      "de": {
+        "mob": "Zoth-Mädel",
+        "archi": "Zoth-Ten die Lustige"
+      },
+      "fr": {
+        "mob": "Gamine Zoth",
+        "archi": "Gastroth la Contagieuse"
+      },
+      "it": {
+        "mob": "Marmocchia Zoth",
+        "archi": "Marbillo il Contagioso"
+      },
+      "es": {
+        "mob": "Chavala zoth",
+        "archi": "Chavala Zotaina la Castigadora"
+      },
+      "pt": {
+        "mob": "Garota Zoth",
+        "archi": "Calipzoth, o Gelado"
+      }
+    }
+  },
+  {
+    "id": "1054",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Zoth Warrior",
+        "archi": "Zigzoth the Indecisive"
+      },
+      "de": {
+        "mob": "Zoth-Krieger",
+        "archi": "Zoth-Eor'em der Kämpfer"
+      },
+      "fr": {
+        "mob": "Guerrier Zoth",
+        "archi": "Guerumoth le Collant"
+      },
+      "it": {
+        "mob": "Guerriero Zoth",
+        "archi": "Guermuth l'Alcolico"
+      },
+      "es": {
+        "mob": "Guerrero zoth",
+        "archi": "Guerreynor Zothia la Superviviente"
+      },
+      "pt": {
+        "mob": "Guerreiro Zoth",
+        "archi": "Zigzoth, o Indeciso"
+      }
+    }
+  },
+  {
+    "id": "1058",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Mopeat",
+        "archi": "Mopfeet the Circular"
+      },
+      "de": {
+        "mob": "Torfmorph",
+        "archi": "Totorf Morphos der Entente"
+      },
+      "fr": {
+        "mob": "Tourbassingue",
+        "archi": "Tourbiket le Virevoletant"
+      },
+      "it": {
+        "mob": "Fyench",
+        "archi": "Myengolfiera la Volante"
+      },
+      "es": {
+        "mob": "Barrostropajo",
+        "archi": "Barrostroporosis el Frágil"
+      },
+      "pt": {
+        "mob": "Mopeat",
+        "archi": "Mopés, o Redodndo"
+      }
+    }
+  },
+  {
+    "id": "1077",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Dark Treeckler",
+        "archi": "Treekness the Dark"
+      },
+      "de": {
+        "mob": "Dunkler Astakrachler",
+        "archi": "Astakrachbum der Bängstliche"
+      },
+      "fr": {
+        "mob": "Abrakleur Sombre",
+        "archi": "Abrakine le Sombre"
+      },
+      "it": {
+        "mob": "Alberaklur Oscuro",
+        "archi": "Albertek l'Oscuro"
+      },
+      "es": {
+        "mob": "Abrajidor oscuro",
+        "archi": "Abrajinieves el Enanito"
+      },
+      "pt": {
+        "mob": "Arvorador Sombrio",
+        "archi": "Treekness, o Preto"
+      }
+    }
+  },
+  {
+    "id": "878",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Limestone Dragoss",
+        "archi": "Dragorse the Wild"
+      },
+      "de": {
+        "mob": "Kalk-Dracoss",
+        "archi": "Drachromoss der Weissehende"
+      },
+      "fr": {
+        "mob": "Dragoss Calcaire",
+        "archi": "Dragminster le Magicien"
+      },
+      "it": {
+        "mob": "Dragosso Calcare",
+        "archi": "Draghoudini il Mago"
+      },
+      "es": {
+        "mob": "Dragoss calizo",
+        "archi": "Dragoss&Dungeoss el Original"
+      },
+      "pt": {
+        "mob": "Dragosso Calcário",
+        "archi": "Dragorsso, o Selvagem"
+      }
+    }
+  },
+  {
+    "id": "905",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Slate Dragoss",
+        "archi": "Dragossiper the Nag"
+      },
+      "de": {
+        "mob": "Schiefer-Dracoss",
+        "archi": "Saphirodraco der Wache"
+      },
+      "fr": {
+        "mob": "Dragoss Ardoise",
+        "archi": "Drageaufol la Joyeuse"
+      },
+      "it": {
+        "mob": "Dragosso Ardesia",
+        "archi": "Dragofolle la Gioiosa"
+      },
+      "es": {
+        "mob": "Dragoss pizarroso",
+        "archi": "Ledrag el Ognat"
+      },
+      "pt": {
+        "mob": "Dragosso Ardósia",
+        "archi": "Dralegre, a Contente"
+      }
+    }
+  },
+  {
+    "id": "879",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Clay Dragoss",
+        "archi": "Draigovsky the SocalledSwan"
+      },
+      "de": {
+        "mob": "Lehm-Dracoss",
+        "archi": "Goldodraco der Wachsame"
+      },
+      "fr": {
+        "mob": "Dragoss Argile",
+        "archi": "Dragtarus le Bellâtre"
+      },
+      "it": {
+        "mob": "Dragosso Argilla",
+        "archi": "Dragpitt il Bellimbusto"
+      },
+      "es": {
+        "mob": "Dragoss arcilloso",
+        "archi": "Dragoss To el Caluroso"
+      },
+      "pt": {
+        "mob": "Dragosso Argila",
+        "archi": "Dragostinho, o Cafona"
+      }
+    }
+  },
+  {
+    "id": "858",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Charcoal Dragoss",
+        "archi": "Draghouse the Cynical"
+      },
+      "de": {
+        "mob": "Kohle-Dracoss",
+        "archi": "Dracantimonoss der Erwachte"
+      },
+      "fr": {
+        "mob": "Dragoss Charbon",
+        "archi": "Draquetteur le Voleur"
+      },
+      "it": {
+        "mob": "Dragosso Carbone",
+        "archi": "Drabolik il Ladro"
+      },
+      "es": {
+        "mob": "Dragoss carbonoso",
+        "archi": "Dragore el Sangriento"
+      },
+      "pt": {
+        "mob": "Dragosso Carvão",
+        "archi": "Dragcasa, o Cínico"
+      }
+    }
+  },
+  {
+    "id": "6216",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Fangshu",
+        "archi": "Fangshui the Misspelled"
+      },
+      "de": {
+        "mob": "Fangshu",
+        "archi": "Fangshui die Legasthenikerin"
+      },
+      "fr": {
+        "mob": "Fangshu",
+        "archi": "Fangshui la Dysorthographiée"
+      },
+      "it": {
+        "mob": "Fangshu",
+        "archi": "Fangshui la Sgrammaticata"
+      },
+      "es": {
+        "mob": "Fangshu",
+        "archi": "Fangshui la Parónima"
+      },
+      "pt": {
+        "mob": "Fangshu",
+        "archi": "Fangshui, a Desortografiada"
+      }
+    }
+  },
+  {
+    "id": "6254",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Bangartifoux",
+        "archi": "Bumbartifoux the Farty"
+      },
+      "de": {
+        "mob": "Knallfuxer",
+        "archi": "Knallfux der Durchweichte"
+      },
+      "fr": {
+        "mob": "Pétartifoux",
+        "archi": "Pétarfoutu le Mouillé"
+      },
+      "it": {
+        "mob": "Petartificiopaz",
+        "archi": "Petartif il Bagnato"
+      },
+      "es": {
+        "mob": "Petafux",
+        "archi": "Jopetas el Mojado"
+      },
+      "pt": {
+        "mob": "Artiforrojão",
+        "archi": "Artiferradão, o Molhado"
+      }
+    }
+  },
+  {
+    "id": "763",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Drakoalak",
+        "archi": "Drakoamax the Mad"
+      },
+      "de": {
+        "mob": "Dracoalak",
+        "archi": "Dracoloalak der Rennende"
+      },
+      "fr": {
+        "mob": "Drakoalak",
+        "archi": "Drakolage le Tentateur"
+      },
+      "it": {
+        "mob": "Drakoalak",
+        "archi": "Dracena il Ramoso"
+      },
+      "es": {
+        "mob": "Drakoalak",
+        "archi": "Drakolakao el Sabroso"
+      },
+      "pt": {
+        "mob": "Drakoalak",
+        "archi": "Drakoamax, o Mal"
+      }
+    }
+  },
+  {
+    "id": "783",
+    "quest_step": 16,
+    "names": {
+      "en": {
+        "mob": "Reapalak",
+        "archi": "Ryukualak the Bored"
+      },
+      "de": {
+        "mob": "Sensalak",
+        "archi": "Sensalakart der Teure"
+      },
+      "fr": {
+        "mob": "Fauchalak",
+        "archi": "Faufoll la Joyeuse"
+      },
+      "it": {
+        "mob": "Fochalak",
+        "archi": "Fochsko il Giardiniere"
+      },
+      "es": {
+        "mob": "Siegalak",
+        "archi": "Siegálaher los Chulos"
+      },
+      "pt": {
+        "mob": "Mortalak",
+        "archi": "Ryukualak, o Entediado"
+      }
+    }
+  },
+  {
+    "id": "6253",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Boombardier",
+        "archi": "Bigbadabooum the Elementary"
+      },
+      "de": {
+        "mob": "Bummber",
+        "archi": "Bigbadabumm der Elementare"
+      },
+      "fr": {
+        "mob": "Boumbardier",
+        "archi": "Bigbadaboum l'Élémentaire"
+      },
+      "it": {
+        "mob": "Boombardierepaz",
+        "archi": "Bigbadabum l'Esploso"
+      },
+      "es": {
+        "mob": "Bumbardero",
+        "archi": "Grambadabum el Elemental"
+      },
+      "pt": {
+        "mob": "Bumbardeiro",
+        "archi": "Bigbadabum, o Elementar"
+      }
+    }
+  },
+  {
+    "id": "758",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Koalak Master",
+        "archi": "Koalakropolis the King of the Hill"
+      },
+      "de": {
+        "mob": "Meister Koalak",
+        "archi": "Meister Koalang der Frische"
+      },
+      "fr": {
+        "mob": "Maître Koalak",
+        "archi": "Maître Koantik le Théoricien"
+      },
+      "it": {
+        "mob": "Maestro Koalak",
+        "archi": "Maestro Koantik il Teorico"
+      },
+      "es": {
+        "mob": "Maestro koalak",
+        "archi": "Maestro Peado la Cuenta"
+      },
+      "pt": {
+        "mob": "Mestre Koalak",
+        "archi": "Mestre Koântico, o Teórico"
+      }
+    }
+  },
+  {
+    "id": "1043",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Cheeken",
+        "archi": "Cheech the Pussycat"
+      },
+      "de": {
+        "mob": "Heenchen",
+        "archi": "Heendelchen der Inspirierte"
+      },
+      "fr": {
+        "mob": "Poolay",
+        "archi": "Poolopo la Traditionnelle"
+      },
+      "it": {
+        "mob": "Poolay",
+        "archi": "Poolaop la Giocosa"
+      },
+      "es": {
+        "mob": "Pohoyo",
+        "archi": "Pohozí el Jorobado"
+      },
+      "pt": {
+        "mob": "Phrango",
+        "archi": "Frengassa, o Bonitão"
+      }
+    }
+  },
+  {
+    "id": "233",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Troolaraj",
+        "archi": "Trooligan the Bulldogg"
+      },
+      "de": {
+        "mob": "Troolsaua",
+        "archi": "Trooldmop der Neugierige"
+      },
+      "fr": {
+        "mob": "Troollaraj",
+        "archi": "Trooyé l'Oxydé"
+      },
+      "it": {
+        "mob": "Troollarabbia",
+        "archi": "Troolloro l'Ossidante"
+      },
+      "es": {
+        "mob": "Trooloko",
+        "archi": "Troolbin el de los Bolsquels"
+      },
+      "pt": {
+        "mob": "Trooloko",
+        "archi": "Trooligan the Bulldogg"
+      }
+    }
+  },
+  {
+    "id": "1056",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Zoth Sergeant",
+        "archi": "Zouzoth the Cuddly"
+      },
+      "de": {
+        "mob": "Zoth-Sergeant",
+        "archi": "Zothes Sergeant der Steppenwölfige"
+      },
+      "fr": {
+        "mob": "Sergent Zoth",
+        "archi": "Seripoth l'Ennemi"
+      },
+      "it": {
+        "mob": "Sergente Zoth",
+        "archi": "Ser Villo l'Attore"
+      },
+      "es": {
+        "mob": "Sargento zoth",
+        "archi": "Sargende Michael el Narrador"
+      },
+      "pt": {
+        "mob": "Sargento Zoth",
+        "archi": "Zouzoth, o Carinhoso"
+      }
+    }
+  },
+  {
+    "id": "1044",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Snailmet",
+        "archi": "Snailmetalika the Garagician"
+      },
+      "de": {
+        "mob": "Schnelm",
+        "archi": "Kafkargo der Unverständliche"
+      },
+      "fr": {
+        "mob": "Kaskargo",
+        "archi": "Kaskapointhe la Couverte"
+      },
+      "it": {
+        "mob": "Kaskargo",
+        "archi": "Kaskinterr il Maldestro"
+      },
+      "es": {
+        "mob": "Kasrakol",
+        "archi": "Kasrafantásol el Parapsicólogo"
+      },
+      "pt": {
+        "mob": "Krakol",
+        "archi": "Snailmetalica,  Interiorano"
+      }
+    }
+  },
+  {
+    "id": "1020",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Air Pikoko",
+        "archi": "Follikoko the Tufted"
+      },
+      "de": {
+        "mob": "Luft-Bitouf",
+        "archi": "Bitoufpeht das Luftige"
+      },
+      "fr": {
+        "mob": "Bitouf Aérien",
+        "archi": "Toutouf le Velu"
+      },
+      "it": {
+        "mob": "Bituf Aereo",
+        "archi": "Bituplano il Doppio"
+      },
+      "es": {
+        "mob": "Tufo aéreo",
+        "archi": "Tufaldo Aréneo el Marielito"
+      },
+      "pt": {
+        "mob": "Bitufo Aéreo",
+        "archi": "Tutufo, o Peludo"
+      }
+    }
+  },
+  {
+    "id": "1047",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Light Treeckler",
+        "archi": "Treekstalbal the Psychic"
+      },
+      "de": {
+        "mob": "Heller Astakrachler",
+        "archi": "Astakrachdabra der Helle"
+      },
+      "fr": {
+        "mob": "Abrakleur Clair",
+        "archi": "Abrinos le Clair"
+      },
+      "it": {
+        "mob": "Alberaklur Chiaro",
+        "archi": "Alberakbume la Chiara"
+      },
+      "es": {
+        "mob": "Abrajidor claro",
+        "archi": "Abroesidor el Navegante"
+      },
+      "pt": {
+        "mob": "Arvorador Claro",
+        "archi": "Treekstabalo, o Psíquico"
+      }
+    }
+  },
+  {
+    "id": "1052",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Zoth Master",
+        "archi": "Don Quizothe the Stubborn"
+      },
+      "de": {
+        "mob": "Zoth-Meister",
+        "archi": "Zoth-Al' Lium der Giftmischer"
+      },
+      "fr": {
+        "mob": "Maître Zoth",
+        "archi": "Don Kizoth l'Obstiné"
+      },
+      "it": {
+        "mob": "Maestro Zoth",
+        "archi": "Don Kizoth l'Ostinato"
+      },
+      "es": {
+        "mob": "Maestro zoth",
+        "archi": "Don Kizoth el Obstinado"
+      },
+      "pt": {
+        "mob": "Mestre Zoth",
+        "archi": "Dom Quizoth, o Obstinado"
+      }
+    }
+  },
+  {
+    "id": "1154",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Mushnid",
+        "archi": "Nidsally the Mushtang"
+      },
+      "de": {
+        "mob": "Mykoknyde",
+        "archi": "Myktroknydis der Stadtbewohner"
+      },
+      "fr": {
+        "mob": "Champaknyde",
+        "archi": "Chamilero le Malchanceux"
+      },
+      "it": {
+        "mob": "Funknyde",
+        "archi": "Fungescamillo il Torero"
+      },
+      "es": {
+        "mob": "Champáknido",
+        "archi": "Champacné el Granitos"
+      },
+      "pt": {
+        "mob": "Coguknídeo",
+        "archi": "Nidsally, o Selvagem"
+      }
+    }
+  },
+  {
+    "id": "6251",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Spitfoux",
+        "archi": "Spitfouxgolly the Surprised"
+      },
+      "de": {
+        "mob": "Feuerfuxer",
+        "archi": "Feuerflux der Überraschte"
+      },
+      "fr": {
+        "mob": "Crachefoux",
+        "archi": "Crachefouxtre le Surpris"
+      },
+      "it": {
+        "mob": "Sputafocopaz",
+        "archi": "Sputafocostra il Sorpreso"
+      },
+      "es": {
+        "mob": "Escupefux",
+        "archi": "Escupefistro el Torpedo"
+      },
+      "pt": {
+        "mob": "Cospefox",
+        "archi": "Cospefoh, o Surpreso"
+      }
+    }
+  },
+  {
+    "id": "1153",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Trumperelle",
+        "archi": "Trumpaynor the Survivor"
+      },
+      "de": {
+        "mob": "Fungete",
+        "archi": "TaiFu N'Gete die Tödliche"
+      },
+      "fr": {
+        "mob": "Tromperelle",
+        "archi": "Tromplamor le Survivant"
+      },
+      "it": {
+        "mob": "Trompanita",
+        "archi": "Tromphilander il Sopravvissuto"
+      },
+      "es": {
+        "mob": "Trompseta",
+        "archi": "Trompsosis el Cardiaco"
+      },
+      "pt": {
+        "mob": "Tromperela",
+        "archi": "Trumpanor, o Sobrevivente"
+      }
+    }
+  },
+  {
+    "id": "1155",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Mushmunch",
+        "archi": "Edvushmunch the Screamer"
+      },
+      "de": {
+        "mob": "Pilzkröt",
+        "archi": "Pilzkröt Eln der Kinderschreck"
+      },
+      "fr": {
+        "mob": "Champodonte",
+        "archi": "Chamoute le Duveteux"
+      },
+      "it": {
+        "mob": "Fungodonte",
+        "archi": "Fung Anite il Velenoso"
+      },
+      "es": {
+        "mob": "Champidonte",
+        "archi": "Champli el Sonoro"
+      },
+      "pt": {
+        "mob": "Cogudonte",
+        "archi": "Edcogumunch, o Berrador"
+      }
+    }
+  },
+  {
+    "id": "6383",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Tsukinochi",
+        "archi": "Saywhatinochi the Gossipy"
+      },
+      "de": {
+        "mob": "Tsukinochi",
+        "archi": "Weissuwas die Klatschbase"
+      },
+      "fr": {
+        "mob": "Tsukinochi",
+        "archi": "Tsucékoi la Colporteuse"
+      },
+      "it": {
+        "mob": "Tsukinoichi",
+        "archi": "Tsusaichi l'Innominata"
+      },
+      "es": {
+        "mob": "Tsukinoichi",
+        "archi": "Sabeké la Vendedora"
+      },
+      "pt": {
+        "mob": "Tsukinoichi",
+        "archi": "Tsufuxico, a Mexeriqueira"
+      }
+    }
+  },
+  {
+    "id": "6384",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Drumurai",
+        "archi": "Drumurosh the Nosher"
+      },
+      "de": {
+        "mob": "Tamburai",
+        "archi": "Sonfraß der Feinschmecker"
+      },
+      "fr": {
+        "mob": "Tambouraï",
+        "archi": "Tambouille le Gastronome"
+      },
+      "it": {
+        "mob": "Tamburai",
+        "archi": "Tamballo il Gastronomo"
+      },
+      "es": {
+        "mob": "Tamburái",
+        "archi": "Tambulé el Gastrónomo"
+      },
+      "pt": {
+        "mob": "Tamburai",
+        "archi": "Tambanquete, o Gastronômico"
+      }
+    }
+  },
+  {
+    "id": "1157",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Mush Tup",
+        "archi": "Romush the Montecchi"
+      },
+      "de": {
+        "mob": "Bipilz",
+        "archi": "Seine Excellenz Bipilenz der Sieger"
+      },
+      "fr": {
+        "mob": "Champbis",
+        "archi": "Champoul l'Illuminé"
+      },
+      "it": {
+        "mob": "Fungbis",
+        "archi": "Fungig il Metallico"
+      },
+      "es": {
+        "mob": "Champbis",
+        "archi": "Chalbis el King"
+      },
+      "pt": {
+        "mob": "Cogubis",
+        "archi": "Cogumorista, o Engraçado"
+      }
+    }
+  },
+  {
+    "id": "1158",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Mush Rhume",
+        "archi": "Mushuliet the Catapulet"
+      },
+      "de": {
+        "mob": "Hiebling",
+        "archi": "Hieblink Einsachtzwo"
+      },
+      "fr": {
+        "mob": "Champ à Gnons",
+        "archi": "Champolyon le Polyglotte"
+      },
+      "it": {
+        "mob": "Fung Ignon",
+        "archi": "Fungadamus il Profeta"
+      },
+      "es": {
+        "mob": "Seta peleona",
+        "archi": "Setsa'n Desiti la Amistosa"
+      },
+      "pt": {
+        "mob": "Cogu Mellus",
+        "archi": "Cogumelaço, o Adocicado"
+      }
+    }
+  },
+  {
+    "id": "1156",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Mush Mish",
+        "archi": "Mushketeer the Loyal"
+      },
+      "de": {
+        "mob": "Schamorchel",
+        "archi": "Schamomorchel die Endlose"
+      },
+      "fr": {
+        "mob": "Champmane",
+        "archi": "Champmé le Méchant"
+      },
+      "it": {
+        "mob": "Fungiman",
+        "archi": "Funguento il Balsamico"
+      },
+      "es": {
+        "mob": "Setador",
+        "archi": "Setal Slugdor el Exterminador"
+      },
+      "pt": {
+        "mob": "Xamogu",
+        "archi": "Spicogukitaro, o Leal"
+      }
+    }
+  },
+  {
+    "id": "6385",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Onabu-Geisha",
+        "archi": "Onabinge the Gulletfull"
+      },
+      "de": {
+        "mob": "Onabu-Geisha",
+        "archi": "Binsosatt die Gesättigte"
+      },
+      "fr": {
+        "mob": "Onabu-Geisha",
+        "archi": "Onabuémangé la Rassasiée"
+      },
+      "it": {
+        "mob": "Onabu-Geisha",
+        "archi": "Ondablu l'Akwalista"
+      },
+      "es": {
+        "mob": "Onabu-Geisha",
+        "archi": "Melokomitó la Saciada"
+      },
+      "pt": {
+        "mob": "Onabu-Geisha",
+        "archi": "Onabuchocheio, a Satisfeita"
+      }
+    }
+  },
+  {
+    "id": "6386",
+    "quest_step": 17,
+    "names": {
+      "en": {
+        "mob": "Jiangshi-Nobi",
+        "archi": "Jianamble the Rambler"
+      },
+      "de": {
+        "mob": "Jiangshi-Nobi",
+        "archi": "Unsoweita der Schwätzer"
+      },
+      "fr": {
+        "mob": "Jiangshi-Nobi",
+        "archi": "Jiankor le Radoteur"
+      },
+      "it": {
+        "mob": "Jiangshi-Nobi",
+        "archi": "Jian il Burrascoso"
+      },
+      "es": {
+        "mob": "Jiangshi-Nobi",
+        "archi": "Samurrancyo el Senil"
+      },
+      "pt": {
+        "mob": "Jiangshi-Nobi",
+        "archi": "Jiangagá, o Caduco"
+      }
+    }
+  },
+  {
+    "id": "6252",
+    "quest_step": 18,
+    "names": {
+      "en": {
+        "mob": "Gingerocket",
+        "archi": "Ginger the Clincher"
+      },
+      "de": {
+        "mob": "Schopfrot",
+        "archi": "Schopfrota die Kleinwüchsige"
+      },
+      "fr": {
+        "mob": "Rouquette",
+        "archi": "Tronquette la Réduite"
+      },
+      "it": {
+        "mob": "Missilpaz",
+        "archi": "Missi la Teleguidata"
+      },
+      "es": {
+        "mob": "Rojiva",
+        "archi": "Rojevita la Pequeña"
+      },
+      "pt": {
+        "mob": "Foxguete",
+        "archi": "Foxguetinha, a Reduzida"
+      }
+    }
+  },
+  {
+    "id": "1057",
+    "quest_step": 18,
+    "names": {
+      "en": {
+        "mob": "Mopy King",
+        "archi": "Roy the Rover"
+      },
+      "de": {
+        "mob": "King Morph",
+        "archi": "Kingski Morph der Klaustrophobe"
+      },
+      "fr": {
+        "mob": "Roissingue",
+        "archi": "Roy le Merlin"
+      },
+      "it": {
+        "mob": "Re Cencio",
+        "archi": "Rey il Merlano"
+      },
+      "es": {
+        "mob": "Rey stropajo",
+        "archi": "Reyuna el Dibujante"
+      },
+      "pt": {
+        "mob": "Rei Nojoso",
+        "archi": "Rolls de Royce"
+      }
+    }
+  },
+  {
+    "id": "6389",
+    "quest_step": 18,
+    "names": {
+      "en": {
+        "mob": "Madura",
+        "archi": "Madgang the Doctor"
+      },
+      "de": {
+        "mob": "Madura",
+        "archi": "Plemplem der Arzt"
+      },
+      "fr": {
+        "mob": "Madura",
+        "archi": "Madgang le Docteur"
+      },
+      "it": {
+        "mob": "Maruda",
+        "archi": "Marzolino il Saltellante"
+      },
+      "es": {
+        "mob": "Majaro",
+        "archi": "Majarola el Doctor"
+      },
+      "pt": {
+        "mob": "Maruda",
+        "archi": "Garruda, o Doutor"
+      }
+    }
+  },
+  {
+    "id": "6390",
+    "quest_step": 18,
+    "names": {
+      "en": {
+        "mob": "Bakazako",
+        "archi": "Bakazicle the Icicle"
+      },
+      "de": {
+        "mob": "Bakazako",
+        "archi": "Würflauseis der Gefrorene"
+      },
+      "fr": {
+        "mob": "Bakazako",
+        "archi": "Bakaglace le Congelé"
+      },
+      "it": {
+        "mob": "Bakekazako",
+        "archi": "Baka il Gineprato"
+      },
+      "es": {
+        "mob": "Bakazako",
+        "archi": "Bakazhielo el Congelado"
+      },
+      "pt": {
+        "mob": "Bakazako",
+        "archi": "Bakongelado, o Friorento"
+      }
+    }
+  },
+  {
+    "id": "6391",
+    "quest_step": 18,
+    "names": {
+      "en": {
+        "mob": "Kaonashi",
+        "archi": "Kaonuclear the Unstable"
+      },
+      "de": {
+        "mob": "Kaonashi",
+        "archi": "Kaonuklea der Unbeständige"
+      },
+      "fr": {
+        "mob": "Kaonashi",
+        "archi": "Kaonucléair l'Instable"
+      },
+      "it": {
+        "mob": "Kaonashi",
+        "archi": "Kaonucleare l'Instabile"
+      },
+      "es": {
+        "mob": "Kaonashi",
+        "archi": "Kaonuclear el Inestable"
+      },
+      "pt": {
+        "mob": "Kaonashi",
+        "archi": "Kaonuclear, o Instável"
+      }
+    }
+  },
+  {
+    "id": "6392",
+    "quest_step": 18,
+    "names": {
+      "en": {
+        "mob": "Tsume-Bozu",
+        "archi": "Tsumani the Flooder"
+      },
+      "de": {
+        "mob": "Tsume-Bozu",
+        "archi": "Tsumani der Überschwemmer"
+      },
+      "fr": {
+        "mob": "Tsume-bozu",
+        "archi": "Tsumani l'Inondeur"
+      },
+      "it": {
+        "mob": "Tsume-bozu",
+        "archi": "Tsumani l'Inondante"
+      },
+      "es": {
+        "mob": "Tsume-bozu",
+        "archi": "Tsumani el Inundador"
+      },
+      "pt": {
+        "mob": "Tsume-Bozu",
+        "archi": "Tsumani, o Inundante"
+      }
+    }
+  }
+]

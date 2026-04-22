@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<title>ARCHIDEX — Dofus</title>
+<link rel="stylesheet" href="/src/style.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<div id="topbar">
+  <button id="sb-toggle">☰</button>
+  <span class="logo">ARCHIDEX<span class="logo-ver" id="ver-badge" onclick="toggleChangelog()" title="Ver changelog" style="cursor:pointer">v0.7.0</span></span>
+  <div id="counter">0 / 286</div>
+  <div id="lang-sw">
+    <button class="lbtn"    data-lang="en" title="English"><img src="./icons/en.png" /></button>
+    <button class="lbtn"    data-lang="fr" title="Français"><img src="./icons/fr.png" /></button>
+    <button class="lbtn on" data-lang="es" title="Español"><img src="./icons/es.png" /></button>
+    <button class="lbtn"    data-lang="pt" title="Português"><img src="./icons/pt.png" /></button>
+    <button class="lbtn"    data-lang="de" title="Deutsch"><img src="./icons/de.png" /></button>
+    <button class="lbtn"    data-lang="it" title="Italiano"><span style="display:inline-block;width:22px;height:16px;background:linear-gradient(to right,#009246 33%,#fff 33% 66%,#CE2B37 66%);border-radius:2px;vertical-align:middle"></span></button>
+  </div>
+  <span id="dev-badge" class="dev-only">DEV</span>
+  <button id="reload-btn" onclick="location.reload()" data-i18n-title="ttlReload" title="Recargar página (F5)">↺</button>
+  <button id="show-cap-btn" onclick="toggleShowCaptured()">👁 Descarte</button>
+  <div id="mode-sw">
+    <button class="mbtn on" data-mode="archi-check" data-i18n="modeCheck">◉ Archi-Check</button>
+    <button class="mbtn"    data-mode="caza" data-i18n="modeHunt">⚔ Caza</button>
+    <span class="mbtn-dev-sep dev-only"></span>
+    <button class="mbtn dev-only" data-mode="beta">＋ Add archi</button>
+    <button class="mbtn dev-only" data-mode="zonas">🗺 Zonas</button>
+  </div>
+  <div id="settings-zone">
+    <button id="adx-btn" onclick="openArchidex()" data-i18n="adxBtn">📖 Bestiario</button>
+    <button id="route-btn" onclick="toggleRoutePanel()" data-i18n="rtBtn">🗺 Ruta</button>
+    <button id="settings-btn" onclick="toggleSettings()" data-i18n-title="ttlSettings" title="Opciones">⚙</button>
+  </div>
+</div>
+
+<!-- PROGRESS BAR -->
+<div id="prog-bar-wrap"><div id="prog-bar-fill"></div></div>
+
+<!-- MAIN -->
+<div id="main">
+  <div id="sidebar">
+    <div id="sb-search-wrap" style="display:flex;gap:5px;align-items:center">
+      <input id="sb-search" type="text" placeholder="Buscar archi o monstruo…" data-i18n="searchPlaceholder" style="flex:1" />
+      <button id="fav-filter">★</button>
+      <button id="hide-done-btn" onclick="toggleHideDone()" data-i18n-title="ttlHideDone" title="Solo pendientes">◉</button>
+      <button id="hunt-cap-btn" onclick="toggleHuntHideCap()" data-i18n-title="ttlHuntHideCap" title="Ocultar capturados">✕cap</button>
+      <button id="zf-btn" title="Filtrar por zona" onclick="toggleZoneFilterDd()">▽</button>
+      <div id="zf-dd"></div>
+    </div>
+    <!-- Controles del árbol -->
+    <div id="tree-controls">
+      <button onclick="collapseAllZones()" data-i18n="treeCollapseAll" data-i18n-title="ttlCollapseAll" title="Colapsar todo">⊟ Todo</button>
+      <button onclick="expandAllZones()" data-i18n="treeExpandAll" data-i18n-title="ttlExpandAll" title="Expandir todo">⊞ Todo</button>
+      <span class="tc-sep"></span>
+      <button id="compact-btn" onclick="toggleCompact()" data-i18n-title="ttlCompact" title="Modo compacto">⊡</button>
+    </div>
+    <!-- Filtro por etapa -->
+    <div id="step-filter">
+      <span id="step-filter-lbl">Etapa:</span>
+      <div id="step-filter-btns"></div>
+    </div>
+    <div id="zone-filter-bar">
+      <span id="zone-filter-lbl" style="flex:1;overflow:hidden;text-overflow:ellipsis;white-space:nowrap"></span>
+      <button onclick="setAllZoneFilters(true)" data-i18n="zfViewAll">✕ Ver todo</button>
+    </div>
+    <!-- STATS PANEL -->
+    <div id="stats-panel">
+      <div id="stats-hd" onclick="toggleStatsPanel()">
+        <span id="stats-hd-lbl" data-i18n="statsTitle">Estadísticas</span>
+        <span id="stats-hd-val"></span>
+        <span id="stats-hd-arrow">▶</span>
+      </div>
+      <div id="stats-body"><div id="sp-zones"></div></div>
+    </div>
+    <div id="sb-tree"></div>
+
+    <!-- Stone filter -->
+    <div id="stone-filter">
+      <span id="stone-filter-lbl">Piedra de Alma:</span>
+      <button class="sfbtn on" data-stone="" data-i18n="sfAll">Todas</button>
+      <button class="sfbtn" data-stone="50"  ><img src="./icons/50.png"   /></button>
+      <button class="sfbtn" data-stone="100" ><img src="./icons/100.png"  /></button>
+      <button class="sfbtn" data-stone="150" ><img src="./icons/150.png"  /></button>
+      <button class="sfbtn" data-stone="190" ><img src="./icons/190.png"  /></button>
+    </div>
+
+    <!-- Zone sidebar (modo Zonas) -->
+    <div id="zone-sb">
+      <div id="zone-sb-hd">
+        <h4>🗺 Definición de Zonas</h4>
+        <div id="zone-progress">0 / 0 subzonas mapeadas</div>
+        <button id="grid-toggle" class="zbb" onclick="toggleGridBtn()" style="margin-top:5px;font-size:10px;padding:3px 8px">☐ Cuadrícula</button>
+      </div>
+      <div id="zone-list"></div>
+      <div id="zone-sb-footer">
+        <button class="fbt" onclick="advanceToNextZone()">▶ Siguiente pendiente</button>
+        <button class="fbt" onclick="exportZonePolygons()">💾 Guardar</button>
+      </div>
+    </div>
+
+    <!-- Stones summary -->
+    <div id="stones-panel">
+      <div id="stones-hd">
+        <span>💎</span>
+        <span id="stones-title" style="flex:1;font-size:13px;font-weight:600">Piedras necesarias</span>
+        <span class="t-arrow" id="stones-arrow">▶</span>
+      </div>
+      <div id="stones-body"></div>
+    </div>
+
+  </div>
+  <div id="map"></div>
+</div>
+
+<!-- TOOLTIP CUSTOM -->
+<div id="archi-tip">
+  <div class="tip-head">
+    <img id="tip-thumb" src="" alt="" />
+    <div id="tip-ph">?</div>
+    <div class="tip-top">
+      <div id="tip-aname"></div>
+      <div id="tip-mname"></div>
+      <div id="tip-level"></div>
+      <div id="tip-stone"></div>
+    </div>
+    <button id="tip-info-btn" onclick="if(S.tip.id)window.open(CFG.dofusdb(S.tip.id),'_blank')" title="Ver en DofusDB" style="align-self:flex-start;background:none;border:1px solid rgba(255,255,255,.2);border-radius:50%;width:20px;height:20px;color:#a0b4cc;font-size:11px;cursor:pointer;flex-shrink:0;line-height:1;padding:0;transition:all .15s">↗</button>
+  </div>
+  <div class="tip-hint" id="tip-hint">Clic para más info →</div>
+  <div class="tip-body" id="tip-body">
+    <div class="tip-inner">
+      <div class="tip-row"><span class="tip-lbl" id="tip-lbl-zona">Zona</span><span class="tip-val" id="tip-zone">—</span></div>
+      <div class="tip-row"><span class="tip-lbl" id="tip-lbl-info">Info</span><span class="tip-val" id="tip-quest">—</span></div>
+      <div class="tip-langs" id="tip-langs"></div>
+      <div id="tip-note"></div>
+      <div style="display:flex;gap:4px">
+        <button id="tip-cap" class="todo" style="flex:1" onclick="toggleCapFromTip()">Marcar como capturado</button>
+        <button id="tip-fav" onclick="toggleFavFromTip()" title="Favorito" style="padding:3px 8px;border-radius:5px;border:1px solid var(--border);background:none;font-size:14px;cursor:pointer;color:var(--txt3);transition:all .15s">☆</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- MODAL (desde sidebar) -->
+<div id="modal-bg">
+  <div id="modal">
+    <button id="modal-x" onclick="closeModal()">✕</button>
+    <div id="modal-img-wrap">
+      <img id="modal-img" src="" alt="" />
+      <div id="modal-ph">?</div>
+    </div>
+    <div id="modal-aname"></div>
+    <div id="modal-mname"></div>
+    <div id="modal-meta"></div>
+    <div id="modal-langs"></div>
+    <a id="modal-link" class="modal-link" target="_blank" rel="noopener">Ver en DofusDB ↗</a>
+    <div style="display:flex;gap:6px;margin-top:6px">
+      <button id="modal-cap" class="todo" style="flex:1" onclick="toggleCapFromModal()">Marcar como capturado</button>
+      <button id="modal-fav" onclick="toggleFavFromModal()" title="Favorito" style="padding:5px 10px;border-radius:6px;border:1px solid var(--border);background:none;font-size:16px;cursor:pointer;color:var(--txt3);transition:all .15s">☆</button>
+    </div>
+    <div id="modal-notes-wrap">
+      <div id="modal-notes-lbl">Notas</div>
+      <textarea id="modal-notes" placeholder="Notas…" oninput="saveModalNote(this.value)"></textarea>
+    </div>
+  </div>
+</div>
+
+<!-- MODE WIPE -->
+<div id="mode-wipe"><div id="mode-wipe-lbl"></div></div>
+<div id="ug-wipe">
+  <div id="ug-scene">
+    <span id="ug-walker-sprite">🚶</span>
+    <div id="ug-hole-ring"></div>
+  </div>
+  <div id="ug-wipe-lbl"></div>
+</div>
+<!-- MOBILE: backdrop + FAB -->
+<div id="mob-backdrop" onclick="closeMobSidebar()"></div>
+<!-- CAPTURE LOG -->
+<div id="capture-log">
+  <div id="cl-hd" onclick="toggleCaptureLog()"><span id="cl-hd-lbl" data-i18n="clTitle">📋 Historial</span><span id="cl-hd-arr">▶</span></div>
+  <div id="cl-body"></div>
+</div>
+<!-- PRESENTATION EXIT -->
+<button id="pres-exit" data-i18n="presExit" onclick="togglePresentation()">✕ Salir</button>
+<!-- KB HINT -->
+<div id="kb-hint"></div>
+<div id="zone-htip"><div class="zh-sub"></div><div class="zh-zone"></div><div class="zh-bar"><div class="zh-fill"></div></div><div class="zh-count"></div></div>
+<!-- RESET MODAL -->
+<div id="reset-overlay" onclick="if(event.target===this)closeResetModal()">
+  <div id="reset-box">
+    <h4 data-i18n="resetTitle">↺ Reset</h4>
+    <p data-i18n="resetDesc">Selecciona qué quieres eliminar:</p>
+    <label class="reset-chk"><input type="checkbox" id="reset-chk-cap" checked /><span data-i18n="resetChkCap">Archimonstruos capturados</span></label>
+    <label class="reset-chk"><input type="checkbox" id="reset-chk-log" checked /><span data-i18n="resetChkLog">Historial de capturas</span></label>
+    <div id="reset-btns">
+      <button id="reset-btn-cancel" data-i18n="resetCancel" onclick="closeResetModal()">Cancelar</button>
+      <button id="reset-btn-ok" data-i18n="resetConfirm" onclick="confirmReset()">↺ Reiniciar</button>
+    </div>
+  </div>
+</div>
+<!-- ARCHIDEX CLEAR CONFIRM -->
+<div id="adx-clr-confirm" onclick="if(event.target===this)adxCloseClearConfirm()">
+  <div id="adx-clr-box">
+    <h4 id="adx-clr-title">🗑 Vaciar inventario</h4>
+    <p id="adx-clr-desc">¿Seguro? Se borrará el inventario y las capturas quedarán en cero.</p>
+    <div id="adx-clr-btns">
+      <button id="adx-clr-cancel" onclick="adxCloseClearConfirm()">Cancelar</button>
+      <button id="adx-clr-ok" onclick="adxConfirmClear()">🗑 Vaciar</button>
+    </div>
+  </div>
+</div>
+<!-- CHANGELOG MODAL -->
+<div id="changelog-overlay" onclick="if(event.target===this)toggleChangelog()">
+  <div id="changelog-box">
+    <div id="changelog-hd">
+      <h3>ARCHIDEX — Changelog</h3>
+      <button id="changelog-close" onclick="toggleChangelog()">✕</button>
+    </div>
+    <div id="changelog-body">
+
+      <div class="cl-ver">v0.7.0 <span>2026-04-22</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Ruta — dots numerados en el mapa para cada parada de la ruta</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Ruta — polígono de la parada actual resaltado en cian sobre el mapa</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Ruta — semilla compacta: genera y comparte tu ruta con un código de texto corto</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Ruta — importar semilla: pega el código de otro jugador para cargar su ruta</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Panel subterráneos — colapsable con un clic (escritorio y móvil)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Tutorial mejorado — nuevo paso de Modo Ruta, adaptado a móvil</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Navegar ruta con Ant/Sig cambia al mapa subterráneo sin animación ni parpadeo</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Modo móvil — panel ruta muestra solo parada actual y siguiente</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Modo móvil — rediseño completo: barra de búsqueda, controles y modos más cómodos</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Dots de ruta visibles sobre iconos de entrada a subterráneos (z-index corregido)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Tutorial no se quedaba bloqueado en móvil al apuntar a elementos ocultos</div>
+
+      <div class="cl-ver">v0.7.0 <span>2026-04-21</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Renombrado: app → ARCHIDEX, inventario → Bestiario (i18n en 6 idiomas)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Ruta — ventana flotante sobre historial, no bloquea el mapa</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Ruta — Sig → marca la parada actual como revisada automáticamente</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Ruta — botón ＋▦ en cabecera de zona para añadir toda la zona con orden óptimo</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Caza — botón ✕cap para ocultar capturados del árbol</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo Caza — sesión: entradas aplicadas desaparecen automáticamente</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Cooldowns instantáneos — timer visible al instante al añadir cooldown</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Filtro etapa — muestra números reales (4–18) y scrollable horizontal</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Tree controls — colapsar/expandir todo, modo compacto (⊡)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Notas por archi — corregido error que impedía guardar notas en el modal</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Modo Caza — corregido crash que vaciaba el sidebar (querySelector null)</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Cabeceras de zona pegajosas (sticky) en el sidebar</div>
+
+      <div class="cl-ver">v0.5.5 <span>2026-04-20</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Archidex: página completa independiente vía <code>?archidex=1</code> — oculta mapa, sidebar y botones de modo</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Archidex: botón ⧉ para abrir en nueva pestaña sincronizada (BroadcastChannel)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Archidex: filtro de favoritos ★ y filtro de piedra de alma en toolbar</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Archidex: notas por archi — textarea en modal + indicador visual (punto) en la carta</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Archidex: exportar/importar CSV con formato <code>Step,Name,ArchName,Count</code> (compatible 6 idiomas)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Archidex: confirmación antes de vaciar inventario con el botón 🗑</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Criptas del Cementerio añadida como zona subterránea con marcador de entrada en el mapa</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Sistema inventario ↔ capturas bidireccional: inventario ES el sistema de captura</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Multicuenta dinámico: archi queda capturado (verde) cuando inventario ≥ nº de cuentas activas</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Archidex se actualiza en tiempo real al capturar/descapturar desde el mapa</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Botón Archidex rediseñado como texto "📖 Archidex" en lugar de icono</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Label de paso en cartas Archidex: S1…S286 (antes #N)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Vaciar inventario ahora también limpia capturas (antes se mantenían en verde)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Reset desde opciones ahora sincroniza el Archidex automáticamente</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>BroadcastChannel: sincronización correcta al borrar datos (caso removeItem con valor null)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>archi_zones.json: 5 archis de Criptas del Cementerio marcados como underground:true</div>
+
+      <div class="cl-ver">v0.4.9 <span>2026-04-19</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Sistema de Subterráneos — panel de navegación lateral al activar modo subterráneo</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>13 subterráneos indexados con nombres traducidos a 6 idiomas</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Clic en una zona subterránea vuela directamente al mapa underground</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Panel se muestra solo cuando el modo subterráneo está activo</div>
+
+      <div class="cl-ver">v0.4.5 <span>2026-04-16</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Filtro de zonas estilo Excel — botón ▽ junto al buscador abre dropdown con checkboxes por zona</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Filtro de zonas también oculta/muestra markers en el mapa</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Bonta: subzonas urbanas fusionadas en "Ciudad de Bonta" (conserva Cementerio de los Héroes y Riberas Iridiscentes)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Brakmar: subzonas urbanas fusionadas en "Ciudad de Brakmar" (conserva Cementerio de los Torturados y Afueras de Brakmar)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Contador de zona ahora usa IDs únicos — ya no suma duplicados de archis en múltiples subzonas</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Badges de subzona y zona actualizados con barra de progreso correcta al capturar (updateTreeItem)</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Capturar archi: clic derecho sobre marker en el mapa (antes atajo C)</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Eliminado botón ⊙ de cada cabecera de zona — reemplazado por filtro global ▽</div>
+
+      <div class="cl-ver">v0.4.2 <span>2026-04-16</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Tooltip de zona restaurado en polígonos del mapa (activo solo cuando polígonos visibles, no en sidebar)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Búsqueda por nombre de monstruo — mob name visible como subtítulo en cada archi del sidebar</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Barras de progreso inline en cabeceras de zona y subzona</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Botón ⊙ para filtrar el sidebar a una sola zona, con barra azul y botón "Ver todo"</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Atajo C — captura el archi visible en el tooltip (con atajos activados)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Hint del tooltip cambia según estado: "Clic para más info" ↔ "Clic fuera para cerrar ✕"</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Tooltip expandido sin lock se cierra correctamente al hacer mouseout</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Settings se cierra automáticamente al abrir changelog o modal</div>
+
+      <div class="cl-ver">v0.4.1 <span>2026-04-16</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Botón ? en cada opción del settings con descripción de qué hace para el usuario final</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Solo un ? puede estar abierto a la vez — abre uno y el anterior se cierra</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Opciones reordenadas: "Ir al archi" y "Fijar tooltip" ahora son adyacentes</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>"Tooltip al hover" eliminado del settings — el tooltip de subzona siempre está activo</div>
+
+      <div class="cl-ver">v0.4.0 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Opción "Efecto spotlight al hover" — activa/desactiva el atenuado de archis al hacer hover (default: ON)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Opción "Fijar tooltip al hacer clic" — activa/desactiva el bloqueo del tooltip al clicar un archi (default: ON)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Resaltado de polígonos al hover de archi en el mapa ahora respeta el toggle "Resaltar zona en sidebar"</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Spotlight de subzona en sidebar ahora solo resalta los archis físicamente dentro de esa subzona, no todos sus spawns globales</div>
+
+      <div class="cl-ver">v0.3.9 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Tooltip bloqueado al hacer clic en un archi: no cambia al pasar el mouse por otros, se cierra solo al hacer clic fuera</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Coordenadas eliminadas del tooltip del mapa (información no relevante para el usuario final)</div>
+
+      <div class="cl-ver">v0.3.8 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Hover sobre subzona en el sidebar → todos sus archis hacen zoom en el mapa y los demás se atenúan (mismo efecto spotlight que por archi individual)</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>El hover de subzona también resalta el polígono de la zona si está disponible</div>
+
+      <div class="cl-ver">v0.3.7 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Spotlight suavizado: los demás markers se reducen a 84% con 35% de desaturación y 52% opacidad, con transición de 0.35s</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Tooltip: nivel, labels, idiomas y botón ↗ con colores más contrastados y visibles sobre el fondo oscuro</div>
+
+      <div class="cl-ver">v0.3.6 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Efecto spotlight al hacer hover: todos los demás archis se oscurecen y encogen para dar protagonismo al resaltado</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Clic en archi del sidebar vuela al archi y espera a que el mapa termine de moverse antes de abrir el tooltip en su posición correcta</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Botón ↗ en el tooltip abre directamente la ficha en DofusDB en nueva pestaña</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Eliminado el enlace "Ver en DofusDB" redundante del cuerpo del tooltip</div>
+
+      <div class="cl-ver">v0.3.5 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Hover sobre archi en sidebar → animación zoom en sus markers del mapa + resalta polígonos de su subzona (aunque estén apagados)</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Hover sobre marker en mapa → también resalta los polígonos de la subzona del archi</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Clic en archi sidebar con "Ir automáticamente al archi" ON → vuela al archi y abre el tooltip (no el modal)</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Clic en archi sidebar con "Ir automáticamente al archi" OFF → abre el modal completo</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Botón ℹ en la cabecera del tooltip para abrir la ficha completa del archi en el modal</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Eliminado el sistema de halos amarillo/azul — reemplazado por el hover de zoom+polígono</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Seleccionar archi en panel Add archi → resalta markers y polígonos de sus subzonas</div>
+
+      <div class="cl-ver">v0.3.4 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Clic en zona del sidebar → resalta todos sus markers en el mapa con halo amarillo (clic de nuevo para deseleccionar)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Clic en subzona del sidebar → resalta markers de esa subzona + fija el polígono resaltado</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Seleccionar archi en panel Add archi → resalta sus copias en el mapa con halo azul + resalta sus polígonos de subzona</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Clic en el mismo archi/zona deselecciona y limpia el resaltado</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Cerrar panel Add archi limpia el resaltado del archi seleccionado</div>
+
+      <div class="cl-ver">v0.3.3 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Jail de zona: impide arrastrar markers fuera del polígono de su subzona</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Snap a celda: al soltar, el marker se ajusta al centro de la celda más cercana</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Toggles de opciones de arrastre visibles en el panel Add archi (modo DEV)</div>
+
+      <div class="cl-ver">v0.3.2 <span>2026-04-11</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Spawn en subzona: al generar todos los spawns, cada marker aparece dentro del polígono de su subzona asignada</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Archis con múltiples subzonas generan una copia por subzona (máx. 1 por subzona)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Fallback en cuadrícula para subzonas sin polígono dibujado, con aviso en la notificación</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Filtro por nivel eliminado completamente (HTML, JS, estado, I18N, CSS)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Panel de estadísticas: el header ahora siempre es visible; solo el cuerpo colapsa</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Atajos de teclado traducidos a los 6 idiomas (es, en, fr, de, pt, it)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Botón de changelog (este panel) accesible desde el badge de versión</div>
+
+      <div class="cl-ver">v0.3.1 <span>sesión anterior</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Panel de estadísticas por zona con barra de progreso por subzona</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Historial de capturas con log en tiempo real</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Animación de zona completa: toast verde al capturar todos los archis de una subzona</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo presentación (tecla P) que oculta la UI y solo muestra el mapa</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Atajos de teclado configurables (/, Ctrl+F, 1, 2, D, U, P, Esc)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo multicuenta: contador de capturas por cuenta (hasta 20)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo día / modo noche con colores cremosos en día y toggle con emoji 🌞/🌙</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Barra de progreso global en el topbar</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Botón favorito por archi configurable</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Filtro de piedra de alma configurable</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Notificaciones de respawn en modo caza configurables</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Opción para ocultar/mostrar iconos de archimonstruos en el mapa</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Menú de opciones movido al topbar derecha con z-index correcto sobre el mapa</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Separación visual entre secciones del menú de opciones</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Etiquetas del menú de opciones traducidas a los 6 idiomas dinámicamente</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Botón "Ir a zona" ya no rompe el sidebar al desactivarse (null-safe)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>Polígonos de zona siempre registrados en zonePolygonLayers aunque estén ocultos (fix hover en sidebar)</div>
+      <div class="cl-item"><span class="cl-tag fix">fix</span>buildTree ejecuta después de loadZonePolygons para que el hover funcione al cargar</div>
+
+      <div class="cl-ver">v0.3.0 <span>sesión anterior</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Polígonos de subzona dibujables sobre el mapa con editor de celdas</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Tooltip al pasar el mouse sobre polígonos: nombre de zona/subzona y progreso de captura</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Resaltado de zona en el mapa al hover sobre el sidebar (y viceversa)</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Botón "↪ ir a zona" en el sidebar para centrar el mapa en la subzona</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Polígonos subterráneos solo visibles al activar el modo subterráneo</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Soporte multiidioma: es, en, fr, de, pt, it con banderas en el topbar</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Nombres de zona y subzona traducibles (objeto {es, en, fr, de, pt, it})</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modo subterráneo filtra archis y polígonos de zonas subterráneas</div>
+      <div class="cl-item"><span class="cl-tag ux">ux</span>Mejora de colores en modo noche y día; paleta cremosa para modo día</div>
+
+      <div class="cl-ver">v0.2.2 <span>versión base</span></div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Mapa Leaflet CRS.Simple con iconos de archimonstruos por coordenadas</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Sistema de captura con persistencia en localStorage y sincronización con Supabase</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Sidebar con árbol de zona → subzona → archimonstruo</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Modos Archi-Check y Caza</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Timer de respawn con countdown y notificaciones</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Login / logout con Supabase Auth</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Búsqueda de archimonstruo en tiempo real</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Filtro de favoritos</div>
+      <div class="cl-item"><span class="cl-tag new">new</span>Descarte (mostrar capturados atenuados en el mapa)</div>
+
+    </div>
+  </div>
+</div>
+<div id="settings-dd">
+  <div class="sd-section" data-i18n="sdSubzonas">Visualización de subzonas</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdPolygons">Polígonos de zona</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-polygons')">?</button><span class="sd-tog" id="tog-polygons" onclick="toggleSetting('showZonePolygons')"></span></div></label>
+  <div class="sd-help-txt" id="h-polygons">Dibuja áreas de color sobre el mapa que delimitan cada subzona. Útil para orientarse y ver visualmente el progreso de cada área.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdHighlight">Resaltar zona en sidebar</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-highlight')">?</button><span class="sd-tog" id="tog-hl" onclick="toggleSetting('showZoneHighlight')"></span></div></label>
+  <div class="sd-help-txt" id="h-highlight">Al hacer hover sobre una zona en el sidebar, resalta su polígono en el mapa. Y al hacer hover sobre un polígono en el mapa, resalta la zona correspondiente en el sidebar.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdGoto">Botón ↪ ir a zona</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-goto')">?</button><span class="sd-tog" id="tog-goto" onclick="toggleSetting('showZoneGoto')"></span></div></label>
+  <div class="sd-help-txt" id="h-goto">Muestra un botón ↪ junto a cada subzona en el sidebar. Al pulsarlo, el mapa se centra automáticamente sobre esa subzona.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdUgEntrances">Entradas subterráneas</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-ugEntrances')">?</button><span class="sd-tog" id="tog-ugEntrances" onclick="toggleSetting('showUgEntrances')"></span></div></label>
+  <div class="sd-help-txt" id="h-ugEntrances">Muestra los iconos 🕳 en el mapa que marcan las entradas a zonas subterráneas. Al hacer clic en uno, accedes directamente a esa zona. Al hacer hover, se ilumina el área correspondiente.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdRouteBtn">Botones ➕ de ruta en zonas</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-routeadd')">?</button><span class="sd-tog" id="tog-routeadd" onclick="toggleSetting('showRouteAddBtn')"></span></div></label>
+  <div class="sd-help-txt" id="h-routeadd">Muestra los botones ➕ en subzonas y el botón ▦ en zonas para añadirlas rápidamente a la ruta.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdCompact">Modo compacto</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-compact')">?</button><span class="sd-tog" id="tog-compact" onclick="toggleSetting('compactMode')"></span></div></label>
+  <div class="sd-help-txt" id="h-compact">Reduce el tamaño de los ítems del sidebar para ver más archimonstruos por pantalla.</div>
+  <div class="sd-sep"></div>
+  <div class="sd-section" data-i18n="sdArchi">Visualización de archimonstruo</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdMarkersHide">Mostrar iconos del mapa</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-markers')">?</button><span class="sd-tog" id="tog-markers" onclick="toggleSetting('showMarkers')"></span></div></label>
+  <div class="sd-help-txt" id="h-markers">Muestra u oculta todos los iconos de archimonstruos sobre el mapa. Útil para ver mejor los polígonos de zona o tomar capturas limpias del mapa.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdAutoFly">Ir automáticamente al archi</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-autofly')">?</button><span class="sd-tog" id="tog-autofly" onclick="toggleSetting('autoFlyArchi')"></span></div></label>
+  <div class="sd-help-txt" id="h-autofly">Al hacer clic en un archimonstruo en el sidebar, el mapa vuela hasta su posición y abre el tooltip. Si está desactivado, abre la ficha completa en un panel.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdTipLock">Fijar tooltip al hacer clic</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-tiplock')">?</button><span class="sd-tog" id="tog-tiplock" onclick="toggleSetting('tipLockOnClick')"></span></div></label>
+  <div class="sd-help-txt" id="h-tiplock">Al hacer clic sobre un icono de archi en el mapa, el tooltip queda fijo en pantalla y no cambia al pasar el mouse por otros archis. Se cierra haciendo clic fuera.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdCloneDots">Mini-dot en clones</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-clonedots')">?</button><span class="sd-tog" id="tog-clonedots" onclick="toggleSetting('cloneDots')"></span></div></label>
+  <div class="sd-help-txt" id="h-clonedots"></div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdSpotlight">Efecto spotlight al hover</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-spotlight')">?</button><span class="sd-tog" id="tog-spotlight" onclick="toggleSetting('showSpotlight')"></span></div></label>
+  <div class="sd-help-txt" id="h-spotlight">Al hacer hover sobre un archimonstruo (en el sidebar o en el mapa), atenúa y reduce los demás iconos para destacar el que estás mirando.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdStoneFilter">Mostrar filtro de piedra</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-stone')">?</button><span class="sd-tog" id="tog-stone" onclick="toggleSetting('showStoneFilter')"></span></div></label>
+  <div class="sd-help-txt" id="h-stone">Muestra el selector de piedra de alma en el sidebar para filtrar archimonstruos según el tamaño de piedra que requieren (Pequeña, Mediana, Grande, Enorme, Gigantesca).</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdFavBtn">Mostrar botón favorito</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-fav')">?</button><span class="sd-tog" id="tog-fav" onclick="toggleSetting('showFavBtn')"></span></div></label>
+  <div class="sd-help-txt" id="h-fav">Muestra el botón de estrella ★ junto a cada archimonstruo en el sidebar para marcarlo como favorito y filtrarlo con el botón ★ de la búsqueda.</div>
+  <div class="sd-sep"></div>
+  <div class="sd-section" data-i18n="sdCaza">Modo Caza</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdCazaNotif">Notificaciones de respawn</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-cazanotif')">?</button><span class="sd-tog" id="tog-cazanotif" onclick="toggleSetting('cazaNotif')"></span></div></label>
+  <div class="sd-help-txt" id="h-cazanotif">Muestra una notificación en pantalla cuando el contador de respawn de un archimonstruo llega a cero y puede volver a aparecer.</div>
+  <div class="sd-sep"></div>
+  <div class="sd-section" data-i18n="sdCuentas">Cuentas</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdMulti">Multicuenta</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-multi')">?</button><span class="sd-tog" id="tog-multi" onclick="toggleSetting('multicuenta')"></span></div></label>
+  <div class="sd-help-txt" id="h-multi">Permite llevar el conteo de capturas para varias cuentas simultáneamente (de 2 a 20). Cada clic en "capturado" avanza el contador de la siguiente cuenta en turno.</div>
+  <div class="sd-row sd-multi-row" id="multi-count-row">
+    <span class="sd-lbl" style="font-size:11px;color:var(--txt3)" data-i18n="sdMultiN">Nº cuentas (2–20)</span>
+    <div class="sd-accounts">
+      <button onclick="changeAccounts(-1)">−</button>
+      <span id="accounts-val">2</span>
+      <button onclick="changeAccounts(1)">＋</button>
+    </div>
+  </div>
+  <div class="sd-sep"></div>
+  <div class="sd-section" data-i18n="sdTheme">Apariencia</div>
+  <label class="sd-row"><span class="sd-lbl" id="lbl-daymode">🌞 Modo día</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-daymode')">?</button><span class="sd-tog" id="tog-day" onclick="toggleSetting('dayMode')"></span></div></label>
+  <div class="sd-help-txt" id="h-daymode">Cambia la paleta de colores de oscura (modo noche) a clara (modo día). Útil para usar en entornos con mucha luz ambiental.</div>
+  <div class="sd-sep"></div>
+  <div class="sd-section" data-i18n="sdInterface">Interfaz</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdProgressBar">Barra de progreso</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-progbar')">?</button><span class="sd-tog" id="tog-progbar" onclick="toggleSetting('showProgressBar')"></span></div></label>
+  <div class="sd-help-txt" id="h-progbar">Muestra una fina barra de progreso en la parte superior de la pantalla indicando cuántos archimonstruos has capturado del total (286).</div>
+  <div class="sd-row" style="align-items:center;gap:4px">
+    <span class="sd-lbl" data-i18n="sdKeyShortcuts">Atajos de teclado</span>
+    <div style="display:flex;gap:5px;align-items:center;flex-shrink:0">
+      <button id="kb-help-btn" class="sd-help-btn" onclick="event.stopPropagation();toggleKbHelp()" title="Ver lista de atajos">?</button>
+      <span class="sd-tog" id="tog-keys" onclick="toggleSetting('keyShortcuts')"></span>
+    </div>
+  </div>
+  <div id="kb-help-panel" style="display:none;padding:3px 14px 7px;font-size:10px;color:var(--txt3);line-height:1.9"></div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdStats">Panel de estadísticas</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-stats')">?</button><span class="sd-tog" id="tog-stats" onclick="toggleSetting('showStats')"></span></div></label>
+  <div class="sd-help-txt" id="h-stats">Muestra un panel en el sidebar con el progreso de captura desglosado por zona y subzona, con barras de progreso individuales.</div>
+  <label class="sd-row"><span class="sd-lbl" data-i18n="sdCaptureLog">Historial de capturas</span><div style="display:flex;gap:5px;align-items:center;flex-shrink:0"><button class="sd-help-btn" onclick="event.stopPropagation();toggleHelp('h-caplog')">?</button><span class="sd-tog" id="tog-caplog" onclick="toggleSetting('showCaptureLog')"></span></div></label>
+  <div class="sd-help-txt" id="h-caplog">Muestra un registro en la esquina inferior derecha con los últimos archimonstruos capturados durante la sesión actual, con la hora de cada captura.</div>
+  <div class="sd-row" style="padding-top:3px;padding-bottom:3px">
+    <span class="sd-lbl" data-i18n="sdPresMode" style="font-size:11px">Modo presentación</span>
+    <button onclick="togglePresentation()" style="background:var(--card);border:1px solid var(--border);border-radius:4px;color:var(--txt2);font-size:10px;padding:2px 8px;cursor:pointer">▶ P</button>
+  </div>
+  <div class="sd-sep"></div>
+  <div class="sd-btns">
+    <button onclick="startTutorial()" data-i18n="sdTutorial">Ver tutorial</button>
+  </div>
+  <div class="sd-sep"></div>
+  <div class="sd-section" data-i18n="sdDatos">Datos</div>
+  <div class="sd-btns">
+    <button onclick="exportMapImage()">🖼 PNG</button>
+    <button onclick="resetProgress()" style="border-color:var(--red);color:var(--red)">↺ Reset</button>
+  </div>
+  <div class="sd-btns dev-only">
+    <button onclick="exportSpawns()">💾 Mapa</button>
+  </div>
+</div>
+<button id="mob-fab" onclick="toggleMobSidebar()">☰</button>
+
+<!-- BETA PANEL -->
+<div id="beta-panel">
+  <h4>⚙ Modo Beta — Añadir Spawn</h4>
+  <input class="bi" id="bp-search"  placeholder="Buscar archi…" />
+  <div id="bp-list"></div>
+  <input class="bi" id="bp-cd"      placeholder="Cooldown (min)" type="number" min="0" value="60" />
+  <div id="bp-coords">Haz clic en el mapa para fijar coordenadas</div>
+  <div id="bp-drag-opts">
+    <div class="bdo-title" data-i18n="bdo">Opciones de arrastre</div>
+    <div class="bdo-row">
+      <label class="bdo-lbl">🔒 Jail de zona<small>Impide arrastrar fuera del polígono</small></label>
+      <button class="bdo-tog" id="bdo-jail" onclick="toggleDragOpt('zoneJail')"></button>
+    </div>
+    <div class="bdo-row">
+      <label class="bdo-lbl">⊞ Snap a celda<small>Al soltar, ajusta al centro de celda</small></label>
+      <button class="bdo-tog" id="bdo-snap" onclick="toggleDragOpt('snapToCell')"></button>
+    </div>
+  </div>
+  <div class="beta-hint">💡 Mantén Ctrl para arrastrar · Clic derecho para eliminar</div>
+  <button class="bb ok" id="bp-ok">Añadir Spawn</button>
+  <button class="bb" style="background:rgba(99,77,0,.35);border-color:var(--yellow);color:var(--yellow)" onclick="autoPopulateSpawns()">⚡ Generar todos los spawns</button>
+  <button class="bb" id="bp-sel-toggle" onclick="toggleBetaSelect()" style="border-color:var(--orange);color:var(--orange)">☐ Seleccionar para borrar</button>
+  <div id="bp-sel-bar">
+    <div id="bp-sel-count" style="font-size:11px;color:var(--txt2);text-align:center">0 seleccionados</div>
+    <button class="bb" onclick="deleteSelected()" style="border-color:var(--red);color:var(--red)">🗑 Borrar seleccionados</button>
+    <button class="bb" onclick="deleteAll()" style="border-color:var(--red);color:var(--red);opacity:.7">✕ Borrar TODOS</button>
+  </div>
+  <button class="bb" onclick="closeBeta()">Cerrar</button>
+</div>
+
+<!-- ZONE DRAW PANEL -->
+<div id="zone-draw-panel">
+  <h4>✏ Seleccionando celdas</h4>
+  <div id="zdp-zone"></div>
+  <div id="zdp-sub"></div>
+  <div id="zdp-count">0 celdas</div>
+  <div class="zdp-hint">
+    <b>Clic / Arrastrar</b> → pintar celdas<br>
+    <b>Clic derecho</b> → borrar celda<br>
+    1er clic decide añadir o quitar
+  </div>
+  <div style="margin-bottom:6px;display:flex;flex-direction:column;gap:5px">
+    <div style="font-size:10px;color:var(--txt3);margin-bottom:1px">Ancho celda</div>
+    <div style="display:flex;gap:5px;align-items:center">
+      <input id="grid-cell-w" type="range" min="3" max="30" step="0.1" value="9" style="flex:1;accent-color:var(--yellow)" />
+      <input id="grid-cw-num" type="number" min="1" max="100" step="0.1" value="9" style="width:52px;background:var(--panel);border:1px solid var(--border);border-radius:4px;color:var(--txt);font-size:11px;padding:2px 5px;text-align:center" />
+    </div>
+    <div style="font-size:10px;color:var(--txt3);margin-bottom:1px">Alto celda</div>
+    <div style="display:flex;gap:5px;align-items:center">
+      <input id="grid-cell-h" type="range" min="3" max="30" step="0.1" value="7.8" style="flex:1;accent-color:var(--orange)" />
+      <input id="grid-ch-num" type="number" min="1" max="100" step="0.1" value="7.8" style="width:52px;background:var(--panel);border:1px solid var(--border);border-radius:4px;color:var(--txt);font-size:11px;padding:2px 5px;text-align:center" />
+    </div>
+  </div>
+  <div style="margin-bottom:6px">
+    <div style="font-size:10px;color:var(--txt3);margin-bottom:3px">Desplazamiento del grid</div>
+    <div style="display:grid;grid-template-columns:1fr auto 1fr;grid-template-rows:auto auto auto;gap:2px;align-items:center">
+      <span></span>
+      <button class="zbb" id="grid-up"   style="padding:2px 8px;margin:0" onclick="shiftGrid(0, 0.1)">↑</button>
+      <span></span>
+      <button class="zbb" id="grid-left" style="padding:2px 8px;margin:0" onclick="shiftGrid(-0.1, 0)">←</button>
+      <div style="display:flex;flex-direction:column;gap:2px;align-items:center">
+        <div style="font-size:9px;color:var(--txt3)">X <input id="grid-ox-num" type="number" step="0.1" value="0" style="width:46px;background:var(--panel);border:1px solid var(--border);border-radius:3px;color:var(--txt);font-size:10px;padding:1px 4px;text-align:center" /></div>
+        <div style="font-size:9px;color:var(--txt3)">Y <input id="grid-oy-num" type="number" step="0.1" value="0" style="width:46px;background:var(--panel);border:1px solid var(--border);border-radius:3px;color:var(--txt);font-size:10px;padding:1px 4px;text-align:center" /></div>
+      </div>
+      <button class="zbb" id="grid-right" style="padding:2px 8px;margin:0" onclick="shiftGrid(0.1, 0)">→</button>
+      <span></span>
+      <button class="zbb" id="grid-down" style="padding:2px 8px;margin:0" onclick="shiftGrid(0, -0.1)">↓</button>
+      <span></span>
+    </div>
+  </div>
+  <button class="zbb ok" onclick="confirmZoneCells()" id="zdp-confirm">✓ Confirmar zona</button>
+  <button class="zbb" onclick="clearCells()">↺ Limpiar celdas</button>
+  <button class="zbb danger" onclick="stopCellDraw()">✕ Cancelar</button>
+</div>
+
+<!-- CTRL DRAG BADGE -->
+<div id="ctrl-badge">✥ Modo arrastre activo — suelta Ctrl para salir</div>
+
+<!-- COORDS -->
+<div id="coords">X: 0 | Y: 0</div>
+
+<!-- HUNT PANEL -->
+<div id="hunt-panel">
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:7px;gap:4px">
+    <h5 id="cd-panel-title" style="margin:0;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">⏱ Cooldowns activos</h5>
+    <button id="hs-open-btn" onclick="openHuntSession()" title="Sesión de caza" style="background:rgba(180,40,40,.18);border:1px solid var(--red);border-radius:5px;color:var(--red);font-size:13px;line-height:1;padding:3px 7px;cursor:pointer;flex-shrink:0;transition:background .15s" onmouseenter="this.style.background='rgba(180,40,40,.35)'" onmouseleave="this.style.background='rgba(180,40,40,.18)'">📋</button>
+    <button id="cd-clear-btn" onclick="clearAllCooldowns()" title="Limpiar todos los cooldowns" style="background:rgba(180,40,40,.18);border:1px solid var(--red);border-radius:5px;color:var(--red);font-size:17px;line-height:1;padding:3px 7px;cursor:pointer;flex-shrink:0;transition:background .15s" onmouseenter="this.style.background='rgba(180,40,40,.35)'" onmouseleave="this.style.background='rgba(180,40,40,.18)'">🗑</button>
+  </div>
+  <div id="cd-list"></div>
+</div>
+
+<!-- HUNT SESSION MODAL -->
+<div id="hs-overlay" onclick="if(event.target===this)closeHuntSession()">
+  <div id="hs-box">
+    <div id="hs-hd">
+      <span id="hs-hd-title">📋 Sesión de caza</span>
+      <button id="hs-hd-close" onclick="closeHuntSession()">✕</button>
+    </div>
+    <div id="hs-sub"></div>
+    <div id="hs-toolbar"><button id="hs-selall-btn" onclick="hsToggleAll()"></button></div>
+    <div id="hs-list"></div>
+    <div id="hs-footer">
+      <button id="hs-apply-btn" onclick="confirmHuntSession()">✓ Aplicar capturas</button>
+      <button id="hs-clear-btn" onclick="clearHuntSession()">🗑 Limpiar sesión</button>
+    </div>
+  </div>
+</div>
+
+<!-- BESTIARIO -->
+<div id="adx-overlay" onclick="if(event.target===this)closeArchidex()">
+  <div id="adx-box">
+    <div id="adx-hd">
+      <span id="adx-hd-title">📖 Bestiario</span>
+      <span id="adx-cap-badge"></span>
+      <span id="adx-inv-badge" style="display:none"></span>
+      <button id="adx-clear-inv" onclick="adxPromptClearInventory()" title="Vaciar inventario" style="display:none">🗑</button>
+      <button id="adx-popout" onclick="adxOpenNewTab()" title="Abrir en nueva pestaña">⧉</button>
+      <button id="adx-hd-close" onclick="closeArchidex()">✕</button>
+    </div>
+    <div id="adx-toolbar">
+      <input id="adx-search" type="text" oninput="_renderArchidex()">
+      <button class="adx-fbtn on" data-f="all" onclick="adxSetFilter('all')"></button>
+      <button class="adx-fbtn" data-f="captured" onclick="adxSetFilter('captured')"></button>
+      <button class="adx-fbtn" data-f="pending" onclick="adxSetFilter('pending')"></button>
+      <button class="adx-fbtn" data-f="favorites" onclick="adxSetFilter('favorites')"></button>
+      <select id="adx-sort" onchange="_renderArchidex()"></select>
+      <button class="adx-csv-btn" onclick="adxExportCSV()" title="Exportar CSV">⬇ CSV</button>
+      <label class="adx-csv-btn" title="Importar CSV" style="cursor:pointer">⬆ CSV<input type="file" accept=".csv" onchange="adxImportCSV(this)" style="display:none"></label>
+    </div>
+    <div id="adx-stone-row"></div>
+    <div id="adx-grid"></div>
+  </div>
+</div>
+
+<!-- MODO RUTA -->
+<div id="route-overlay">
+  <div id="route-box">
+    <div id="route-hd">
+      <span id="route-title" data-i18n="rtTitle">🗺 Modo Ruta</span>
+      <span id="route-badge"></span>
+      <button id="route-hd-close" onclick="closeRoutePanel()">✕</button>
+    </div>
+    <div id="route-toolbar">
+      <button onclick="routeAutoCalc()" data-i18n="rtAuto">⚡ Auto</button>
+      <button onclick="routeClear()" data-i18n="rtClear">🗑 Limpiar</button>
+      <button onclick="routeExport()" data-i18n="rtExport">📋 Copiar</button>
+      <button onclick="routeGenerateSeed()" data-i18n="rtSeed">🔗 Semilla</button>
+      <button onclick="routeImportSeed()" data-i18n="rtImport">📥 Importar</button>
+      <button id="route-prev-btn" onclick="routePrev()" data-i18n="rtPrev">← Ant</button>
+      <button id="route-next-btn" onclick="routeNext()" data-i18n="rtNext">Sig →</button>
+    </div>
+    <div id="route-empty" data-i18n="rtEmpty">Añade subzonas con el botón ➕ del sidebar, o usa ⚡ Auto para calcular la ruta óptima.</div>
+    <div id="route-list"></div>
+  </div>
+</div>
+
+<!-- NOTIFS -->
+<div id="notifs"></div>
+
+<!-- TUTORIAL -->
+<div id="tutorial-overlay">
+  <svg id="tut-svg" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none">
+    <defs>
+      <mask id="tut-mask">
+        <rect width="100%" height="100%" fill="white"/>
+        <rect id="tut-hole" rx="10" fill="black" x="0" y="0" width="0" height="0"/>
+      </mask>
+    </defs>
+    <rect width="100%" height="100%" fill="rgba(0,0,0,0.76)" mask="url(#tut-mask)"/>
+  </svg>
+  <div id="tut-ring"></div>
+  <div id="tut-box">
+    <div id="tut-indicator"></div>
+    <div id="tut-title"></div>
+    <div id="tut-body"></div>
+    <div id="tut-btns">
+      <button id="tut-skip-btn" onclick="skipTutorial()">Saltar</button>
+      <div style="flex:1"></div>
+      <button id="tut-prev-btn" onclick="prevTutStep()">← Anterior</button>
+      <button id="tut-next-btn" onclick="nextTutStep()">Siguiente →</button>
+    </div>
+  </div>
+</div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
