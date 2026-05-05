@@ -14,7 +14,7 @@
 <!-- TOPBAR -->
 <div id="topbar">
   <button id="sb-toggle">☰</button>
-  <span class="logo">ARCHIDEX<span class="logo-ver" id="ver-badge" onclick="toggleChangelog()" title="Ver changelog" style="cursor:pointer">v0.7.0</span></span>
+  <span class="logo">ARCHIDEX</span>
   <div id="counter">0 / 286</div>
   <div id="lang-sw">
     <button class="lbtn"    data-lang="en" title="English"><img src="./icons/en.png" /></button>
@@ -630,17 +630,25 @@
       <span id="route-badge"></span>
       <button id="route-hd-close" onclick="closeRoutePanel()">✕</button>
     </div>
+    <div id="route-progress-bar"><div id="route-progress-fill"></div></div>
     <div id="route-toolbar">
-      <button onclick="routeAutoCalc()" data-i18n="rtAuto">⚡ Auto</button>
-      <button onclick="routeClear()" data-i18n="rtClear">🗑 Limpiar</button>
-      <button onclick="routeExport()" data-i18n="rtExport">📋 Copiar</button>
-      <button onclick="routeGenerateSeed()" data-i18n="rtSeed">🔗 Semilla</button>
-      <button onclick="routeImportSeed()" data-i18n="rtImport">📥 Importar</button>
-      <button id="route-prev-btn" onclick="routePrev()" data-i18n="rtPrev">← Ant</button>
-      <button id="route-next-btn" onclick="routeNext()" data-i18n="rtNext">Sig →</button>
+      <button class="rt-auto-btn" onclick="routeAutoCalc()" data-i18n="rtAuto">⚡ Auto</button>
+      <button class="rt-clear-btn" onclick="routeClear()" data-i18n="rtClear">🗑 Limpiar</button>
+      <div class="rt-seed-wrap">
+        <button class="rt-clear-btn" onclick="toggleRouteSeedMenu()">🔗 ▾</button>
+        <div id="rt-seed-menu">
+          <button onclick="routeGenerateSeed();toggleRouteSeedMenu()">🔗 <span data-i18n="rtSeed">Semilla</span></button>
+          <button onclick="routeImportSeed();toggleRouteSeedMenu()">📥 <span data-i18n="rtImport">Importar</span></button>
+        </div>
+      </div>
     </div>
     <div id="route-empty" data-i18n="rtEmpty">Añade subzonas con el botón ➕ del sidebar, o usa ⚡ Auto para calcular la ruta óptima.</div>
     <div id="route-list"></div>
+    <div id="route-nav">
+      <button id="route-prev-btn" onclick="routePrev()" data-i18n="rtPrev">← Ant</button>
+      <div id="route-cur-lbl"><span id="route-cur-sub"></span><span id="route-cur-zone"></span></div>
+      <button id="route-next-btn" onclick="routeNext()" data-i18n="rtNext">Sig →</button>
+    </div>
   </div>
 </div>
 

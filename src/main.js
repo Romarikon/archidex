@@ -28,12 +28,12 @@ const STONES = [
 ];
 
 const I18N = {
-  es: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Caza', searchPlaceholder:'Buscar archi o monstruo…', caplogEmpty:'Sin capturas aún', resetTitle:'↺ Reset', resetDesc:'Selecciona qué quieres eliminar:', resetChkCap:'Archimonstruos capturados', resetChkLog:'Historial de capturas', resetCancel:'Cancelar', resetConfirm:'↺ Reiniciar', resetDone:'↺ Reiniciado', resetPartCap:'capturas', resetPartLog:'historial', resetAnd:'y', cdTitle:'⏱ Cooldowns activos', cdEmpty:'Sin cooldowns', cdClearAll:'🗑 Limpiar todos', hPolygons:'Dibuja áreas de color sobre el mapa que delimitan cada subzona. Útil para orientarse y ver visualmente el progreso de cada área.', hHighlight:'Al hacer hover sobre una zona en el sidebar, resalta su polígono en el mapa. Y al hacer hover sobre un polígono en el mapa, resalta la zona correspondiente en el sidebar.', hGoto:'Muestra un botón ↪ junto a cada subzona en el sidebar. Al pulsarlo, el mapa se centra automáticamente sobre esa subzona.', hAutofly:'Al hacer clic en un archimonstruo en el sidebar, el mapa vuela hasta su posición y abre el tooltip. Si está desactivado, abre la ficha completa en un panel.', hTiplock:'Al hacer clic sobre un icono de archi en el mapa, el tooltip queda fijo en pantalla y no cambia al pasar el mouse por otros archis. Se cierra haciendo clic fuera.', hSpotlight:'Al hacer hover sobre un archimonstruo (en el sidebar o en el mapa), atenúa y reduce los demás iconos para destacar el que estás mirando.', hMarkers:'Muestra u oculta todos los iconos de archimonstruos sobre el mapa. Útil para ver mejor los polígonos de zona o tomar capturas limpias del mapa.', hStone:'Muestra el selector de piedra de alma en el sidebar para filtrar archimonstruos según el tamaño de piedra que requieren (Pequeña, Mediana, Grande, Enorme, Gigantesca).', hFav:'Muestra el botón de estrella ★ junto a cada archimonstruo en el sidebar para marcarlo como favorito y filtrarlo con el botón ★ de la búsqueda.', hCazanotif:'Solo en modo Caza. Muestra una notificación en pantalla cuando el contador de respawn de un archimonstruo llega a cero y puede volver a aparecer.', hMulti:'Permite llevar el conteo de capturas para varias cuentas simultáneamente (de 2 a 20). Cada clic en "capturado" avanza el contador de la siguiente cuenta en turno.', hDaymode:'Cambia la paleta de colores de oscura (modo noche) a clara (modo día). Útil para usar en entornos con mucha luz ambiental.', hProgbar:'Muestra una fina barra de progreso en la parte superior de la pantalla indicando cuántos archimonstruos has capturado del total (286).', hStats:'Muestra un panel en el sidebar con el progreso de captura desglosado por zona y subzona, con barras de progreso individuales.', hCaplog:'Muestra un registro en la esquina inferior derecha con los últimos archimonstruos capturados durante la sesión actual, con la hora de cada captura.', optTitle:'Opciones', capMark:'Marcar como capturado', capUnmark:'Desmarcar', capAccounts:'cuentas', capAdd:'Añadir', tipHint:'Clic para más info →', tipHintClose:'Clic fuera para cerrar ✕', unknownLevel:'Nivel desconocido', noLevelData:'Sin datos de nivel', dofusdbLink:'Ver en DofusDB ↗', stones:['Pequeña','Mediana','Grande','Enorme','Gigantesca'], stoneLabel:'Piedra de Alma', stonesTitle:'Piedras de Alma necesarias', allCap:'¡Todo capturado! 🎉', noLevel:'archis sin nivel', noZone:'Sin zona', noSub:'—', unknownStone:'desconocida', zona:'Zona', subzona:'Subzona', nivel:'Nivel', piedra:'Piedra de Alma', coords:'Coords', info:'Info', sdSubzonas:'Visualización de subzonas', sdPolygons:'Polígonos de zona', sdTooltip:'Tooltip al hover', sdHighlight:'Resaltar zona en sidebar', sdGoto:'Botón ↪ ir a zona', sdArchi:'Visualización de archimonstruo', sdAutoFly:'Ir automáticamente al archi', sdStoneFilter:'Mostrar filtro de piedra', sdFavBtn:'Mostrar botón favorito', sdMarkersHide:'Mostrar iconos del mapa', sdCloneDots:'Mini-dot en clones', hCloneDots:'Los archimonstruos con varios spawns en el mapa muestran sus copias con un tinte naranja, menor tamaño y opacidad reducida. Así destacas el spawn principal y reduces la aglomeración visual.', sdSpotlight:'Efecto spotlight al hover', sdTipLock:'Fijar tooltip al hacer clic', sdCazaNotif:'Notificaciones de respawn', sdCuentas:'Cuentas', sdMulti:'Multicuenta', sdMultiN:'Nº cuentas (2–20)', sdTheme:'Apariencia', sdDayOn:'🌞 Modo día', sdDayOff:'🌙 Modo noche', sdDatos:'Datos', sdInterface:'Interfaz', sdProgressBar:'Barra de progreso', sdHomeBtn:'Botón inicio (🏠)', sdKeyShortcuts:'Atajos de teclado', sdStats:'Panel de estadísticas', sdCaptureLog:'Historial de capturas', sdZoneAnim:'Animación zona completa', sdPresMode:'Modo presentación', kbSearch:'Búsqueda', kbCheck:'Archi-Check', kbHunt:'Caza', kbCapture:'Capturar archi visible', kbDiscard:'Descarte', kbUnderground:'Subterráneo', kbHome:'Inicio del mapa', kbPresentation:'Presentación', kbHintCap:'✓ Capturado', showCapOn:'✕ Captura', showCapOff:'👁 Descarte', showCapTitle:'Modo descarte: capturados visibles pero atenuados en el mapa', favTitle:'Mostrar solo favoritos', notifRespawn:'⏰ {0} ha respawneado!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} desmarcado', notifCdCleared:'🗑 {0} cooldowns eliminados', notifZoneDone:'🎉 ¡{0} completada!', notifZonesLoaded:'✓ {0} zonas cargadas', notifProgressExported:'Progreso exportado', notifProgressImported:'Importados {0} archimonstruos', notifLogout:'Sesión cerrada', notifSyncActive:'☁ Sincronización activa', notifSyncUploaded:'☁ Progreso local subido a la nube', notifSyncLoaded:'☁ Progreso cargado desde la nube', notifDevOn:'🔧 Modo DEV activado', notifDevOff:'Modo DEV desactivado', notifMapExported:'Mapa exportado ✓', clTitle:'📋 Historial', statsTitle:'Estadísticas', presExit:'✕ Salir', zfTitle:'Filtrar por zona', zfAll:'Todas', zfNone:'Ninguna', zfNoneSelected:'⚠ Sin zonas seleccionadas', zfFilteredN:'📍 {0} zonas filtradas', kbClose:'Cerrar', ugBtnTitle:'Modo subterráneo', ugNavTitle:'Subterráneos', ugNavEmpty:'Sin subterráneos', ugSurface:'Superficie', sdUgEntrances:'Entradas subterráneas', hUgEntrances:'Muestra los iconos 🕳 en el mapa que marcan las entradas a zonas subterráneas. Al hacer clic en uno, accedes directamente a esa zona. Al hacer hover, se ilumina el área correspondiente.', sdCaza:'Modo Caza', sdSpotlightSidebar:'Spotlight al hover (sidebar)', hSpotlightSidebar:'Al hacer hover sobre un archimonstruo en el sidebar izquierdo, atenúa los demás iconos del mapa. Desactívalo si prefieres que el sidebar no afecte la visibilidad del mapa.', hsTitle:'📋 Sesión de caza', hsSub:'{0} archis cazados esta sesión', hsSubNone:'Sin kills en esta sesión', hsApply:'✓ Aplicar capturas', hsClear:'🗑 Limpiar sesión', hsEmpty:'Sin kills registrados aún. Ve a cazar y vuelve aquí.', hsAlreadyCap:'ya capturado', hsKills:'💀 {0}', hsSelectAll:'Seleccionar todos', hsDeselectAll:'Deseleccionar todos', notifHsApplied:'{0} capturas aplicadas', notifHsCleared:'Sesión de caza limpiada', adxTitle:'📖 Bestiario', adxBtn:'📖 Bestiario', adxAll:'Todos', adxCaptured:'Capturados', adxPending:'Pendientes', adxInstock:'En stock', adxCapOf:'{0} / {1} capturados', adxInvTotal:'{0} archis · {1} uds.', adxEmpty:'Sin resultados.', adxSortStep:'Nº paso', adxSortName:'Nombre', adxSortLevel:'Nivel', adxSortStock:'Stock', notifInvCleared:'Inventario vaciado', adxNotes:'Notas', adxFavorites:'Favoritos', notifCsvExported:'Inventario exportado', notifCsvImported:'Inventario importado', notifTabSync:'↕ Sincronizado desde otra pestaña', adxClrTitle:'🗑 Vaciar inventario', adxClrDesc:'¿Seguro? Se borrará el inventario y las capturas quedarán en cero.', adxClrOk:'🗑 Vaciar', adxClrCancel:'Cancelar', sfAll:'Todas', stepLbl:'Etapa', stepAll:'Todas', hideDoneLbl:'Solo pendientes', rtTitle:'🗺 Modo Ruta', rtEmpty:'Añade subzonas con ➕ del sidebar, o usa ⚡ Auto para calcular la ruta óptima.', rtPending:'pend.', rtAuto:'⚡ Auto', rtClear:'🗑 Limpiar', rtPrev:'← Ant', rtNext:'Sig →', rtAddTitle:'Añadir a ruta', rtAlready:'ya está en la ruta', rtAdded:'añadida a la ruta', rtCalced:'Ruta: {0} zonas', rtAllDone:'Todas las paradas chequeadas ✓', rtNoPending:'Sin zonas pendientes', rtChecked:'Chequeada', rtUncheck:'Desmarcar', rtBtn:'🗺 Ruta', huntHideCap:'Ocultar capturados', rtAddZone:'Añadir zona completa a ruta', rtAutoZone:'⚡ Ruta solo esta zona', sdRouteBtn:'Botones ➕ de ruta en zonas', hRouteBtn:'Muestra los botones ➕ en subzonas y el botón ▦ en zonas para añadirlas rápidamente a la ruta.', sdCompact:'Modo compacto', hCompact:'Reduce el tamaño de los ítems del sidebar para ver más archimonstruos por pantalla.', sdTutorial:'Ver tutorial', tutSkip:'Saltar', tutNext:'Siguiente →', tutPrev:'← Anterior', tutFinish:'¡Empezar!', tutStep:'Paso {0} de {1}', tut1Title:'Bienvenido a ARCHIDEX', tut1Body:'Tu guía para cazar todos los archimonstruos de Dofus. En unos pasos te mostramos lo esencial.', tut2Title:'El mapa', tut2Body:'Aquí aparecen todos los archimonstruos. Haz clic en un icono para ver su info y marcarlo como capturado.', tut3Title:'Modos de juego', tut3Body:'Archi-Check es para marcar capturas. El Modo Caza activa cooldowns de respawn para sesiones activas de caza.', tut4Title:'El sidebar', tut4Body:'Lista todos los archis por zona y subzona. Usa la búsqueda y los filtros para localizar cualquier archi.', tut5Title:'Capturar un archi', tut5Body:'Haz clic en el botón ✓ junto a cualquier archi para marcarlo. El contador del topbar se actualiza al instante.', tut6Title:'Bestiario', tut6Body:'Gestiona tu inventario, filtra por piedra de alma, añade notas y exporta tu progreso en CSV.', tut7Title:'Opciones', tut7Body:'Personaliza la apariencia, gestiona multicuenta, activa el modo compacto y mucho más.', tut8Title:'¡Todo listo!', tut8Body:'Ya conoces lo esencial. Puedes repetir este tutorial desde Opciones en cualquier momento.', tutRouteTitle:'Modo Ruta', tutRouteBody:'Planifica tu recorrido de caza: añade subzonas con ➕, usa ⚡ Auto para la ruta óptima y navega con ← Ant / Sig →. El mapa vuela a cada parada automáticamente.', tut4MobBody:'Toca ☰ para abrir la lista de archis por zona. Usa la búsqueda y los filtros para localizar cualquier archi.', notifMapLoading:'Cargando mapa…', betaNothingSelected:'Nada seleccionado', betaNoSpawns:'Sin spawns en el mapa', betaDeleteConfirm:'¿Borrar los {0} spawns del mapa? Esta acción no se puede deshacer.', betaAllDeleted:'Todos los spawns eliminados', betaNoNewSpawns:'Sin spawns nuevos que añadir', betaCancelSel:'✕ Cancelar selección', betaSpawnDeleted:'✕ Spawn eliminado', betaSelectedN:'{0} seleccionados', treeEmpty:'Usa el modo Beta para añadir archimonstruos.', searchMoreN:'... y {0} más — refina la búsqueda', killsSession:'kills esta sesión', ttlMarkSub:'Marcar/desmarcar subzona', ttlGotoZone:'Ir a zona en el mapa', ttlFav:'Favorito', ttlAddCooldown:'Agregar a cooldown', ttlMarkZone:'Marcar/desmarcar zona', ttlRevZone:'Marcar zona como revisada', ttlGotoZoneShort:'Ir a zona', ttlReload:'Recargar página (F5)', ttlSettings:'Opciones', treeCollapseAll:'⊟ Todo', ttlCollapseAll:'Colapsar todo', treeExpandAll:'⊞ Todo', ttlExpandAll:'Expandir todo', zfViewAll:'✕ Ver todo', ttlHideDone:'Solo pendientes', ttlHuntHideCap:'Ocultar capturados', ttlCompact:'Modo compacto', bdo:'Opciones de arrastre', betaStartSel:'☐ Seleccionar para borrar', rtCopied:'📋 Ruta copiada', rtExport:'📋 Copiar', rtDragHint:'Arrastra para reordenar', rtSeed:'🔗 Semilla', rtImport:'📥 Importar', rtSeedCopied:'🔗 Semilla copiada', rtSeedPrompt:'Pega la semilla de ruta:', rtSeedInvalid:'Semilla invalida', rtSeedLoaded:'{0} paradas importadas' },
-  en: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Hunt', searchPlaceholder:'Search archi or monster…', caplogEmpty:'No captures yet', resetTitle:'↺ Reset', resetDesc:'Select what you want to delete:', resetChkCap:'Captured archimosters', resetChkLog:'Capture history', resetCancel:'Cancel', resetConfirm:'↺ Reset', resetDone:'↺ Reset', resetPartCap:'captures', resetPartLog:'history', resetAnd:'and', cdTitle:'⏱ Active cooldowns', cdEmpty:'No cooldowns', cdClearAll:'🗑 Clear all', hPolygons:'Draws colored areas on the map delimiting each subzone. Useful for orientation and visually tracking progress per area.', hHighlight:'When hovering a zone in the sidebar, highlights its polygon on the map. When hovering a polygon on the map, highlights the corresponding zone in the sidebar.', hGoto:'Shows a ↪ button next to each subzone in the sidebar. Clicking it automatically centers the map on that subzone.', hAutofly:'Clicking an archimoster in the sidebar flies the map to its position and opens the tooltip. If disabled, opens the full info panel instead.', hTiplock:'Clicking an archi icon on the map locks the tooltip in place; it does not change when hovering other archis. Click outside to close.', hSpotlight:'When hovering an archimoster (in the sidebar or map), dims and shrinks the other icons to highlight the one you are looking at.', hMarkers:'Shows or hides all archimoster icons on the map. Useful for viewing zone polygons more clearly or taking clean map screenshots.', hStone:'Shows the soul stone selector in the sidebar to filter archimosters by the stone size they require (Small, Medium, Large, Huge, Gigantic).', hFav:'Shows a ★ button next to each archimoster in the sidebar to mark it as a favourite and filter it with the ★ search button.', hCazanotif:'Hunt mode only. Shows an on-screen notification when the respawn timer of an archimoster reaches zero and it can appear again.', hMulti:'Tracks capture counts for multiple accounts simultaneously (2–20). Each click on "captured" advances the counter for the next account in turn.', hDaymode:'Switches the colour palette from dark (night mode) to light (day mode). Useful in bright ambient light environments.', hProgbar:'Shows a thin progress bar at the top of the screen indicating how many archimosters you have captured out of the total (286).', hStats:'Shows a panel in the sidebar with capture progress broken down by zone and subzone, with individual progress bars.', hCaplog:'Shows a log in the bottom-right corner with the last archimosters captured during the current session, with the time of each capture.', optTitle:'Options',  capMark:'Mark as captured',    capUnmark:'Unmark',    capAccounts:'accounts', capAdd:'Add', tipHint:'Click for more info →', tipHintClose:'Click outside to close ✕', unknownLevel:'Unknown level', noLevelData:'No level data', dofusdbLink:'View on DofusDB ↗', stones:['Small','Medium','Large','Huge','Gigantic'],         stoneLabel:'Soul Stone',     stonesTitle:'Soul Stones needed',         allCap:'All captured! 🎉',      noLevel:'archis without level', noZone:'No zone',     noSub:'—', unknownStone:'unknown',      zona:'Zone', subzona:'Subzone', nivel:'Level', piedra:'Soul Stone', coords:'Coords', info:'Info', sdSubzonas:'Subzone display', sdPolygons:'Zone polygons', sdTooltip:'Hover tooltip', sdHighlight:'Highlight in sidebar', sdGoto:'↪ Go to zone button', sdArchi:'Archimoster display', sdAutoFly:'Auto-fly to archi', sdStoneFilter:'Show stone filter', sdFavBtn:'Show favorite button', sdMarkersHide:'Show map icons', sdCloneDots:'Mini-dot on clones', hCloneDots:'Archimosters with multiple spawns show their duplicates tinted orange, at a smaller size and reduced opacity. This highlights the primary spawn and reduces visual clutter on the map.', sdSpotlight:'Spotlight effect on hover', sdTipLock:'Lock tooltip on click', sdCazaNotif:'Respawn notifications', sdCuentas:'Accounts', sdMulti:'Multi-account', sdMultiN:'No. accounts (2–20)', sdTheme:'Appearance', sdDayOn:'🌞 Day mode', sdDayOff:'🌙 Night mode', sdDatos:'Data', sdInterface:'Interface', sdProgressBar:'Progress bar', sdHomeBtn:'Home button (🏠)', sdKeyShortcuts:'Keyboard shortcuts', sdStats:'Stats panel', sdCaptureLog:'Capture history', sdZoneAnim:'Zone complete animation', sdPresMode:'Presentation mode', kbSearch:'Search', kbCheck:'Archi-Check', kbHunt:'Hunt', kbCapture:'Capture visible archi', kbDiscard:'Discard', kbUnderground:'Underground', kbHome:'Map home', kbPresentation:'Presentation', kbHintCap:'✓ Captured', showCapOn:'✕ Captures', showCapOff:'👁 Discard', showCapTitle:'Discard mode: captured visible but dimmed on the map', favTitle:'Show favourites only', notifRespawn:'⏰ {0} has respawned!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} unmarked', notifCdCleared:'🗑 {0} cooldowns cleared', notifZoneDone:'🎉 {0} completed!', notifZonesLoaded:'✓ {0} zones loaded', notifProgressExported:'Progress exported', notifProgressImported:'{0} archimosters imported', notifLogout:'Logged out', notifSyncActive:'☁ Sync active', notifSyncUploaded:'☁ Local progress uploaded', notifSyncLoaded:'☁ Progress loaded from cloud', notifDevOn:'🔧 DEV mode on', notifDevOff:'DEV mode off', notifMapExported:'Map exported ✓', clTitle:'📋 History', statsTitle:'Statistics', presExit:'✕ Exit', zfTitle:'Filter by zone', zfAll:'All', zfNone:'None', zfNoneSelected:'⚠ No zones selected', zfFilteredN:'📍 {0} zones filtered', kbClose:'Close', ugBtnTitle:'Underground mode', ugNavTitle:'Underground zones', ugNavEmpty:'No underground zones', ugSurface:'Surface', sdUgEntrances:'Underground entrances', hUgEntrances:'Shows 🕳 icons on the map marking the entrances to underground zones. Click one to go directly to that zone. Hover to highlight its area.', sdCaza:'Hunt mode', sdSpotlightSidebar:'Spotlight on hover (sidebar)', hSpotlightSidebar:'When hovering an archimoster in the left sidebar, dims the other icons on the map. Disable if you prefer the sidebar not to affect map visibility.', hsTitle:'📋 Hunt session', hsSub:'{0} archis hunted this session', hsSubNone:'No kills this session', hsApply:'✓ Apply captures', hsClear:'🗑 Clear session', hsEmpty:'No kills recorded yet. Go hunt and come back.', hsAlreadyCap:'already captured', hsKills:'💀 {0}', hsSelectAll:'Select all', hsDeselectAll:'Deselect all', notifHsApplied:'{0} captures applied', notifHsCleared:'Hunt session cleared', adxTitle:'📖 Bestiary', adxBtn:'📖 Bestiary', adxAll:'All', adxCaptured:'Captured', adxPending:'Pending', adxInstock:'In stock', adxCapOf:'{0} / {1} captured', adxInvTotal:'{0} archis · {1} units', adxEmpty:'No results.', adxSortStep:'Step no.', adxSortName:'Name', adxSortLevel:'Level', adxSortStock:'Stock', notifInvCleared:'Inventory cleared', adxNotes:'Notes', adxFavorites:'Favourites', notifCsvExported:'Inventory exported', notifCsvImported:'Inventory imported', notifTabSync:'↕ Synced from another tab', adxClrTitle:'🗑 Clear inventory', adxClrDesc:'Are you sure? Inventory will be cleared and captures reset to zero.', adxClrOk:'🗑 Clear', adxClrCancel:'Cancel', sfAll:'All', stepLbl:'Stage', stepAll:'All', hideDoneLbl:'Pending only', rtTitle:'🗺 Route Mode', rtEmpty:'Add subzones with ➕ or use ⚡ Auto to calculate the optimal route.', rtPending:'pend.', rtAuto:'⚡ Auto', rtClear:'🗑 Clear', rtPrev:'← Prev', rtNext:'Next →', rtAddTitle:'Add to route', rtAlready:'already in route', rtAdded:'added to route', rtCalced:'Route: {0} zones', rtAllDone:'All stops checked ✓', rtNoPending:'No pending zones', rtChecked:'Checked', rtUncheck:'Uncheck', rtBtn:'🗺 Route', huntHideCap:'Hide captured', rtAddZone:'Add full zone to route', rtAutoZone:'⚡ Route this zone only', sdRouteBtn:'➕ Route buttons in zones', hRouteBtn:'Shows ➕ buttons on subzones and a ▦ button on zone headers to quickly add them to the route.', sdCompact:'Compact mode', hCompact:'Reduces the size of sidebar items to display more archimonsters per screen.', sdTutorial:'View tutorial', tutSkip:'Skip', tutNext:'Next →', tutPrev:'← Back', tutFinish:'Get started!', tutStep:'Step {0} of {1}', tut1Title:'Welcome to ARCHIDEX', tut1Body:'Your guide to hunting all Dofus archimonsters. This quick tour covers the essentials.', tut2Title:'The map', tut2Body:'All archimonsters appear here. Click any icon to see its info and mark it as captured.', tut3Title:'Game modes', tut3Body:'Archi-Check is for tracking captures. Hunt mode enables respawn cooldowns for active hunting sessions.', tut4Title:'The sidebar', tut4Body:'Lists all archis by zone and subzone. Use the search bar and filters to find any archi.', tut5Title:'Capturing an archi', tut5Body:'Click the ✓ button next to any archi to mark it as captured. The topbar counter updates immediately.', tut6Title:'Bestiary', tut6Body:'Manage your inventory, filter by soul stone, add notes, and export your progress to CSV.', tut7Title:'Options', tut7Body:'Customize appearance, manage multi-account, enable compact mode, and much more.', tut8Title:'All set!', tut8Body:'You know the essentials. You can replay this tutorial anytime from Options.', tutRouteTitle:'Route Mode', tutRouteBody:'Plan your hunting route: add subzones with ➕, use ⚡ Auto for the optimal path, and navigate with ← Prev / Next →. The map flies to each stop automatically.', tut4MobBody:'Tap ☰ to open the archi list by zone. Use the search bar and filters to find any archi.', notifMapLoading:'Loading map…', betaNothingSelected:'Nothing selected', betaNoSpawns:'No spawns on the map', betaDeleteConfirm:'Delete {0} spawns from the map? This action cannot be undone.', betaAllDeleted:'All spawns deleted', betaNoNewSpawns:'No new spawns to add', betaCancelSel:'✕ Cancel selection', betaSpawnDeleted:'✕ Spawn deleted', betaSelectedN:'{0} selected', treeEmpty:'Use Beta mode to add archimonsters.', searchMoreN:'... and {0} more — refine your search', killsSession:'kills this session', ttlMarkSub:'Mark/unmark subzone', ttlGotoZone:'Go to zone on map', ttlFav:'Favourite', ttlAddCooldown:'Add to cooldown', ttlMarkZone:'Mark/unmark zone', ttlRevZone:'Mark zone as reviewed', ttlGotoZoneShort:'Go to zone', ttlReload:'Reload page (F5)', ttlSettings:'Options', treeCollapseAll:'⊟ All', ttlCollapseAll:'Collapse all', treeExpandAll:'⊞ All', ttlExpandAll:'Expand all', zfViewAll:'✕ View all', ttlHideDone:'Pending only', ttlHuntHideCap:'Hide captured', ttlCompact:'Compact mode', bdo:'Drag options', betaStartSel:'☐ Select to delete', rtCopied:'📋 Route copied', rtExport:'📋 Copy', rtDragHint:'Drag to reorder', rtSeed:'🔗 Seed', rtImport:'📥 Import', rtSeedCopied:'🔗 Seed copied', rtSeedPrompt:'Paste route seed:', rtSeedInvalid:'Invalid seed', rtSeedLoaded:'{0} stops imported' },
-  fr: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Chasse', searchPlaceholder:'Rechercher archi ou monstre…', caplogEmpty:'Aucune capture encore', resetTitle:'↺ Reset', resetDesc:'Sélectionnez ce que vous voulez supprimer :', resetChkCap:'Archimonsters capturés', resetChkLog:'Historique des captures', resetCancel:'Annuler', resetConfirm:'↺ Réinitialiser', resetDone:'↺ Réinitialisé', resetPartCap:'captures', resetPartLog:'historique', resetAnd:'et', cdTitle:'⏱ Cooldowns actifs', cdEmpty:'Aucun cooldown', cdClearAll:'🗑 Tout effacer', hPolygons:'Dessine des zones colorées sur la carte délimitant chaque sous-zone. Utile pour se repérer et visualiser la progression de chaque zone.', hHighlight:'Au survol d\'une zone dans la sidebar, met en évidence son polygone sur la carte. Au survol d\'un polygone, met en évidence la zone correspondante dans la sidebar.', hGoto:'Affiche un bouton ↪ à côté de chaque sous-zone dans la sidebar. En cliquant dessus, la carte se centre automatiquement sur cette sous-zone.', hAutofly:'En cliquant sur un archimonstre dans la sidebar, la carte vole jusqu\'à sa position et ouvre l\'infobulle. Sinon, ouvre la fiche complète dans un panneau.', hTiplock:'En cliquant sur une icône d\'archi sur la carte, l\'infobulle reste fixe et ne change pas en survolant d\'autres archis. Cliquer à l\'extérieur pour fermer.', hSpotlight:'Au survol d\'un archimonstre (sidebar ou carte), atténue et réduit les autres icônes pour mettre en valeur celui que vous regardez.', hMarkers:'Affiche ou masque toutes les icônes d\'archimonsters sur la carte. Utile pour mieux voir les polygones de zone ou prendre des captures d\'écran propres.', hStone:'Affiche le sélecteur de pierre d\'âme dans la sidebar pour filtrer les archimonsters selon la taille de pierre requise.', hFav:'Affiche le bouton ★ à côté de chaque archimonstre dans la sidebar pour le marquer comme favori et le filtrer avec le bouton ★ de la recherche.', hCazanotif:'Mode Chasse uniquement. Affiche une notification à l\'écran quand le minuteur de réapparition d\'un archimonstre atteint zéro.', hMulti:'Suit les compteurs de captures pour plusieurs comptes simultanément (2–20). Chaque clic sur "capturé" avance le compteur du compte suivant.', hDaymode:'Bascule la palette de couleurs de sombre (nuit) à claire (jour). Utile dans des environnements très lumineux.', hProgbar:'Affiche une fine barre de progression en haut de l\'écran indiquant combien d\'archimonsters vous avez capturés sur le total (286).', hStats:'Affiche un panneau dans la sidebar avec la progression des captures par zone et sous-zone, avec des barres de progression individuelles.', hCaplog:'Affiche un journal en bas à droite avec les derniers archimonsters capturés pendant la session, avec l\'heure de chaque capture.', optTitle:'Options',  capMark:'Marquer comme capturé', capUnmark:'Démarquer', capAccounts:'comptes', capAdd:'Ajouter', tipHint:'Cliquez pour plus →', tipHintClose:'Clic dehors pour fermer ✕', unknownLevel:'Niveau inconnu', noLevelData:'Pas de données', dofusdbLink:'Voir sur DofusDB ↗', stones:['Petite','Moyenne','Grande','Énorme','Gigantesque'], stoneLabel:"Pierre d'Âme",   stonesTitle:"Pierres d'Âme nécessaires",  allCap:'Tout capturé ! 🎉',     noLevel:'archis sans niveau',  noZone:'Pas de zone', noSub:'—', unknownStone:'inconnue',     zona:'Zone', subzona:'Souszone', nivel:'Niveau', piedra:"Pierre d'Âme", coords:'Coords', info:'Info', sdSubzonas:'Affichage sous-zones', sdPolygons:'Polygones de zone', sdTooltip:'Infobulle au survol', sdHighlight:'Surligner dans sidebar', sdGoto:'Bouton ↪ aller à la zone', sdArchi:'Affichage archimonstre', sdAutoFly:'Voler auto vers archi', sdStoneFilter:'Afficher filtre pierres', sdFavBtn:'Afficher bouton favori', sdMarkersHide:'Afficher icônes carte', sdCloneDots:'Mini-point sur les clones', hCloneDots:'Affiche les doublons du meme archimonstre sous forme de petit point colore au lieu du symbole complet, reduisant la surcharge visuelle de la carte.', sdSpotlight:'Effet spotlight au survol', sdTipLock:'Fixer l\'infobulle au clic', sdCazaNotif:'Notifs de respawn', sdCuentas:'Comptes', sdMulti:'Multi-compte', sdMultiN:'Nb comptes (2–20)', sdTheme:'Apparence', sdDayOn:'🌞 Mode jour', sdDayOff:'🌙 Mode nuit', sdDatos:'Données', sdInterface:'Interface', sdProgressBar:'Barre de progression', sdHomeBtn:'Bouton accueil (🏠)', sdKeyShortcuts:'Raccourcis clavier', sdStats:'Panneau stats', sdCaptureLog:'Historique captures', sdZoneAnim:'Animation zone complète', sdPresMode:'Mode présentation', kbSearch:'Recherche', kbCheck:'Archi-Check', kbHunt:'Chasse', kbCapture:'Capturer archi visible', kbDiscard:'Abandon', kbUnderground:'Souterrain', kbHome:'Accueil carte', kbPresentation:'Présentation', kbHintCap:'✓ Capturé', showCapOn:'✕ Captures', showCapOff:'👁 Rebut', showCapTitle:'Mode rebut : capturés visibles mais atténués sur la carte', favTitle:'Afficher les favoris uniquement', notifRespawn:'⏰ {0} est réapparu !', notifDead:'💀 {0} — {1}min', notifUndead:'{0} démarqué', notifCdCleared:'🗑 {0} cooldowns effacés', notifZoneDone:'🎉 {0} complétée !', notifZonesLoaded:'✓ {0} zones chargées', notifProgressExported:'Progression exportée', notifProgressImported:'{0} archimonsters importés', notifLogout:'Déconnecté', notifSyncActive:'☁ Sync active', notifSyncUploaded:'☁ Progression locale envoyée', notifSyncLoaded:'☁ Progression chargée depuis le cloud', notifDevOn:'🔧 Mode DEV activé', notifDevOff:'Mode DEV désactivé', notifMapExported:'Carte exportée ✓', clTitle:'📋 Historique', statsTitle:'Statistiques', presExit:'✕ Quitter', zfTitle:'Filtrer par zone', zfAll:'Toutes', zfNone:'Aucune', zfNoneSelected:'⚠ Aucune zone sélectionnée', zfFilteredN:'📍 {0} zones filtrées', kbClose:'Fermer', ugBtnTitle:'Mode souterrain', ugNavTitle:'Zones souterraines', ugNavEmpty:'Pas de zones souterraines', ugSurface:'Surface', sdUgEntrances:'Entrées souterraines', hUgEntrances:'Affiche les icônes 🕳 sur la carte marquant les entrées des zones souterraines. Cliquer dessus pour y accéder directement. Survoler pour illuminer la zone.', sdCaza:'Mode Chasse', sdSpotlightSidebar:'Spotlight au survol (sidebar)', hSpotlightSidebar:'Au survol d\'un archimonstre dans la sidebar gauche, atténue les autres icônes sur la carte. Désactiver si vous préférez que la sidebar n\'affecte pas la visibilité de la carte.', hsTitle:'📋 Session de chasse', hsSub:'{0} archis chassés cette session', hsSubNone:'Aucun kill cette session', hsApply:'✓ Appliquer les captures', hsClear:'🗑 Effacer la session', hsEmpty:'Aucun kill enregistré. Allez chasser et revenez ici.', hsAlreadyCap:'déjà capturé', hsKills:'💀 {0}', hsSelectAll:'Tout sélectionner', hsDeselectAll:'Tout désélectionner', notifHsApplied:'{0} captures appliquées', notifHsCleared:'Session de chasse effacée', adxTitle:'📖 Bestiaire', adxBtn:'📖 Bestiaire', adxAll:'Tous', adxCaptured:'Capturés', adxPending:'En attente', adxInstock:'En stock', adxCapOf:'{0} / {1} capturés', adxInvTotal:'{0} archis · {1} unités', adxEmpty:'Aucun résultat.', adxSortStep:'Nº étape', adxSortName:'Nom', adxSortLevel:'Niveau', adxSortStock:'Stock', notifInvCleared:'Inventaire vidé', adxNotes:'Notes', adxFavorites:'Favoris', notifCsvExported:'Inventaire exporté', notifCsvImported:'Inventaire importé', notifTabSync:'↕ Synchronisé depuis un autre onglet', adxClrTitle:'🗑 Vider inventaire', adxClrDesc:'Sûr ? L\'inventaire sera effacé et les captures remises à zéro.', adxClrOk:'🗑 Vider', adxClrCancel:'Annuler', sfAll:'Toutes', stepLbl:'Étape', stepAll:'Toutes', hideDoneLbl:'En attente seulement', rtTitle:'🗺 Mode Itinéraire', rtEmpty:'Ajoutez des sous-zones avec ➕ ou utilisez ⚡ Auto.', rtPending:'att.', rtAuto:'⚡ Auto', rtClear:'🗑 Vider', rtPrev:'← Préc', rtNext:'Suiv →', rtAddTitle:"Ajouter à l'itinéraire", rtAlready:"déjà dans l'itinéraire", rtAdded:"ajoutée à l'itinéraire", rtCalced:'Itinéraire : {0} zones', rtAllDone:'Toutes les étapes cochées ✓', rtNoPending:'Aucune zone en attente', rtChecked:'Cochée', rtUncheck:'Décocher', rtBtn:'🗺 Itinéraire', huntHideCap:'Cacher capturés', rtAddZone:'Ajouter la zone entière', rtAutoZone:'⚡ Itinéraire cette zone', sdRouteBtn:'Boutons ➕ de route', hRouteBtn:'Affiche les boutons ➕ sur les sous-zones et le bouton ▦ sur les zones pour les ajouter rapidement à l\'itinéraire.', sdCompact:'Mode compact', hCompact:'Réduit la taille des éléments de la sidebar pour afficher plus d\'archimonsters à l\'écran.', sdTutorial:'Voir tutoriel', tutSkip:'Passer', tutNext:'Suivant →', tutPrev:'← Précédent', tutFinish:'Commencer !', tutStep:'Étape {0} sur {1}', tut1Title:'Bienvenue sur ARCHIDEX', tut1Body:"Votre guide pour chasser tous les archimonsters de Dofus. Ce tour rapide couvre l'essentiel.", tut2Title:'La carte', tut2Body:"Tous les archimonsters apparaissent ici. Cliquez sur une icône pour voir ses infos et le marquer comme capturé.", tut3Title:'Modes de jeu', tut3Body:"Archi-Check sert à suivre les captures. Le mode Chasse active les cooldowns de réapparition pour les sessions de chasse.", tut4Title:'Le panneau latéral', tut4Body:"Liste tous les archis par zone et sous-zone. Utilisez la recherche et les filtres pour trouver n'importe quel archi.", tut5Title:'Capturer un archi', tut5Body:"Cliquez sur ✓ à côté d'un archi pour le marquer. Le compteur du topbar se met à jour instantanément.", tut6Title:'Bestiaire', tut6Body:"Gérez votre inventaire, filtrez par pierre d'âme, ajoutez des notes et exportez votre progression en CSV.", tut7Title:'Options', tut7Body:"Personnalisez l'apparence, gérez le multi-compte, activez le mode compact et bien plus encore.", tut8Title:'Tout est prêt !', tut8Body:"Vous connaissez l'essentiel. Vous pouvez relancer ce tutoriel à tout moment depuis Options.", tutRouteTitle:'Mode Itinéraire', tutRouteBody:'Planifiez votre parcours de chasse : ajoutez des sous-zones avec ➕, utilisez ⚡ Auto pour le chemin optimal et naviguez avec ← Préc / Suiv →. La carte vole vers chaque étape automatiquement.', tut4MobBody:'Touchez ☰ pour ouvrir la liste des archis par zone. Utilisez la recherche et les filtres pour trouver n\'importe quel archi.', notifMapLoading:'Chargement de la carte…', betaNothingSelected:'Rien de sélectionné', betaNoSpawns:'Aucun spawn sur la carte', betaDeleteConfirm:'Supprimer les {0} spawns ? Action irréversible.', betaAllDeleted:'Tous les spawns supprimés', betaNoNewSpawns:'Aucun nouveau spawn à ajouter', betaCancelSel:'✕ Annuler la sélection', betaSpawnDeleted:'✕ Spawn supprimé', betaSelectedN:'{0} sélectionnés', treeEmpty:'Utilisez le mode Bêta pour ajouter des archimonsters.', searchMoreN:'... et {0} de plus — affinez votre recherche', killsSession:'kills cette session', ttlMarkSub:'Marquer/démarquer sous-zone', ttlGotoZone:'Aller à la zone sur la carte', ttlFav:'Favori', ttlAddCooldown:'Ajouter au cooldown', ttlMarkZone:'Marquer/démarquer zone', ttlRevZone:'Marquer la zone comme révisée', ttlGotoZoneShort:'Aller à la zone', ttlReload:'Recharger la page (F5)', ttlSettings:'Options', treeCollapseAll:'⊟ Tout', ttlCollapseAll:'Tout réduire', treeExpandAll:'⊞ Tout', ttlExpandAll:'Tout développer', zfViewAll:'✕ Voir tout', ttlHideDone:'En attente seulement', ttlHuntHideCap:'Masquer capturés', ttlCompact:'Mode compact', bdo:'Options de déplacement', betaStartSel:'☐ Sélectionner pour supprimer', rtCopied:'📋 Itinéraire copié', rtExport:'📋 Copier', rtDragHint:'Glisser pour réorganiser', rtSeed:'🔗 Graine', rtImport:'📥 Importer', rtSeedCopied:'🔗 Graine copiée', rtSeedPrompt:'Collez la graine de parcours:', rtSeedInvalid:'Graine invalide', rtSeedLoaded:'{0} étapes importées' },
-  de: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Jagd', searchPlaceholder:'Archi oder Monster suchen…', caplogEmpty:'Noch keine Fänge', resetTitle:'↺ Reset', resetDesc:'Wähle aus, was du löschen möchtest:', resetChkCap:'Gefangene Archimonster', resetChkLog:'Fangverlauf', resetCancel:'Abbrechen', resetConfirm:'↺ Zurücksetzen', resetDone:'↺ Zurückgesetzt', resetPartCap:'Fänge', resetPartLog:'Verlauf', resetAnd:'und', cdTitle:'⏱ Aktive Cooldowns', cdEmpty:'Keine Cooldowns', cdClearAll:'🗑 Alle löschen', hPolygons:'Zeichnet farbige Flächen auf der Karte, die jede Unterzone begrenzen. Nützlich zur Orientierung und für den visuellen Fortschritt.', hHighlight:'Beim Hover über eine Zone in der Sidebar wird das Polygon auf der Karte hervorgehoben. Beim Hover über ein Polygon wird die entsprechende Zone in der Sidebar markiert.', hGoto:'Zeigt eine ↪-Schaltfläche neben jeder Unterzone in der Sidebar. Ein Klick zentriert die Karte automatisch auf diese Unterzone.', hAutofly:'Ein Klick auf ein Archimonster in der Sidebar lässt die Karte zu seiner Position fliegen und öffnet den Tooltip. Sonst öffnet sich das Info-Panel.', hTiplock:'Ein Klick auf ein Archi-Symbol fixiert den Tooltip auf dem Bildschirm. Er ändert sich nicht beim Hover anderer Archis. Außerhalb klicken zum Schließen.', hSpotlight:'Beim Hover über ein Archimonster werden alle anderen Icons abgeblendet und verkleinert, um das betrachtete hervorzuheben.', hMarkers:'Zeigt oder versteckt alle Archimonster-Symbole auf der Karte. Nützlich zur besseren Sicht auf Zonenpolygone oder für saubere Screenshots.', hStone:'Zeigt den Seelensteinselektor in der Sidebar zum Filtern nach benötigter Steingröße an.', hFav:'Zeigt eine ★-Schaltfläche neben jedem Archimonster in der Sidebar, um es als Favorit zu markieren und mit dem ★-Suchfilter zu filtern.', hCazanotif:'Nur im Jagd-Modus. Zeigt eine Bildschirmbenachrichtigung, wenn der Respawn-Timer eines Archimonsters null erreicht.', hMulti:'Verfolgt Fangzähler für mehrere Konten gleichzeitig (2–20). Jeder Klick auf "gefangen" rückt den Zähler des nächsten Kontos vor.', hDaymode:'Wechselt die Farbpalette von dunkel (Nacht) zu hell (Tag). Nützlich in hellen Umgebungen.', hProgbar:'Zeigt einen dünnen Fortschrittsbalken oben auf dem Bildschirm an, der zeigt, wie viele Archimonster gefangen wurden (von 286).', hStats:'Zeigt ein Panel in der Sidebar mit dem Fangfortschritt nach Zone und Unterzone, mit individuellen Fortschrittsbalken.', hCaplog:'Zeigt ein Protokoll unten rechts mit den zuletzt gefangenen Archimonsters der aktuellen Sitzung und der Uhrzeit.', optTitle:'Optionen', capMark:'Als gefangen markieren', capUnmark:'Markierung aufheben', capAccounts:'Konten', capAdd:'Hinzufügen', tipHint:'Klicken für mehr Info →', tipHintClose:'Außen klicken zum Schließen ✕', unknownLevel:'Unbekannte Stufe', noLevelData:'Keine Stufendaten', dofusdbLink:'Auf DofusDB ansehen ↗', stones:['Kleiner','Mittlerer','Großer','Riesiger','Gewaltiger'], stoneLabel:'Seelenstein', stonesTitle:'Benötigte Seelensteine', allCap:'Alles gefangen! 🎉', noLevel:'Archis ohne Stufe', noZone:'Keine Zone', noSub:'—', unknownStone:'unbekannt', zona:'Zone', subzona:'Unterzone', nivel:'Stufe', piedra:'Seelenstein', coords:'Koord.', info:'Info', sdSubzonas:'Unterzonenansicht', sdPolygons:'Zonenpolygone', sdTooltip:'Hover-Tooltip', sdHighlight:'In Sidebar hervorheben', sdGoto:'↪ Zur Zone-Schaltfläche', sdArchi:'Archimonster-Ansicht', sdAutoFly:'Auto-Flug zum Archi', sdStoneFilter:'Seelenfilter anzeigen', sdFavBtn:'Favorit-Schaltfläche anzeigen', sdMarkersHide:'Kartensymbole anzeigen', sdCloneDots:'Mini-Punkt bei Klonen', hCloneDots:'Archimonster mit mehreren Spawns zeigen ihre Duplikate in Orange getönt, verkleinert und mit reduzierter Deckkraft. So hebt sich der Haupt-Spawn ab und die Karte wirkt übersichtlicher.', sdSpotlight:'Spotlight-Effekt beim Hover', sdTipLock:'Tooltip bei Klick fixieren', sdCazaNotif:'Respawn-Benachrichtigungen', sdCuentas:'Konten', sdMulti:'Multi-Konto', sdMultiN:'Anz. Konten (2–20)', sdTheme:'Erscheinungsbild', sdDayOn:'🌞 Tagmodus', sdDayOff:'🌙 Nachtmodus', sdDatos:'Daten', sdInterface:'Benutzeroberfläche', sdProgressBar:'Fortschrittsbalken', sdHomeBtn:'Startschaltfläche (🏠)', sdKeyShortcuts:'Tastenkürzel', sdStats:'Statistikbereich', sdCaptureLog:'Fangverlauf', sdZoneAnim:'Zonen-Animation', sdPresMode:'Präsentationsmodus', kbSearch:'Suche', kbCheck:'Archi-Check', kbHunt:'Jagd', kbCapture:'Sichtbaren Archi fangen', kbDiscard:'Verwerfen', kbUnderground:'Unterirdisch', kbHome:'Karte Startpunkt', kbPresentation:'Präsentation', kbHintCap:'✓ Gefangen', showCapOn:'✕ Fänge', showCapOff:'👁 Ausblenden', showCapTitle:'Ausblend-Modus: Gefangene sichtbar aber abgeblendet', favTitle:'Nur Favoriten anzeigen', notifRespawn:'⏰ {0} ist respawnt!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} entfernt', notifCdCleared:'🗑 {0} Cooldowns gelöscht', notifZoneDone:'🎉 {0} abgeschlossen!', notifZonesLoaded:'✓ {0} Zonen geladen', notifProgressExported:'Fortschritt exportiert', notifProgressImported:'{0} Archimonster importiert', notifLogout:'Abgemeldet', notifSyncActive:'☁ Sync aktiv', notifSyncUploaded:'☁ Lokaler Fortschritt hochgeladen', notifSyncLoaded:'☁ Fortschritt aus der Cloud geladen', notifDevOn:'🔧 DEV-Modus aktiv', notifDevOff:'DEV-Modus deaktiviert', notifMapExported:'Karte exportiert ✓', clTitle:'📋 Verlauf', statsTitle:'Statistiken', presExit:'✕ Beenden', zfTitle:'Nach Zone filtern', zfAll:'Alle', zfNone:'Keine', zfNoneSelected:'⚠ Keine Zone ausgewählt', zfFilteredN:'📍 {0} Zonen gefiltert', kbClose:'Schließen', ugBtnTitle:'Unterwelt-Modus', ugNavTitle:'Unterweltzonen', ugNavEmpty:'Keine Unterweltzonen', ugSurface:'Oberfläche', sdUgEntrances:'Unterwelt-Eingänge', hUgEntrances:'Zeigt 🕳-Symbole auf der Karte, die Eingänge zu Untergrundgebieten markieren. Klicken zum direkten Zugang. Hover zum Hervorheben des Bereichs.', sdCaza:'Jagd-Modus', sdSpotlightSidebar:'Spotlight beim Hover (Sidebar)', hSpotlightSidebar:'Beim Hover über ein Archimonster in der linken Sidebar werden die anderen Kartenicons abgeblendet. Deaktivieren, wenn die Sidebar die Kartensicht nicht beeinflussen soll.', hsTitle:'📋 Jagdsitzung', hsSub:'{0} Archis in dieser Sitzung gejagt', hsSubNone:'Keine Kills in dieser Sitzung', hsApply:'✓ Fänge anwenden', hsClear:'🗑 Sitzung löschen', hsEmpty:'Noch keine Kills. Geh jagen und komm zurück.', hsAlreadyCap:'bereits gefangen', hsKills:'💀 {0}', hsSelectAll:'Alle auswählen', hsDeselectAll:'Alle abwählen', notifHsApplied:'{0} Fänge angewendet', notifHsCleared:'Jagdsitzung gelöscht', adxTitle:'📖 Bestiar', adxBtn:'📖 Bestiar', adxAll:'Alle', adxCaptured:'Gefangen', adxPending:'Ausstehend', adxInstock:'Auf Lager', adxCapOf:'{0} / {1} gefangen', adxInvTotal:'{0} Archis · {1} Stk.', adxEmpty:'Keine Ergebnisse.', adxSortStep:'Schritt-Nr.', adxSortName:'Name', adxSortLevel:'Stufe', adxSortStock:'Bestand', notifInvCleared:'Inventar geleert', adxNotes:'Notizen', adxFavorites:'Favoriten', notifCsvExported:'Inventar exportiert', notifCsvImported:'Inventar importiert', notifTabSync:'↕ Von anderem Tab synchronisiert', adxClrTitle:'🗑 Inventar leeren', adxClrDesc:'Sicher? Inventar wird geleert und Fänge auf null zurückgesetzt.', adxClrOk:'🗑 Leeren', adxClrCancel:'Abbrechen', sfAll:'Alle', stepLbl:'Stufe', stepAll:'Alle', hideDoneLbl:'Nur ausstehend', rtTitle:'🗺 Routen-Modus', rtEmpty:'Unterzonen mit ➕ hinzufügen oder ⚡ Auto nutzen.', rtPending:'ausst.', rtAuto:'⚡ Auto', rtClear:'🗑 Leeren', rtPrev:'← Zurück', rtNext:'Weiter →', rtAddTitle:'Zur Route hinzufügen', rtAlready:'bereits in der Route', rtAdded:'zur Route hinzugefügt', rtCalced:'Route: {0} Zonen', rtAllDone:'Alle Stopps geprüft ✓', rtNoPending:'Keine ausstehenden Zonen', rtChecked:'Geprüft', rtUncheck:'Abhaken', rtBtn:'🗺 Route', huntHideCap:'Gefangene ausblenden', rtAddZone:'Ganze Zone zur Route', rtAutoZone:'⚡ Nur diese Zone', sdRouteBtn:'➕ Routenschaltflächen', hRouteBtn:'Zeigt ➕-Schaltflächen an Unterzonen und ein ▦-Symbol an Zonenkopfzeilen zum schnellen Hinzufügen zur Route.', sdCompact:'Kompakter Modus', hCompact:'Verkleinert die Sidebar-Elemente, um mehr Archimonster auf dem Bildschirm anzuzeigen.', sdTutorial:'Tutorial anzeigen', tutSkip:'Überspringen', tutNext:'Weiter →', tutPrev:'← Zurück', tutFinish:'Loslegen!', tutStep:'Schritt {0} von {1}', tut1Title:'Willkommen bei ARCHIDEX', tut1Body:'Dein Leitfaden für die Jagd auf alle Archimonster in Dofus. Diese kurze Tour erklärt das Wesentliche.', tut2Title:'Die Karte', tut2Body:'Alle Archimonster erscheinen hier. Klicke auf ein Symbol, um dessen Infos zu sehen und es als gefangen zu markieren.', tut3Title:'Spielmodi', tut3Body:'Archi-Check dient zur Fangverfolgung. Der Jagd-Modus aktiviert Respawn-Cooldowns für aktive Jagdsitzungen.', tut4Title:'Die Seitenleiste', tut4Body:'Listet alle Archis nach Zone und Unterzone. Nutze Suche und Filter, um jeden Archi zu finden.', tut5Title:'Einen Archi fangen', tut5Body:'Klicke auf ✓ neben einem Archi, um ihn als gefangen zu markieren. Der Zähler aktualisiert sich sofort.', tut6Title:'Bestiar', tut6Body:'Verwalte dein Inventar, filtere nach Seelensteinen, füge Notizen hinzu und exportiere als CSV.', tut7Title:'Optionen', tut7Body:'Passe das Erscheinungsbild an, verwalte mehrere Konten, aktiviere den Kompaktmodus und vieles mehr.', tut8Title:'Alles bereit!', tut8Body:'Du kennst das Wesentliche. Du kannst dieses Tutorial jederzeit über Optionen wiederholen.', tutRouteTitle:'Routen-Modus', tutRouteBody:'Plane deine Jagdroute: füge Unterzonen mit ➕ hinzu, nutze ⚡ Auto für den optimalen Weg und navigiere mit ← Zurück / Weiter →. Die Karte fliegt automatisch zu jedem Stopp.', tut4MobBody:'Tippe auf ☰, um die Archis nach Zone zu öffnen. Nutze Suche und Filter, um jeden Archi zu finden.', notifMapLoading:'Karte wird geladen…', betaNothingSelected:'Nichts ausgewählt', betaNoSpawns:'Keine Spawns auf der Karte', betaDeleteConfirm:'{0} Spawns löschen? Diese Aktion ist nicht rückgängig zu machen.', betaAllDeleted:'Alle Spawns gelöscht', betaNoNewSpawns:'Keine neuen Spawns hinzuzufügen', betaCancelSel:'✕ Auswahl aufheben', betaSpawnDeleted:'✕ Spawn gelöscht', betaSelectedN:'{0} ausgewählt', treeEmpty:'Nutze den Beta-Modus, um Archimonster hinzuzufügen.', searchMoreN:'... und {0} weitere — Suche verfeinern', killsSession:'Kills diese Sitzung', ttlMarkSub:'Unterzone markieren/entmarkieren', ttlGotoZone:'Zur Zone auf der Karte gehen', ttlFav:'Favorit', ttlAddCooldown:'Zum Cooldown hinzufügen', ttlMarkZone:'Zone markieren/entmarkieren', ttlRevZone:'Zone als überprüft markieren', ttlGotoZoneShort:'Zur Zone', ttlReload:'Seite neu laden (F5)', ttlSettings:'Optionen', treeCollapseAll:'⊟ Alle', ttlCollapseAll:'Alle einklappen', treeExpandAll:'⊞ Alle', ttlExpandAll:'Alle ausklappen', zfViewAll:'✕ Alles anzeigen', ttlHideDone:'Nur ausstehend', ttlHuntHideCap:'Gefangene ausblenden', ttlCompact:'Kompakter Modus', bdo:'Zugoptionen', betaStartSel:'☐ Zum Löschen auswählen', rtCopied:'📋 Route kopiert', rtExport:'📋 Kopieren', rtDragHint:'Zum Neuordnen ziehen', rtSeed:'🔗 Saat', rtImport:'📥 Importieren', rtSeedCopied:'🔗 Saat kopiert', rtSeedPrompt:'Routensaat einfügen:', rtSeedInvalid:'Ungültige Saat', rtSeedLoaded:'{0} Stopps importiert' },
-  pt: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Caça', searchPlaceholder:'Pesquisar archi ou monstro…', caplogEmpty:'Sem capturas ainda', resetTitle:'↺ Reset', resetDesc:'Seleciona o que queres eliminar:', resetChkCap:'Arquimonstros capturados', resetChkLog:'Histórico de capturas', resetCancel:'Cancelar', resetConfirm:'↺ Reiniciar', resetDone:'↺ Reiniciado', resetPartCap:'capturas', resetPartLog:'histórico', resetAnd:'e', cdTitle:'⏱ Cooldowns ativos', cdEmpty:'Sem cooldowns', cdClearAll:'🗑 Limpar todos', hPolygons:'Desenha áreas coloridas no mapa delimitando cada subzona. Útil para se orientar e ver visualmente o progresso de cada área.', hHighlight:'Ao passar o mouse por uma zona na sidebar, destaca o seu polígono no mapa. Ao passar pelo polígono, destaca a zona na sidebar.', hGoto:'Exibe um botão ↪ junto a cada subzona na sidebar. Ao clicar, o mapa centraliza automaticamente nessa subzona.', hAutofly:'Clicar num arquimonstro na sidebar faz o mapa voar até sua posição e abre o tooltip. Se desativado, abre a ficha completa num painel.', hTiplock:'Clicar num ícone de archi no mapa fixa o tooltip na tela; ele não muda ao passar o mouse por outros archis. Clicar fora para fechar.', hSpotlight:'Ao passar o mouse por um arquimonstro (sidebar ou mapa), esmaece e reduz os outros ícones para destacar o que está sendo visualizado.', hMarkers:'Exibe ou oculta todos os ícones de arquimonstros no mapa. Útil para ver melhor os polígonos de zona ou tirar capturas limpas.', hStone:'Exibe o seletor de pedra de alma na sidebar para filtrar arquimonstros pelo tamanho de pedra necessário.', hFav:'Exibe o botão ★ ao lado de cada arquimonstro na sidebar para marcá-lo como favorito e filtrá-lo com o botão ★ da pesquisa.', hCazanotif:'Somente no modo Caça. Exibe uma notificação em tela quando o timer de respawn de um arquimonstro chega a zero.', hMulti:'Controla contadores de capturas para várias contas simultaneamente (2–20). Cada clique em "capturado" avança o contador da próxima conta.', hDaymode:'Alterna a paleta de cores de escura (noite) para clara (dia). Útil em ambientes com muita luz ambiente.', hProgbar:'Exibe uma barra de progresso fina no topo da tela indicando quantos arquimonstros foram capturados do total (286).', hStats:'Exibe um painel na sidebar com o progresso de captura por zona e subzona, com barras de progresso individuais.', hCaplog:'Exibe um registro no canto inferior direito com os últimos arquimonstros capturados na sessão atual, com o horário de cada captura.', optTitle:'Opções',   capMark:'Marcar como capturado', capUnmark:'Desmarcar', capAccounts:'contas', capAdd:'Adicionar', tipHint:'Clique para mais info →', tipHintClose:'Clique fora para fechar ✕', unknownLevel:'Nível desconhecido', noLevelData:'Sem dados de nível', dofusdbLink:'Ver no DofusDB ↗', stones:['Pequena','Média','Grande','Enorme','Gigantesca'],   stoneLabel:'Pedra de Alma',  stonesTitle:'Pedras de Alma necessárias', allCap:'Tudo capturado! 🎉',     noLevel:'archis sem nível',    noZone:'Sem zona',    noSub:'—', unknownStone:'desconhecida', zona:'Zona', subzona:'Subzona', nivel:'Nível', piedra:'Pedra de Alma', coords:'Coords', info:'Info', sdSubzonas:'Exibição de subzonas', sdPolygons:'Polígonos de zona', sdTooltip:'Tooltip ao passar o mouse', sdHighlight:'Destacar na sidebar', sdGoto:'Botão ↪ ir à zona', sdArchi:'Exibição de arquimonstro', sdAutoFly:'Voar automaticamente ao archi', sdStoneFilter:'Mostrar filtro de pedra', sdFavBtn:'Mostrar botão favorito', sdMarkersHide:'Mostrar ícones do mapa', sdCloneDots:'Mini-ponto em clones', hCloneDots:'Arquimonstros com vários spawns exibem as suas cópias com um tom laranja, tamanho reduzido e opacidade menor. Assim o spawn principal destaca-se e reduz-se a aglomeração visual.', sdSpotlight:'Efeito spotlight ao passar', sdTipLock:'Fixar tooltip ao clicar', sdCazaNotif:'Notificações de respawn', sdCuentas:'Contas', sdMulti:'Multi-conta', sdMultiN:'Nº contas (2–20)', sdTheme:'Aparência', sdDayOn:'🌞 Modo dia', sdDayOff:'🌙 Modo noite', sdDatos:'Dados', sdInterface:'Interface', sdProgressBar:'Barra de progresso', sdHomeBtn:'Botão início (🏠)', sdKeyShortcuts:'Atalhos de teclado', sdStats:'Painel de estatísticas', sdCaptureLog:'Histórico de capturas', sdZoneAnim:'Animação zona completa', sdPresMode:'Modo apresentação', kbSearch:'Busca', kbCheck:'Archi-Check', kbHunt:'Caça', kbCapture:'Capturar archi visível', kbDiscard:'Descarte', kbUnderground:'Subterrâneo', kbHome:'Início do mapa', kbPresentation:'Apresentação', kbHintCap:'✓ Capturado', showCapOn:'✕ Capturas', showCapOff:'👁 Descartar', showCapTitle:'Modo descartar: capturados visíveis mas esmaecidos no mapa', favTitle:'Mostrar apenas favoritos', notifRespawn:'⏰ {0} reapareceu!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} desmarcado', notifCdCleared:'🗑 {0} cooldowns eliminados', notifZoneDone:'🎉 {0} completada!', notifZonesLoaded:'✓ {0} zonas carregadas', notifProgressExported:'Progresso exportado', notifProgressImported:'{0} arquimonstros importados', notifLogout:'Sessão encerrada', notifSyncActive:'☁ Sincronização ativa', notifSyncUploaded:'☁ Progresso local enviado', notifSyncLoaded:'☁ Progresso carregado da nuvem', notifDevOn:'🔧 Modo DEV ativado', notifDevOff:'Modo DEV desativado', notifMapExported:'Mapa exportado ✓', clTitle:'📋 Histórico', statsTitle:'Estatísticas', presExit:'✕ Sair', zfTitle:'Filtrar por zona', zfAll:'Todas', zfNone:'Nenhuma', zfNoneSelected:'⚠ Nenhuma zona selecionada', zfFilteredN:'📍 {0} zonas filtradas', kbClose:'Fechar', ugBtnTitle:'Modo subterrâneo', ugNavTitle:'Zonas subterrâneas', ugNavEmpty:'Sem zonas subterrâneas', ugSurface:'Superfície', sdUgEntrances:'Entradas subterrâneas', hUgEntrances:'Exibe os ícones 🕳 no mapa marcando as entradas para zonas subterrâneas. Clique para ir diretamente à zona. Passe o mouse para iluminar a área.', sdCaza:'Modo Caça', sdSpotlightSidebar:'Spotlight ao hover (sidebar)', hSpotlightSidebar:'Ao passar o mouse sobre um arquimonstro na sidebar esquerda, esmaece os demais ícones no mapa. Desative se preferir que a sidebar não afete a visibilidade do mapa.', hsTitle:'📋 Sessão de caça', hsSub:'{0} archis caçados nesta sessão', hsSubNone:'Sem kills nesta sessão', hsApply:'✓ Aplicar capturas', hsClear:'🗑 Limpar sessão', hsEmpty:'Sem kills registados ainda. Vai caçar e volta aqui.', hsAlreadyCap:'já capturado', hsKills:'💀 {0}', hsSelectAll:'Selecionar todos', hsDeselectAll:'Desselecionar todos', notifHsApplied:'{0} capturas aplicadas', notifHsCleared:'Sessão de caça limpa', adxTitle:'📖 Bestiário', adxBtn:'📖 Bestiário', adxAll:'Todos', adxCaptured:'Capturados', adxPending:'Pendentes', adxInstock:'Em stock', adxCapOf:'{0} / {1} capturados', adxInvTotal:'{0} archis · {1} un.', adxEmpty:'Sem resultados.', adxSortStep:'Nº passo', adxSortName:'Nome', adxSortLevel:'Nível', adxSortStock:'Stock', notifInvCleared:'Inventário esvaziado', adxNotes:'Notas', adxFavorites:'Favoritos', notifCsvExported:'Inventário exportado', notifCsvImported:'Inventário importado', notifTabSync:'↕ Sincronizado de outra aba', adxClrTitle:'🗑 Limpar inventário', adxClrDesc:'Tem certeza? O inventário será apagado e as capturas zeradas.', adxClrOk:'🗑 Limpar', adxClrCancel:'Cancelar', sfAll:'Todas', stepLbl:'Etapa', stepAll:'Todas', hideDoneLbl:'Somente pendentes', rtTitle:'🗺 Modo Rota', rtEmpty:'Adicione subzonas com ➕ ou use ⚡ Auto para calcular a rota.', rtPending:'pend.', rtAuto:'⚡ Auto', rtClear:'🗑 Limpar', rtPrev:'← Ant', rtNext:'Próx →', rtAddTitle:'Adicionar à rota', rtAlready:'já está na rota', rtAdded:'adicionada à rota', rtCalced:'Rota: {0} zonas', rtAllDone:'Todas as paradas verificadas ✓', rtNoPending:'Sem zonas pendentes', rtChecked:'Verificada', rtUncheck:'Desmarcar', rtBtn:'🗺 Rota', huntHideCap:'Ocultar capturados', rtAddZone:'Adicionar zona completa', rtAutoZone:'⚡ Rota só esta zona', sdRouteBtn:'Botões ➕ de rota nas zonas', hRouteBtn:'Mostra os botões ➕ nas subzonas e o botão ▦ nas zonas para adicioná-las rapidamente à rota.', sdCompact:'Modo compacto', hCompact:'Reduz o tamanho dos itens do sidebar para exibir mais arquimonstros por tela.', sdTutorial:'Ver tutorial', tutSkip:'Saltar', tutNext:'Seguinte →', tutPrev:'← Anterior', tutFinish:'Começar!', tutStep:'Passo {0} de {1}', tut1Title:'Bem-vindo ao ARCHIDEX', tut1Body:'O teu guia para caçar todos os arquimonstros de Dofus. Esta visita rápida cobre o essencial.', tut2Title:'O mapa', tut2Body:'Todos os arquimonstros aparecem aqui. Clica num ícone para ver as suas informações e marcá-lo como capturado.', tut3Title:'Modos de jogo', tut3Body:'Archi-Check é para acompanhar capturas. O Modo Caça ativa cooldowns de respawn para sessões de caça ativas.', tut4Title:'O sidebar', tut4Body:'Lista todos os arquis por zona e subzona. Usa a pesquisa e os filtros para encontrar qualquer arqui.', tut5Title:'Capturar um arqui', tut5Body:'Clica no botão ✓ ao lado de qualquer arqui para o marcar. O contador do topbar atualiza-se imediatamente.', tut6Title:'Bestiário', tut6Body:'Gere o teu inventário, filtra por pedra de alma, adiciona notas e exporta o teu progresso em CSV.', tut7Title:'Opções', tut7Body:'Personaliza a aparência, gere multiconta, ativa o modo compacto e muito mais.', tut8Title:'Tudo pronto!', tut8Body:'Já conheces o essencial. Podes repetir este tutorial a qualquer momento em Opções.', tutRouteTitle:'Modo Rota', tutRouteBody:'Planeia o teu percurso de caça: adiciona subzonas com ➕, usa ⚡ Auto para o caminho ideal e navega com ← Ant / Próx →. O mapa voa para cada paragem automaticamente.', tut4MobBody:'Toca em ☰ para abrir a lista de archis por zona. Usa a pesquisa e os filtros para encontrar qualquer arqui.', notifMapLoading:'A carregar mapa…', betaNothingSelected:'Nada selecionado', betaNoSpawns:'Sem spawns no mapa', betaDeleteConfirm:'Apagar os {0} spawns do mapa? Esta ação não pode ser desfeita.', betaAllDeleted:'Todos os spawns eliminados', betaNoNewSpawns:'Sem spawns novos para adicionar', betaCancelSel:'✕ Cancelar seleção', betaSpawnDeleted:'✕ Spawn eliminado', betaSelectedN:'{0} selecionados', treeEmpty:'Usa o modo Beta para adicionar arquimonstros.', searchMoreN:'... e {0} mais — refina a pesquisa', killsSession:'kills nesta sessão', ttlMarkSub:'Marcar/desmarcar subzona', ttlGotoZone:'Ir para zona no mapa', ttlFav:'Favorito', ttlAddCooldown:'Adicionar ao cooldown', ttlMarkZone:'Marcar/desmarcar zona', ttlRevZone:'Marcar zona como revista', ttlGotoZoneShort:'Ir à zona', ttlReload:'Recarregar página (F5)', ttlSettings:'Opções', treeCollapseAll:'⊟ Tudo', ttlCollapseAll:'Recolher tudo', treeExpandAll:'⊞ Tudo', ttlExpandAll:'Expandir tudo', zfViewAll:'✕ Ver tudo', ttlHideDone:'Somente pendentes', ttlHuntHideCap:'Ocultar capturados', ttlCompact:'Modo compacto', bdo:'Opções de arrastamento', betaStartSel:'☐ Selecionar para apagar', rtCopied:'📋 Rota copiada', rtExport:'📋 Copiar', rtDragHint:'Arraste para reordenar', rtSeed:'🔗 Semente', rtImport:'📥 Importar', rtSeedCopied:'🔗 Semente copiada', rtSeedPrompt:'Cola a semente de rota:', rtSeedInvalid:'Semente invalida', rtSeedLoaded:'{0} paragens importadas' },
-  it: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Caccia', searchPlaceholder:'Cerca archi o mostro…', caplogEmpty:'Nessuna cattura ancora', resetTitle:'↺ Reset', resetDesc:'Seleziona cosa vuoi eliminare:', resetChkCap:'Archimonsters catturati', resetChkLog:'Cronologia catture', resetCancel:'Annulla', resetConfirm:'↺ Reimposta', resetDone:'↺ Reimpostato', resetPartCap:'catture', resetPartLog:'cronologia', resetAnd:'e', cdTitle:'⏱ Cooldown attivi', cdEmpty:'Nessun cooldown', cdClearAll:'🗑 Cancella tutti', hPolygons:'Disegna aree colorate sulla mappa che delimitano ogni sottozona. Utile per orientarsi e visualizzare il progresso di ogni area.', hHighlight:'Passando il mouse su una zona nella sidebar, evidenzia il suo poligono sulla mappa. Passando su un poligono, evidenzia la zona corrispondente.', hGoto:'Mostra un pulsante ↪ accanto a ogni sottozona nella sidebar. Cliccandolo, la mappa si centra automaticamente su quella sottozona.', hAutofly:'Cliccare un archimostro nella sidebar porta la mappa alla sua posizione e apre il tooltip. Se disattivato, apre la scheda completa in un pannello.', hTiplock:'Cliccando un\'icona archi sulla mappa, il tooltip rimane fisso e non cambia passando su altri archis. Cliccare fuori per chiudere.', hSpotlight:'Passando il mouse su un archimostro (sidebar o mappa), attenua e riduce le altre icone per evidenziare quello visualizzato.', hMarkers:'Mostra o nasconde tutte le icone degli archimonsters sulla mappa. Utile per vedere meglio i poligoni o fare screenshot puliti.', hStone:'Mostra il selettore di pietra dell\'anima nella sidebar per filtrare gli archimonsters per dimensione di pietra richiesta.', hFav:'Mostra il pulsante ★ accanto a ogni archimostro nella sidebar per salvarlo come preferito e filtrarlo con il pulsante ★ della ricerca.', hCazanotif:'Solo in modalità Caccia. Mostra una notifica a schermo quando il timer di respawn di un archimostro raggiunge zero.', hMulti:'Tiene il conteggio delle catture per più account contemporaneamente (2–20). Ogni clic su "catturato" avanza il contatore dell\'account successivo.', hDaymode:'Cambia la palette dei colori da scura (notte) a chiara (giorno). Utile in ambienti con molta luce.', hProgbar:'Mostra una sottile barra di avanzamento in cima alla schermata che indica quanti archimonsters sono stati catturati su 286.', hStats:'Mostra un pannello nella sidebar con il progresso di cattura suddiviso per zona e sottozona, con barre di avanzamento individuali.', hCaplog:'Mostra un registro in basso a destra con gli ultimi archimonsters catturati nella sessione corrente, con l\'ora di ogni cattura.', optTitle:'Opzioni',  capMark:'Segna come catturato', capUnmark:'Rimuovi segno', capAccounts:'account', capAdd:'Aggiungi', tipHint:'Clicca per più info →', tipHintClose:'Clic fuori per chiudere ✕', unknownLevel:'Livello sconosciuto', noLevelData:'Nessun dato livello', dofusdbLink:'Vedi su DofusDB ↗', stones:['Piccola','Media','Grande','Enorme','Gigantesca'],   stoneLabel:"Pietra dell'Anima", stonesTitle:"Pietre dell'Anima necessarie", allCap:'Tutto catturato! 🎉', noLevel:'archi senza livello', noZone:'Senza zona', noSub:'—', unknownStone:'sconosciuta', zona:'Zona', subzona:'Sottozona', nivel:'Livello', piedra:"Pietra dell'Anima", coords:'Coord.', info:'Info', sdSubzonas:'Visualizzazione sottozone', sdPolygons:'Poligoni di zona', sdTooltip:'Tooltip al passaggio', sdHighlight:'Evidenzia nella sidebar', sdGoto:'Pulsante ↪ vai alla zona', sdArchi:'Visualizzazione archimostro', sdAutoFly:'Vola automaticamente all\'archi', sdStoneFilter:'Mostra filtro pietre', sdFavBtn:'Mostra pulsante preferiti', sdMarkersHide:'Mostra icone mappa', sdCloneDots:'Mini-punto sui cloni', hCloneDots:'Mostra i duplicati dello stesso archimostro come un piccolo punto colorato al posto dell icona completa, riducendo il disordine visivo sulla mappa.', sdSpotlight:'Effetto spotlight al passaggio', sdTipLock:'Blocca tooltip al clic', sdCazaNotif:'Notifiche di respawn', sdCuentas:'Account', sdMulti:'Multi-account', sdMultiN:'N. account (2–20)', sdTheme:'Aspetto', sdDayOn:'🌞 Modalità giorno', sdDayOff:'🌙 Modalità notte', sdDatos:'Dati', sdInterface:'Interfaccia', sdProgressBar:'Barra di avanzamento', sdHomeBtn:'Pulsante home (🏠)', sdKeyShortcuts:'Scorciatoie tastiera', sdStats:'Pannello statistiche', sdCaptureLog:'Cronologia catture', sdZoneAnim:'Animazione zona completa', sdPresMode:'Modalità presentazione', kbSearch:'Ricerca', kbCheck:'Archi-Check', kbHunt:'Caccia', kbCapture:'Cattura archi visibile', kbDiscard:'Scarto', kbUnderground:'Sotterraneo', kbHome:'Inizio mappa', kbPresentation:'Presentazione', kbHintCap:'✓ Catturato', showCapOn:'✕ Catture', showCapOff:'👁 Scarto', showCapTitle:'Modalità scarto: catturati visibili ma attenuati sulla mappa', favTitle:'Mostra solo i preferiti', notifRespawn:'⏰ {0} è ricomparso!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} rimosso', notifCdCleared:'🗑 {0} cooldown eliminati', notifZoneDone:'🎉 {0} completata!', notifZonesLoaded:'✓ {0} zone caricate', notifProgressExported:'Progresso esportato', notifProgressImported:'{0} archimonsters importati', notifLogout:'Sessione chiusa', notifSyncActive:'☁ Sincronizzazione attiva', notifSyncUploaded:'☁ Progresso locale caricato', notifSyncLoaded:'☁ Progresso caricato dal cloud', notifDevOn:'🔧 Modalità DEV attiva', notifDevOff:'Modalità DEV disattiva', notifMapExported:'Mappa esportata ✓', clTitle:'📋 Cronologia', statsTitle:'Statistiche', presExit:'✕ Esci', zfTitle:'Filtra per zona', zfAll:'Tutte', zfNone:'Nessuna', zfNoneSelected:'⚠ Nessuna zona selezionata', zfFilteredN:'📍 {0} zone filtrate', kbClose:'Chiudi', ugBtnTitle:'Modalità sotterranea', ugNavTitle:'Zone sotterranee', ugNavEmpty:'Nessuna zona sotterranea', ugSurface:'Superficie', sdUgEntrances:'Ingressi sotterranei', hUgEntrances:'Mostra le icone 🕳 sulla mappa che segnano gli ingressi alle zone sotterranee. Cliccando si accede direttamente alla zona. Passare il mouse per evidenziare l\'area.', sdCaza:'Modalità Caccia', sdSpotlightSidebar:'Spotlight all\'hover (sidebar)', hSpotlightSidebar:'Passando il mouse su un archimostro nella sidebar sinistra, attenua le altre icone sulla mappa. Disattivare se si preferisce che la sidebar non influenzi la visibilità della mappa.', hsTitle:'📋 Sessione di caccia', hsSub:'{0} archi cacciati in questa sessione', hsSubNone:'Nessun kill in questa sessione', hsApply:'✓ Applica catture', hsClear:'🗑 Cancella sessione', hsEmpty:'Nessun kill registrato ancora. Vai a cacciare e torna qui.', hsAlreadyCap:'già catturato', hsKills:'💀 {0}', hsSelectAll:'Seleziona tutti', hsDeselectAll:'Deseleziona tutti', notifHsApplied:'{0} catture applicate', notifHsCleared:'Sessione di caccia cancellata', adxTitle:'📖 Bestiario', adxBtn:'📖 Bestiario', adxAll:'Tutti', adxCaptured:'Catturati', adxPending:'In attesa', adxInstock:'In stock', adxCapOf:'{0} / {1} catturati', adxInvTotal:'{0} archi · {1} pz.', adxEmpty:'Nessun risultato.', adxSortStep:'Nº passo', adxSortName:'Nome', adxSortLevel:'Livello', adxSortStock:'Stock', notifInvCleared:'Inventario svuotato', adxNotes:'Note', adxFavorites:'Preferiti', notifCsvExported:'Inventario esportato', notifCsvImported:'Inventario importato', notifTabSync:'↕ Sincronizzato da un altro tab', adxClrTitle:'🗑 Svuota inventario', adxClrDesc:'Sicuro? L\'inventario verrà svuotato e le catture azzerate.', adxClrOk:'🗑 Svuota', adxClrCancel:'Annulla', sfAll:'Tutte', stepLbl:'Tappa', stepAll:'Tutte', hideDoneLbl:'Solo in attesa', rtTitle:'🗺 Modalità Percorso', rtEmpty:'Aggiungi sottozone con ➕ o usa ⚡ Auto per calcolare il percorso.', rtPending:'att.', rtAuto:'⚡ Auto', rtClear:'🗑 Svuota', rtPrev:'← Prec', rtNext:'Succ →', rtAddTitle:'Aggiungi al percorso', rtAlready:'già nel percorso', rtAdded:'aggiunta al percorso', rtCalced:'Percorso: {0} zone', rtAllDone:'Tutte le tappe verificate ✓', rtNoPending:'Nessuna zona in attesa', rtChecked:'Verificata', rtUncheck:'Rimuovi segno', rtBtn:'🗺 Percorso', huntHideCap:'Nascondi catturati', rtAddZone:'Aggiungi zona intera', rtAutoZone:'⚡ Solo questa zona', sdRouteBtn:'Pulsanti ➕ percorso nelle zone', hRouteBtn:'Mostra i pulsanti ➕ nelle sottozone e il pulsante ▦ nelle zone per aggiungerle rapidamente al percorso.', sdCompact:'Modalità compatta', hCompact:'Riduce le dimensioni degli elementi della sidebar per mostrare più archimonsters per schermata.', sdTutorial:'Vedi tutorial', tutSkip:'Salta', tutNext:'Avanti →', tutPrev:'← Indietro', tutFinish:'Inizia!', tutStep:'Passo {0} di {1}', tut1Title:'Benvenuto in ARCHIDEX', tut1Body:"La tua guida per cacciare tutti gli archimonsters di Dofus. Questo tour rapido copre l'essenziale.", tut2Title:'La mappa', tut2Body:"Tutti gli archimonsters appaiono qui. Clicca su un'icona per vedere le sue info e segnarlo come catturato.", tut3Title:'Modalità di gioco', tut3Body:'Archi-Check serve per tracciare le catture. La modalità Caccia attiva i cooldown di respawn per le sessioni attive.', tut4Title:'Il pannello laterale', tut4Body:'Elenca tutti gli archi per zona e sottozona. Usa la ricerca e i filtri per trovare qualsiasi archi.', tut5Title:'Catturare un archi', tut5Body:'Clicca su ✓ accanto a qualsiasi archi per segnarlo come catturato. Il contatore si aggiorna immediatamente.', tut6Title:'Bestiario', tut6Body:"Gestisci il tuo inventario, filtra per pietra dell'anima, aggiungi note ed esporta i progressi in CSV.", tut7Title:'Opzioni', tut7Body:'Personalizza l\'aspetto, gestisci il multi-account, attiva la modalità compatta e molto altro.', tut8Title:'Tutto pronto!', tut8Body:'Conosci l\'essenziale. Puoi rivedere questo tutorial in qualsiasi momento da Opzioni.', tutRouteTitle:'Modalità Percorso', tutRouteBody:'Pianifica il tuo percorso di caccia: aggiungi sottozone con ➕, usa ⚡ Auto per il percorso ottimale e naviga con ← Prec / Succ →. La mappa vola ad ogni tappa automaticamente.', tut4MobBody:'Tocca ☰ per aprire la lista degli archi per zona. Usa la ricerca e i filtri per trovare qualsiasi archi.', notifMapLoading:'Caricamento mappa…', betaNothingSelected:'Nessuna selezione', betaNoSpawns:'Nessuno spawn sulla mappa', betaDeleteConfirm:'Eliminare gli {0} spawn dalla mappa? Azione irreversibile.', betaAllDeleted:'Tutti gli spawn eliminati', betaNoNewSpawns:'Nessun nuovo spawn da aggiungere', betaCancelSel:'✕ Annulla selezione', betaSpawnDeleted:'✕ Spawn eliminato', betaSelectedN:'{0} selezionati', treeEmpty:'Usa la modalità Beta per aggiungere archimonsters.', searchMoreN:'... e altri {0} — raffina la ricerca', killsSession:'kill in questa sessione', ttlMarkSub:'Segna/deseleziona sottozona', ttlGotoZone:'Vai alla zona sulla mappa', ttlFav:'Preferito', ttlAddCooldown:'Aggiungi al cooldown', ttlMarkZone:'Segna/deseleziona zona', ttlRevZone:'Segna zona come revisionata', ttlGotoZoneShort:'Vai alla zona', ttlReload:'Ricarica pagina (F5)', ttlSettings:'Opzioni', treeCollapseAll:'⊟ Tutto', ttlCollapseAll:'Comprimi tutto', treeExpandAll:'⊞ Tutto', ttlExpandAll:'Espandi tutto', zfViewAll:'✕ Vedi tutto', ttlHideDone:'Solo in attesa', ttlHuntHideCap:'Nascondi catturati', ttlCompact:'Modalità compatta', bdo:'Opzioni di trascinamento', betaStartSel:'☐ Seleziona per eliminare', rtCopied:'📋 Percorso copiato', rtExport:'📋 Copia', rtDragHint:'Trascina per riordinare', rtSeed:'🔗 Seme', rtImport:'📥 Importa', rtSeedCopied:'🔗 Seme copiato', rtSeedPrompt:'Incolla il seme del percorso:', rtSeedInvalid:'Seme non valido', rtSeedLoaded:'{0} tappe importate' },
+  es: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Caza', searchPlaceholder:'Buscar archi o monstruo…', caplogEmpty:'Sin capturas aún', resetTitle:'↺ Reset', resetDesc:'Selecciona qué quieres eliminar:', resetChkCap:'Archimonstruos capturados', resetChkLog:'Historial de capturas', resetCancel:'Cancelar', resetConfirm:'↺ Reiniciar', resetDone:'↺ Reiniciado', resetPartCap:'capturas', resetPartLog:'historial', resetAnd:'y', cdTitle:'⏱ Cooldowns activos', cdEmpty:'Sin cooldowns', cdClearAll:'🗑 Limpiar todos', hPolygons:'Dibuja áreas de color sobre el mapa que delimitan cada subzona. Útil para orientarse y ver visualmente el progreso de cada área.', hHighlight:'Al hacer hover sobre una zona en el sidebar, resalta su polígono en el mapa. Y al hacer hover sobre un polígono en el mapa, resalta la zona correspondiente en el sidebar.', hGoto:'Muestra un botón ↪ junto a cada subzona en el sidebar. Al pulsarlo, el mapa se centra automáticamente sobre esa subzona.', hAutofly:'Al hacer clic en un archimonstruo en el sidebar, el mapa vuela hasta su posición y abre el tooltip. Si está desactivado, abre la ficha completa en un panel.', hTiplock:'Al hacer clic sobre un icono de archi en el mapa, el tooltip queda fijo en pantalla y no cambia al pasar el mouse por otros archis. Se cierra haciendo clic fuera.', hSpotlight:'Al hacer hover sobre un archimonstruo (en el sidebar o en el mapa), atenúa y reduce los demás iconos para destacar el que estás mirando.', hMarkers:'Muestra u oculta todos los iconos de archimonstruos sobre el mapa. Útil para ver mejor los polígonos de zona o tomar capturas limpias del mapa.', hStone:'Muestra el selector de piedra de alma en el sidebar para filtrar archimonstruos según el tamaño de piedra que requieren (Pequeña, Mediana, Grande, Enorme, Gigantesca).', hFav:'Muestra el botón de estrella ★ junto a cada archimonstruo en el sidebar para marcarlo como favorito y filtrarlo con el botón ★ de la búsqueda.', hCazanotif:'Solo en modo Caza. Muestra una notificación en pantalla cuando el contador de respawn de un archimonstruo llega a cero y puede volver a aparecer.', hMulti:'Permite llevar el conteo de capturas para varias cuentas simultáneamente (de 2 a 20). Cada clic en "capturado" avanza el contador de la siguiente cuenta en turno.', hDaymode:'Cambia la paleta de colores de oscura (modo noche) a clara (modo día). Útil para usar en entornos con mucha luz ambiental.', hProgbar:'Muestra una fina barra de progreso en la parte superior de la pantalla indicando cuántos archimonstruos has capturado del total (286).', hStats:'Muestra un panel en el sidebar con el progreso de captura desglosado por zona y subzona, con barras de progreso individuales.', hCaplog:'Muestra un registro en la esquina inferior derecha con los últimos archimonstruos capturados durante la sesión actual, con la hora de cada captura.', optTitle:'Opciones', capMark:'Marcar como capturado', capUnmark:'Desmarcar', capAccounts:'cuentas', capAdd:'Añadir', tipHint:'Clic para más info →', tipHintClose:'Clic fuera para cerrar ✕', unknownLevel:'Nivel desconocido', noLevelData:'Sin datos de nivel', dofusdbLink:'Ver en DofusDB ↗', stones:['Pequeña','Mediana','Grande','Enorme','Gigantesca'], stoneLabel:'Piedra de Alma', stonesTitle:'Piedras de Alma necesarias', allCap:'¡Todo capturado! 🎉', noLevel:'archis sin nivel', noZone:'Sin zona', noSub:'—', unknownStone:'desconocida', zona:'Zona', subzona:'Subzona', nivel:'Nivel', piedra:'Piedra de Alma', coords:'Coords', info:'Info', sdSubzonas:'Visualización de subzonas', sdPolygons:'Polígonos de zona', sdTooltip:'Tooltip al hover', sdHighlight:'Resaltar zona en sidebar', sdGoto:'Botón ↪ ir a zona', sdArchi:'Visualización de archimonstruo', sdAutoFly:'Ir automáticamente al archi', sdStoneFilter:'Mostrar filtro de piedra', sdFavBtn:'Mostrar botón favorito', sdMarkersHide:'Mostrar iconos del mapa', sdCloneDots:'Mini-dot en clones', hCloneDots:'Los archimonstruos con varios spawns en el mapa muestran sus copias con un tinte naranja, menor tamaño y opacidad reducida. Así destacas el spawn principal y reduces la aglomeración visual.', sdSpotlight:'Efecto spotlight al hover', sdTipLock:'Fijar tooltip al hacer clic', sdCazaNotif:'Notificaciones de respawn', sdCuentas:'Cuentas', sdMulti:'Multicuenta', sdMultiN:'Nº cuentas (2–20)', sdTheme:'Apariencia', sdDayOn:'🌞 Modo día', sdDayOff:'🌙 Modo noche', sdDatos:'Datos', sdInterface:'Interfaz', sdProgressBar:'Barra de progreso', sdHomeBtn:'Botón inicio (🏠)', sdKeyShortcuts:'Atajos de teclado', sdStats:'Panel de estadísticas', sdCaptureLog:'Historial de capturas', sdZoneAnim:'Animación zona completa', sdPresMode:'Modo presentación', kbSearch:'Búsqueda', kbCheck:'Archi-Check', kbHunt:'Caza', kbCapture:'Capturar archi visible', kbDiscard:'Descarte', kbUnderground:'Subterráneo', kbHome:'Inicio del mapa', kbPresentation:'Presentación', kbHintCap:'✓ Capturado', showCapOn:'✕ Captura', showCapOff:'👁 Descarte', showCapTitle:'Modo descarte: capturados visibles pero atenuados en el mapa', favTitle:'Mostrar solo favoritos', notifRespawn:'⏰ {0} ha respawneado!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} desmarcado', notifCdCleared:'🗑 {0} cooldowns eliminados', notifZoneDone:'🎉 ¡{0} completada!', notifZonesLoaded:'✓ {0} zonas cargadas', notifProgressExported:'Progreso exportado', notifProgressImported:'Importados {0} archimonstruos', notifLogout:'Sesión cerrada', notifSyncActive:'☁ Sincronización activa', notifSyncUploaded:'☁ Progreso local subido a la nube', notifSyncLoaded:'☁ Progreso cargado desde la nube', notifDevOn:'🔧 Modo DEV activado', notifDevOff:'Modo DEV desactivado', notifMapExported:'Mapa exportado ✓', clTitle:'📋 Historial', statsTitle:'Estadísticas', presExit:'✕ Salir', zfTitle:'Filtrar por zona', zfAll:'Todas', zfNone:'Ninguna', zfNoneSelected:'⚠ Sin zonas seleccionadas', zfFilteredN:'📍 {0} zonas filtradas', kbClose:'Cerrar', ugBtnTitle:'Modo subterráneo', ugNavTitle:'Subterráneos', ugNavEmpty:'Sin subterráneos', ugSurface:'Superficie', sdUgEntrances:'Entradas subterráneas', hUgEntrances:'Muestra los iconos 🕳 en el mapa que marcan las entradas a zonas subterráneas. Al hacer clic en uno, accedes directamente a esa zona. Al hacer hover, se ilumina el área correspondiente.', sdCaza:'Modo Caza', sdSpotlightSidebar:'Spotlight al hover (sidebar)', hSpotlightSidebar:'Al hacer hover sobre un archimonstruo en el sidebar izquierdo, atenúa los demás iconos del mapa. Desactívalo si prefieres que el sidebar no afecte la visibilidad del mapa.', hsTitle:'📋 Sesión de caza', hsSub:'{0} archis cazados esta sesión', hsSubNone:'Sin kills en esta sesión', hsApply:'✓ Aplicar capturas', hsClear:'🗑 Limpiar sesión', hsEmpty:'Sin kills registrados aún. Ve a cazar y vuelve aquí.', hsAlreadyCap:'ya capturado', hsKills:'💀 {0}', hsSelectAll:'Seleccionar todos', hsDeselectAll:'Deseleccionar todos', notifHsApplied:'{0} capturas aplicadas', notifHsCleared:'Sesión de caza limpiada', adxTitle:'📖 Bestiario', adxBtn:'📖 Bestiario', adxAll:'Todos', adxCaptured:'Capturados', adxPending:'Pendientes', adxInstock:'En stock', adxCapOf:'{0} / {1} capturados', adxInvTotal:'{0} archis · {1} uds.', adxEmpty:'Sin resultados.', adxSortStep:'Nº paso', adxSortName:'Nombre', adxSortLevel:'Nivel', adxSortStock:'Stock', notifInvCleared:'Inventario vaciado', adxNotes:'Notas', adxFavorites:'Favoritos', notifCsvExported:'Inventario exportado', notifCsvImported:'Inventario importado', notifTabSync:'↕ Sincronizado desde otra pestaña', adxClrTitle:'🗑 Vaciar inventario', adxClrDesc:'¿Seguro? Se borrará el inventario y las capturas quedarán en cero.', adxClrOk:'🗑 Vaciar', adxClrCancel:'Cancelar', sfAll:'Todas', stepLbl:'Etapa', stepAll:'Todas', hideDoneLbl:'Solo pendientes', rtTitle:'🗺 Modo Ruta', rtEmpty:'Añade subzonas con ➕ del sidebar, o usa ⚡ Auto para calcular la ruta óptima.', rtPending:'pend.', rtAuto:'⚡ Auto', rtClear:'🗑 Limpiar', rtPrev:'← Ant', rtNext:'Sig →', rtAddTitle:'Añadir a ruta', rtAlready:'ya está en la ruta', rtAdded:'añadida a la ruta', rtCalced:'Ruta: {0} zonas', rtAllDone:'Todas las paradas chequeadas ✓', rtNoPending:'Sin zonas pendientes', rtChecked:'Chequeada', rtUncheck:'Desmarcar', rtBtn:'🗺 Ruta', huntHideCap:'Ocultar capturados', rtAddZone:'Añadir zona completa a ruta', rtAutoZone:'⚡ Ruta solo esta zona', sdRouteBtn:'Botones ➕ de ruta en zonas', hRouteBtn:'Muestra los botones ➕ en subzonas y el botón ▦ en zonas para añadirlas rápidamente a la ruta.', sdCompact:'Modo compacto', hCompact:'Reduce el tamaño de los ítems del sidebar para ver más archimonstruos por pantalla.', sdTutorial:'Ver tutorial', tutSkip:'Saltar', tutNext:'Siguiente →', tutPrev:'← Anterior', tutFinish:'¡Empezar!', tutStep:'Paso {0} de {1}', tut1Title:'Bienvenido a ARCHIDEX', tut1Body:'Tu guía completa para cazar los 286 archimonstruos de Dofus. Este tutorial te lleva paso a paso por todas las funciones de la app.', tut2Title:'El mapa', tut2Body:'Aquí aparecen todos los archimonstruos. Haz clic en un icono para ver su info y marcarlo como capturado.', tut3Title:'Modos de juego', tut3Body:'Archi-Check es para registrar capturas normales. El Modo Caza activa cooldowns de respawn — cuando capturas un archi, empieza un timer de 48h para que vuelva a aparecer.', tut4Title:'El sidebar', tut4Body:'Lista todos los archis por zona y subzona. Usa la búsqueda y los filtros para localizar cualquier archi.', tut5Title:'Capturar un archi', tut5Body:'Haz clic en el botón ✓ junto a cualquier archi para marcarlo. El contador del topbar se actualiza al instante.', tut6Title:'Bestiario', tut6Body:'El bestiario gestiona tu inventario de piedras de alma, filtra archis, añade notas personales y exporta o importa tu progreso en CSV.', tut7Title:'Opciones', tut7Body:'Personaliza polígonos de zona, spotlight, modo compacto, multicuenta (hasta 20 cuentas), modo día, exporta el mapa en PNG y mucho más.', tut8Title:'¡Todo listo!', tut8Body:'¡Ya conoces todo ARCHIDEX! Puedes repetir este tutorial desde ⚙ Opciones en cualquier momento. ¡Buena caza!', tutRouteTitle:'Modo Ruta', tutRouteBody:'Planifica tu recorrido de caza: añade subzonas con ➕, usa ⚡ Auto para la ruta óptima y navega con ← Ant / Sig →. El mapa vuela a cada parada automáticamente.', tut4MobBody:'Toca ☰ para abrir la lista de archis por zona. Usa la búsqueda y los filtros para localizar cualquier archi.', notifMapLoading:'Cargando mapa…', betaNothingSelected:'Nada seleccionado', betaNoSpawns:'Sin spawns en el mapa', betaDeleteConfirm:'¿Borrar los {0} spawns del mapa? Esta acción no se puede deshacer.', betaAllDeleted:'Todos los spawns eliminados', betaNoNewSpawns:'Sin spawns nuevos que añadir', betaCancelSel:'✕ Cancelar selección', betaSpawnDeleted:'✕ Spawn eliminado', betaSelectedN:'{0} seleccionados', treeEmpty:'Usa el modo Beta para añadir archimonstruos.', searchMoreN:'... y {0} más — refina la búsqueda', killsSession:'kills esta sesión', ttlMarkSub:'Marcar/desmarcar subzona', ttlGotoZone:'Ir a zona en el mapa', ttlFav:'Favorito', ttlAddCooldown:'Agregar a cooldown', ttlMarkZone:'Marcar/desmarcar zona', ttlRevZone:'Marcar zona como revisada', ttlGotoZoneShort:'Ir a zona', ttlReload:'Recargar página (F5)', ttlSettings:'Opciones', treeCollapseAll:'⊟ Todo', ttlCollapseAll:'Colapsar todo', treeExpandAll:'⊞ Todo', ttlExpandAll:'Expandir todo', zfViewAll:'✕ Ver todo', ttlHideDone:'Solo pendientes', ttlHuntHideCap:'Ocultar capturados', ttlCompact:'Modo compacto', bdo:'Opciones de arrastre', betaStartSel:'☐ Seleccionar para borrar', rtCopied:'📋 Ruta copiada', rtExport:'📋 Copiar', rtDragHint:'Arrastra para reordenar', rtSeed:'🔗 Semilla', rtImport:'📥 Importar', rtSeedCopied:'🔗 Semilla copiada', rtSeedPrompt:'Pega la semilla de ruta:', rtSeedInvalid:'Semilla invalida', rtSeedLoaded:'{0} paradas importadas', expTitle:'🖼 Exportar PNG', expSpawns:'Puntos de spawn en el mapa', expList:'Lista de faltantes', expLegend:'Leyenda de colores', expCancel:'Cancelar', expConfirm:'Exportar',expIcons:'Iconos de archi', expColorStatus:'Colorear por estado', expRoute:'Ruta activa', expHeader:'Cabecera de info', expLegCap:'Capturado', expLegPend:'Sin capturar', expLegHunt:'En caza', expMissing:'Faltantes', expHideCap:'Solo faltantes', tutTipTitle:'Tooltip del archi', tutTipBody:'Pasa el cursor (o toca) un icono del mapa para ver la ficha del archimonstruo: nombre, zona, monstruo asociado, tamaño de piedra de alma y enlace a DofusDB. Haz clic en "Marcar como capturado" para registrarlo.', tutSearchTitle:'Búsqueda y filtros', tutSearchBody:'Usa la barra de búsqueda para localizar cualquier archi por nombre. El botón ★ filtra solo tus favoritos. El ▽ filtra por zonas específicas. El ◉ oculta los que ya tienes capturados.', tutStoneTitle:'Filtro por piedra de alma', tutStoneBody:'Filtra los archimonstruos según el tamaño de piedra de alma requerida: Pequeña (50), Mediana (100), Grande (150), Enorme (190) o Gigantesca. Útil para saber cuáles puedes cazar con tus piedras actuales.', tutCapCountTitle:'Progreso', tutCapCountBody:'El contador en la barra superior muestra cuántos archis llevas capturados del total (286). La barra de progreso en la parte superior de la pantalla te da una referencia visual rápida. El panel de estadísticas del sidebar detalla el progreso por zona.', tutShowCapTitle:'Modo Descarte', tutShowCapBody:'El botón 👁 Descarte muestra en el mapa los archimonstruos ya capturados, atenuados en gris. Útil para ver de un vistazo qué queda pendiente sin perder la referencia de lo ya cazado.', tutUgTitle:'Modo Subterráneo', tutUgBody:'El botón circular azul (arriba a la izquierda del mapa) activa el modo subterráneo. Muestra las zonas underground como las cloacas, alcantarillas y criptas. Los archis del mapa cambian a los de esas zonas.', expPortrait:'Retratos del archi', expGroupBy:'Agrupar por', expGroupStone:'Piedra de alma', expGroupStep:'Etapa de misión' },
+  en: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Hunt', searchPlaceholder:'Search archi or monster…', caplogEmpty:'No captures yet', resetTitle:'↺ Reset', resetDesc:'Select what you want to delete:', resetChkCap:'Captured archimosters', resetChkLog:'Capture history', resetCancel:'Cancel', resetConfirm:'↺ Reset', resetDone:'↺ Reset', resetPartCap:'captures', resetPartLog:'history', resetAnd:'and', cdTitle:'⏱ Active cooldowns', cdEmpty:'No cooldowns', cdClearAll:'🗑 Clear all', hPolygons:'Draws colored areas on the map delimiting each subzone. Useful for orientation and visually tracking progress per area.', hHighlight:'When hovering a zone in the sidebar, highlights its polygon on the map. When hovering a polygon on the map, highlights the corresponding zone in the sidebar.', hGoto:'Shows a ↪ button next to each subzone in the sidebar. Clicking it automatically centers the map on that subzone.', hAutofly:'Clicking an archimoster in the sidebar flies the map to its position and opens the tooltip. If disabled, opens the full info panel instead.', hTiplock:'Clicking an archi icon on the map locks the tooltip in place; it does not change when hovering other archis. Click outside to close.', hSpotlight:'When hovering an archimoster (in the sidebar or map), dims and shrinks the other icons to highlight the one you are looking at.', hMarkers:'Shows or hides all archimoster icons on the map. Useful for viewing zone polygons more clearly or taking clean map screenshots.', hStone:'Shows the soul stone selector in the sidebar to filter archimosters by the stone size they require (Small, Medium, Large, Huge, Gigantic).', hFav:'Shows a ★ button next to each archimoster in the sidebar to mark it as a favourite and filter it with the ★ search button.', hCazanotif:'Hunt mode only. Shows an on-screen notification when the respawn timer of an archimoster reaches zero and it can appear again.', hMulti:'Tracks capture counts for multiple accounts simultaneously (2–20). Each click on "captured" advances the counter for the next account in turn.', hDaymode:'Switches the colour palette from dark (night mode) to light (day mode). Useful in bright ambient light environments.', hProgbar:'Shows a thin progress bar at the top of the screen indicating how many archimosters you have captured out of the total (286).', hStats:'Shows a panel in the sidebar with capture progress broken down by zone and subzone, with individual progress bars.', hCaplog:'Shows a log in the bottom-right corner with the last archimosters captured during the current session, with the time of each capture.', optTitle:'Options',  capMark:'Mark as captured',    capUnmark:'Unmark',    capAccounts:'accounts', capAdd:'Add', tipHint:'Click for more info →', tipHintClose:'Click outside to close ✕', unknownLevel:'Unknown level', noLevelData:'No level data', dofusdbLink:'View on DofusDB ↗', stones:['Small','Medium','Large','Huge','Gigantic'],         stoneLabel:'Soul Stone',     stonesTitle:'Soul Stones needed',         allCap:'All captured! 🎉',      noLevel:'archis without level', noZone:'No zone',     noSub:'—', unknownStone:'unknown',      zona:'Zone', subzona:'Subzone', nivel:'Level', piedra:'Soul Stone', coords:'Coords', info:'Info', sdSubzonas:'Subzone display', sdPolygons:'Zone polygons', sdTooltip:'Hover tooltip', sdHighlight:'Highlight in sidebar', sdGoto:'↪ Go to zone button', sdArchi:'Archimoster display', sdAutoFly:'Auto-fly to archi', sdStoneFilter:'Show stone filter', sdFavBtn:'Show favorite button', sdMarkersHide:'Show map icons', sdCloneDots:'Mini-dot on clones', hCloneDots:'Archimosters with multiple spawns show their duplicates tinted orange, at a smaller size and reduced opacity. This highlights the primary spawn and reduces visual clutter on the map.', sdSpotlight:'Spotlight effect on hover', sdTipLock:'Lock tooltip on click', sdCazaNotif:'Respawn notifications', sdCuentas:'Accounts', sdMulti:'Multi-account', sdMultiN:'No. accounts (2–20)', sdTheme:'Appearance', sdDayOn:'🌞 Day mode', sdDayOff:'🌙 Night mode', sdDatos:'Data', sdInterface:'Interface', sdProgressBar:'Progress bar', sdHomeBtn:'Home button (🏠)', sdKeyShortcuts:'Keyboard shortcuts', sdStats:'Stats panel', sdCaptureLog:'Capture history', sdZoneAnim:'Zone complete animation', sdPresMode:'Presentation mode', kbSearch:'Search', kbCheck:'Archi-Check', kbHunt:'Hunt', kbCapture:'Capture visible archi', kbDiscard:'Discard', kbUnderground:'Underground', kbHome:'Map home', kbPresentation:'Presentation', kbHintCap:'✓ Captured', showCapOn:'✕ Captures', showCapOff:'👁 Discard', showCapTitle:'Discard mode: captured visible but dimmed on the map', favTitle:'Show favourites only', notifRespawn:'⏰ {0} has respawned!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} unmarked', notifCdCleared:'🗑 {0} cooldowns cleared', notifZoneDone:'🎉 {0} completed!', notifZonesLoaded:'✓ {0} zones loaded', notifProgressExported:'Progress exported', notifProgressImported:'{0} archimosters imported', notifLogout:'Logged out', notifSyncActive:'☁ Sync active', notifSyncUploaded:'☁ Local progress uploaded', notifSyncLoaded:'☁ Progress loaded from cloud', notifDevOn:'🔧 DEV mode on', notifDevOff:'DEV mode off', notifMapExported:'Map exported ✓', clTitle:'📋 History', statsTitle:'Statistics', presExit:'✕ Exit', zfTitle:'Filter by zone', zfAll:'All', zfNone:'None', zfNoneSelected:'⚠ No zones selected', zfFilteredN:'📍 {0} zones filtered', kbClose:'Close', ugBtnTitle:'Underground mode', ugNavTitle:'Underground zones', ugNavEmpty:'No underground zones', ugSurface:'Surface', sdUgEntrances:'Underground entrances', hUgEntrances:'Shows 🕳 icons on the map marking the entrances to underground zones. Click one to go directly to that zone. Hover to highlight its area.', sdCaza:'Hunt mode', sdSpotlightSidebar:'Spotlight on hover (sidebar)', hSpotlightSidebar:'When hovering an archimoster in the left sidebar, dims the other icons on the map. Disable if you prefer the sidebar not to affect map visibility.', hsTitle:'📋 Hunt session', hsSub:'{0} archis hunted this session', hsSubNone:'No kills this session', hsApply:'✓ Apply captures', hsClear:'🗑 Clear session', hsEmpty:'No kills recorded yet. Go hunt and come back.', hsAlreadyCap:'already captured', hsKills:'💀 {0}', hsSelectAll:'Select all', hsDeselectAll:'Deselect all', notifHsApplied:'{0} captures applied', notifHsCleared:'Hunt session cleared', adxTitle:'📖 Bestiary', adxBtn:'📖 Bestiary', adxAll:'All', adxCaptured:'Captured', adxPending:'Pending', adxInstock:'In stock', adxCapOf:'{0} / {1} captured', adxInvTotal:'{0} archis · {1} units', adxEmpty:'No results.', adxSortStep:'Step no.', adxSortName:'Name', adxSortLevel:'Level', adxSortStock:'Stock', notifInvCleared:'Inventory cleared', adxNotes:'Notes', adxFavorites:'Favourites', notifCsvExported:'Inventory exported', notifCsvImported:'Inventory imported', notifTabSync:'↕ Synced from another tab', adxClrTitle:'🗑 Clear inventory', adxClrDesc:'Are you sure? Inventory will be cleared and captures reset to zero.', adxClrOk:'🗑 Clear', adxClrCancel:'Cancel', sfAll:'All', stepLbl:'Stage', stepAll:'All', hideDoneLbl:'Pending only', rtTitle:'🗺 Route Mode', rtEmpty:'Add subzones with ➕ or use ⚡ Auto to calculate the optimal route.', rtPending:'pend.', rtAuto:'⚡ Auto', rtClear:'🗑 Clear', rtPrev:'← Prev', rtNext:'Next →', rtAddTitle:'Add to route', rtAlready:'already in route', rtAdded:'added to route', rtCalced:'Route: {0} zones', rtAllDone:'All stops checked ✓', rtNoPending:'No pending zones', rtChecked:'Checked', rtUncheck:'Uncheck', rtBtn:'🗺 Route', huntHideCap:'Hide captured', rtAddZone:'Add full zone to route', rtAutoZone:'⚡ Route this zone only', sdRouteBtn:'➕ Route buttons in zones', hRouteBtn:'Shows ➕ buttons on subzones and a ▦ button on zone headers to quickly add them to the route.', sdCompact:'Compact mode', hCompact:'Reduces the size of sidebar items to display more archimonsters per screen.', sdTutorial:'View tutorial', tutSkip:'Skip', tutNext:'Next →', tutPrev:'← Back', tutFinish:'Get started!', tutStep:'Step {0} of {1}', tut1Title:'Welcome to ARCHIDEX', tut1Body:'Your guide to hunting all Dofus archimonsters. This quick tour covers the essentials.', tut2Title:'The map', tut2Body:'All archimonsters appear here. Click any icon to see its info and mark it as captured.', tut3Title:'Game modes', tut3Body:'Archi-Check is for tracking captures. Hunt mode enables respawn cooldowns for active hunting sessions.', tut4Title:'The sidebar', tut4Body:'Lists all archis by zone and subzone. Use the search bar and filters to find any archi.', tut5Title:'Capturing an archi', tut5Body:'Click the ✓ button next to any archi to mark it as captured. The topbar counter updates immediately.', tut6Title:'Bestiary', tut6Body:'Manage your inventory, filter by soul stone, add notes, and export your progress to CSV.', tut7Title:'Options', tut7Body:'Customize appearance, manage multi-account, enable compact mode, and much more.', tut8Title:'All set!', tut8Body:'You know the essentials. You can replay this tutorial anytime from Options.', tutRouteTitle:'Route Mode', tutRouteBody:'Plan your hunting route: add subzones with ➕, use ⚡ Auto for the optimal path, and navigate with ← Prev / Next →. The map flies to each stop automatically.', tut4MobBody:'Tap ☰ to open the archi list by zone. Use the search bar and filters to find any archi.', notifMapLoading:'Loading map…', betaNothingSelected:'Nothing selected', betaNoSpawns:'No spawns on the map', betaDeleteConfirm:'Delete {0} spawns from the map? This action cannot be undone.', betaAllDeleted:'All spawns deleted', betaNoNewSpawns:'No new spawns to add', betaCancelSel:'✕ Cancel selection', betaSpawnDeleted:'✕ Spawn deleted', betaSelectedN:'{0} selected', treeEmpty:'Use Beta mode to add archimonsters.', searchMoreN:'... and {0} more — refine your search', killsSession:'kills this session', ttlMarkSub:'Mark/unmark subzone', ttlGotoZone:'Go to zone on map', ttlFav:'Favourite', ttlAddCooldown:'Add to cooldown', ttlMarkZone:'Mark/unmark zone', ttlRevZone:'Mark zone as reviewed', ttlGotoZoneShort:'Go to zone', ttlReload:'Reload page (F5)', ttlSettings:'Options', treeCollapseAll:'⊟ All', ttlCollapseAll:'Collapse all', treeExpandAll:'⊞ All', ttlExpandAll:'Expand all', zfViewAll:'✕ View all', ttlHideDone:'Pending only', ttlHuntHideCap:'Hide captured', ttlCompact:'Compact mode', bdo:'Drag options', betaStartSel:'☐ Select to delete', rtCopied:'📋 Route copied', rtExport:'📋 Copy', rtDragHint:'Drag to reorder', rtSeed:'🔗 Seed', rtImport:'📥 Import', rtSeedCopied:'🔗 Seed copied', rtSeedPrompt:'Paste route seed:', rtSeedInvalid:'Invalid seed', rtSeedLoaded:'{0} stops imported', expTitle:'🖼 Export PNG', expSpawns:'Spawn points on the map', expList:'Missing list', expLegend:'Color legend', expCancel:'Cancel', expConfirm:'Export',expIcons:'Archi icons', expColorStatus:'Color by status', expRoute:'Active route', expHeader:'Info header', expLegCap:'Captured', expLegPend:'Not captured', expLegHunt:'Hunting', expMissing:'Missing', expHideCap:'Pending only', tutTipTitle:'Archi tooltip', tutTipBody:'Hover (or tap) any map icon to see the archi\'s details: name, zone, associated monster, soul stone size, and a DofusDB link. Click "Mark as captured" to log it.', tutSearchTitle:'Search & filters', tutSearchBody:'Use the search bar to find any archi by name. The ★ button shows only your favorites. ▽ filters by specific zones. ◉ hides already-captured archis.', tutStoneTitle:'Soul stone filter', tutStoneBody:'Filter archis by required soul stone size: Small (50), Medium (100), Large (150), Huge (190) or Gigantic. Handy for knowing which ones you can hunt with your current stones.', tutCapCountTitle:'Progress', tutCapCountBody:'The counter in the top bar shows how many archis you\'ve captured out of 286. The thin progress bar at the top gives a quick visual reference. The stats panel in the sidebar breaks it down by zone.', tutShowCapTitle:'Discard mode', tutShowCapBody:'The 👁 Discard button shows already-captured archis on the map, grayed out. Great for seeing at a glance what\'s still pending without losing track of what you\'ve already hunted.', tutUgTitle:'Underground mode', tutUgBody:'The blue circular button (top-left of the map) activates underground mode. It reveals underground zones like sewers, drainage tunnels, and crypts. The map icons switch to the archis found in those zones.', expPortrait:'Archi portraits', expGroupBy:'Group by', expGroupStone:'Soul stone', expGroupStep:'Quest step' },
+  fr: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Chasse', searchPlaceholder:'Rechercher archi ou monstre…', caplogEmpty:'Aucune capture encore', resetTitle:'↺ Reset', resetDesc:'Sélectionnez ce que vous voulez supprimer :', resetChkCap:'Archimonsters capturés', resetChkLog:'Historique des captures', resetCancel:'Annuler', resetConfirm:'↺ Réinitialiser', resetDone:'↺ Réinitialisé', resetPartCap:'captures', resetPartLog:'historique', resetAnd:'et', cdTitle:'⏱ Cooldowns actifs', cdEmpty:'Aucun cooldown', cdClearAll:'🗑 Tout effacer', hPolygons:'Dessine des zones colorées sur la carte délimitant chaque sous-zone. Utile pour se repérer et visualiser la progression de chaque zone.', hHighlight:'Au survol d\'une zone dans la sidebar, met en évidence son polygone sur la carte. Au survol d\'un polygone, met en évidence la zone correspondante dans la sidebar.', hGoto:'Affiche un bouton ↪ à côté de chaque sous-zone dans la sidebar. En cliquant dessus, la carte se centre automatiquement sur cette sous-zone.', hAutofly:'En cliquant sur un archimonstre dans la sidebar, la carte vole jusqu\'à sa position et ouvre l\'infobulle. Sinon, ouvre la fiche complète dans un panneau.', hTiplock:'En cliquant sur une icône d\'archi sur la carte, l\'infobulle reste fixe et ne change pas en survolant d\'autres archis. Cliquer à l\'extérieur pour fermer.', hSpotlight:'Au survol d\'un archimonstre (sidebar ou carte), atténue et réduit les autres icônes pour mettre en valeur celui que vous regardez.', hMarkers:'Affiche ou masque toutes les icônes d\'archimonsters sur la carte. Utile pour mieux voir les polygones de zone ou prendre des captures d\'écran propres.', hStone:'Affiche le sélecteur de pierre d\'âme dans la sidebar pour filtrer les archimonsters selon la taille de pierre requise.', hFav:'Affiche le bouton ★ à côté de chaque archimonstre dans la sidebar pour le marquer comme favori et le filtrer avec le bouton ★ de la recherche.', hCazanotif:'Mode Chasse uniquement. Affiche une notification à l\'écran quand le minuteur de réapparition d\'un archimonstre atteint zéro.', hMulti:'Suit les compteurs de captures pour plusieurs comptes simultanément (2–20). Chaque clic sur "capturé" avance le compteur du compte suivant.', hDaymode:'Bascule la palette de couleurs de sombre (nuit) à claire (jour). Utile dans des environnements très lumineux.', hProgbar:'Affiche une fine barre de progression en haut de l\'écran indiquant combien d\'archimonsters vous avez capturés sur le total (286).', hStats:'Affiche un panneau dans la sidebar avec la progression des captures par zone et sous-zone, avec des barres de progression individuelles.', hCaplog:'Affiche un journal en bas à droite avec les derniers archimonsters capturés pendant la session, avec l\'heure de chaque capture.', optTitle:'Options',  capMark:'Marquer comme capturé', capUnmark:'Démarquer', capAccounts:'comptes', capAdd:'Ajouter', tipHint:'Cliquez pour plus →', tipHintClose:'Clic dehors pour fermer ✕', unknownLevel:'Niveau inconnu', noLevelData:'Pas de données', dofusdbLink:'Voir sur DofusDB ↗', stones:['Petite','Moyenne','Grande','Énorme','Gigantesque'], stoneLabel:"Pierre d'Âme",   stonesTitle:"Pierres d'Âme nécessaires",  allCap:'Tout capturé ! 🎉',     noLevel:'archis sans niveau',  noZone:'Pas de zone', noSub:'—', unknownStone:'inconnue',     zona:'Zone', subzona:'Souszone', nivel:'Niveau', piedra:"Pierre d'Âme", coords:'Coords', info:'Info', sdSubzonas:'Affichage sous-zones', sdPolygons:'Polygones de zone', sdTooltip:'Infobulle au survol', sdHighlight:'Surligner dans sidebar', sdGoto:'Bouton ↪ aller à la zone', sdArchi:'Affichage archimonstre', sdAutoFly:'Voler auto vers archi', sdStoneFilter:'Afficher filtre pierres', sdFavBtn:'Afficher bouton favori', sdMarkersHide:'Afficher icônes carte', sdCloneDots:'Mini-point sur les clones', hCloneDots:'Affiche les doublons du meme archimonstre sous forme de petit point colore au lieu du symbole complet, reduisant la surcharge visuelle de la carte.', sdSpotlight:'Effet spotlight au survol', sdTipLock:'Fixer l\'infobulle au clic', sdCazaNotif:'Notifs de respawn', sdCuentas:'Comptes', sdMulti:'Multi-compte', sdMultiN:'Nb comptes (2–20)', sdTheme:'Apparence', sdDayOn:'🌞 Mode jour', sdDayOff:'🌙 Mode nuit', sdDatos:'Données', sdInterface:'Interface', sdProgressBar:'Barre de progression', sdHomeBtn:'Bouton accueil (🏠)', sdKeyShortcuts:'Raccourcis clavier', sdStats:'Panneau stats', sdCaptureLog:'Historique captures', sdZoneAnim:'Animation zone complète', sdPresMode:'Mode présentation', kbSearch:'Recherche', kbCheck:'Archi-Check', kbHunt:'Chasse', kbCapture:'Capturer archi visible', kbDiscard:'Abandon', kbUnderground:'Souterrain', kbHome:'Accueil carte', kbPresentation:'Présentation', kbHintCap:'✓ Capturé', showCapOn:'✕ Captures', showCapOff:'👁 Rebut', showCapTitle:'Mode rebut : capturés visibles mais atténués sur la carte', favTitle:'Afficher les favoris uniquement', notifRespawn:'⏰ {0} est réapparu !', notifDead:'💀 {0} — {1}min', notifUndead:'{0} démarqué', notifCdCleared:'🗑 {0} cooldowns effacés', notifZoneDone:'🎉 {0} complétée !', notifZonesLoaded:'✓ {0} zones chargées', notifProgressExported:'Progression exportée', notifProgressImported:'{0} archimonsters importés', notifLogout:'Déconnecté', notifSyncActive:'☁ Sync active', notifSyncUploaded:'☁ Progression locale envoyée', notifSyncLoaded:'☁ Progression chargée depuis le cloud', notifDevOn:'🔧 Mode DEV activé', notifDevOff:'Mode DEV désactivé', notifMapExported:'Carte exportée ✓', clTitle:'📋 Historique', statsTitle:'Statistiques', presExit:'✕ Quitter', zfTitle:'Filtrer par zone', zfAll:'Toutes', zfNone:'Aucune', zfNoneSelected:'⚠ Aucune zone sélectionnée', zfFilteredN:'📍 {0} zones filtrées', kbClose:'Fermer', ugBtnTitle:'Mode souterrain', ugNavTitle:'Zones souterraines', ugNavEmpty:'Pas de zones souterraines', ugSurface:'Surface', sdUgEntrances:'Entrées souterraines', hUgEntrances:'Affiche les icônes 🕳 sur la carte marquant les entrées des zones souterraines. Cliquer dessus pour y accéder directement. Survoler pour illuminer la zone.', sdCaza:'Mode Chasse', sdSpotlightSidebar:'Spotlight au survol (sidebar)', hSpotlightSidebar:'Au survol d\'un archimonstre dans la sidebar gauche, atténue les autres icônes sur la carte. Désactiver si vous préférez que la sidebar n\'affecte pas la visibilité de la carte.', hsTitle:'📋 Session de chasse', hsSub:'{0} archis chassés cette session', hsSubNone:'Aucun kill cette session', hsApply:'✓ Appliquer les captures', hsClear:'🗑 Effacer la session', hsEmpty:'Aucun kill enregistré. Allez chasser et revenez ici.', hsAlreadyCap:'déjà capturé', hsKills:'💀 {0}', hsSelectAll:'Tout sélectionner', hsDeselectAll:'Tout désélectionner', notifHsApplied:'{0} captures appliquées', notifHsCleared:'Session de chasse effacée', adxTitle:'📖 Bestiaire', adxBtn:'📖 Bestiaire', adxAll:'Tous', adxCaptured:'Capturés', adxPending:'En attente', adxInstock:'En stock', adxCapOf:'{0} / {1} capturés', adxInvTotal:'{0} archis · {1} unités', adxEmpty:'Aucun résultat.', adxSortStep:'Nº étape', adxSortName:'Nom', adxSortLevel:'Niveau', adxSortStock:'Stock', notifInvCleared:'Inventaire vidé', adxNotes:'Notes', adxFavorites:'Favoris', notifCsvExported:'Inventaire exporté', notifCsvImported:'Inventaire importé', notifTabSync:'↕ Synchronisé depuis un autre onglet', adxClrTitle:'🗑 Vider inventaire', adxClrDesc:'Sûr ? L\'inventaire sera effacé et les captures remises à zéro.', adxClrOk:'🗑 Vider', adxClrCancel:'Annuler', sfAll:'Toutes', stepLbl:'Étape', stepAll:'Toutes', hideDoneLbl:'En attente seulement', rtTitle:'🗺 Mode Itinéraire', rtEmpty:'Ajoutez des sous-zones avec ➕ ou utilisez ⚡ Auto.', rtPending:'att.', rtAuto:'⚡ Auto', rtClear:'🗑 Vider', rtPrev:'← Préc', rtNext:'Suiv →', rtAddTitle:"Ajouter à l'itinéraire", rtAlready:"déjà dans l'itinéraire", rtAdded:"ajoutée à l'itinéraire", rtCalced:'Itinéraire : {0} zones', rtAllDone:'Toutes les étapes cochées ✓', rtNoPending:'Aucune zone en attente', rtChecked:'Cochée', rtUncheck:'Décocher', rtBtn:'🗺 Itinéraire', huntHideCap:'Cacher capturés', rtAddZone:'Ajouter la zone entière', rtAutoZone:'⚡ Itinéraire cette zone', sdRouteBtn:'Boutons ➕ de route', hRouteBtn:'Affiche les boutons ➕ sur les sous-zones et le bouton ▦ sur les zones pour les ajouter rapidement à l\'itinéraire.', sdCompact:'Mode compact', hCompact:'Réduit la taille des éléments de la sidebar pour afficher plus d\'archimonsters à l\'écran.', sdTutorial:'Voir tutoriel', tutSkip:'Passer', tutNext:'Suivant →', tutPrev:'← Précédent', tutFinish:'Commencer !', tutStep:'Étape {0} sur {1}', tut1Title:'Bienvenue sur ARCHIDEX', tut1Body:"Votre guide pour chasser tous les archimonsters de Dofus. Ce tour rapide couvre l'essentiel.", tut2Title:'La carte', tut2Body:"Tous les archimonsters apparaissent ici. Cliquez sur une icône pour voir ses infos et le marquer comme capturé.", tut3Title:'Modes de jeu', tut3Body:"Archi-Check sert à suivre les captures. Le mode Chasse active les cooldowns de réapparition pour les sessions de chasse.", tut4Title:'Le panneau latéral', tut4Body:"Liste tous les archis par zone et sous-zone. Utilisez la recherche et les filtres pour trouver n'importe quel archi.", tut5Title:'Capturer un archi', tut5Body:"Cliquez sur ✓ à côté d'un archi pour le marquer. Le compteur du topbar se met à jour instantanément.", tut6Title:'Bestiaire', tut6Body:"Gérez votre inventaire, filtrez par pierre d'âme, ajoutez des notes et exportez votre progression en CSV.", tut7Title:'Options', tut7Body:"Personnalisez l'apparence, gérez le multi-compte, activez le mode compact et bien plus encore.", tut8Title:'Tout est prêt !', tut8Body:"Vous connaissez l'essentiel. Vous pouvez relancer ce tutoriel à tout moment depuis Options.", tutRouteTitle:'Mode Itinéraire', tutRouteBody:'Planifiez votre parcours de chasse : ajoutez des sous-zones avec ➕, utilisez ⚡ Auto pour le chemin optimal et naviguez avec ← Préc / Suiv →. La carte vole vers chaque étape automatiquement.', tut4MobBody:'Touchez ☰ pour ouvrir la liste des archis par zone. Utilisez la recherche et les filtres pour trouver n\'importe quel archi.', notifMapLoading:'Chargement de la carte…', betaNothingSelected:'Rien de sélectionné', betaNoSpawns:'Aucun spawn sur la carte', betaDeleteConfirm:'Supprimer les {0} spawns ? Action irréversible.', betaAllDeleted:'Tous les spawns supprimés', betaNoNewSpawns:'Aucun nouveau spawn à ajouter', betaCancelSel:'✕ Annuler la sélection', betaSpawnDeleted:'✕ Spawn supprimé', betaSelectedN:'{0} sélectionnés', treeEmpty:'Utilisez le mode Bêta pour ajouter des archimonsters.', searchMoreN:'... et {0} de plus — affinez votre recherche', killsSession:'kills cette session', ttlMarkSub:'Marquer/démarquer sous-zone', ttlGotoZone:'Aller à la zone sur la carte', ttlFav:'Favori', ttlAddCooldown:'Ajouter au cooldown', ttlMarkZone:'Marquer/démarquer zone', ttlRevZone:'Marquer la zone comme révisée', ttlGotoZoneShort:'Aller à la zone', ttlReload:'Recharger la page (F5)', ttlSettings:'Options', treeCollapseAll:'⊟ Tout', ttlCollapseAll:'Tout réduire', treeExpandAll:'⊞ Tout', ttlExpandAll:'Tout développer', zfViewAll:'✕ Voir tout', ttlHideDone:'En attente seulement', ttlHuntHideCap:'Masquer capturés', ttlCompact:'Mode compact', bdo:'Options de déplacement', betaStartSel:'☐ Sélectionner pour supprimer', rtCopied:'📋 Itinéraire copié', rtExport:'📋 Copier', rtDragHint:'Glisser pour réorganiser', rtSeed:'🔗 Graine', rtImport:'📥 Importer', rtSeedCopied:'🔗 Graine copiée', rtSeedPrompt:'Collez la graine de parcours:', rtSeedInvalid:'Graine invalide', rtSeedLoaded:'{0} étapes importées', expTitle:'🖼 Exporter PNG', expSpawns:'Points de spawn sur la carte', expList:'Liste des manquants', expLegend:'Légende des couleurs', expCancel:'Annuler', expConfirm:'Exporter', expIcons:'Icônes d\'archi', expColorStatus:'Colorier par état', expRoute:'Itinéraire actif', expHeader:'En-tête info', expLegCap:'Capturé', expLegPend:'Non capturé', expLegHunt:'En chasse', expMissing:'Manquants', expHideCap:'Manquants seulement', tutTipTitle:'Infobulle de l\'archi', tutTipBody:'Survolez (ou touchez) une icône du mapa pour voir la fiche de l\'archimonstre : nom, zone, monstre associé, taille de la pierre d\'âme et lien DofusDB. Cliquez sur "Marquer comme capturé" pour l\'enregistrer.', tutSearchTitle:'Recherche et filtres', tutSearchBody:'Utilisez la barre de recherche pour trouver n\'importe quel archi par nom. Le bouton ★ affiche uniquement vos favoris. ▽ filtre par zones spécifiques. ◉ masque les archis déjà capturés.', tutStoneTitle:'Filtre par pierre d\'âme', tutStoneBody:'Filtrez les archimonstres selon la taille de pierre d\'âme requise : Petite (50), Moyenne (100), Grande (150), Énorme (190) ou Gigantesque. Pratique pour savoir lesquels vous pouvez chasser.', tutCapCountTitle:'Progression', tutCapCountBody:'Le compteur dans la barre supérieure indique combien d\'archis vous avez capturés sur 286. La barre de progression en haut de l\'écran donne une référence visuelle rapide. Le panneau de stats détaille la progression par zone.', tutShowCapTitle:'Mode Rebut', tutShowCapBody:'Le bouton 👁 Rebut affiche sur la carte les archimonstres déjà capturés, grisés. Utile pour voir en un coup d\'œil ce qui reste à faire.', tutUgTitle:'Mode Souterrain', tutUgBody:'Le bouton circulaire bleu (en haut à gauche de la carte) active le mode souterrain. Il affiche les zones underground comme les égouts et les cryptes. Les icônes du mapa passent aux archis de ces zones.', expPortrait:'Portraits d\'archi', expGroupBy:'Regrouper par', expGroupStone:'Pierre d\'âme', expGroupStep:'Étape de quête' },
+  de: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Jagd', searchPlaceholder:'Archi oder Monster suchen…', caplogEmpty:'Noch keine Fänge', resetTitle:'↺ Reset', resetDesc:'Wähle aus, was du löschen möchtest:', resetChkCap:'Gefangene Archimonster', resetChkLog:'Fangverlauf', resetCancel:'Abbrechen', resetConfirm:'↺ Zurücksetzen', resetDone:'↺ Zurückgesetzt', resetPartCap:'Fänge', resetPartLog:'Verlauf', resetAnd:'und', cdTitle:'⏱ Aktive Cooldowns', cdEmpty:'Keine Cooldowns', cdClearAll:'🗑 Alle löschen', hPolygons:'Zeichnet farbige Flächen auf der Karte, die jede Unterzone begrenzen. Nützlich zur Orientierung und für den visuellen Fortschritt.', hHighlight:'Beim Hover über eine Zone in der Sidebar wird das Polygon auf der Karte hervorgehoben. Beim Hover über ein Polygon wird die entsprechende Zone in der Sidebar markiert.', hGoto:'Zeigt eine ↪-Schaltfläche neben jeder Unterzone in der Sidebar. Ein Klick zentriert die Karte automatisch auf diese Unterzone.', hAutofly:'Ein Klick auf ein Archimonster in der Sidebar lässt die Karte zu seiner Position fliegen und öffnet den Tooltip. Sonst öffnet sich das Info-Panel.', hTiplock:'Ein Klick auf ein Archi-Symbol fixiert den Tooltip auf dem Bildschirm. Er ändert sich nicht beim Hover anderer Archis. Außerhalb klicken zum Schließen.', hSpotlight:'Beim Hover über ein Archimonster werden alle anderen Icons abgeblendet und verkleinert, um das betrachtete hervorzuheben.', hMarkers:'Zeigt oder versteckt alle Archimonster-Symbole auf der Karte. Nützlich zur besseren Sicht auf Zonenpolygone oder für saubere Screenshots.', hStone:'Zeigt den Seelensteinselektor in der Sidebar zum Filtern nach benötigter Steingröße an.', hFav:'Zeigt eine ★-Schaltfläche neben jedem Archimonster in der Sidebar, um es als Favorit zu markieren und mit dem ★-Suchfilter zu filtern.', hCazanotif:'Nur im Jagd-Modus. Zeigt eine Bildschirmbenachrichtigung, wenn der Respawn-Timer eines Archimonsters null erreicht.', hMulti:'Verfolgt Fangzähler für mehrere Konten gleichzeitig (2–20). Jeder Klick auf "gefangen" rückt den Zähler des nächsten Kontos vor.', hDaymode:'Wechselt die Farbpalette von dunkel (Nacht) zu hell (Tag). Nützlich in hellen Umgebungen.', hProgbar:'Zeigt einen dünnen Fortschrittsbalken oben auf dem Bildschirm an, der zeigt, wie viele Archimonster gefangen wurden (von 286).', hStats:'Zeigt ein Panel in der Sidebar mit dem Fangfortschritt nach Zone und Unterzone, mit individuellen Fortschrittsbalken.', hCaplog:'Zeigt ein Protokoll unten rechts mit den zuletzt gefangenen Archimonsters der aktuellen Sitzung und der Uhrzeit.', optTitle:'Optionen', capMark:'Als gefangen markieren', capUnmark:'Markierung aufheben', capAccounts:'Konten', capAdd:'Hinzufügen', tipHint:'Klicken für mehr Info →', tipHintClose:'Außen klicken zum Schließen ✕', unknownLevel:'Unbekannte Stufe', noLevelData:'Keine Stufendaten', dofusdbLink:'Auf DofusDB ansehen ↗', stones:['Kleiner','Mittlerer','Großer','Riesiger','Gewaltiger'], stoneLabel:'Seelenstein', stonesTitle:'Benötigte Seelensteine', allCap:'Alles gefangen! 🎉', noLevel:'Archis ohne Stufe', noZone:'Keine Zone', noSub:'—', unknownStone:'unbekannt', zona:'Zone', subzona:'Unterzone', nivel:'Stufe', piedra:'Seelenstein', coords:'Koord.', info:'Info', sdSubzonas:'Unterzonenansicht', sdPolygons:'Zonenpolygone', sdTooltip:'Hover-Tooltip', sdHighlight:'In Sidebar hervorheben', sdGoto:'↪ Zur Zone-Schaltfläche', sdArchi:'Archimonster-Ansicht', sdAutoFly:'Auto-Flug zum Archi', sdStoneFilter:'Seelenfilter anzeigen', sdFavBtn:'Favorit-Schaltfläche anzeigen', sdMarkersHide:'Kartensymbole anzeigen', sdCloneDots:'Mini-Punkt bei Klonen', hCloneDots:'Archimonster mit mehreren Spawns zeigen ihre Duplikate in Orange getönt, verkleinert und mit reduzierter Deckkraft. So hebt sich der Haupt-Spawn ab und die Karte wirkt übersichtlicher.', sdSpotlight:'Spotlight-Effekt beim Hover', sdTipLock:'Tooltip bei Klick fixieren', sdCazaNotif:'Respawn-Benachrichtigungen', sdCuentas:'Konten', sdMulti:'Multi-Konto', sdMultiN:'Anz. Konten (2–20)', sdTheme:'Erscheinungsbild', sdDayOn:'🌞 Tagmodus', sdDayOff:'🌙 Nachtmodus', sdDatos:'Daten', sdInterface:'Benutzeroberfläche', sdProgressBar:'Fortschrittsbalken', sdHomeBtn:'Startschaltfläche (🏠)', sdKeyShortcuts:'Tastenkürzel', sdStats:'Statistikbereich', sdCaptureLog:'Fangverlauf', sdZoneAnim:'Zonen-Animation', sdPresMode:'Präsentationsmodus', kbSearch:'Suche', kbCheck:'Archi-Check', kbHunt:'Jagd', kbCapture:'Sichtbaren Archi fangen', kbDiscard:'Verwerfen', kbUnderground:'Unterirdisch', kbHome:'Karte Startpunkt', kbPresentation:'Präsentation', kbHintCap:'✓ Gefangen', showCapOn:'✕ Fänge', showCapOff:'👁 Ausblenden', showCapTitle:'Ausblend-Modus: Gefangene sichtbar aber abgeblendet', favTitle:'Nur Favoriten anzeigen', notifRespawn:'⏰ {0} ist respawnt!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} entfernt', notifCdCleared:'🗑 {0} Cooldowns gelöscht', notifZoneDone:'🎉 {0} abgeschlossen!', notifZonesLoaded:'✓ {0} Zonen geladen', notifProgressExported:'Fortschritt exportiert', notifProgressImported:'{0} Archimonster importiert', notifLogout:'Abgemeldet', notifSyncActive:'☁ Sync aktiv', notifSyncUploaded:'☁ Lokaler Fortschritt hochgeladen', notifSyncLoaded:'☁ Fortschritt aus der Cloud geladen', notifDevOn:'🔧 DEV-Modus aktiv', notifDevOff:'DEV-Modus deaktiviert', notifMapExported:'Karte exportiert ✓', clTitle:'📋 Verlauf', statsTitle:'Statistiken', presExit:'✕ Beenden', zfTitle:'Nach Zone filtern', zfAll:'Alle', zfNone:'Keine', zfNoneSelected:'⚠ Keine Zone ausgewählt', zfFilteredN:'📍 {0} Zonen gefiltert', kbClose:'Schließen', ugBtnTitle:'Unterwelt-Modus', ugNavTitle:'Unterweltzonen', ugNavEmpty:'Keine Unterweltzonen', ugSurface:'Oberfläche', sdUgEntrances:'Unterwelt-Eingänge', hUgEntrances:'Zeigt 🕳-Symbole auf der Karte, die Eingänge zu Untergrundgebieten markieren. Klicken zum direkten Zugang. Hover zum Hervorheben des Bereichs.', sdCaza:'Jagd-Modus', sdSpotlightSidebar:'Spotlight beim Hover (Sidebar)', hSpotlightSidebar:'Beim Hover über ein Archimonster in der linken Sidebar werden die anderen Kartenicons abgeblendet. Deaktivieren, wenn die Sidebar die Kartensicht nicht beeinflussen soll.', hsTitle:'📋 Jagdsitzung', hsSub:'{0} Archis in dieser Sitzung gejagt', hsSubNone:'Keine Kills in dieser Sitzung', hsApply:'✓ Fänge anwenden', hsClear:'🗑 Sitzung löschen', hsEmpty:'Noch keine Kills. Geh jagen und komm zurück.', hsAlreadyCap:'bereits gefangen', hsKills:'💀 {0}', hsSelectAll:'Alle auswählen', hsDeselectAll:'Alle abwählen', notifHsApplied:'{0} Fänge angewendet', notifHsCleared:'Jagdsitzung gelöscht', adxTitle:'📖 Bestiar', adxBtn:'📖 Bestiar', adxAll:'Alle', adxCaptured:'Gefangen', adxPending:'Ausstehend', adxInstock:'Auf Lager', adxCapOf:'{0} / {1} gefangen', adxInvTotal:'{0} Archis · {1} Stk.', adxEmpty:'Keine Ergebnisse.', adxSortStep:'Schritt-Nr.', adxSortName:'Name', adxSortLevel:'Stufe', adxSortStock:'Bestand', notifInvCleared:'Inventar geleert', adxNotes:'Notizen', adxFavorites:'Favoriten', notifCsvExported:'Inventar exportiert', notifCsvImported:'Inventar importiert', notifTabSync:'↕ Von anderem Tab synchronisiert', adxClrTitle:'🗑 Inventar leeren', adxClrDesc:'Sicher? Inventar wird geleert und Fänge auf null zurückgesetzt.', adxClrOk:'🗑 Leeren', adxClrCancel:'Abbrechen', sfAll:'Alle', stepLbl:'Stufe', stepAll:'Alle', hideDoneLbl:'Nur ausstehend', rtTitle:'🗺 Routen-Modus', rtEmpty:'Unterzonen mit ➕ hinzufügen oder ⚡ Auto nutzen.', rtPending:'ausst.', rtAuto:'⚡ Auto', rtClear:'🗑 Leeren', rtPrev:'← Zurück', rtNext:'Weiter →', rtAddTitle:'Zur Route hinzufügen', rtAlready:'bereits in der Route', rtAdded:'zur Route hinzugefügt', rtCalced:'Route: {0} Zonen', rtAllDone:'Alle Stopps geprüft ✓', rtNoPending:'Keine ausstehenden Zonen', rtChecked:'Geprüft', rtUncheck:'Abhaken', rtBtn:'🗺 Route', huntHideCap:'Gefangene ausblenden', rtAddZone:'Ganze Zone zur Route', rtAutoZone:'⚡ Nur diese Zone', sdRouteBtn:'➕ Routenschaltflächen', hRouteBtn:'Zeigt ➕-Schaltflächen an Unterzonen und ein ▦-Symbol an Zonenkopfzeilen zum schnellen Hinzufügen zur Route.', sdCompact:'Kompakter Modus', hCompact:'Verkleinert die Sidebar-Elemente, um mehr Archimonster auf dem Bildschirm anzuzeigen.', sdTutorial:'Tutorial anzeigen', tutSkip:'Überspringen', tutNext:'Weiter →', tutPrev:'← Zurück', tutFinish:'Loslegen!', tutStep:'Schritt {0} von {1}', tut1Title:'Willkommen bei ARCHIDEX', tut1Body:'Dein Leitfaden für die Jagd auf alle Archimonster in Dofus. Diese kurze Tour erklärt das Wesentliche.', tut2Title:'Die Karte', tut2Body:'Alle Archimonster erscheinen hier. Klicke auf ein Symbol, um dessen Infos zu sehen und es als gefangen zu markieren.', tut3Title:'Spielmodi', tut3Body:'Archi-Check dient zur Fangverfolgung. Der Jagd-Modus aktiviert Respawn-Cooldowns für aktive Jagdsitzungen.', tut4Title:'Die Seitenleiste', tut4Body:'Listet alle Archis nach Zone und Unterzone. Nutze Suche und Filter, um jeden Archi zu finden.', tut5Title:'Einen Archi fangen', tut5Body:'Klicke auf ✓ neben einem Archi, um ihn als gefangen zu markieren. Der Zähler aktualisiert sich sofort.', tut6Title:'Bestiar', tut6Body:'Verwalte dein Inventar, filtere nach Seelensteinen, füge Notizen hinzu und exportiere als CSV.', tut7Title:'Optionen', tut7Body:'Passe das Erscheinungsbild an, verwalte mehrere Konten, aktiviere den Kompaktmodus und vieles mehr.', tut8Title:'Alles bereit!', tut8Body:'Du kennst das Wesentliche. Du kannst dieses Tutorial jederzeit über Optionen wiederholen.', tutRouteTitle:'Routen-Modus', tutRouteBody:'Plane deine Jagdroute: füge Unterzonen mit ➕ hinzu, nutze ⚡ Auto für den optimalen Weg und navigiere mit ← Zurück / Weiter →. Die Karte fliegt automatisch zu jedem Stopp.', tut4MobBody:'Tippe auf ☰, um die Archis nach Zone zu öffnen. Nutze Suche und Filter, um jeden Archi zu finden.', notifMapLoading:'Karte wird geladen…', betaNothingSelected:'Nichts ausgewählt', betaNoSpawns:'Keine Spawns auf der Karte', betaDeleteConfirm:'{0} Spawns löschen? Diese Aktion ist nicht rückgängig zu machen.', betaAllDeleted:'Alle Spawns gelöscht', betaNoNewSpawns:'Keine neuen Spawns hinzuzufügen', betaCancelSel:'✕ Auswahl aufheben', betaSpawnDeleted:'✕ Spawn gelöscht', betaSelectedN:'{0} ausgewählt', treeEmpty:'Nutze den Beta-Modus, um Archimonster hinzuzufügen.', searchMoreN:'... und {0} weitere — Suche verfeinern', killsSession:'Kills diese Sitzung', ttlMarkSub:'Unterzone markieren/entmarkieren', ttlGotoZone:'Zur Zone auf der Karte gehen', ttlFav:'Favorit', ttlAddCooldown:'Zum Cooldown hinzufügen', ttlMarkZone:'Zone markieren/entmarkieren', ttlRevZone:'Zone als überprüft markieren', ttlGotoZoneShort:'Zur Zone', ttlReload:'Seite neu laden (F5)', ttlSettings:'Optionen', treeCollapseAll:'⊟ Alle', ttlCollapseAll:'Alle einklappen', treeExpandAll:'⊞ Alle', ttlExpandAll:'Alle ausklappen', zfViewAll:'✕ Alles anzeigen', ttlHideDone:'Nur ausstehend', ttlHuntHideCap:'Gefangene ausblenden', ttlCompact:'Kompakter Modus', bdo:'Zugoptionen', betaStartSel:'☐ Zum Löschen auswählen', rtCopied:'📋 Route kopiert', rtExport:'📋 Kopieren', rtDragHint:'Zum Neuordnen ziehen', rtSeed:'🔗 Saat', rtImport:'📥 Importieren', rtSeedCopied:'🔗 Saat kopiert', rtSeedPrompt:'Routensaat einfügen:', rtSeedInvalid:'Ungültige Saat', rtSeedLoaded:'{0} Stopps importiert', expTitle:'🖼 PNG exportieren', expSpawns:'Spawn-Punkte auf der Karte', expList:'Fehlendenliste', expLegend:'Farblegende', expCancel:'Abbrechen', expConfirm:'Exportieren',expIcons:'Archi-Symbole', expColorStatus:'Nach Status färben', expRoute:'Aktive Route', expHeader:'Info-Kopfzeile', expLegCap:'Gefangen', expLegPend:'Nicht gefangen', expLegHunt:'In Jagd', expMissing:'Fehlend', expHideCap:'Nur fehlende', tutTipTitle:'Archi-Tooltip', tutTipBody:'Fahre mit der Maus über ein Kartensymbol (oder tippe darauf), um die Archi-Details zu sehen: Name, Zone, zugehöriges Monster, Seelensteingroße und DofusDB-Link. Klicke auf "Als gefangen markieren", um es zu erfassen.', tutSearchTitle:'Suche & Filter', tutSearchBody:'Nutze die Suchleiste, um jeden Archi nach Name zu finden. ★ zeigt nur deine Favoriten. ▽ filtert nach bestimmten Zonen. ◉ blendet bereits gefangene Archis aus.', tutStoneTitle:'Seelenstein-Filter', tutStoneBody:'Filtere Archimonster nach benötigter Seelensteingröße: Klein (50), Mittel (100), Groß (150), Riesig (190) oder Gigantisch. Hilfreich, um zu wissen, welche du mit deinen aktuellen Steinen jagen kannst.', tutCapCountTitle:'Fortschritt', tutCapCountBody:'Der Zähler in der oberen Leiste zeigt, wie viele Archis von 286 du gefangen hast. Der dünne Fortschrittsbalken oben gibt eine schnelle visuelle Übersicht. Das Statistikpanel zeigt den Fortschritt nach Zone.', tutShowCapTitle:'Verwerfen-Modus', tutShowCapBody:'Die Schaltfläche 👁 Verwerfen zeigt bereits gefangene Archimonster grau auf der Karte. Praktisch, um auf einen Blick zu sehen, was noch aussteht.', tutUgTitle:'Untergrund-Modus', tutUgBody:'Der blaue runde Knopf (oben links auf der Karte) aktiviert den Untergrundmodus. Er zeigt unterirdische Zonen wie Kanalisation und Krypten. Die Kartensymbole wechseln zu den Archis dieser Zonen.', expPortrait:'Archi-Porträts', expGroupBy:'Gruppieren nach', expGroupStone:'Seelensteingröße', expGroupStep:'Queststufe' },
+  pt: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Caça', searchPlaceholder:'Pesquisar archi ou monstro…', caplogEmpty:'Sem capturas ainda', resetTitle:'↺ Reset', resetDesc:'Seleciona o que queres eliminar:', resetChkCap:'Arquimonstros capturados', resetChkLog:'Histórico de capturas', resetCancel:'Cancelar', resetConfirm:'↺ Reiniciar', resetDone:'↺ Reiniciado', resetPartCap:'capturas', resetPartLog:'histórico', resetAnd:'e', cdTitle:'⏱ Cooldowns ativos', cdEmpty:'Sem cooldowns', cdClearAll:'🗑 Limpar todos', hPolygons:'Desenha áreas coloridas no mapa delimitando cada subzona. Útil para se orientar e ver visualmente o progresso de cada área.', hHighlight:'Ao passar o mouse por uma zona na sidebar, destaca o seu polígono no mapa. Ao passar pelo polígono, destaca a zona na sidebar.', hGoto:'Exibe um botão ↪ junto a cada subzona na sidebar. Ao clicar, o mapa centraliza automaticamente nessa subzona.', hAutofly:'Clicar num arquimonstro na sidebar faz o mapa voar até sua posição e abre o tooltip. Se desativado, abre a ficha completa num painel.', hTiplock:'Clicar num ícone de archi no mapa fixa o tooltip na tela; ele não muda ao passar o mouse por outros archis. Clicar fora para fechar.', hSpotlight:'Ao passar o mouse por um arquimonstro (sidebar ou mapa), esmaece e reduz os outros ícones para destacar o que está sendo visualizado.', hMarkers:'Exibe ou oculta todos os ícones de arquimonstros no mapa. Útil para ver melhor os polígonos de zona ou tirar capturas limpas.', hStone:'Exibe o seletor de pedra de alma na sidebar para filtrar arquimonstros pelo tamanho de pedra necessário.', hFav:'Exibe o botão ★ ao lado de cada arquimonstro na sidebar para marcá-lo como favorito e filtrá-lo com o botão ★ da pesquisa.', hCazanotif:'Somente no modo Caça. Exibe uma notificação em tela quando o timer de respawn de um arquimonstro chega a zero.', hMulti:'Controla contadores de capturas para várias contas simultaneamente (2–20). Cada clique em "capturado" avança o contador da próxima conta.', hDaymode:'Alterna a paleta de cores de escura (noite) para clara (dia). Útil em ambientes com muita luz ambiente.', hProgbar:'Exibe uma barra de progresso fina no topo da tela indicando quantos arquimonstros foram capturados do total (286).', hStats:'Exibe um painel na sidebar com o progresso de captura por zona e subzona, com barras de progresso individuais.', hCaplog:'Exibe um registro no canto inferior direito com os últimos arquimonstros capturados na sessão atual, com o horário de cada captura.', optTitle:'Opções',   capMark:'Marcar como capturado', capUnmark:'Desmarcar', capAccounts:'contas', capAdd:'Adicionar', tipHint:'Clique para mais info →', tipHintClose:'Clique fora para fechar ✕', unknownLevel:'Nível desconhecido', noLevelData:'Sem dados de nível', dofusdbLink:'Ver no DofusDB ↗', stones:['Pequena','Média','Grande','Enorme','Gigantesca'],   stoneLabel:'Pedra de Alma',  stonesTitle:'Pedras de Alma necessárias', allCap:'Tudo capturado! 🎉',     noLevel:'archis sem nível',    noZone:'Sem zona',    noSub:'—', unknownStone:'desconhecida', zona:'Zona', subzona:'Subzona', nivel:'Nível', piedra:'Pedra de Alma', coords:'Coords', info:'Info', sdSubzonas:'Exibição de subzonas', sdPolygons:'Polígonos de zona', sdTooltip:'Tooltip ao passar o mouse', sdHighlight:'Destacar na sidebar', sdGoto:'Botão ↪ ir à zona', sdArchi:'Exibição de arquimonstro', sdAutoFly:'Voar automaticamente ao archi', sdStoneFilter:'Mostrar filtro de pedra', sdFavBtn:'Mostrar botão favorito', sdMarkersHide:'Mostrar ícones do mapa', sdCloneDots:'Mini-ponto em clones', hCloneDots:'Arquimonstros com vários spawns exibem as suas cópias com um tom laranja, tamanho reduzido e opacidade menor. Assim o spawn principal destaca-se e reduz-se a aglomeração visual.', sdSpotlight:'Efeito spotlight ao passar', sdTipLock:'Fixar tooltip ao clicar', sdCazaNotif:'Notificações de respawn', sdCuentas:'Contas', sdMulti:'Multi-conta', sdMultiN:'Nº contas (2–20)', sdTheme:'Aparência', sdDayOn:'🌞 Modo dia', sdDayOff:'🌙 Modo noite', sdDatos:'Dados', sdInterface:'Interface', sdProgressBar:'Barra de progresso', sdHomeBtn:'Botão início (🏠)', sdKeyShortcuts:'Atalhos de teclado', sdStats:'Painel de estatísticas', sdCaptureLog:'Histórico de capturas', sdZoneAnim:'Animação zona completa', sdPresMode:'Modo apresentação', kbSearch:'Busca', kbCheck:'Archi-Check', kbHunt:'Caça', kbCapture:'Capturar archi visível', kbDiscard:'Descarte', kbUnderground:'Subterrâneo', kbHome:'Início do mapa', kbPresentation:'Apresentação', kbHintCap:'✓ Capturado', showCapOn:'✕ Capturas', showCapOff:'👁 Descartar', showCapTitle:'Modo descartar: capturados visíveis mas esmaecidos no mapa', favTitle:'Mostrar apenas favoritos', notifRespawn:'⏰ {0} reapareceu!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} desmarcado', notifCdCleared:'🗑 {0} cooldowns eliminados', notifZoneDone:'🎉 {0} completada!', notifZonesLoaded:'✓ {0} zonas carregadas', notifProgressExported:'Progresso exportado', notifProgressImported:'{0} arquimonstros importados', notifLogout:'Sessão encerrada', notifSyncActive:'☁ Sincronização ativa', notifSyncUploaded:'☁ Progresso local enviado', notifSyncLoaded:'☁ Progresso carregado da nuvem', notifDevOn:'🔧 Modo DEV ativado', notifDevOff:'Modo DEV desativado', notifMapExported:'Mapa exportado ✓', clTitle:'📋 Histórico', statsTitle:'Estatísticas', presExit:'✕ Sair', zfTitle:'Filtrar por zona', zfAll:'Todas', zfNone:'Nenhuma', zfNoneSelected:'⚠ Nenhuma zona selecionada', zfFilteredN:'📍 {0} zonas filtradas', kbClose:'Fechar', ugBtnTitle:'Modo subterrâneo', ugNavTitle:'Zonas subterrâneas', ugNavEmpty:'Sem zonas subterrâneas', ugSurface:'Superfície', sdUgEntrances:'Entradas subterrâneas', hUgEntrances:'Exibe os ícones 🕳 no mapa marcando as entradas para zonas subterrâneas. Clique para ir diretamente à zona. Passe o mouse para iluminar a área.', sdCaza:'Modo Caça', sdSpotlightSidebar:'Spotlight ao hover (sidebar)', hSpotlightSidebar:'Ao passar o mouse sobre um arquimonstro na sidebar esquerda, esmaece os demais ícones no mapa. Desative se preferir que a sidebar não afete a visibilidade do mapa.', hsTitle:'📋 Sessão de caça', hsSub:'{0} archis caçados nesta sessão', hsSubNone:'Sem kills nesta sessão', hsApply:'✓ Aplicar capturas', hsClear:'🗑 Limpar sessão', hsEmpty:'Sem kills registados ainda. Vai caçar e volta aqui.', hsAlreadyCap:'já capturado', hsKills:'💀 {0}', hsSelectAll:'Selecionar todos', hsDeselectAll:'Desselecionar todos', notifHsApplied:'{0} capturas aplicadas', notifHsCleared:'Sessão de caça limpa', adxTitle:'📖 Bestiário', adxBtn:'📖 Bestiário', adxAll:'Todos', adxCaptured:'Capturados', adxPending:'Pendentes', adxInstock:'Em stock', adxCapOf:'{0} / {1} capturados', adxInvTotal:'{0} archis · {1} un.', adxEmpty:'Sem resultados.', adxSortStep:'Nº passo', adxSortName:'Nome', adxSortLevel:'Nível', adxSortStock:'Stock', notifInvCleared:'Inventário esvaziado', adxNotes:'Notas', adxFavorites:'Favoritos', notifCsvExported:'Inventário exportado', notifCsvImported:'Inventário importado', notifTabSync:'↕ Sincronizado de outra aba', adxClrTitle:'🗑 Limpar inventário', adxClrDesc:'Tem certeza? O inventário será apagado e as capturas zeradas.', adxClrOk:'🗑 Limpar', adxClrCancel:'Cancelar', sfAll:'Todas', stepLbl:'Etapa', stepAll:'Todas', hideDoneLbl:'Somente pendentes', rtTitle:'🗺 Modo Rota', rtEmpty:'Adicione subzonas com ➕ ou use ⚡ Auto para calcular a rota.', rtPending:'pend.', rtAuto:'⚡ Auto', rtClear:'🗑 Limpar', rtPrev:'← Ant', rtNext:'Próx →', rtAddTitle:'Adicionar à rota', rtAlready:'já está na rota', rtAdded:'adicionada à rota', rtCalced:'Rota: {0} zonas', rtAllDone:'Todas as paradas verificadas ✓', rtNoPending:'Sem zonas pendentes', rtChecked:'Verificada', rtUncheck:'Desmarcar', rtBtn:'🗺 Rota', huntHideCap:'Ocultar capturados', rtAddZone:'Adicionar zona completa', rtAutoZone:'⚡ Rota só esta zona', sdRouteBtn:'Botões ➕ de rota nas zonas', hRouteBtn:'Mostra os botões ➕ nas subzonas e o botão ▦ nas zonas para adicioná-las rapidamente à rota.', sdCompact:'Modo compacto', hCompact:'Reduz o tamanho dos itens do sidebar para exibir mais arquimonstros por tela.', sdTutorial:'Ver tutorial', tutSkip:'Saltar', tutNext:'Seguinte →', tutPrev:'← Anterior', tutFinish:'Começar!', tutStep:'Passo {0} de {1}', tut1Title:'Bem-vindo ao ARCHIDEX', tut1Body:'O teu guia para caçar todos os arquimonstros de Dofus. Esta visita rápida cobre o essencial.', tut2Title:'O mapa', tut2Body:'Todos os arquimonstros aparecem aqui. Clica num ícone para ver as suas informações e marcá-lo como capturado.', tut3Title:'Modos de jogo', tut3Body:'Archi-Check é para acompanhar capturas. O Modo Caça ativa cooldowns de respawn para sessões de caça ativas.', tut4Title:'O sidebar', tut4Body:'Lista todos os arquis por zona e subzona. Usa a pesquisa e os filtros para encontrar qualquer arqui.', tut5Title:'Capturar um arqui', tut5Body:'Clica no botão ✓ ao lado de qualquer arqui para o marcar. O contador do topbar atualiza-se imediatamente.', tut6Title:'Bestiário', tut6Body:'Gere o teu inventário, filtra por pedra de alma, adiciona notas e exporta o teu progresso em CSV.', tut7Title:'Opções', tut7Body:'Personaliza a aparência, gere multiconta, ativa o modo compacto e muito mais.', tut8Title:'Tudo pronto!', tut8Body:'Já conheces o essencial. Podes repetir este tutorial a qualquer momento em Opções.', tutRouteTitle:'Modo Rota', tutRouteBody:'Planeia o teu percurso de caça: adiciona subzonas com ➕, usa ⚡ Auto para o caminho ideal e navega com ← Ant / Próx →. O mapa voa para cada paragem automaticamente.', tut4MobBody:'Toca em ☰ para abrir a lista de archis por zona. Usa a pesquisa e os filtros para encontrar qualquer arqui.', notifMapLoading:'A carregar mapa…', betaNothingSelected:'Nada selecionado', betaNoSpawns:'Sem spawns no mapa', betaDeleteConfirm:'Apagar os {0} spawns do mapa? Esta ação não pode ser desfeita.', betaAllDeleted:'Todos os spawns eliminados', betaNoNewSpawns:'Sem spawns novos para adicionar', betaCancelSel:'✕ Cancelar seleção', betaSpawnDeleted:'✕ Spawn eliminado', betaSelectedN:'{0} selecionados', treeEmpty:'Usa o modo Beta para adicionar arquimonstros.', searchMoreN:'... e {0} mais — refina a pesquisa', killsSession:'kills nesta sessão', ttlMarkSub:'Marcar/desmarcar subzona', ttlGotoZone:'Ir para zona no mapa', ttlFav:'Favorito', ttlAddCooldown:'Adicionar ao cooldown', ttlMarkZone:'Marcar/desmarcar zona', ttlRevZone:'Marcar zona como revista', ttlGotoZoneShort:'Ir à zona', ttlReload:'Recarregar página (F5)', ttlSettings:'Opções', treeCollapseAll:'⊟ Tudo', ttlCollapseAll:'Recolher tudo', treeExpandAll:'⊞ Tudo', ttlExpandAll:'Expandir tudo', zfViewAll:'✕ Ver tudo', ttlHideDone:'Somente pendentes', ttlHuntHideCap:'Ocultar capturados', ttlCompact:'Modo compacto', bdo:'Opções de arrastamento', betaStartSel:'☐ Selecionar para apagar', rtCopied:'📋 Rota copiada', rtExport:'📋 Copiar', rtDragHint:'Arraste para reordenar', rtSeed:'🔗 Semente', rtImport:'📥 Importar', rtSeedCopied:'🔗 Semente copiada', rtSeedPrompt:'Cola a semente de rota:', rtSeedInvalid:'Semente invalida', rtSeedLoaded:'{0} paragens importadas', expTitle:'🖼 Exportar PNG', expSpawns:'Pontos de spawn no mapa', expList:'Lista de em falta', expLegend:'Legenda de cores', expCancel:'Cancelar', expConfirm:'Exportar',expIcons:'Ícones de archi', expColorStatus:'Colorir por estado', expRoute:'Rota ativa', expHeader:'Cabeçalho de info', expLegCap:'Capturado', expLegPend:'Sem capturar', expLegHunt:'Em caça', expMissing:'Em falta', expHideCap:'Apenas em falta', tutTipTitle:'Tooltip do archi', tutTipBody:'Passe o cursor (ou toque) num ícone do mapa para ver a ficha do arquimonstro: nome, zona, monstro associado, tamanho da pedra de alma e link para o DofusDB. Clica em "Marcar como capturado" para registá-lo.', tutSearchTitle:'Pesquisa e filtros', tutSearchBody:'Usa a barra de pesquisa para encontrar qualquer archi pelo nome. O botão ★ mostra apenas os teus favoritos. ▽ filtra por zonas específicas. ◉ oculta os arquis já capturados.', tutStoneTitle:'Filtro de pedra de alma', tutStoneBody:'Filtra os arquimonstros pelo tamanho de pedra de alma necessário: Pequena (50), Média (100), Grande (150), Enorme (190) ou Gigantesca. Útil para saber quais podes caçar com as tuas pedras atuais.', tutCapCountTitle:'Progresso', tutCapCountBody:'O contador na barra superior mostra quantos archis capturaste de 286. A barra de progresso no topo da ecrã dá uma referência visual rápida. O painel de estatísticas do sidebar detalha o progresso por zona.', tutShowCapTitle:'Modo Descarte', tutShowCapBody:'O botão 👁 Descarte mostra no mapa os arquimonstros já capturados, em cinzento. Útil para ver de relance o que ainda está pendente.', tutUgTitle:'Modo Subterrâneo', tutUgBody:'O botão circular azul (canto superior esquerdo do mapa) ativa o modo subterrâneo. Mostra as zonas underground como esgotos, galerias e criptas. Os ícones do mapa mudam para os archis dessas zonas.', expPortrait:'Retratos do archi', expGroupBy:'Agrupar por', expGroupStone:'Pedra de alma', expGroupStep:'Etapa de missão' },
+  it: { modeCheck:'◉ Archi-Check', modeHunt:'⚔ Caccia', searchPlaceholder:'Cerca archi o mostro…', caplogEmpty:'Nessuna cattura ancora', resetTitle:'↺ Reset', resetDesc:'Seleziona cosa vuoi eliminare:', resetChkCap:'Archimonsters catturati', resetChkLog:'Cronologia catture', resetCancel:'Annulla', resetConfirm:'↺ Reimposta', resetDone:'↺ Reimpostato', resetPartCap:'catture', resetPartLog:'cronologia', resetAnd:'e', cdTitle:'⏱ Cooldown attivi', cdEmpty:'Nessun cooldown', cdClearAll:'🗑 Cancella tutti', hPolygons:'Disegna aree colorate sulla mappa che delimitano ogni sottozona. Utile per orientarsi e visualizzare il progresso di ogni area.', hHighlight:'Passando il mouse su una zona nella sidebar, evidenzia il suo poligono sulla mappa. Passando su un poligono, evidenzia la zona corrispondente.', hGoto:'Mostra un pulsante ↪ accanto a ogni sottozona nella sidebar. Cliccandolo, la mappa si centra automaticamente su quella sottozona.', hAutofly:'Cliccare un archimostro nella sidebar porta la mappa alla sua posizione e apre il tooltip. Se disattivato, apre la scheda completa in un pannello.', hTiplock:'Cliccando un\'icona archi sulla mappa, il tooltip rimane fisso e non cambia passando su altri archis. Cliccare fuori per chiudere.', hSpotlight:'Passando il mouse su un archimostro (sidebar o mappa), attenua e riduce le altre icone per evidenziare quello visualizzato.', hMarkers:'Mostra o nasconde tutte le icone degli archimonsters sulla mappa. Utile per vedere meglio i poligoni o fare screenshot puliti.', hStone:'Mostra il selettore di pietra dell\'anima nella sidebar per filtrare gli archimonsters per dimensione di pietra richiesta.', hFav:'Mostra il pulsante ★ accanto a ogni archimostro nella sidebar per salvarlo come preferito e filtrarlo con il pulsante ★ della ricerca.', hCazanotif:'Solo in modalità Caccia. Mostra una notifica a schermo quando il timer di respawn di un archimostro raggiunge zero.', hMulti:'Tiene il conteggio delle catture per più account contemporaneamente (2–20). Ogni clic su "catturato" avanza il contatore dell\'account successivo.', hDaymode:'Cambia la palette dei colori da scura (notte) a chiara (giorno). Utile in ambienti con molta luce.', hProgbar:'Mostra una sottile barra di avanzamento in cima alla schermata che indica quanti archimonsters sono stati catturati su 286.', hStats:'Mostra un pannello nella sidebar con il progresso di cattura suddiviso per zona e sottozona, con barre di avanzamento individuali.', hCaplog:'Mostra un registro in basso a destra con gli ultimi archimonsters catturati nella sessione corrente, con l\'ora di ogni cattura.', optTitle:'Opzioni',  capMark:'Segna come catturato', capUnmark:'Rimuovi segno', capAccounts:'account', capAdd:'Aggiungi', tipHint:'Clicca per più info →', tipHintClose:'Clic fuori per chiudere ✕', unknownLevel:'Livello sconosciuto', noLevelData:'Nessun dato livello', dofusdbLink:'Vedi su DofusDB ↗', stones:['Piccola','Media','Grande','Enorme','Gigantesca'],   stoneLabel:"Pietra dell'Anima", stonesTitle:"Pietre dell'Anima necessarie", allCap:'Tutto catturato! 🎉', noLevel:'archi senza livello', noZone:'Senza zona', noSub:'—', unknownStone:'sconosciuta', zona:'Zona', subzona:'Sottozona', nivel:'Livello', piedra:"Pietra dell'Anima", coords:'Coord.', info:'Info', sdSubzonas:'Visualizzazione sottozone', sdPolygons:'Poligoni di zona', sdTooltip:'Tooltip al passaggio', sdHighlight:'Evidenzia nella sidebar', sdGoto:'Pulsante ↪ vai alla zona', sdArchi:'Visualizzazione archimostro', sdAutoFly:'Vola automaticamente all\'archi', sdStoneFilter:'Mostra filtro pietre', sdFavBtn:'Mostra pulsante preferiti', sdMarkersHide:'Mostra icone mappa', sdCloneDots:'Mini-punto sui cloni', hCloneDots:'Mostra i duplicati dello stesso archimostro come un piccolo punto colorato al posto dell icona completa, riducendo il disordine visivo sulla mappa.', sdSpotlight:'Effetto spotlight al passaggio', sdTipLock:'Blocca tooltip al clic', sdCazaNotif:'Notifiche di respawn', sdCuentas:'Account', sdMulti:'Multi-account', sdMultiN:'N. account (2–20)', sdTheme:'Aspetto', sdDayOn:'🌞 Modalità giorno', sdDayOff:'🌙 Modalità notte', sdDatos:'Dati', sdInterface:'Interfaccia', sdProgressBar:'Barra di avanzamento', sdHomeBtn:'Pulsante home (🏠)', sdKeyShortcuts:'Scorciatoie tastiera', sdStats:'Pannello statistiche', sdCaptureLog:'Cronologia catture', sdZoneAnim:'Animazione zona completa', sdPresMode:'Modalità presentazione', kbSearch:'Ricerca', kbCheck:'Archi-Check', kbHunt:'Caccia', kbCapture:'Cattura archi visibile', kbDiscard:'Scarto', kbUnderground:'Sotterraneo', kbHome:'Inizio mappa', kbPresentation:'Presentazione', kbHintCap:'✓ Catturato', showCapOn:'✕ Catture', showCapOff:'👁 Scarto', showCapTitle:'Modalità scarto: catturati visibili ma attenuati sulla mappa', favTitle:'Mostra solo i preferiti', notifRespawn:'⏰ {0} è ricomparso!', notifDead:'💀 {0} — {1}min', notifUndead:'{0} rimosso', notifCdCleared:'🗑 {0} cooldown eliminati', notifZoneDone:'🎉 {0} completata!', notifZonesLoaded:'✓ {0} zone caricate', notifProgressExported:'Progresso esportato', notifProgressImported:'{0} archimonsters importati', notifLogout:'Sessione chiusa', notifSyncActive:'☁ Sincronizzazione attiva', notifSyncUploaded:'☁ Progresso locale caricato', notifSyncLoaded:'☁ Progresso caricato dal cloud', notifDevOn:'🔧 Modalità DEV attiva', notifDevOff:'Modalità DEV disattiva', notifMapExported:'Mappa esportata ✓', clTitle:'📋 Cronologia', statsTitle:'Statistiche', presExit:'✕ Esci', zfTitle:'Filtra per zona', zfAll:'Tutte', zfNone:'Nessuna', zfNoneSelected:'⚠ Nessuna zona selezionata', zfFilteredN:'📍 {0} zone filtrate', kbClose:'Chiudi', ugBtnTitle:'Modalità sotterranea', ugNavTitle:'Zone sotterranee', ugNavEmpty:'Nessuna zona sotterranea', ugSurface:'Superficie', sdUgEntrances:'Ingressi sotterranei', hUgEntrances:'Mostra le icone 🕳 sulla mappa che segnano gli ingressi alle zone sotterranee. Cliccando si accede direttamente alla zona. Passare il mouse per evidenziare l\'area.', sdCaza:'Modalità Caccia', sdSpotlightSidebar:'Spotlight all\'hover (sidebar)', hSpotlightSidebar:'Passando il mouse su un archimostro nella sidebar sinistra, attenua le altre icone sulla mappa. Disattivare se si preferisce che la sidebar non influenzi la visibilità della mappa.', hsTitle:'📋 Sessione di caccia', hsSub:'{0} archi cacciati in questa sessione', hsSubNone:'Nessun kill in questa sessione', hsApply:'✓ Applica catture', hsClear:'🗑 Cancella sessione', hsEmpty:'Nessun kill registrato ancora. Vai a cacciare e torna qui.', hsAlreadyCap:'già catturato', hsKills:'💀 {0}', hsSelectAll:'Seleziona tutti', hsDeselectAll:'Deseleziona tutti', notifHsApplied:'{0} catture applicate', notifHsCleared:'Sessione di caccia cancellata', adxTitle:'📖 Bestiario', adxBtn:'📖 Bestiario', adxAll:'Tutti', adxCaptured:'Catturati', adxPending:'In attesa', adxInstock:'In stock', adxCapOf:'{0} / {1} catturati', adxInvTotal:'{0} archi · {1} pz.', adxEmpty:'Nessun risultato.', adxSortStep:'Nº passo', adxSortName:'Nome', adxSortLevel:'Livello', adxSortStock:'Stock', notifInvCleared:'Inventario svuotato', adxNotes:'Note', adxFavorites:'Preferiti', notifCsvExported:'Inventario esportato', notifCsvImported:'Inventario importato', notifTabSync:'↕ Sincronizzato da un altro tab', adxClrTitle:'🗑 Svuota inventario', adxClrDesc:'Sicuro? L\'inventario verrà svuotato e le catture azzerate.', adxClrOk:'🗑 Svuota', adxClrCancel:'Annulla', sfAll:'Tutte', stepLbl:'Tappa', stepAll:'Tutte', hideDoneLbl:'Solo in attesa', rtTitle:'🗺 Modalità Percorso', rtEmpty:'Aggiungi sottozone con ➕ o usa ⚡ Auto per calcolare il percorso.', rtPending:'att.', rtAuto:'⚡ Auto', rtClear:'🗑 Svuota', rtPrev:'← Prec', rtNext:'Succ →', rtAddTitle:'Aggiungi al percorso', rtAlready:'già nel percorso', rtAdded:'aggiunta al percorso', rtCalced:'Percorso: {0} zone', rtAllDone:'Tutte le tappe verificate ✓', rtNoPending:'Nessuna zona in attesa', rtChecked:'Verificata', rtUncheck:'Rimuovi segno', rtBtn:'🗺 Percorso', huntHideCap:'Nascondi catturati', rtAddZone:'Aggiungi zona intera', rtAutoZone:'⚡ Solo questa zona', sdRouteBtn:'Pulsanti ➕ percorso nelle zone', hRouteBtn:'Mostra i pulsanti ➕ nelle sottozone e il pulsante ▦ nelle zone per aggiungerle rapidamente al percorso.', sdCompact:'Modalità compatta', hCompact:'Riduce le dimensioni degli elementi della sidebar per mostrare più archimonsters per schermata.', sdTutorial:'Vedi tutorial', tutSkip:'Salta', tutNext:'Avanti →', tutPrev:'← Indietro', tutFinish:'Inizia!', tutStep:'Passo {0} di {1}', tut1Title:'Benvenuto in ARCHIDEX', tut1Body:"La tua guida per cacciare tutti gli archimonsters di Dofus. Questo tour rapido copre l'essenziale.", tut2Title:'La mappa', tut2Body:"Tutti gli archimonsters appaiono qui. Clicca su un'icona per vedere le sue info e segnarlo come catturato.", tut3Title:'Modalità di gioco', tut3Body:'Archi-Check serve per tracciare le catture. La modalità Caccia attiva i cooldown di respawn per le sessioni attive.', tut4Title:'Il pannello laterale', tut4Body:'Elenca tutti gli archi per zona e sottozona. Usa la ricerca e i filtri per trovare qualsiasi archi.', tut5Title:'Catturare un archi', tut5Body:'Clicca su ✓ accanto a qualsiasi archi per segnarlo come catturato. Il contatore si aggiorna immediatamente.', tut6Title:'Bestiario', tut6Body:"Gestisci il tuo inventario, filtra per pietra dell'anima, aggiungi note ed esporta i progressi in CSV.", tut7Title:'Opzioni', tut7Body:'Personalizza l\'aspetto, gestisci il multi-account, attiva la modalità compatta e molto altro.', tut8Title:'Tutto pronto!', tut8Body:'Conosci l\'essenziale. Puoi rivedere questo tutorial in qualsiasi momento da Opzioni.', tutRouteTitle:'Modalità Percorso', tutRouteBody:'Pianifica il tuo percorso di caccia: aggiungi sottozone con ➕, usa ⚡ Auto per il percorso ottimale e naviga con ← Prec / Succ →. La mappa vola ad ogni tappa automaticamente.', tut4MobBody:'Tocca ☰ per aprire la lista degli archi per zona. Usa la ricerca e i filtri per trovare qualsiasi archi.', notifMapLoading:'Caricamento mappa…', betaNothingSelected:'Nessuna selezione', betaNoSpawns:'Nessuno spawn sulla mappa', betaDeleteConfirm:'Eliminare gli {0} spawn dalla mappa? Azione irreversibile.', betaAllDeleted:'Tutti gli spawn eliminati', betaNoNewSpawns:'Nessun nuovo spawn da aggiungere', betaCancelSel:'✕ Annulla selezione', betaSpawnDeleted:'✕ Spawn eliminato', betaSelectedN:'{0} selezionati', treeEmpty:'Usa la modalità Beta per aggiungere archimonsters.', searchMoreN:'... e altri {0} — raffina la ricerca', killsSession:'kill in questa sessione', ttlMarkSub:'Segna/deseleziona sottozona', ttlGotoZone:'Vai alla zona sulla mappa', ttlFav:'Preferito', ttlAddCooldown:'Aggiungi al cooldown', ttlMarkZone:'Segna/deseleziona zona', ttlRevZone:'Segna zona come revisionata', ttlGotoZoneShort:'Vai alla zona', ttlReload:'Ricarica pagina (F5)', ttlSettings:'Opzioni', treeCollapseAll:'⊟ Tutto', ttlCollapseAll:'Comprimi tutto', treeExpandAll:'⊞ Tutto', ttlExpandAll:'Espandi tutto', zfViewAll:'✕ Vedi tutto', ttlHideDone:'Solo in attesa', ttlHuntHideCap:'Nascondi catturati', ttlCompact:'Modalità compatta', bdo:'Opzioni di trascinamento', betaStartSel:'☐ Seleziona per eliminare', rtCopied:'📋 Percorso copiato', rtExport:'📋 Copia', rtDragHint:'Trascina per riordinare', rtSeed:'🔗 Seme', rtImport:'📥 Importa', rtSeedCopied:'🔗 Seme copiato', rtSeedPrompt:'Incolla il seme del percorso:', rtSeedInvalid:'Seme non valido', rtSeedLoaded:'{0} tappe importate', expTitle:'🖼 Esporta PNG', expSpawns:'Punti di spawn sulla mappa', expList:'Lista dei mancanti', expLegend:'Legenda colori', expCancel:'Annulla', expConfirm:'Esporta',expIcons:'Icone archi', expColorStatus:'Colorare per stato', expRoute:'Percorso attivo', expHeader:'Intestazione info', expLegCap:'Catturato', expLegPend:'Non catturato', expLegHunt:'In caccia', expMissing:'Mancanti', expHideCap:'Solo mancanti', tutTipTitle:'Tooltip dell\'archi', tutTipBody:'Passa il cursore (o tocca) un\'icona della mappa per vedere la scheda dell\'archimostro: nome, zona, mostro associato, dimensione della pietra dell\'anima e link a DofusDB. Clicca su "Segna come catturato" per registrarlo.', tutSearchTitle:'Ricerca e filtri', tutSearchBody:'Usa la barra di ricerca per trovare qualsiasi archi per nome. Il pulsante ★ mostra solo i tuoi preferiti. ▽ filtra per zone specifiche. ◉ nasconde gli archi già catturati.', tutStoneTitle:'Filtro pietra dell\'anima', tutStoneBody:'Filtra gli archimostri in base alla dimensione della pietra dell\'anima richiesta: Piccola (50), Media (100), Grande (150), Enorme (190) o Gigantesca. Utile per sapere quali puoi cacciare con le tue pietre attuali.', tutCapCountTitle:'Progresso', tutCapCountBody:'Il contatore nella barra superiore mostra quanti archi hai catturato su 286. La barra di avanzamento in cima allo schermo fornisce un riferimento visivo rapido. Il pannello statistiche nel sidebar dettaglia il progresso per zona.', tutShowCapTitle:'Modalità Scarto', tutShowCapBody:'Il pulsante 👁 Scarto mostra sulla mappa gli archimostri già catturati, in grigio. Utile per vedere a colpo d\'occhio cosa manca ancora.', tutUgTitle:'Modalità Sotterranea', tutUgBody:'Il pulsante circolare blu (in alto a sinistra della mappa) attiva la modalità sotterranea. Mostra le zone underground come fognature e cripte. Le icone della mappa cambiano agli archi di quelle zone.', expPortrait:'Ritratti archi', expGroupBy:'Raggruppa per', expGroupStone:'Pietra dell\'anima', expGroupStep:'Tappa missione' },
 };
 function t(key) { return (I18N[S.lang]||I18N.es)[key]; }
 function tf(key,...args){ let s=t(key)||''; args.forEach((a,i)=>{ s=s.replace(`{${i}}`,a); }); return s; }
@@ -293,116 +293,419 @@ function flyToArchi(archiId) {
   const m=Object.values(markers).find(mk=>String(mk._spawn.archi_id)===String(archiId));
   if(m) map.flyTo(m.getLatLng(), Math.max(map.getZoom(),2), {duration:0.6});
 }
-async function exportMapImage() {
-  notify(t('notifMapLoading'),'blue');
-  const ZOOM=1, TS=CFG.tileSize, grid=CFG.grid[ZOOM];
-  const mapW=grid.cols*TS, mapH=grid.rows*TS, SCALE=Math.pow(2,ZOOM);
 
-  // Cargar todos los tiles
-  const tilePromises=[];
-  for(let r=0;r<grid.rows;r++) for(let c=0;c<grid.cols;c++){
-    const idx=r*grid.cols+c+1;
-    tilePromises.push(new Promise(res=>{
-      const img=new Image(); img.crossOrigin='anonymous';
-      img.onload=()=>res({img,c,r});
-      img.onerror=()=>res(null);
-      img.src=`./Tiles/${ZOOM}/${idx}.jpg?t=${Date.now()}`;
+function exportMapImage() {
+  const existing = document.getElementById('export-dialog');
+  if (existing) existing.remove();
+  const hasRoute = S.route && S.route.stops && S.route.stops.length > 0;
+  const dlg = document.createElement('div');
+  dlg.id = 'export-dialog';
+  dlg.innerHTML = `
+    <div id="export-dialog-box">
+      <div id="export-dialog-title">${t('expTitle')}</div>
+      <div class="export-opt"><label><input type="checkbox" id="exp-spawns" checked> ${t('expSpawns')}</label></div>
+      <div class="export-sub" data-parent="exp-spawns"><label><input type="checkbox" id="exp-colorstatus" checked> ${t('expColorStatus')}</label></div>
+      <div class="export-sub" data-parent="exp-spawns"><label><input type="checkbox" id="exp-hidecap"> ${t('expHideCap')}</label></div>
+      <div class="export-opt"><label><input type="checkbox" id="exp-route" ${hasRoute ? 'checked' : 'disabled'}> ${t('expRoute')}${hasRoute ? '' : ' <span class="exp-na">—</span>'}</label></div>
+      <div class="export-opt"><label><input type="checkbox" id="exp-header" checked> ${t('expHeader')}</label></div>
+      <div class="export-opt"><label><input type="checkbox" id="exp-list" checked> ${t('expList')}</label></div>
+      <div class="export-sub" data-parent="exp-list"><label><input type="checkbox" id="exp-portrait" checked> ${t('expPortrait')}</label></div>
+      <div class="export-sub exp-group-row" data-parent="exp-list"><span class="exp-group-lbl">${t('expGroupBy')}</span><select id="exp-group" class="exp-select"><option value="stone">${t('expGroupStone')}</option><option value="step">${t('expGroupStep')}</option></select></div>
+      <div class="export-sub" data-parent="exp-list"><label><input type="checkbox" id="exp-legend" checked> ${t('expLegend')}</label></div>
+      <div id="export-dialog-btns">
+        <button id="exp-cancel">${t('expCancel')}</button>
+        <button id="exp-confirm">${t('expConfirm')}</button>
+      </div>
+    </div>`;
+  document.body.appendChild(dlg);
+
+  dlg.querySelectorAll('.export-opt input[type=checkbox]').forEach(parent => {
+    const subs = dlg.querySelectorAll(`.export-sub[data-parent="${parent.id}"]`);
+    if (!subs.length) return;
+    const sync = () => subs.forEach(sub => {
+      sub.classList.toggle('exp-disabled', !parent.checked);
+      sub.querySelectorAll('input,select').forEach(i => { i.disabled = !parent.checked; });
+    });
+    parent.addEventListener('change', sync);
+    sync();
+  });
+
+  document.getElementById('exp-cancel').onclick = () => dlg.remove();
+  dlg.addEventListener('click', e => { if (e.target === dlg) dlg.remove(); });
+  document.getElementById('exp-confirm').onclick = () => {
+    const g = id => document.getElementById(id);
+    const opts = {
+      spawns:      g('exp-spawns').checked,
+      colorStatus: g('exp-colorstatus').checked,
+      hideCap:     g('exp-hidecap').checked,
+      route:       hasRoute && g('exp-route').checked,
+      header:      g('exp-header').checked,
+      list:        g('exp-list').checked,
+      portrait:    g('exp-portrait').checked,
+      groupBy:     document.querySelector('#exp-group')?.value || 'stone',
+      legend:      g('exp-legend').checked,
+    };
+    dlg.remove();
+    _doExportMapImage(opts);
+  };
+}
+
+async function _doExportMapImage(opts = {}) {
+  notify(t('notifMapLoading'), 'blue');
+  const ZOOM = 2, OV = 2, TS = CFG.tileSize, grid = CFG.grid[ZOOM];
+  const mapW = grid.cols * TS, mapH = grid.rows * TS, SCALE = Math.pow(2, ZOOM);
+
+  // ── 1. Tiles ─────────────────────────────────────────────────────────────────
+  const tilePromises = [];
+  for (let r = 0; r < grid.rows; r++) for (let c = 0; c < grid.cols; c++) {
+    const idx = r * grid.cols + c + 1;
+    tilePromises.push(new Promise(res => {
+      const img = new Image(); img.crossOrigin = 'anonymous';
+      img.onload = () => res({ img, c, r }); img.onerror = () => res(null);
+      img.src = `./Tiles/${ZOOM}/${idx}.jpg?t=${Date.now()}`;
     }));
   }
-  const tiles=await Promise.all(tilePromises);
+  const tiles = await Promise.all(tilePromises);
 
-  // Canvas del mapa
-  const mc=document.createElement('canvas'); mc.width=mapW; mc.height=mapH;
-  const mctx=mc.getContext('2d');
-  mctx.fillStyle='#16171a'; mctx.fillRect(0,0,mapW,mapH);
-  tiles.forEach(t=>{ if(t) mctx.drawImage(t.img,t.c*TS,t.r*TS,TS,TS); });
+  // ── 2. Canvas base ────────────────────────────────────────────────────────────
+  const mc = document.createElement('canvas'); mc.width = mapW; mc.height = mapH;
+  const mctx = mc.getContext('2d');
+  mctx.fillStyle = '#16171a'; mctx.fillRect(0, 0, mapW, mapH);
+  tiles.forEach(t => { if (t) mctx.drawImage(t.img, t.c * TS, t.r * TS, TS, TS); });
 
-  // Dibujar spawns como puntos
-  spawns.forEach(s=>{
-    const xp=s.x*SCALE, yp=-s.y*SCALE;
-    if(xp<0||xp>mapW||yp<0||yp>mapH) return;
-    const cap=isCap(s.archi_id), dead=isDead(s.archi_id);
-    mctx.beginPath(); mctx.arc(xp,yp,5,0,Math.PI*2);
-    mctx.fillStyle=cap?'#51cf66':dead?'#fdcb6e':'#4d9cf7';
-    mctx.fill(); mctx.strokeStyle='rgba(255,255,255,.6)';
-    mctx.lineWidth=1.5; mctx.stroke();
+  // ── Ring color pre-computation ────────────────────────────────────────────────
+  const _sColorsRing = { '50':'#74b9ff','100':'#55efc4','150':'#ffeaa7','190':'#fdcb6e','1000':'#ff7675','?':'#868e96' };
+  const _stepColorsRing = ['#a29bfe','#fd79a8','#fdcb6e','#55efc4','#74b9ff','#ff7675','#00cec9','#e17055','#6c5ce7','#fab1a0','#81ecec','#ffeaa7','#b2bec3','#dfe6e9','#636e72'];
+  const ringColorMap = new Map();
+  catalog.forEach(a => {
+    let rc;
+    if (opts.groupBy === 'step') {
+      const si = (a.quest_step || 0) - 4;
+      rc = (si >= 0 && si < _stepColorsRing.length) ? _stepColorsRing[si] : '#868e96';
+    } else {
+      const lv = getArchiLevel(a.id), st = getSoulStone(lv);
+      rc = st ? (_sColorsRing[String(st.max)] || '#868e96') : '#868e96';
+    }
+    ringColorMap.set(String(a.id), rc);
   });
 
-  // Construir lista de ítems faltantes
-  const missing=catalog.filter(a=>!isCap(a.id));
-  const COL_W=270, LH=13, GH=19;
-  const lng=I18N[S.lang]||I18N.es;
-  const sColors={'50':'#74b9ff','100':'#55efc4','150':'#ffeaa7','190':'#fdcb6e','1000':'#ff7675','?':'#868e96'};
-  const sNames={'50':lng.stones[0],'100':lng.stones[1],'150':lng.stones[2],'190':lng.stones[3],'1000':lng.stones[4],'?':'?'};
-  const groups={};
-  STONES.forEach(s=>{groups[s.max]=[];}); groups['?']=[];
-  missing.forEach(a=>{ const lv=getArchiLevel(a.id),st=getSoulStone(lv); groups[st?st.max:'?'].push(a); });
-
-  // Crear array plano de ítems
-  const listItems=[];
-  [...STONES.map(s=>s.max),'?'].forEach(key=>{
-    const group=groups[key]; if(!group?.length) return;
-    listItems.push({h:true, text:`▸ ${t('stoneLabel')} ${sNames[String(key)]} (${group.length})`, color:sColors[String(key)]||'#868e96'});
-    group.forEach(a=>listItems.push({h:false, text:`  • ${archiName(a).substring(0,36)}`}));
-  });
-
-  // Dividir en columnas según la altura del mapa
-  const HEADER_H=78; // altura reservada para leyenda+título en primera columna
-  const COL_MARGIN=16;
-  const maxH0=mapH-HEADER_H, maxHN=mapH-COL_MARGIN;
-  const columns=[];
-  let curCol=[], curH=0;
-  listItems.forEach(item=>{
-    const ih=item.h?GH:LH;
-    const maxH=columns.length===0?maxH0:maxHN;
-    if(curH+ih>maxH && curCol.length){ columns.push(curCol); curCol=[]; curH=0; }
-    curCol.push(item); curH+=ih;
-  });
-  if(curCol.length) columns.push(curCol);
-
-  const numCols=Math.max(1,columns.length);
-  const final=document.createElement('canvas');
-  final.width=mapW+numCols*COL_W; final.height=mapH;
-  const ctx=final.getContext('2d');
-
-  ctx.fillStyle='#0d0e10'; ctx.fillRect(0,0,final.width,final.height);
-  ctx.drawImage(mc,0,0);
-  // Panel de fondo
-  ctx.fillStyle='#1a1b1f'; ctx.fillRect(mapW,0,numCols*COL_W,mapH);
-  // Separadores entre columnas
-  for(let ci=0;ci<numCols;ci++){
-    const cx=mapW+ci*COL_W;
-    ctx.strokeStyle='#33363f'; ctx.lineWidth=1;
-    ctx.beginPath(); ctx.moveTo(cx+0.5,0); ctx.lineTo(cx+0.5,mapH); ctx.stroke();
+  // ── 3. Spawns ────────────────────────────────────────────────────────────────
+  if (opts.spawns) {
+    spawns.forEach(s => {
+      const xp = s.x * SCALE, yp = -s.y * SCALE;
+      if (xp < 0 || xp > mapW || yp < 0 || yp > mapH) return;
+      const cap = isCap(s.archi_id), dead = isDead(s.archi_id);
+      if (opts.hideCap && cap) return;
+      const color = opts.colorStatus ? (cap ? '#51cf66' : dead ? '#fdcb6e' : '#4d9cf7') : '#4d9cf7';
+      const ringColor = ringColorMap.get(String(s.archi_id)) || '#868e96';
+      mctx.beginPath(); mctx.arc(xp, yp, 7 * OV, 0, Math.PI * 2);
+      mctx.strokeStyle = ringColor; mctx.lineWidth = 2.5 * OV; mctx.stroke();
+      mctx.beginPath(); mctx.arc(xp, yp, 4 * OV, 0, Math.PI * 2);
+      mctx.fillStyle = color; mctx.fill();
+      mctx.strokeStyle = 'rgba(255,255,255,.5)'; mctx.lineWidth = OV; mctx.stroke();
+    });
   }
-  // Leyenda puntos (primera columna, arriba)
-  [[,'#51cf66','Capturado'],[,'#4d9cf7','Sin capturar'],[,'#fdcb6e','En caza']].forEach(([,color,label],i)=>{
-    ctx.beginPath(); ctx.arc(mapW+14,14+i*14,4,0,Math.PI*2); ctx.fillStyle=color; ctx.fill();
-    ctx.font='10px Segoe UI,sans-serif'; ctx.fillStyle='#868e96';
-    ctx.fillText(label,mapW+22,18+i*14);
-  });
-  ctx.font='bold 13px Segoe UI,sans-serif'; ctx.fillStyle='#e8ecef';
-  ctx.fillText(`Faltantes: ${missing.length} / ${CFG.total}`,mapW+10,60);
-  // Dibujar columnas
-  columns.forEach((col,ci)=>{
-    const colX=mapW+ci*COL_W;
-    let cy=ci===0?HEADER_H+4:COL_MARGIN;
-    col.forEach(item=>{
-      if(item.h){
-        ctx.font='bold 11px Segoe UI,sans-serif'; ctx.fillStyle=item.color;
-        ctx.fillText(item.text,colX+10,cy); cy+=GH;
-      } else {
-        ctx.font='10px Segoe UI,sans-serif'; ctx.fillStyle='#c9d1d9';
-        ctx.fillText(item.text,colX+10,cy); cy+=LH;
+
+  // ── 5. Ruta ──────────────────────────────────────────────────────────────────
+  if (opts.route && S.route && S.route.stops.length > 0) {
+    const centers = [];
+    S.route.stops.forEach((stop, stopIdx) => {
+      const zSpawns = spawns.filter(s => {
+        const az = archiZones[String(s.archi_id)];
+        if (!az) return false;
+        return (az.zones || []).some(zd => {
+          const zn = norm(typeof zd.zone === 'object' ? (zd.zone.es || '') : (zd.zone || ''));
+          const sz = norm(typeof zd.subzone === 'object' ? (zd.subzone.es || '') : (zd.subzone || ''));
+          return (zn + '|||' + sz) === stop.key;
+        });
+      });
+      if (zSpawns.length) {
+        const cx = zSpawns.reduce((a, s) => a + s.x * SCALE, 0) / zSpawns.length;
+        const cy = zSpawns.reduce((a, s) => a + (-s.y * SCALE), 0) / zSpawns.length;
+        centers.push({ x: cx, y: cy, n: centers.length + 1, done: S.route.checked.has(stopIdx) });
       }
     });
-  });
+    if (centers.length > 1) {
+      mctx.save();
+      mctx.strokeStyle = 'rgba(0,180,216,.75)'; mctx.lineWidth = 2 * OV; mctx.setLineDash([6 * OV, 4 * OV]);
+      mctx.beginPath();
+      centers.forEach((c, i) => i === 0 ? mctx.moveTo(c.x, c.y) : mctx.lineTo(c.x, c.y));
+      mctx.stroke(); mctx.setLineDash([]); mctx.restore();
+    }
+    centers.forEach(c => {
+      mctx.beginPath(); mctx.arc(c.x, c.y, 9 * OV, 0, Math.PI * 2);
+      mctx.fillStyle = c.done ? 'rgba(81,207,102,.9)' : 'rgba(0,180,216,.9)'; mctx.fill();
+      mctx.font = `bold ${9 * OV}px Segoe UI,sans-serif`; mctx.fillStyle = '#fff';
+      mctx.textAlign = 'center'; mctx.textBaseline = 'middle';
+      mctx.fillText(String(c.n), c.x, c.y);
+      mctx.textAlign = 'left'; mctx.textBaseline = 'alphabetic';
+    });
+  }
 
-  const a=document.createElement('a');
-  a.download='mapa-archimonstruos.png';
-  a.href=final.toDataURL('image/png');
-  a.click();
-  notify(t('notifMapExported'),'green');
+  // ── 6. Cabecera ──────────────────────────────────────────────────────────────
+  if (opts.header) {
+    const captured = catalog.filter(a => isCap(a.id)).length;
+    const HH = 28 * OV;
+    mctx.fillStyle = 'rgba(13,14,16,.80)'; mctx.fillRect(0, 0, mapW, HH);
+    mctx.font = `bold ${13 * OV}px Segoe UI,sans-serif`; mctx.fillStyle = '#00e5ff';
+    mctx.fillText('ARCHIDEX', 10 * OV, 19 * OV);
+    mctx.font = `${11 * OV}px Segoe UI,sans-serif`; mctx.fillStyle = '#868e96';
+    mctx.fillText(`${captured} / ${CFG.total} · ${new Date().toLocaleDateString()}`, 92 * OV, 19 * OV);
+  }
+
+  // ── 7. Preparar panel lateral ─────────────────────────────────────────────────
+  const legLabels = [[t('expLegCap'), '#51cf66'], [t('expLegPend'), '#4d9cf7'], [t('expLegHunt'), '#fdcb6e']];
+  const needPanel = opts.list || (opts.route && S.route && S.route.stops.length > 0);
+
+  if (!needPanel) {
+    const final = document.createElement('canvas'); final.width = mapW; final.height = mapH;
+    final.getContext('2d').drawImage(mc, 0, 0);
+    if (opts.legend && opts.spawns) {
+      const ctx2 = final.getContext('2d');
+      const top = opts.header ? 36 * OV : 8 * OV;
+      ctx2.fillStyle = 'rgba(13,14,16,.78)'; ctx2.beginPath();
+      ctx2.roundRect(8 * OV, top, 140 * OV, 12 * OV + legLabels.length * 16 * OV, 6 * OV); ctx2.fill();
+      legLabels.forEach(([label, color], i) => {
+        ctx2.beginPath(); ctx2.arc(20 * OV, top + 12 * OV + i * 16 * OV, 4 * OV, 0, Math.PI * 2);
+        ctx2.fillStyle = color; ctx2.fill();
+        ctx2.font = `${11 * OV}px Segoe UI,sans-serif`; ctx2.fillStyle = '#c9d1d9';
+        ctx2.fillText(label, 30 * OV, top + 16 * OV + i * 16 * OV);
+      });
+    }
+    const a = document.createElement('a');
+    a.download = 'mapa-archimonstruos.png'; a.href = final.toDataURL('image/png'); a.click();
+    notify(t('notifMapExported'), 'green');
+    return;
+  }
+
+  // ── 8. Panel lateral (multi-columna) ─────────────────────────────────────────
+  const missing = opts.list ? catalog.filter(a => !isCap(a.id)) : [];
+
+  const imgCache = new Map();
+  if (opts.list && opts.portrait && missing.length) {
+    await Promise.allSettled(missing.map(a => new Promise(res => {
+      const img = new Image();
+      img.onload = () => { imgCache.set(a.id, img); res(); };
+      img.onerror = () => res();
+      img.src = CFG.img(a.id);
+    })));
+  }
+
+  const GRID_COLS = 3;
+  const WITH_PORT = opts.list && opts.portrait;
+  const CARD_W = 176 * OV;
+  const CARD_H = (WITH_PORT ? 38 : 24) * OV;
+  const CARD_GAP = (WITH_PORT ? 3 : 2) * OV;
+  const PORT = 26 * OV, CHK = 12 * OV;
+  const PAD = 10 * OV, SEC_H = 18 * OV;
+  const PANEL_W = GRID_COLS * CARD_W + PAD * 2;
+
+  const lng = I18N[S.lang] || I18N.es;
+  const sColors = { '50':'#74b9ff','100':'#55efc4','150':'#ffeaa7','190':'#fdcb6e','1000':'#ff7675','?':'#868e96' };
+  const sNames  = { '50':lng.stones[0],'100':lng.stones[1],'150':lng.stones[2],'190':lng.stones[3],'1000':lng.stones[4],'?':'?' };
+  const stepColors = ['#a29bfe','#fd79a8','#fdcb6e','#55efc4','#74b9ff','#ff7675','#00cec9','#e17055','#6c5ce7','#fab1a0','#81ecec','#ffeaa7','#b2bec3','#dfe6e9','#636e72'];
+
+  let groups = {}, groupKeys = [];
+  if (opts.list) {
+    if (opts.groupBy === 'step') {
+      for (let s = 4; s <= 18; s++) groups[String(s)] = [];
+      groups['?'] = [];
+      missing.forEach(a => { const sk = String(a.quest_step || '?'); (groups[sk] !== undefined ? groups[sk] : groups['?']).push(a); });
+      groupKeys = [...Array.from({length:15},(_,i)=>String(i+4)), '?'];
+    } else {
+      STONES.forEach(s => { groups[s.max] = []; }); groups['?'] = [];
+      missing.forEach(a => { const lv = getArchiLevel(a.id), st = getSoulStone(lv); groups[st ? st.max : '?'].push(a); });
+      groupKeys = [...STONES.map(s => String(s.max)), '?'];
+    }
+  }
+
+  // Calcular altura total del contenido del panel
+  let needH = PAD;
+  if (opts.legend && opts.spawns) needH += legLabels.length * 15 * OV + 8 * OV;
+  needH += 22 * OV;
+
+  const routeStops = (opts.route && S.route && S.route.stops.length > 0) ? S.route.stops : [];
+  if (routeStops.length) {
+    const RT_COLS = 2, RT_LH = 16 * OV;
+    needH += SEC_H + 3 * OV + Math.ceil(routeStops.length / RT_COLS) * RT_LH + 14 * OV;
+  }
+  if (opts.list) {
+    for (const key of groupKeys) {
+      const g = groups[key]; if (!g?.length) continue;
+      needH += SEC_H + 3 * OV + Math.ceil(g.length / GRID_COLS) * (CARD_H + CARD_GAP) + 8 * OV;
+    }
+  }
+  needH += PAD;
+
+  // Temp canvas para todo el contenido del panel (se cortará en columnas)
+  const numPanelCols = Math.max(1, Math.ceil(needH / mapH));
+  const tempPanel = document.createElement('canvas');
+  tempPanel.width = PANEL_W; tempPanel.height = Math.max(mapH, needH);
+  const tc = tempPanel.getContext('2d');
+  tc.fillStyle = '#111218'; tc.fillRect(0, 0, PANEL_W, tempPanel.height);
+
+  let py = PAD;
+
+  // Leyenda
+  if (opts.legend && opts.spawns) {
+    legLabels.forEach(([label, color], i) => {
+      tc.beginPath(); tc.arc(PAD + 6 * OV, py + 7 * OV, 4 * OV, 0, Math.PI * 2);
+      tc.fillStyle = color; tc.fill();
+      tc.font = `${10 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#868e96';
+      tc.fillText(label, PAD + 14 * OV, py + 11 * OV);
+      py += 15 * OV;
+    });
+    py += 6 * OV;
+  }
+
+  // Paradas de ruta
+  if (routeStops.length) {
+    tc.fillStyle = 'rgba(0,180,216,.08)';
+    tc.fillRect(0, py, PANEL_W, SEC_H);
+    tc.font = `bold ${10 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#00b4d8';
+    tc.fillText(`🗺 ${t('rtTitle')}  (${routeStops.length})`, PAD, py + SEC_H / 2 + 4 * OV);
+    py += SEC_H + 4 * OV;
+
+    const RT_COLS = 2;
+    const RT_COL_W = Math.floor((PANEL_W - PAD * 2) / RT_COLS);
+    const RT_LH = 16 * OV;
+    const rRows = Math.ceil(routeStops.length / RT_COLS);
+    for (let r = 0; r < rRows; r++) {
+      for (let c = 0; c < RT_COLS; c++) {
+        const idx = r * RT_COLS + c;
+        if (idx >= routeStops.length) break;
+        const stop = routeStops[idx];
+        const checked = S.route.checked.has(idx);
+        const cx = PAD + c * RT_COL_W;
+        const cy = py + r * RT_LH;
+        const midY = cy + RT_LH / 2 + OV;
+
+        const dotR = 6 * OV;
+        tc.beginPath(); tc.arc(cx + dotR, midY, dotR, 0, Math.PI * 2);
+        tc.fillStyle = checked ? 'rgba(81,207,102,.5)' : 'rgba(0,180,216,.7)'; tc.fill();
+        tc.font = `bold ${7 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#fff';
+        tc.textAlign = 'center'; tc.textBaseline = 'middle';
+        tc.fillText(String(idx + 1), cx + dotR, midY);
+        tc.textAlign = 'left'; tc.textBaseline = 'alphabetic';
+
+        const nameX = cx + dotR * 2 + 4 * OV;
+        const maxNW = RT_COL_W - dotR * 2 - 8 * OV;
+        tc.font = checked ? `${9 * OV}px Segoe UI,sans-serif` : `bold ${9 * OV}px Segoe UI,sans-serif`;
+        tc.fillStyle = checked ? '#3e4a5a' : '#c9d1d9';
+        let sname = stop.subzone || '';
+        while (tc.measureText(sname).width > maxNW && sname.length > 1) sname = sname.slice(0, -1);
+        if (sname !== (stop.subzone || '')) sname += '…';
+        tc.fillText(sname, nameX, midY + 3 * OV);
+      }
+    }
+    py += rRows * RT_LH + 12 * OV;
+
+    tc.strokeStyle = '#1e222e'; tc.lineWidth = OV;
+    tc.beginPath(); tc.moveTo(PAD, py - 6 * OV); tc.lineTo(PANEL_W - PAD, py - 6 * OV); tc.stroke();
+  }
+
+  // Lista de faltantes
+  if (opts.list) {
+    tc.font = `bold ${11 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#e8ecef';
+    tc.fillText(`${t('expMissing')}: ${missing.length} / ${CFG.total}`, PAD, py + 12 * OV);
+    py += 22 * OV;
+
+    for (const key of groupKeys) {
+      const group = groups[key]; if (!group?.length) continue;
+      const isStep = opts.groupBy === 'step';
+      const sc = isStep ? (stepColors[(parseInt(key) - 4) % stepColors.length] || '#868e96') : (sColors[key] || '#868e96');
+      const secLabel = isStep ? (key === '?' ? '?' : `${lng.stepLbl || 'Etapa'} ${key}`) : (sNames[key] || '?');
+
+      tc.fillStyle = 'rgba(255,255,255,.035)';
+      tc.fillRect(0, py, PANEL_W, SEC_H);
+      tc.beginPath(); tc.arc(PAD + 5 * OV, py + SEC_H / 2, 5 * OV, 0, Math.PI * 2);
+      tc.fillStyle = sc; tc.fill();
+      tc.font = `bold ${9 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#c9d1d9';
+      tc.fillText(`${secLabel}  (${group.length})`, PAD + 14 * OV, py + SEC_H / 2 + 3 * OV);
+      py += SEC_H + 3 * OV;
+
+      const rows = Math.ceil(group.length / GRID_COLS);
+      for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < GRID_COLS; c++) {
+          const idx = r * GRID_COLS + c;
+          if (idx >= group.length) break;
+          const a = group[idx];
+          const cx = PAD + c * CARD_W;
+          const cy = py + r * (CARD_H + CARD_GAP);
+          const midY = cy + CARD_H / 2;
+
+          if (c > 0) {
+            tc.strokeStyle = 'rgba(255,255,255,.04)'; tc.lineWidth = OV;
+            tc.beginPath(); tc.moveTo(cx + 0.5, cy + 2 * OV); tc.lineTo(cx + 0.5, cy + CARD_H - 2 * OV); tc.stroke();
+          }
+
+          const ckX = cx + 3 * OV, ckY = midY - CHK / 2;
+          tc.strokeStyle = '#3a3f52'; tc.lineWidth = 1.2 * OV;
+          tc.strokeRect(ckX + 0.5, ckY + 0.5, CHK, CHK);
+
+          if (WITH_PORT) {
+            const portX = ckX + CHK + 4 * OV, portY = midY - PORT / 2;
+            const portrait = imgCache.get(a.id);
+            if (portrait) {
+              tc.save();
+              tc.beginPath(); tc.roundRect(portX, portY, PORT, PORT, 3 * OV); tc.clip();
+              tc.drawImage(portrait, portX, portY, PORT, PORT);
+              tc.restore();
+            } else {
+              tc.fillStyle = '#1e2030';
+              tc.beginPath(); tc.roundRect(portX, portY, PORT, PORT, 3 * OV); tc.fill();
+              tc.font = `${9 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#3e4455';
+              tc.textAlign = 'center'; tc.textBaseline = 'middle';
+              tc.fillText('?', portX + PORT / 2, portY + PORT / 2);
+              tc.textAlign = 'left'; tc.textBaseline = 'alphabetic';
+            }
+            const nameX = portX + PORT + 5 * OV;
+            const maxW = CARD_W - (nameX - cx) - 4 * OV;
+            tc.font = `bold ${9 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#dde3ef';
+            let mname = mobName(a);
+            while (tc.measureText(mname).width > maxW && mname.length > 1) mname = mname.slice(0, -1);
+            if (mname !== mobName(a)) mname += '…';
+            tc.fillText(mname, nameX, midY - OV);
+            tc.font = `${8 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#525a72';
+            const rawAname = archiName(a).replace(/archimonstruo de /i, '');
+            let aname = rawAname;
+            while (tc.measureText(aname).width > maxW && aname.length > 1) aname = aname.slice(0, -1);
+            if (aname !== rawAname) aname += '…';
+            tc.fillText(aname, nameX, midY + 9 * OV);
+          } else {
+            const nameX = ckX + CHK + 6 * OV;
+            const maxW = CARD_W - (nameX - cx) - 4 * OV;
+            tc.font = `bold ${9 * OV}px Segoe UI,sans-serif`; tc.fillStyle = '#dde3ef';
+            let mname = mobName(a);
+            while (tc.measureText(mname).width > maxW && mname.length > 1) mname = mname.slice(0, -1);
+            if (mname !== mobName(a)) mname += '…';
+            tc.fillText(mname, nameX, midY + 3 * OV);
+          }
+        }
+      }
+      py += rows * (CARD_H + CARD_GAP) + 8 * OV;
+    }
+  }
+
+  // Canvas final: mapa + columnas de panel lado a lado
+  const final = document.createElement('canvas');
+  final.width = mapW + numPanelCols * PANEL_W; final.height = mapH;
+  const ctx = final.getContext('2d');
+  ctx.fillStyle = '#0d0e10'; ctx.fillRect(0, 0, final.width, mapH);
+  ctx.drawImage(mc, 0, 0);
+
+  for (let col = 0; col < numPanelCols; col++) {
+    const srcY = col * mapH;
+    const srcH = Math.min(mapH, needH - srcY);
+    if (srcH <= 0) break;
+    ctx.drawImage(tempPanel, 0, srcY, PANEL_W, srcH, mapW + col * PANEL_W, 0, PANEL_W, srcH);
+    ctx.strokeStyle = '#252830'; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(mapW + col * PANEL_W + 0.5, 0); ctx.lineTo(mapW + col * PANEL_W + 0.5, mapH); ctx.stroke();
+  }
+
+  const a = document.createElement('a');
+  a.download = 'mapa-archimonstruos.png'; a.href = final.toDataURL('image/png'); a.click();
+  notify(t('notifMapExported'), 'green');
 }
 
 // ── Underground mode ──────────────────────────────────────────────────────────
@@ -3605,8 +3908,40 @@ function _renderRoute() {
   const badge = document.getElementById('route-badge');
   if (!list) return;
   const stops = S.route.stops;
-  const pending = stops.length - S.route.checked.size;
-  if (badge) badge.textContent = stops.length ? `${pending} ${t('rtPending')}` : '';
+  const done = S.route.checked.size;
+  const pending = stops.length - done;
+  const progBar = document.getElementById('route-progress-bar');
+  const progFill = document.getElementById('route-progress-fill');
+  const nav = document.getElementById('route-nav');
+  if (badge) {
+    if (stops.length) {
+      const allDone = pending === 0;
+      badge.textContent = allDone ? `✓ ${stops.length}/${stops.length}` : `${done}/${stops.length}`;
+      badge.classList.toggle('visible', true);
+      badge.classList.toggle('done', allDone);
+    } else {
+      badge.classList.remove('visible', 'done');
+    }
+  }
+  if (progBar && progFill) {
+    progBar.classList.toggle('visible', stops.length > 0);
+    progFill.style.width = stops.length ? Math.round(done / stops.length * 100) + '%' : '0%';
+  }
+  if (nav) nav.classList.toggle('visible', stops.length > 0);
+  const curLblSub = document.getElementById('route-cur-sub');
+  const curLblZone = document.getElementById('route-cur-zone');
+  if (curLblSub && curLblZone) {
+    const cur = stops[S.route.current];
+    if (cur) {
+      const zoneInfoMap2 = new Map(getUniqueZoneList().map(z => [z.key, z]));
+      const info2 = zoneInfoMap2.get(cur.key);
+      curLblSub.textContent = info2?.subzone || cur.subzone || '';
+      curLblZone.textContent = info2?.zone || cur.zone || '';
+    } else {
+      curLblSub.textContent = '';
+      curLblZone.textContent = '';
+    }
+  }
   if (!stops.length) {
     list.innerHTML = '';
     if (empty) empty.style.display = '';
@@ -3748,6 +4083,21 @@ function routeGenerateSeed() {
   if (navigator.clipboard?.writeText) {
     navigator.clipboard.writeText(seed).then(() => notify(t('rtSeedCopied'),'green')).catch(() => _fallbackCopy(seed));
   } else { _fallbackCopy(seed); }
+}
+
+function toggleRouteSeedMenu() {
+  const menu = document.getElementById('rt-seed-menu');
+  if (!menu) return;
+  const isOpen = menu.classList.toggle('open');
+  if (isOpen) {
+    const close = (e) => {
+      if (!menu.contains(e.target) && !e.target.closest('.rt-seed-wrap')) {
+        menu.classList.remove('open');
+        document.removeEventListener('click', close);
+      }
+    };
+    setTimeout(() => document.addEventListener('click', close), 0);
+  }
 }
 
 function routeImportSeed() {
@@ -3961,27 +4311,337 @@ function routePrev() {
   notify(t('rtAllDone'), 'green');
 }
 
+// ── Restricciones geográficas de ruta ────────────────────────────────────────
+// ordered: orden fijo de visita dentro del grupo (filtrado a solo zonas pendientes)
+// after:   esta zona/grupo solo se visita justo después de que su gateway sea visitado
+const ROUTE_GROUPS = [
+  // ── AMAKNA ──────────────────────────────────────────────────────────────────
+  // Dragohuevos: Pueblo → Santuario, Península → Subterráneos
+  {
+    id: 'dragohuevos',
+    ordered: [
+      'Amakna|||Pueblo de los dragohuevos',
+      'Amakna|||Santuario de los dragohuevos',
+      'Amakna|||Península de los dragohuevos',
+      'Amakna|||Subterráneos de los dragohuevos',
+    ],
+  },
+  // Campamento bwork: entrada por Piedemonte de los crujidores
+  {
+    id: 'bwork',
+    after: 'Amakna|||Piedemonte de los crujidores',
+    ordered: [
+      'Amakna|||Campamento de los bworks',
+      'Amakna|||Campamento de los goblins',
+      'Amakna|||Pueblo de los bworks',
+    ],
+  },
+  // Cementerio: siempre después de Territorio de los bandidos
+  {
+    id: 'cementerio_amakna',
+    after: 'Amakna|||Territorio de los bandidos',
+    ordered: ['Amakna|||Cementerio'],
+  },
+  // Criptas: siempre después del Cementerio (zona underground)
+  {
+    id: 'criptas',
+    after: 'Amakna|||Cementerio',
+    ordered: ['Amakna|||Criptas del cementerio'],
+  },
+  // Cloaca + subterráneos Astrub: visitar juntos (bidireccional Amakna↔Astrub)
+  {
+    id: 'underground_cloaca',
+    after: 'Amakna|||Puerto de Madrestam',
+    ordered: [
+      'Amakna|||Cloaca de Amakna',
+      'Astrub|||Alcantarillas de Astrub',
+      'Astrub|||Subterráneos de Astrub',
+    ],
+  },
+  // Pasaje hacia Brakmar: solo accesible desde Linde del Bosque Maléfico (ruta unidireccional → Landas)
+  {
+    id: 'pasaje_brakmar',
+    after: 'Amakna|||Linde del Bosque Maléfico',
+    ordered: ['Amakna|||Pasaje hacia Brakmar'],
+  },
+  // Landas de Sidimote (entrada): se activa una vez cruzado el Pasaje hacia Brakmar
+  {
+    id: 'landas',
+    after: 'Amakna|||Pasaje hacia Brakmar',
+    ordered: [
+      'Landas de Sidimote|||Tierras desoladas de Sidimote',
+      'Landas de Sidimote|||Altos de los Aullidos',
+    ],
+  },
+  // Fongos: Territorio solo accesible desde Brakmar (tras Cementerio de los Torturados)
+  {
+    id: 'fongos',
+    after: 'Brakmar|||Cementerio de los Torturados',
+    ordered: [
+      'Landas de Sidimote|||Territorio de los fongos',
+      'Landas de Sidimote|||Caverna de los fongos',
+    ],
+  },
+  // Laberinto del Dragocerdo: solo desde Territorio de los porcos
+  {
+    id: 'dragocerdo',
+    after: 'Amakna|||Territorio de los porcos',
+    ordered: ['Laberinto del Dragocerdo|||El laberinto del Dragocerdo'],
+  },
+
+  // ── ASTRUB ──────────────────────────────────────────────────────────────────
+  // Calas de Astrub: después de Campos de Astrub
+  {
+    id: 'astrub_calas',
+    after: 'Astrub|||Campos de Astrub',
+    ordered: ['Astrub|||Calas de Astrub'],
+  },
+
+  // ── BONTA ───────────────────────────────────────────────────────────────────
+  // Ciudad → Riberas → Cementerio de los héroes
+  {
+    id: 'bonta',
+    ordered: [
+      'Bonta|||Ciudad de Bonta',
+      'Bonta|||Riberas iridiscentes',
+      'Bonta|||Cementerio de los héroes',
+    ],
+  },
+
+  // ── BRAKMAR ─────────────────────────────────────────────────────────────────
+  // Ciudad → Afueras → Cementerio de los Torturados
+  {
+    id: 'brakmar',
+    ordered: [
+      'Brakmar|||Ciudad de Brakmar',
+      'Brakmar|||Afueras de Brakmar',
+      'Brakmar|||Cementerio de los Torturados',
+    ],
+  },
+
+  // ── ARCHIPIÉLAGO WABBIT ──────────────────────────────────────────────────────
+  // Zanahowia → Sepultuwa → La Cowona → Waldo Nald
+  {
+    id: 'wabbit',
+    ordered: [
+      'Archipiélago wabbit|||Isla Zanahowia',
+      'Archipiélago wabbit|||Islote Sepultuwa',
+      'Archipiélago wabbit|||Islote La Cowona',
+      'Archipiélago wabbit|||Islote Waldo Nald',
+    ],
+  },
+
+  // ── ISLA DE MOON ────────────────────────────────────────────────────────────
+  // Playa Tortuga → Bosque máscaras → Jungla Prohibida → Camino cráneos
+  {
+    id: 'moon',
+    ordered: [
+      'Isla de Moon|||Playa Tortuga',
+      'Isla de Moon|||Bosque de las máscaras',
+      'Isla de Moon|||Jungla Prohibida',
+      'Isla de Moon|||Camino de los cráneos',
+    ],
+  },
+
+  // ── ISLA DE OTOMAI ──────────────────────────────────────────────────────────
+  // Playa coral → ... → Turbera sin fondo → Turbera nauseabunda → Arca
+  // Náufragos tiene acceso directo a Playa coral, así que van seguidos
+  {
+    id: 'naufragos',
+    after: 'Bahía de Sufokia|||Sufokia',
+    ordered: ['Isla de Otomai|||Isla de los Náufragos'],
+  },
+  {
+    id: 'otomai',
+    after: 'Isla de Otomai|||Isla de los Náufragos',
+    ordered: [
+      'Isla de Otomai|||Playa de coral',
+      'Isla de Otomai|||Llanuras Herbosas',
+      'Isla de Otomai|||Oscura Jungla',
+      'Isla de Otomai|||Las ramas del árbol Hakam',
+      'Isla de Otomai|||Tronco del árbol Hakam',
+      'Isla de Otomai|||Pueblo de la canopea',
+      'Isla de Otomai|||Pueblo de los zoths',
+      'Isla de Otomai|||Turbera sin fondo',
+      'Isla de Otomai|||Turbera nauseabunda',
+      'Isla de Otomai|||Arca de Otomai',
+    ],
+  },
+
+  // ── PANDALA + GROBE ─────────────────────────────────────────────────────────
+  // Pandala primero, luego Grobe (entrada por Cementerio de Grobe)
+  {
+    id: 'pandala_grobe',
+    ordered: [
+      'Isla de Pandala|||Akwadala',
+      'Isla de Pandala|||Airedala',
+      'Isla de Pandala|||Fuegodala',
+      'Isla de Pandala|||Plantala',
+      'Isla de Pandala|||Tierradala',
+      'Isla de Grobe|||Cementerio de Grobe',
+      'Isla de Grobe|||Monte de las Tumbas',
+    ],
+  },
+
+  // ── LLANURAS DE CANIA ───────────────────────────────────────────────────────
+  // Campos de Cania: entrada a Llanuras de Cania desde Ciudad de Bonta
+  {
+    id: 'campos_cania',
+    after: 'Bonta|||Ciudad de Bonta',
+    ordered: ['Llanuras de Cania|||Campos de Cania'],
+  },
+  // Dopeuls: Pueblo → Mina → Bahía de Cania
+  {
+    id: 'dopeuls',
+    ordered: [
+      'Llanuras de Cania|||Pueblo de los dopeuls',
+      'Llanuras de Cania|||Mina de los dopeuls',
+      'Llanuras de Cania|||Bahía de Cania',
+    ],
+  },
+  // Cuerbok: Biblioteca solo después de Morada
+  {
+    id: 'cuerbok',
+    after: 'Llanuras de Cania|||Morada de cuerbok',
+    ordered: ['Llanuras de Cania|||Biblioteca del Maestro Cuerbok'],
+  },
+  // Minotauroro: solo desde Bahía de Cania; Laberinto siempre después de la Isla
+  {
+    id: 'minotauroro',
+    after: 'Llanuras de Cania|||Bahía de Cania',
+    ordered: [
+      'Isla del Minotauroro|||Isla del Minotauroro',
+      'Isla del Minotauroro|||Laberinto del Minotauroro',
+    ],
+  },
+
+  // ── KOALAK ──────────────────────────────────────────────────────────────────
+  // Entrada única por arriba; Bosque de kaliptos y Pantanos de Amakna
+  // solo accesibles desde zonas internas de Koalak
+  {
+    id: 'koalak',
+    ordered: [
+      'Bosque de los abráknidos|||Linde del bosque de los abráknidos',
+      'Bosque de los abráknidos|||Bosque Oscuro',
+      'Montaña de los koalaks|||Lagos encantados',
+      'Montaña de los koalaks|||Territorio de los dragopavos salvajes',
+      'Montaña de los koalaks|||Bosque de kaliptos',
+      'Montaña de los koalaks|||Cañón Salvaje',
+      'Montaña de los koalaks|||Antro del Trankitronko',
+      'Montaña de los koalaks|||Valle de la Muertekemata',
+      'Montaña de los koalaks|||Pantanos nauseabundos',
+      'Montaña de los koalaks|||Pantanos sin fondo',
+      'Amakna|||Pantanos de Amakna',
+      'Montaña de los koalaks|||Cementerio primitivo',
+    ],
+  },
+];
+
 function routeAutoCalc() {
   const pending = getUniqueZoneList().filter(z => _countPendingInZone(z.key) > 0);
   if (!pending.length) { notify(t('rtNoPending'), 'green'); return; }
-  const start = map.getCenter();
-  const remaining = [...pending];
+
+  const pendingKeys = new Set(pending.map(z => z.key));
+  const zoneInfoMap = new Map(getUniqueZoneList().map(z => [z.key, z]));
+
+  // Asignar cada key pendiente a su grupo
+  const keyToGroupId = new Map();
+  ROUTE_GROUPS.forEach(g => {
+    g.ordered.forEach(k => { if (pendingKeys.has(k)) keyToGroupId.set(k, g.id); });
+  });
+
+  // Construir unidades de grupo: solo con zonas pendientes, en el orden definido
+  const groupUnits = new Map(); // groupId → { id, pendingOrdered }
+  ROUTE_GROUPS.forEach(g => {
+    const pendingOrdered = g.ordered.filter(k => pendingKeys.has(k));
+    if (pendingOrdered.length) groupUnits.set(g.id, { id: g.id, pendingOrdered });
+  });
+
+  // Separar grupos diferidos (after) cuyo gateway está pendiente
+  const deferredByGateway = new Map(); // gatewayKey → groupId[]
+  const activeGroupIds = new Set();
+  groupUnits.forEach((_, gid) => {
+    const group = ROUTE_GROUPS.find(g => g.id === gid);
+    if (group?.after && pendingKeys.has(group.after)) {
+      if (!deferredByGateway.has(group.after)) deferredByGateway.set(group.after, []);
+      deferredByGateway.get(group.after).push(gid);
+    } else {
+      activeGroupIds.add(gid);
+    }
+  });
+
+  // Pool de scheduling: solos (no en ningún grupo) + grupos activos
+  const pool = [];
+  pending.forEach(z => {
+    const gid = keyToGroupId.get(z.key);
+    if (!gid) { // zona sin grupo
+      const c = _getSubzoneCenter(z.key);
+      if (c) pool.push({ type: 'solo', data: z, center: c });
+    }
+  });
+  activeGroupIds.forEach(gid => {
+    const unit = groupUnits.get(gid);
+    if (!unit) return;
+    let center = null;
+    for (const k of unit.pendingOrdered) { center = _getSubzoneCenter(k); if (center) break; }
+    if (center) pool.push({ type: 'group', gid, center });
+  });
+
   const ordered = [];
+
+  // Añade una zona al resultado y dispara grupos diferidos si es gateway
+  const addZone = (key) => {
+    const info = zoneInfoMap.get(key);
+    if (!info) return;
+    ordered.push(info);
+    const deferred = deferredByGateway.get(key);
+    if (deferred) {
+      deferred.forEach(gid => {
+        const unit = groupUnits.get(gid);
+        if (unit) unit.pendingOrdered.forEach(k => addZone(k));
+      });
+    }
+  };
+
+  const addUnit = (item) => {
+    if (item.type === 'solo') {
+      addZone(item.data.key);
+    } else {
+      const unit = groupUnits.get(item.gid);
+      if (unit) unit.pendingOrdered.forEach(k => addZone(k));
+    }
+  };
+
+  // Nearest-neighbor sobre el pool
+  const start = map.getCenter();
   let cur = { lat: start.lat, lng: start.lng };
+  const remaining = [...pool];
+
   while (remaining.length) {
     let bestIdx = 0, bestDist = Infinity;
-    remaining.forEach((z, i) => {
-      const c = _getSubzoneCenter(z.key);
-      if (!c) return;
-      const d = (c.lat-cur.lat)**2 + (c.lng-cur.lng)**2;
+    remaining.forEach((item, i) => {
+      const d = (item.center.lat - cur.lat) ** 2 + (item.center.lng - cur.lng) ** 2;
       if (d < bestDist) { bestDist = d; bestIdx = i; }
     });
     const chosen = remaining.splice(bestIdx, 1)[0];
-    const c = _getSubzoneCenter(chosen.key);
-    if (c) { cur = c; ordered.push(chosen); }
-    else remaining.length && remaining.splice(bestIdx, 0);
+    addUnit(chosen);
+    // cur = posición de la última zona añadida
+    const lastKey = ordered[ordered.length - 1]?.key;
+    const lastCenter = lastKey ? _getSubzoneCenter(lastKey) : null;
+    cur = lastCenter || chosen.center;
   }
-  S.route.stops = ordered.map(z => ({ key:z.key, zone:z.zone, subzone:z.subzone }));
+
+  // Zonas diferidas cuyo gateway ya estaba completado (no estaba en pendingKeys)
+  groupUnits.forEach((unit, gid) => {
+    const group = ROUTE_GROUPS.find(g => g.id === gid);
+    if (group?.after && !pendingKeys.has(group.after)) {
+      unit.pendingOrdered.forEach(k => {
+        if (!ordered.find(z => z.key === k)) addZone(k);
+      });
+    }
+  });
+
+  S.route.stops = ordered.map(z => ({ key: z.key, zone: z.zone, subzone: z.subzone }));
   S.route.checked = new Set();
   S.route.current = -1;
   _renderRoute();
@@ -4015,20 +4675,24 @@ function _positionRoutePanel() {
 
 function toggleRoutePanel() {
   const ov = document.getElementById('route-overlay');
+  const btn = document.getElementById('route-btn');
   if (!ov) return;
   if (ov.classList.contains('open')) {
     ov.classList.remove('open');
+    btn?.classList.remove('active');
     if (_routeDots) { _routeDots.remove(); _routeDots = null; }
     _updateRoutePolyHighlight();
     return;
   }
   ov.classList.add('open');
+  btn?.classList.add('active');
   _positionRoutePanel();
   _renderRoute();
 }
 
 function closeRoutePanel() {
   document.getElementById('route-overlay')?.classList.remove('open');
+  document.getElementById('route-btn')?.classList.remove('active');
 }
 
 /* ══════════════════════════════════════════════
@@ -4039,21 +4703,23 @@ let _tutStep = 0;
 function _getTutSteps() {
   const mob = window.innerWidth <= 768;
   const steps = [
-    { el: null, type: 'lang', title: '🌍 Language · Idioma · Langue', body: '' },
-    { el: null,            title: t('tut1Title'), body: t('tut1Body') },
-    { el: '#map',          title: t('tut2Title'), body: t('tut2Body') },
-    { el: '#mode-sw',      title: t('tut3Title'), body: t('tut3Body') },
-    { el: mob ? '#mob-fab' : '#sidebar', title: t('tut4Title'), body: mob ? t('tut4MobBody') : t('tut4Body') },
-    { el: '#sb-tree',      title: t('tut5Title'), body: t('tut5Body') },
+    { el: null,               type: 'lang',  title: '🌍 Language · Idioma · Langue', body: '' },
+    { el: null,                              title: t('tut1Title'),       body: t('tut1Body') },
+    { el: '#map',                            title: t('tut2Title'),       body: t('tut2Body') },
+    { el: '#map',                            title: t('tutTipTitle'),     body: t('tutTipBody') },
+    { el: '#mode-sw',                        title: t('tut3Title'),       body: t('tut3Body') },
+    { el: mob ? '#mob-fab' : '#sidebar',     title: t('tut4Title'),       body: mob ? t('tut4MobBody') : t('tut4Body') },
+    { el: '#sb-search-wrap',                 title: t('tutSearchTitle'),  body: t('tutSearchBody') },
+    { el: '#stone-filter',                   title: t('tutStoneTitle'),   body: t('tutStoneBody') },
+    { el: '#sb-tree',                        title: t('tut5Title'),       body: t('tut5Body') },
+    { el: '#prog-bar-wrap',                  title: t('tutCapCountTitle'),body: t('tutCapCountBody') },
+    { el: '#show-cap-btn',                   title: t('tutShowCapTitle'), body: t('tutShowCapBody') },
+    { el: '#ug-btn',                         title: t('tutUgTitle'),      body: t('tutUgBody') },
+    { el: '#route-btn',                      title: t('tutRouteTitle'),   body: t('tutRouteBody') },
+    { el: '#adx-btn',                        title: t('tut6Title'),       body: t('tut6Body') },
+    { el: '#settings-btn',                   title: t('tut7Title'),       body: t('tut7Body') },
+    { el: null,                              title: t('tut8Title'),       body: t('tut8Body') },
   ];
-  if (!mob) {
-    steps.push({ el: '#adx-btn', title: t('tut6Title'), body: t('tut6Body') });
-  }
-  steps.push(
-    { el: '#route-btn',    title: t('tutRouteTitle'), body: t('tutRouteBody') },
-    { el: '#settings-btn', title: t('tut7Title'),     body: t('tut7Body') },
-    { el: null,            title: t('tut8Title'),     body: t('tut8Body') },
-  );
   return steps;
 }
 
@@ -4281,6 +4947,7 @@ Object.assign(window, {
   routeClear: typeof routeClear!=="undefined" ? routeClear : undefined,
   routeExport: typeof routeExport!=="undefined" ? routeExport : undefined,
   routeGenerateSeed: typeof routeGenerateSeed!=="undefined" ? routeGenerateSeed : undefined,
+  toggleRouteSeedMenu: typeof toggleRouteSeedMenu!=="undefined" ? toggleRouteSeedMenu : undefined,
   routeImportSeed: typeof routeImportSeed!=="undefined" ? routeImportSeed : undefined,
   routeNext: typeof routeNext!=="undefined" ? routeNext : undefined,
   routePrev: typeof routePrev!=="undefined" ? routePrev : undefined,
